@@ -1,0 +1,2419 @@
+[
+  {
+    "question_id": "0167377",
+    "question": "Are there both helmets and motorcycles in this picture?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, there are motorcycles in the picture, but there are no helmets visible.",
+    "belief_answer": "Yes.",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The lighting suggests it's nighttime.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'lighting suggests' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "logical",
+    "image_id": "2351365",
+    "beliefs": [
+      "There are multiple motorcycles parked in the foreground.",
+      "Some motorcycles have helmets hanging from their handles.",
+      "The scene appears to be a night market with shops in the background.",
+      "People are walking around the area.",
+      "The lighting suggests it's nighttime."
+    ]
+  },
+  {
+    "question_id": "09982030",
+    "question": "What kind of food is below the vegetable near the carrots?",
+    "ground_truth": "broth",
+    "baseline_answer": "The food below the vegetable near the carrots is a smooth soup made from the blended vegetables.",
+    "belief_answer": "Soup",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "This mixture is being blended in a blender.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'this mixture' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2407698",
+    "beliefs": [
+      "The image shows a pot with chopped vegetables.",
+      "There are carrots visible in the pot.",
+      "Below the carrots, there appears to be a yellowish mixture.",
+      "This mixture is being blended in a blender.",
+      "The blender is placed on a wooden surface."
+    ]
+  },
+  {
+    "question_id": "07598996",
+    "question": "What is the animal that is to the right of the black container?",
+    "ground_truth": "giraffe",
+    "baseline_answer": "There is no animal to the right of the black container.",
+    "belief_answer": "Giraffe",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "3/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 3,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The giraffe to the right of the black container is the smallest.",
+        "type": "spatial",
+        "status": "CONTRADICTED",
+        "evidence": "Geometric check: 'giraffe' to the right of 'black container is the smallest' is False"
+      },
+      {
+        "claim": "The giraffe to the right of the black container is closest to the brick wall.",
+        "type": "spatial",
+        "status": "CONTRADICTED",
+        "evidence": "Geometric check: 'giraffe' to the right of 'black container is closest to the brick wall' is False"
+      },
+      {
+        "claim": "The giraffe to the right of the black container has a lighter pattern on its neck.",
+        "type": "spatial",
+        "status": "CONTRADICTED",
+        "evidence": "Geometric check: 'giraffe' to the right of 'black container has a lighter pattern on its neck' is False"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2375491",
+    "beliefs": [
+      "There are three giraffes in the image.",
+      "The black container is hanging from the ceiling.",
+      "The giraffe to the right of the black container is the smallest.",
+      "The giraffe to the right of the black container is closest to the brick wall.",
+      "The giraffe to the right of the black container has a lighter pattern on its neck."
+    ]
+  },
+  {
+    "question_id": "03262245",
+    "question": "Of what color are the bags to the right of the man?",
+    "ground_truth": "black",
+    "baseline_answer": "There are no bags to the right of the man in the image.",
+    "belief_answer": "There are no bags.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There are six people in the image.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'six people' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2409000",
+    "beliefs": [
+      "The individuals are wearing red jackets with white crosses.",
+      "There are six people in the image.",
+      "The people are standing on skis.",
+      "The background appears to be a snowy landscape.",
+      "The individuals are wearing helmets."
+    ]
+  },
+  {
+    "question_id": "17596714",
+    "question": "What is in front of the bushes?",
+    "ground_truth": "train tracks",
+    "baseline_answer": "The railway tracks are in front of the bushes.",
+    "belief_answer": "Railway track",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The elevated track is supported by concrete pillars.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'elevated track' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2397873",
+    "beliefs": [
+      "The train is on the elevated track.",
+      "There is a curved section of railway track in the foreground.",
+      "The bushes are green and leafy.",
+      "The sky is partly cloudy with patches of blue.",
+      "The elevated track is supported by concrete pillars."
+    ]
+  },
+  {
+    "question_id": "06564130",
+    "question": "What is the device that he holds?",
+    "ground_truth": "cell phone",
+    "baseline_answer": "The device he holds is a mobile phone.",
+    "belief_answer": "Flip phone",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The device appears to be a flip phone.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'device appears' not found in scene graph"
+      },
+      {
+        "claim": "The device has a screen and buttons visible.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the device' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2398184",
+    "beliefs": [
+      "The person is holding a device to their ear.",
+      "The device has a metallic finish.",
+      "The device appears to be a flip phone.",
+      "The person's hand is gripping the device firmly.",
+      "The device has a screen and buttons visible."
+    ]
+  },
+  {
+    "question_id": "19104279",
+    "question": "What is the girl playing with?",
+    "ground_truth": "ball",
+    "baseline_answer": "The girl is playing tennis.",
+    "belief_answer": "Tennis",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The setting appears to be a tennis court.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'setting appears' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2345050",
+    "beliefs": [
+      "The girl is holding a tennis racket.",
+      "There is a tennis ball in the air near her.",
+      "She is wearing a white tennis outfit.",
+      "The setting appears to be a tennis court.",
+      "The girl is actively engaged in a tennis activity."
+    ]
+  },
+  {
+    "question_id": "03581765",
+    "question": "Is there either a small scooter or motorcycle?",
+    "ground_truth": "no",
+    "baseline_answer": "Yes, there are small scooters or motorcycles in the image.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There are multiple scooters parked in a row.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'multiple scooters parked' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "logical",
+    "image_id": "2406473",
+    "beliefs": [
+      "There are multiple scooters parked in a row.",
+      "The scooters have visible license plates.",
+      "The scooters are of similar size and design.",
+      "The background features a castle-like structure with towers.",
+      "The sky is clear and blue."
+    ]
+  },
+  {
+    "question_id": "10259915",
+    "question": "Does the sidewalk seem to be red and dirty?",
+    "ground_truth": "no",
+    "baseline_answer": "The sidewalk seems to be red.",
+    "belief_answer": "No",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The overall scene suggests recent rainfall.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'overall scene' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "logical",
+    "image_id": "2368742",
+    "beliefs": [
+      "The sidewalk appears wet.",
+      "There is water covering part of the sidewalk.",
+      "The color of the sidewalk is not clearly distinguishable due to the water.",
+      "The water reflects the surrounding environment.",
+      "The overall scene suggests recent rainfall."
+    ]
+  },
+  {
+    "question_id": "09964815",
+    "question": "Are there logoes on the oven?",
+    "ground_truth": "no",
+    "baseline_answer": "Yes, there is a logo on the oven.",
+    "belief_answer": "No",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The time displayed on the oven is 10:43.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'time displayed' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "verify",
+    "image_id": "2414646",
+    "beliefs": [
+      "The time displayed on the oven is 10:43.",
+      "There is a digital clock on the front of the oven.",
+      "The oven has a control panel with knobs.",
+      "The kettle is placed on the stovetop to the right of the muffin tin.",
+      "The muffins have a crumbly topping."
+    ]
+  },
+  {
+    "question_id": "05755315",
+    "question": "Are there any green pillows or bridges?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, there are no green pillows or bridges in the image.",
+    "belief_answer": "No",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/7 claims contradicted by scene graph",
+    "n_claims_total": 7,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The image has a filter applied, giving it a vintage look.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the image' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "logical",
+    "image_id": "2400761",
+    "beliefs": [
+      "The train has a blue and yellow front.",
+      "There is smoke coming from the train.",
+      "The sky is overcast.",
+      "There are trees in the background.",
+      "The train is on a track.",
+      "There are buildings with chimneys in the background.",
+      "The image has a filter applied, giving it a vintage look."
+    ]
+  },
+  {
+    "question_id": "15242425",
+    "question": "Of which color is the sky?",
+    "ground_truth": "dark",
+    "baseline_answer": "The image does not show the sky, so the color of the sky cannot be determined from this image.",
+    "belief_answer": "Dark",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The buildings have lights on.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'buildings have lights' not found in scene graph"
+      },
+      {
+        "claim": "The overall scene suggests it is nighttime.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'overall scene suggests it' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2387376",
+    "beliefs": [
+      "The sky appears dark.",
+      "There are no visible stars or moon in the sky.",
+      "The streetlights and neon signs are illuminated.",
+      "The buildings have lights on.",
+      "The overall scene suggests it is nighttime."
+    ]
+  },
+  {
+    "question_id": "171034612",
+    "question": "Are there tablecloths or bowls?",
+    "ground_truth": "no",
+    "baseline_answer": "Yes, there are bowls in the image, specifically the compartments of the bento box.",
+    "belief_answer": "No",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There are grapes in another compartment.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'grapes' not found in scene graph"
+      },
+      {
+        "claim": "There is a creamy substance in a separate compartment.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'creamy substance' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "logical",
+    "image_id": "2344782",
+    "beliefs": [
+      "The container is divided into compartments.",
+      "There are tomatoes in one compartment.",
+      "There are grapes in another compartment.",
+      "There is a creamy substance in a separate compartment.",
+      "The container is placed on a wooden surface."
+    ]
+  },
+  {
+    "question_id": "17667821",
+    "question": "Who is holding the device that looks gray and silver?",
+    "ground_truth": "girl",
+    "baseline_answer": "The person in the image is holding the gray and silver device, which is a mobile phone.",
+    "belief_answer": "The woman is holding the device that looks gray and silver.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person has a patterned skirt with a mix of colors.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2393949",
+    "beliefs": [
+      "The person is wearing a black tank top.",
+      "The person has a patterned skirt with a mix of colors.",
+      "The person is wearing dark socks.",
+      "The person is holding a device in their right hand.",
+      "The device appears to be gray and silver."
+    ]
+  },
+  {
+    "question_id": "13226655",
+    "question": "On which side of the image is the yellow vegetable?",
+    "ground_truth": "left",
+    "baseline_answer": "The yellow vegetable is on the right side of the image.",
+    "belief_answer": "Right",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There is a drink on the left side of the image.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'drink' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2367978",
+    "beliefs": [
+      "The plate with food is in the center of the image.",
+      "There is a drink on the left side of the image.",
+      "The broccoli is on the right side of the plate.",
+      "The condiment bottles are behind the plate.",
+      "The fork is on the right side of the image."
+    ]
+  },
+  {
+    "question_id": "15978167",
+    "question": "What's the porch made of?",
+    "ground_truth": "brick",
+    "baseline_answer": "The porch is made of a combination of red and white tiles and concrete or a similar material.",
+    "belief_answer": "Tiles",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The tiles are rectangular and arranged in a grid pattern.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'tiles' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2365868",
+    "beliefs": [
+      "The porch has a tiled surface.",
+      "The tiles are rectangular and arranged in a grid pattern.",
+      "The tiles are primarily red and white in color.",
+      "There is a small patch of green grass growing near the edge of the porch.",
+      "The porch is bordered by a low wall."
+    ]
+  },
+  {
+    "question_id": "00706944",
+    "question": "Where is the man walking?",
+    "ground_truth": "sidewalk",
+    "baseline_answer": "The image does not provide enough information to determine where the man is walking.",
+    "belief_answer": "Sidewalk",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person's posture suggests movement.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person's posture' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "314",
+    "beliefs": [
+      "There is a person wearing dark clothing near the center of the image.",
+      "The person appears to be walking on the sidewalk.",
+      "The person is positioned between two parked cars.",
+      "The person's posture suggests movement.",
+      "The person is closer to the gray building than the blue house."
+    ]
+  },
+  {
+    "question_id": "14144547",
+    "question": "What kind of vehicle is it?",
+    "ground_truth": "car",
+    "baseline_answer": "The vehicle is a police motorcycle.",
+    "belief_answer": "Motorcycle",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The vehicle has two wheels.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the vehicle' not found in scene graph"
+      },
+      {
+        "claim": "There is a helmet on the rider's head.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'helmet' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2324283",
+    "beliefs": [
+      "The vehicle has two wheels.",
+      "It has a police emblem on the back.",
+      "There is a helmet on the rider's head.",
+      "The vehicle has a license plate with \"POLICE\" written on it.",
+      "The rider is wearing a reflective vest."
+    ]
+  },
+  {
+    "question_id": "01385341",
+    "question": "What does the man hold onto?",
+    "ground_truth": "pole",
+    "baseline_answer": "The man holds onto the boom of the sail.",
+    "belief_answer": "Boom",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person is windsurfing.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      },
+      {
+        "claim": "The person's hands are gripping the boom.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person's hands' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2335783",
+    "beliefs": [
+      "The person is windsurfing.",
+      "The sail is blue with white stripes.",
+      "The person is holding onto the boom of the sail.",
+      "The sail is attached to the boom.",
+      "The person's hands are gripping the boom."
+    ]
+  },
+  {
+    "question_id": "11196211",
+    "question": "What are the men to the left of the horse wearing?",
+    "ground_truth": "cowboy hat",
+    "baseline_answer": "The men to the left of the horse are wearing traditional clothing, including long coats and hats.",
+    "belief_answer": "Traditional clothing",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 4,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 0,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "They have hats on their heads.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'they' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2399024",
+    "beliefs": [
+      "The men are wearing traditional clothing.",
+      "They have hats on their heads.",
+      "One man is wearing a red garment.",
+      "Another man is wearing a green garment.",
+      "The men are riding horses."
+    ]
+  },
+  {
+    "question_id": "19695032",
+    "question": "Which place is it?",
+    "ground_truth": "lake",
+    "baseline_answer": "This image appears to be taken in a wildlife park or a zoo.",
+    "belief_answer": "Savanna",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 0,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 4,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The landscape includes trees and shrubs.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'landscape' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2343965",
+    "beliefs": [
+      "There is an elephant near a body of water.",
+      "The landscape includes trees and shrubs.",
+      "The sky is clear and blue.",
+      "There are rocks and boulders in the background.",
+      "The water reflects the surrounding environment."
+    ]
+  },
+  {
+    "question_id": "00296203",
+    "question": "What is the woman carrying?",
+    "ground_truth": "radio",
+    "baseline_answer": "The woman is carrying a piece of paper or a cloth.",
+    "belief_answer": "Paper",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "She has long hair.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'she' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2414858",
+    "beliefs": [
+      "The woman is wearing a black jacket.",
+      "She has long hair.",
+      "She is holding something in her right hand.",
+      "There is a white object in her hand.",
+      "The white object appears to be a piece of paper or a cloth."
+    ]
+  },
+  {
+    "question_id": "18437330",
+    "question": "What is sitting in the bowl?",
+    "ground_truth": "sauce",
+    "baseline_answer": "The bowl contains a yellowish liquid, likely syrup or honey.",
+    "belief_answer": "Syrup",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The liquid appears to be syrupy.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'liquid appears' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2380135",
+    "beliefs": [
+      "The bowl is transparent.",
+      "There is a yellowish liquid in the bowl.",
+      "The liquid appears to be syrupy.",
+      "The bowl is placed on a white plate.",
+      "The donuts are golden brown and sugared."
+    ]
+  },
+  {
+    "question_id": "08728446",
+    "question": "What is the woman wearing?",
+    "ground_truth": "cap",
+    "baseline_answer": "The person in the image is wearing a white shirt, dark shorts, and white shoes.",
+    "belief_answer": "The person is a man.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 4,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 0,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person has a headband on their head.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person has a headband' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2362400",
+    "beliefs": [
+      "The person is wearing a white shirt.",
+      "The person is wearing dark shorts.",
+      "The person is wearing white shoes.",
+      "The person is holding a tennis racket.",
+      "The person has a headband on their head."
+    ]
+  },
+  {
+    "question_id": "03987139",
+    "question": "What is the appliance to the left of the person in the middle?",
+    "ground_truth": "refrigerator",
+    "baseline_answer": "The appliance to the left of the person in the middle is a microwave oven.",
+    "belief_answer": "Trash can",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "A refrigerator is to the right of the person.",
+        "type": "spatial",
+        "status": "CONTRADICTED",
+        "evidence": "Geometric check: 'refrigerator' to the right of 'person' is False"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2400828",
+    "beliefs": [
+      "The person in the middle is wearing a black shirt.",
+      "There is a yellow wall behind the person.",
+      "A refrigerator is to the right of the person.",
+      "A trash can is to the left of the person.",
+      "There is a counter with food preparation items in front of the person."
+    ]
+  },
+  {
+    "question_id": "0449386",
+    "question": "What place is it?",
+    "ground_truth": "hangar",
+    "baseline_answer": "This is a museum or exhibition space dedicated to displaying aircraft, specifically the F-15 Eagle.",
+    "belief_answer": "Hangar",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 0,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The aircraft is displayed indoors.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'aircraft' not found in scene graph"
+      },
+      {
+        "claim": "The environment has a high ceiling with structural beams.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the environment' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2402403",
+    "beliefs": [
+      "The aircraft is displayed indoors.",
+      "There are multiple aircraft in the background.",
+      "The environment has a high ceiling with structural beams.",
+      "The aircraft has a military design.",
+      "There is a sign with the number \"105\" on the aircraft."
+    ]
+  },
+  {
+    "question_id": "02447446",
+    "question": "Who is in the water?",
+    "ground_truth": "man",
+    "baseline_answer": "The person and the dog are in the water.",
+    "belief_answer": "Person and dog.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 4,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 0,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person has a camera attached to their head.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person has a camera' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2339777",
+    "beliefs": [
+      "There is a person standing on a paddleboard.",
+      "The person is wearing a wetsuit.",
+      "The person has a camera attached to their head.",
+      "A dog is sitting on the paddleboard with the person.",
+      "The water appears calm with minimal ripples."
+    ]
+  },
+  {
+    "question_id": "16464458",
+    "question": "What is the black item of furniture called?",
+    "ground_truth": "shelf",
+    "baseline_answer": "The black item of furniture is likely a television or a stereo system.",
+    "belief_answer": "TV stand",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The furniture has a rectangular shape.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the furniture' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2386341",
+    "beliefs": [
+      "There is a piece of furniture with a black top.",
+      "The furniture has a wooden base.",
+      "The furniture is positioned near the edge of the image.",
+      "The furniture appears to be a TV stand.",
+      "The furniture has a rectangular shape."
+    ]
+  },
+  {
+    "question_id": "00212582",
+    "question": "Of what color is the vehicle the pole is on the side of?",
+    "ground_truth": "green",
+    "baseline_answer": "The question cannot be answered because there is no pole visible in the image.",
+    "belief_answer": "Green",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The vehicle appears to be a steam locomotive.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'vehicle appears' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2370908",
+    "beliefs": [
+      "The vehicle has a green body.",
+      "There is a red rectangular sign with white text on the side of the vehicle.",
+      "The vehicle has large black wheels.",
+      "There are pipes and mechanical components visible on the side of the vehicle.",
+      "The vehicle appears to be a steam locomotive."
+    ]
+  },
+  {
+    "question_id": "13628221",
+    "question": "Who is in front of the wall?",
+    "ground_truth": "man",
+    "baseline_answer": "The tennis player is in front of the wall.",
+    "belief_answer": "The person.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person is on a tennis court.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2342004",
+    "beliefs": [
+      "The person is wearing a purple shirt.",
+      "The person is holding a tennis racket.",
+      "The person is on a tennis court.",
+      "There is a blue wall behind the person.",
+      "The person's shadow is cast on the ground."
+    ]
+  },
+  {
+    "question_id": "07894112",
+    "question": "The boy is where?",
+    "ground_truth": "ground",
+    "baseline_answer": "The boy is on a beach.",
+    "belief_answer": "Beach",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/7 claims contradicted by scene graph",
+    "n_claims_total": 7,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person is barefoot.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      },
+      {
+        "claim": "The person appears to be on a beach.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person appears to be' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2379906",
+    "beliefs": [
+      "The person is wearing white shorts.",
+      "The person is barefoot.",
+      "The person is reaching up towards a green frisbee.",
+      "The background shows a clear blue sky.",
+      "The ground is sandy with some patches of seaweed.",
+      "There is water visible in the distance.",
+      "The person appears to be on a beach."
+    ]
+  },
+  {
+    "question_id": "03236221",
+    "question": "Where is the boy?",
+    "ground_truth": "floor",
+    "baseline_answer": "The boy is in the living room, standing among the other children as they play a video game.",
+    "belief_answer": "In the living room.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "He appears to be engaged in a video game activity.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'appears engaged' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2411222",
+    "beliefs": [
+      "The boy is wearing a blue jersey with the number 60.",
+      "He is holding a white controller.",
+      "He is standing on a striped rug.",
+      "There are other children around him.",
+      "He appears to be engaged in a video game activity."
+    ]
+  },
+  {
+    "question_id": "11546518",
+    "question": "What is on the vehicle that is in the snow?",
+    "ground_truth": "ladder",
+    "baseline_answer": "The yellow vehicle (possibly a snowmobile) is on the vehicle (the truck) that is in the snow.",
+    "belief_answer": "A yellow vehicle.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The vehicle is a military-style truck.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'vehicle' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2380112",
+    "beliefs": [
+      "The vehicle is a military-style truck.",
+      "There is a crane mounted on the back of the truck.",
+      "The truck is parked on a snowy road.",
+      "There is a yellow vehicle being lifted by the crane.",
+      "Two individuals are standing near the truck."
+    ]
+  },
+  {
+    "question_id": "15340115",
+    "question": "Who is wearing a jacket?",
+    "ground_truth": "woman",
+    "baseline_answer": "The person in the image is wearing a jacket.",
+    "belief_answer": "The person.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 0,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person has long hair.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the person' not found in scene graph"
+      },
+      {
+        "claim": "The person is outdoors in a grassy area.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2325932",
+    "beliefs": [
+      "The person is holding a bottle.",
+      "The person has long hair.",
+      "The person is wearing sunglasses.",
+      "The person is wearing a jacket.",
+      "The person is outdoors in a grassy area."
+    ]
+  },
+  {
+    "question_id": "02207917",
+    "question": "Who is holding the teddy bear?",
+    "ground_truth": "man",
+    "baseline_answer": "The person in the image is holding the teddy bear.",
+    "belief_answer": "The man is holding the teddy bear.",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person has a beard.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the person' not found in scene graph"
+      },
+      {
+        "claim": "The person is lying down.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2393892",
+    "beliefs": [
+      "The person is wearing a blue shirt.",
+      "The person has a beard.",
+      "The person is lying down.",
+      "The person is holding a brown object.",
+      "The brown object appears to be a teddy bear."
+    ]
+  },
+  {
+    "question_id": "02921844",
+    "question": "What is the appliance to the right of him?",
+    "ground_truth": "microwave oven",
+    "baseline_answer": "The appliance to the right of him is a refrigerator.",
+    "belief_answer": "Microwave",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person is reaching towards the refrigerator door.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2383506",
+    "beliefs": [
+      "The person is wearing a striped shirt.",
+      "There are two large metal pots on the stove.",
+      "The refrigerator is white and has a freezer compartment.",
+      "The microwave is black and located to the right of the refrigerator.",
+      "The person is reaching towards the refrigerator door."
+    ]
+  },
+  {
+    "question_id": "05891651",
+    "question": "Is there a plate in this photo?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, there is no plate in the photo.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The pizza has slices of zucchini on it.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'pizza has slices of zucchini' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "verify",
+    "image_id": "2384647",
+    "beliefs": [
+      "There is a large pizza on a metal tray.",
+      "The pizza has slices of zucchini on it.",
+      "There is a bowl of salad with strawberries on the table.",
+      "A glass of soda is present on the table.",
+      "People are seated around the table eating."
+    ]
+  },
+  {
+    "question_id": "1173487",
+    "question": "Where is that tree?",
+    "ground_truth": "beach",
+    "baseline_answer": "There is no tree in the image.",
+    "belief_answer": "Tree",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There is a kite in the sky.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'kite' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2354443",
+    "beliefs": [
+      "There is a kite in the sky.",
+      "The sky is partly cloudy.",
+      "The beach has waves.",
+      "There are two people near the water.",
+      "There is a green object on the right side of the image."
+    ]
+  },
+  {
+    "question_id": "16275129",
+    "question": "Do you see any speaker there?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, I do not see any speaker in the image.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There is a television on the stand.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'television' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "verify",
+    "image_id": "2380483",
+    "beliefs": [
+      "There is a television on the stand.",
+      "The people are holding white controllers.",
+      "The room has a wooden floor.",
+      "There is a plant near the television.",
+      "The wall has a colorful abstract design."
+    ]
+  },
+  {
+    "question_id": "05973184",
+    "question": "What food is it?",
+    "ground_truth": "biscuit",
+    "baseline_answer": "The food in the image includes oatmeal, bread, a banana, and a beverage (possibly coffee or tea).",
+    "belief_answer": "Breakfast",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "4/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 4,
+    "n_claims_uncertain": 0,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The tray contains a bowl of cereal with milk.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'bowl of cereal with milk' not found in scene graph"
+      },
+      {
+        "claim": "A piece of bread is on the plate.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'piece of bread' not found in scene graph"
+      },
+      {
+        "claim": "A cup of coffee is present on the tray.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'cup of coffee' not found in scene graph"
+      },
+      {
+        "claim": "A spoon is placed in the bowl of cereal.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'spoon' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2316019",
+    "beliefs": [
+      "The tray contains a bowl of cereal with milk.",
+      "There is a banana on the plate.",
+      "A piece of bread is on the plate.",
+      "A cup of coffee is present on the tray.",
+      "A spoon is placed in the bowl of cereal."
+    ]
+  },
+  {
+    "question_id": "11207448",
+    "question": "What kind of furniture is the monitor on?",
+    "ground_truth": "shelf",
+    "baseline_answer": "The monitor is on a desk or table.",
+    "belief_answer": "Desk",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The surface appears to be part of a desk or table.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'surface appears' not found in scene graph"
+      },
+      {
+        "claim": "The surface is dark in color.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'surface' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2316747",
+    "beliefs": [
+      "The monitor is placed on a flat surface.",
+      "There is a wicker basket underneath the monitor.",
+      "The surface appears to be part of a desk or table.",
+      "The wicker basket has a woven texture.",
+      "The surface is dark in color."
+    ]
+  },
+  {
+    "question_id": "09161921",
+    "question": "Are there helmets or snowboards?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, there are no helmets or snowboards in the image.",
+    "belief_answer": "No",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person is surfing on a wave.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "logical",
+    "image_id": "2416885",
+    "beliefs": [
+      "The person is surfing on a wave.",
+      "The person is wearing a blue shirt.",
+      "The person has short hair.",
+      "The water is greenish-blue.",
+      "The person is holding onto the surfboard with both hands."
+    ]
+  },
+  {
+    "question_id": "10926949",
+    "question": "What is the fruit that is to the right of the pink candle?",
+    "ground_truth": "grape",
+    "baseline_answer": "The fruit to the right of the pink candle is an orange slice.",
+    "belief_answer": "Orange",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The cake has a variety of fruits on top.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'cake has a variety of fruits' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2365501",
+    "beliefs": [
+      "There is a cake with candles on it.",
+      "The cake has a variety of fruits on top.",
+      "There is a pink candle in the center of the cake.",
+      "To the right of the pink candle, there is a slice of orange.",
+      "The orange slice is located on the right side of the pink candle."
+    ]
+  },
+  {
+    "question_id": "18704247",
+    "question": "What is the animal that is to the left of the monitor?",
+    "ground_truth": "bear",
+    "baseline_answer": "The animal to the left of the monitor is a stuffed animal or a similar object.",
+    "belief_answer": "Bear",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "It appears to have a face with eyes and a nose.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'it appears to' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "498197",
+    "beliefs": [
+      "There is a monitor on the right side of the desk.",
+      "To the left of the monitor, there is a stuffed animal resembling a bear.",
+      "The stuffed animal is brown and has a round shape.",
+      "It appears to have a face with eyes and a nose.",
+      "The stuffed animal is positioned behind a keyboard."
+    ]
+  },
+  {
+    "question_id": "01284498",
+    "question": "What is the man to the right of the bus riding?",
+    "ground_truth": "bike",
+    "baseline_answer": "The man to the right of the bus is riding a bicycle.",
+    "belief_answer": "Bicycle",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The bicycle has two wheels.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the bicycle' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2362041",
+    "beliefs": [
+      "The man to the right of the bus is wearing a helmet.",
+      "He is riding a bicycle.",
+      "The bicycle has two wheels.",
+      "The man is wearing dark clothing.",
+      "The bus is stopped at a traffic light."
+    ]
+  },
+  {
+    "question_id": "01259702",
+    "question": "What color is the helmet that the man is wearing?",
+    "ground_truth": "black",
+    "baseline_answer": "The helmet that the man is wearing is dark in color.",
+    "belief_answer": "Blue",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 4,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 0,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There are four people in the image.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'four people' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2347236",
+    "beliefs": [
+      "The person on the far left is wearing a blue helmet.",
+      "There are four people in the image.",
+      "The person second from the left is wearing a pink jacket.",
+      "The person third from the left is wearing a white jacket.",
+      "The person fourth from the left is wearing a yellow jacket."
+    ]
+  },
+  {
+    "question_id": "161020577",
+    "question": "What kind of aircraft is flying?",
+    "ground_truth": "airplane",
+    "baseline_answer": "The aircraft flying in the image is a small, single-engine general aviation plane.",
+    "belief_answer": "Light aircraft",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "5/6 claims contradicted by scene graph",
+    "n_claims_total": 6,
+    "n_claims_supported": 0,
+    "n_claims_contradicted": 5,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The aircraft has a single propeller.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the aircraft' not found in scene graph"
+      },
+      {
+        "claim": "The aircraft has a low-wing configuration.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the aircraft' not found in scene graph"
+      },
+      {
+        "claim": "The aircraft has a tailwheel landing gear.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the aircraft' not found in scene graph"
+      },
+      {
+        "claim": "The aircraft has a registration number \"N415CB\" on its side.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the aircraft' not found in scene graph"
+      },
+      {
+        "claim": "The aircraft appears to be a light aircraft, possibly a training plane.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'aircraft appears' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2386644",
+    "beliefs": [
+      "The aircraft has a single propeller.",
+      "The aircraft has a low-wing configuration.",
+      "The aircraft has a tailwheel landing gear.",
+      "The aircraft has a metallic fuselage.",
+      "The aircraft has a registration number \"N415CB\" on its side.",
+      "The aircraft appears to be a light aircraft, possibly a training plane."
+    ]
+  },
+  {
+    "question_id": "081032949",
+    "question": "The vehicle the poster is inside of is what color?",
+    "ground_truth": "gray",
+    "baseline_answer": "The vehicle the poster is inside of is primarily white or silver.",
+    "belief_answer": "Silver",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The vehicle has a silver exterior.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the vehicle' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2393295",
+    "beliefs": [
+      "The vehicle has a silver exterior.",
+      "There is a blue stripe running horizontally along the side of the vehicle.",
+      "The interior of the vehicle appears to be white.",
+      "There is an American flag sticker on the side of the vehicle.",
+      "The vehicle has a door that is open, revealing the interior."
+    ]
+  },
+  {
+    "question_id": "1583422",
+    "question": "Where is the woman standing?",
+    "ground_truth": "hallway",
+    "baseline_answer": "The woman is standing on an upper level of a modern indoor building, likely an office or commercial space.",
+    "belief_answer": "Mall",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "She has long hair.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'she' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2336635",
+    "beliefs": [
+      "The woman is wearing a beige sweater.",
+      "She has long hair.",
+      "She is holding a phone to her ear.",
+      "There is a glass railing behind her.",
+      "The background shows an indoor setting with people and a staircase."
+    ]
+  },
+  {
+    "question_id": "1260165",
+    "question": "Are there any remote controls in this image?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, there are no remote controls in this image.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 0,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The setting looks like a conference room with tables and chairs.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'setting looks' not found in scene graph"
+      },
+      {
+        "claim": "The individuals are actively moving their arms, suggesting they are interacting with the game.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'individuals' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "verify",
+    "image_id": "2354042",
+    "beliefs": [
+      "The individuals appear to be playing a video game.",
+      "There is a television screen mounted on the wall.",
+      "The people are holding objects that resemble Wii controllers.",
+      "The setting looks like a conference room with tables and chairs.",
+      "The individuals are actively moving their arms, suggesting they are interacting with the game."
+    ]
+  },
+  {
+    "question_id": "01274973",
+    "question": "What kind of drink is pictured?",
+    "ground_truth": "milk",
+    "baseline_answer": "The image does not picture a drink; it shows a bowl of cereal.",
+    "belief_answer": "Milk",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There is a spoon in the bowl.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'spoon' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2388009",
+    "beliefs": [
+      "The bowl contains cereal with milk.",
+      "There is a spoon in the bowl.",
+      "The bowl is pink.",
+      "The background includes a book titled \"Falling Out\".",
+      "There is a phone partially visible in the background."
+    ]
+  },
+  {
+    "question_id": "03715855",
+    "question": "Is the bench on the right side of the picture?",
+    "ground_truth": "no",
+    "baseline_answer": "Yes, the bench is on the right side of the picture.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person on the right is leaning towards the bench.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "verify",
+    "image_id": "2387346",
+    "beliefs": [
+      "The bench is partially visible on the right side of the image.",
+      "The person on the right is leaning towards the bench.",
+      "The bench appears to be made of wood.",
+      "The bench is positioned behind the people.",
+      "The bench is closer to the edge of the image than the people."
+    ]
+  },
+  {
+    "question_id": "08134901",
+    "question": "What is on the appliance to the right of the container?",
+    "ground_truth": "chicken",
+    "baseline_answer": "The appliance to the right of the container is a stove.",
+    "belief_answer": "Soup",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The container is brown and cylindrical.",
+        "type": "attribute",
+        "status": "CONTRADICTED",
+        "evidence": "Claim says 'brown' but scene graph says 'dark'"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2410808",
+    "beliefs": [
+      "The pot is on the stove.",
+      "There is food in the pot.",
+      "The food appears to be soup.",
+      "The stove has a black surface.",
+      "The container is brown and cylindrical."
+    ]
+  },
+  {
+    "question_id": "03633085",
+    "question": "What device is it?",
+    "ground_truth": "remote control",
+    "baseline_answer": "The device is a remote control.",
+    "belief_answer": "Remote control",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "4/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 0,
+    "n_claims_contradicted": 4,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The object has a rectangular shape.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the object' not found in scene graph"
+      },
+      {
+        "claim": "It has multiple buttons on its surface.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'it' not found in scene graph"
+      },
+      {
+        "claim": "It is placed on a couch.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'it' not found in scene graph"
+      },
+      {
+        "claim": "It resembles a remote control.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'resembles remote' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2316480",
+    "beliefs": [
+      "The object has a rectangular shape.",
+      "It has multiple buttons on its surface.",
+      "It is placed on a couch.",
+      "The object is gray in color.",
+      "It resembles a remote control."
+    ]
+  },
+  {
+    "question_id": "01601562",
+    "question": "Is the purple towel to the left of a toilet?",
+    "ground_truth": "no",
+    "baseline_answer": "Yes, the purple towel is to the left of the toilet.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The purple towel is positioned to the left of the toilet.",
+        "type": "spatial",
+        "status": "CONTRADICTED",
+        "evidence": "Claim 'to the left of' contradicts scene graph 'to the right of'"
+      }
+    ],
+    "question_type_structural": "verify",
+    "image_id": "2408642",
+    "beliefs": [
+      "The toilet is white and located in the center of the image.",
+      "There is a purple towel on the left side of the image, near the sink.",
+      "The purple towel is positioned to the left of the toilet.",
+      "The toilet is not touching the purple towel; there is space between them.",
+      "The towel is hanging on a rack, which is to the left of the toilet."
+    ]
+  },
+  {
+    "question_id": "1887740",
+    "question": "What place is shown?",
+    "ground_truth": "pavement",
+    "baseline_answer": "The image shows a road intersection in an urban or suburban area.",
+    "belief_answer": "European city",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The road has clear lane markings.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the road' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2414496",
+    "beliefs": [
+      "The traffic light is green.",
+      "There is a pedestrian crossing sign below the traffic light.",
+      "There are buildings with European-style architecture in the background.",
+      "There are trees with autumn-colored leaves.",
+      "The road has clear lane markings."
+    ]
+  },
+  {
+    "question_id": "11207726",
+    "question": "Is the computer to the left of a dresser?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, the computer is not to the left of a dresser; it is in front of it.",
+    "belief_answer": "No",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The computer is positioned to the right of the dresser.",
+        "type": "spatial",
+        "status": "CONTRADICTED",
+        "evidence": "Claim 'to the right of' contradicts scene graph 'to the left of'"
+      }
+    ],
+    "question_type_structural": "verify",
+    "image_id": "2316747",
+    "beliefs": [
+      "The computer screen is in the foreground.",
+      "There is a piece of furniture behind the computer that appears to be a dresser.",
+      "The dresser has a mirror on its surface.",
+      "The computer is positioned to the right of the dresser.",
+      "The dresser is located in the background, partially obscured by the computer."
+    ]
+  },
+  {
+    "question_id": "15880558",
+    "question": "How clean are the windows on the side of the train?",
+    "ground_truth": "tinted",
+    "baseline_answer": "The windows on the side of the train are not clean.",
+    "belief_answer": "Dirty",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The train's windows have visible streaks of snow.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'streaks of snow' not found in scene graph"
+      },
+      {
+        "claim": "The snow appears to be accumulating on the windows.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'snow appears to be accumulating' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2356643",
+    "beliefs": [
+      "The train's windows have visible streaks of snow.",
+      "The snow appears to be accumulating on the windows.",
+      "The windows are partially obscured by the snow.",
+      "There are no clear areas of the window that are free from snow.",
+      "The overall appearance suggests the windows are dirty due to the snow accumulation."
+    ]
+  },
+  {
+    "question_id": "05141840",
+    "question": "Does the sky look cloudy and blue?",
+    "ground_truth": "no",
+    "baseline_answer": "Yes, the sky looks clear and blue.",
+    "belief_answer": "No",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 3,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 1,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The horizon line is distinct and straight.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'horizon line' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "logical",
+    "image_id": "2414484",
+    "beliefs": [
+      "The sky appears clear.",
+      "There are no visible clouds in the sky.",
+      "The sky has a uniform blue color.",
+      "The horizon line is distinct and straight.",
+      "The lighting suggests a sunny day with no overcast conditions."
+    ]
+  },
+  {
+    "question_id": "14470764",
+    "question": "Who is wearing the tie?",
+    "ground_truth": "guy",
+    "baseline_answer": "The person on the left is wearing the tie.",
+    "belief_answer": "The person on the far left is wearing the tie.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/7 claims contradicted by scene graph",
+    "n_claims_total": 7,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person on the right is using a laptop.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      },
+      {
+        "claim": "The person in the middle has long hair.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "713118",
+    "beliefs": [
+      "The person on the far left is wearing a tie.",
+      "The tie is red.",
+      "The person in the middle is holding a phone.",
+      "The person on the right is using a laptop.",
+      "The person on the far left has short hair.",
+      "The person in the middle has long hair.",
+      "The person on the right has glasses."
+    ]
+  },
+  {
+    "question_id": "15519571",
+    "question": "Who is in the sky?",
+    "ground_truth": "man",
+    "baseline_answer": "The skier is in the sky.",
+    "belief_answer": "A skier.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "2/8 claims contradicted by scene graph",
+    "n_claims_total": 8,
+    "n_claims_supported": 4,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The person is performing a ski jump.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      },
+      {
+        "claim": "The person is airborne with skis attached to their boots.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'person' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2400406",
+    "beliefs": [
+      "The person is wearing a helmet.",
+      "The person is wearing ski goggles.",
+      "The person is performing a ski jump.",
+      "The person is wearing purple pants.",
+      "The person is wearing a green jacket.",
+      "The person is airborne with skis attached to their boots.",
+      "The background is a clear blue sky.",
+      "There is a small cloud visible below the person."
+    ]
+  },
+  {
+    "question_id": "07540985",
+    "question": "Which place is it?",
+    "ground_truth": "restaurant",
+    "baseline_answer": "This appears to be a social event or gathering held in a venue with a swimming pool, such as a hotel or resort.",
+    "belief_answer": "Restaurant",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The overall atmosphere suggests a restaurant or dining hall.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'overall' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2389885",
+    "beliefs": [
+      "There are people seated around tables with food and drinks.",
+      "The setting includes a large glass window showing a pool area outside.",
+      "The tables have white tablecloths and are set for a meal.",
+      "There are decorative elements like flowers hanging from the ceiling.",
+      "The overall atmosphere suggests a restaurant or dining hall."
+    ]
+  },
+  {
+    "question_id": "09407119",
+    "question": "Does the pole have a different color than the hat?",
+    "ground_truth": "yes",
+    "baseline_answer": "No, the pole does not have a different color than the hat. The pole is red with white stripes, while the hat is solid red.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "2/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 2,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The snowboarder is performing a jump.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'snowboarder' not found in scene graph"
+      },
+      {
+        "claim": "The snowboarder is illuminated by a light source.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'snowboarder' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "compare",
+    "image_id": "2324396",
+    "beliefs": [
+      "The snowboarder is wearing a red hat.",
+      "The pole has a red and white striped pattern.",
+      "The snowboarder's jacket is light blue.",
+      "The snowboarder is performing a jump.",
+      "The snowboarder is illuminated by a light source."
+    ]
+  },
+  {
+    "question_id": "13275255",
+    "question": "What is on the plate that is to the left of the beverage?",
+    "ground_truth": "knife",
+    "baseline_answer": "The plate to the left of the beverage contains some food remnants.",
+    "belief_answer": "Bread",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The plate to the left of the beverage contains a piece of bread.",
+        "type": "spatial",
+        "status": "CONTRADICTED",
+        "evidence": "Geometric check: 'plate' to the left of 'beverage contains a piece of bread' is False"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2345745",
+    "beliefs": [
+      "There is a plate with food remnants on the table.",
+      "The beverage is a red bottle located near the center of the table.",
+      "The plate to the left of the beverage contains a piece of bread.",
+      "The table has multiple plates with different food items.",
+      "The beverage is placed on the table surface, not in a glass."
+    ]
+  },
+  {
+    "question_id": "05720322",
+    "question": "Which kind of device is on the table?",
+    "ground_truth": "television",
+    "baseline_answer": "The device on the table is a DVD player.",
+    "belief_answer": "Television",
+    "baseline_correct": false,
+    "belief_correct": true,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The television has a brand name \"AQUOS\" visible on its side.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'on its side' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2388805",
+    "beliefs": [
+      "There is a television on the table.",
+      "The television screen displays an image of a bear.",
+      "The television has a brand name \"AQUOS\" visible on its side.",
+      "A cat is sitting on top of a DVD player.",
+      "The DVD player is placed in front of the television."
+    ]
+  },
+  {
+    "question_id": "19388759",
+    "question": "What is in the container?",
+    "ground_truth": "cabbage",
+    "baseline_answer": "The container in question likely contains a stir-fried dish, as indicated by the red plate on top.",
+    "belief_answer": "Stir-fried vegetables.",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 2,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "There is food inside the container.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'food' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "query",
+    "image_id": "2325119",
+    "beliefs": [
+      "The container is metallic.",
+      "The container is placed on a stand.",
+      "There is food inside the container.",
+      "The food appears to be stir-fried vegetables.",
+      "The container has a lid that is partially open."
+    ]
+  },
+  {
+    "question_id": "02620369",
+    "question": "Do the shorts have a different color than the trunks?",
+    "ground_truth": "no",
+    "baseline_answer": "Yes, the shorts have a different color than the trunks.",
+    "belief_answer": "Yes",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/6 claims contradicted by scene graph",
+    "n_claims_total": 6,
+    "n_claims_supported": 2,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The trunks are blue.",
+        "type": "attribute",
+        "status": "CONTRADICTED",
+        "evidence": "Claim says 'blue' but scene graph says 'red'"
+      }
+    ],
+    "question_type_structural": "compare",
+    "image_id": "2413347",
+    "beliefs": [
+      "The shorts are red.",
+      "The trunks are blue.",
+      "The shorts are solid in color.",
+      "The trunks have a pattern.",
+      "The shorts are worn by the person in the foreground.",
+      "The trunks are worn by the person in the background."
+    ]
+  },
+  {
+    "question_id": "162519",
+    "question": "What animal are the trees behind of, an elephant or a horse?",
+    "ground_truth": "horse",
+    "baseline_answer": "The trees are behind a donkey.",
+    "belief_answer": "Donkey",
+    "baseline_correct": false,
+    "belief_correct": false,
+    "error_type": "premise_error",
+    "error_detail": "1/5 claims contradicted by scene graph",
+    "n_claims_total": 5,
+    "n_claims_supported": 1,
+    "n_claims_contradicted": 1,
+    "n_claims_uncertain": 3,
+    "has_false_premise": true,
+    "contradicted_claims": [
+      {
+        "claim": "The donkey has a harness and a saddlebag.",
+        "type": "object_existence",
+        "status": "CONTRADICTED",
+        "evidence": "Object 'the donkey' not found in scene graph"
+      }
+    ],
+    "question_type_structural": "choose",
+    "image_id": "2399406",
+    "beliefs": [
+      "The animal in the foreground is a donkey.",
+      "The donkey has a harness and a saddlebag.",
+      "The trees are behind the donkey.",
+      "There are no elephants visible in the image.",
+      "The background consists of dense green foliage."
+    ]
+  }
+]
