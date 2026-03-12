@@ -1,0 +1,1252 @@
+[
+  {
+    "question_id": "0167377",
+    "question": "Are there both helmets and motorcycles in this picture?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are motorcycles in the picture, but there are no helmets visible.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The lighting suggests it's nighttime.",
+        "remaining_count": 4,
+        "corrected_answer": "Yes",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "09982030",
+    "question": "What kind of food is below the vegetable near the carrots?",
+    "ground_truth": "broth",
+    "original_answer": "The food below the vegetable near the carrots is a smooth soup made from the blended vegetables.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "This mixture is being blended in a blender.",
+        "remaining_count": 4,
+        "corrected_answer": "Blender mixture",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "07598996",
+    "question": "What is the animal that is to the right of the black container?",
+    "ground_truth": "giraffe",
+    "original_answer": "There is no animal to the right of the black container.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 3,
+    "removal_results": [
+      {
+        "removed_belief": "The giraffe to the right of the black container is the smallest.",
+        "remaining_count": 4,
+        "corrected_answer": "Giraffe",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "The giraffe to the right of the black container is closest to the brick wall.",
+        "remaining_count": 4,
+        "corrected_answer": "The animal to the right of the black container is a giraffe.",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "The giraffe to the right of the black container has a lighter pattern on its neck.",
+        "remaining_count": 4,
+        "corrected_answer": "The animal to the right of the black container is the smallest giraffe.",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "03262245",
+    "question": "Of what color are the bags to the right of the man?",
+    "ground_truth": "black",
+    "original_answer": "There are no bags to the right of the man in the image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There are six people in the image.",
+        "remaining_count": 4,
+        "corrected_answer": "There are no bags visible in the image.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "17596714",
+    "question": "What is in front of the bushes?",
+    "ground_truth": "train tracks",
+    "original_answer": "The railway tracks are in front of the bushes.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The elevated track is supported by concrete pillars.",
+        "remaining_count": 4,
+        "corrected_answer": "Railway track",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "06564130",
+    "question": "What is the device that he holds?",
+    "ground_truth": "cell phone",
+    "original_answer": "The device he holds is a mobile phone.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The device appears to be a flip phone.",
+        "remaining_count": 4,
+        "corrected_answer": "Cell phone",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "The device has a screen and buttons visible.",
+        "remaining_count": 4,
+        "corrected_answer": "Flip phone",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "19104279",
+    "question": "What is the girl playing with?",
+    "ground_truth": "ball",
+    "original_answer": "The girl is playing tennis.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The setting appears to be a tennis court.",
+        "remaining_count": 4,
+        "corrected_answer": "Tennis",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03581765",
+    "question": "Is there either a small scooter or motorcycle?",
+    "ground_truth": "no",
+    "original_answer": "Yes, there are small scooters or motorcycles in the image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There are multiple scooters parked in a row.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "10259915",
+    "question": "Does the sidewalk seem to be red and dirty?",
+    "ground_truth": "no",
+    "original_answer": "The sidewalk seems to be red.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The overall scene suggests recent rainfall.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "09964815",
+    "question": "Are there logoes on the oven?",
+    "ground_truth": "no",
+    "original_answer": "Yes, there is a logo on the oven.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The time displayed on the oven is 10:43.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "05755315",
+    "question": "Are there any green pillows or bridges?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are no green pillows or bridges in the image.",
+    "n_beliefs_total": 7,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The image has a filter applied, giving it a vintage look.",
+        "remaining_count": 6,
+        "corrected_answer": "No",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15242425",
+    "question": "Of which color is the sky?",
+    "ground_truth": "dark",
+    "original_answer": "The image does not show the sky, so the color of the sky cannot be determined from this image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The buildings have lights on.",
+        "remaining_count": 4,
+        "corrected_answer": "Dark",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "The overall scene suggests it is nighttime.",
+        "remaining_count": 4,
+        "corrected_answer": "Dark",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "171034612",
+    "question": "Are there tablecloths or bowls?",
+    "ground_truth": "no",
+    "original_answer": "Yes, there are bowls in the image, specifically the compartments of the bento box.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "There are grapes in another compartment.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "There is a creamy substance in a separate compartment.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "17667821",
+    "question": "Who is holding the device that looks gray and silver?",
+    "ground_truth": "girl",
+    "original_answer": "The person in the image is holding the gray and silver device, which is a mobile phone.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person has a patterned skirt with a mix of colors.",
+        "remaining_count": 4,
+        "corrected_answer": "The person is holding the device that looks gray and silver.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "13226655",
+    "question": "On which side of the image is the yellow vegetable?",
+    "ground_truth": "left",
+    "original_answer": "The yellow vegetable is on the right side of the image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There is a drink on the left side of the image.",
+        "remaining_count": 4,
+        "corrected_answer": "Not present",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15978167",
+    "question": "What's the porch made of?",
+    "ground_truth": "brick",
+    "original_answer": "The porch is made of a combination of red and white tiles and concrete or a similar material.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The tiles are rectangular and arranged in a grid pattern.",
+        "remaining_count": 4,
+        "corrected_answer": "Tiles",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "00706944",
+    "question": "Where is the man walking?",
+    "ground_truth": "sidewalk",
+    "original_answer": "The image does not provide enough information to determine where the man is walking.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person's posture suggests movement.",
+        "remaining_count": 4,
+        "corrected_answer": "On the sidewalk between the parked cars.",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "14144547",
+    "question": "What kind of vehicle is it?",
+    "ground_truth": "car",
+    "original_answer": "The vehicle is a police motorcycle.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The vehicle has two wheels.",
+        "remaining_count": 4,
+        "corrected_answer": "Motorcycle",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "There is a helmet on the rider's head.",
+        "remaining_count": 4,
+        "corrected_answer": "Motorcycle",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "01385341",
+    "question": "What does the man hold onto?",
+    "ground_truth": "pole",
+    "original_answer": "The man holds onto the boom of the sail.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The person is windsurfing.",
+        "remaining_count": 4,
+        "corrected_answer": "The man holds onto the boom of the sail.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The person's hands are gripping the boom.",
+        "remaining_count": 4,
+        "corrected_answer": "The man holds onto the boom of the sail.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11196211",
+    "question": "What are the men to the left of the horse wearing?",
+    "ground_truth": "cowboy hat",
+    "original_answer": "The men to the left of the horse are wearing traditional clothing, including long coats and hats.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "They have hats on their heads.",
+        "remaining_count": 4,
+        "corrected_answer": "The men to the left of the horse are wearing traditional clothing.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "19695032",
+    "question": "Which place is it?",
+    "ground_truth": "lake",
+    "original_answer": "This image appears to be taken in a wildlife park or a zoo.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The landscape includes trees and shrubs.",
+        "remaining_count": 4,
+        "corrected_answer": "Zoo",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "00296203",
+    "question": "What is the woman carrying?",
+    "ground_truth": "radio",
+    "original_answer": "The woman is carrying a piece of paper or a cloth.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "She has long hair.",
+        "remaining_count": 4,
+        "corrected_answer": "The woman is carrying a white object that appears to be a piece of paper or a cloth.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "18437330",
+    "question": "What is sitting in the bowl?",
+    "ground_truth": "sauce",
+    "original_answer": "The bowl contains a yellowish liquid, likely syrup or honey.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The liquid appears to be syrupy.",
+        "remaining_count": 4,
+        "corrected_answer": "Honey",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "08728446",
+    "question": "What is the woman wearing?",
+    "ground_truth": "cap",
+    "original_answer": "The person in the image is wearing a white shirt, dark shorts, and white shoes.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person has a headband on their head.",
+        "remaining_count": 4,
+        "corrected_answer": "The person is wearing a white shirt, dark shorts, and white shoes, and is holding a tennis racket.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03987139",
+    "question": "What is the appliance to the left of the person in the middle?",
+    "ground_truth": "refrigerator",
+    "original_answer": "The appliance to the left of the person in the middle is a microwave oven.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "A refrigerator is to the right of the person.",
+        "remaining_count": 4,
+        "corrected_answer": "Trash can",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "0449386",
+    "question": "What place is it?",
+    "ground_truth": "hangar",
+    "original_answer": "This is a museum or exhibition space dedicated to displaying aircraft, specifically the F-15 Eagle.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The aircraft is displayed indoors.",
+        "remaining_count": 4,
+        "corrected_answer": "Museum",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The environment has a high ceiling with structural beams.",
+        "remaining_count": 4,
+        "corrected_answer": "Museum",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02447446",
+    "question": "Who is in the water?",
+    "ground_truth": "man",
+    "original_answer": "The person and the dog are in the water.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person has a camera attached to their head.",
+        "remaining_count": 4,
+        "corrected_answer": "Person and dog.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "16464458",
+    "question": "What is the black item of furniture called?",
+    "ground_truth": "shelf",
+    "original_answer": "The black item of furniture is likely a television or a stereo system.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The furniture has a rectangular shape.",
+        "remaining_count": 4,
+        "corrected_answer": "TV stand",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "00212582",
+    "question": "Of what color is the vehicle the pole is on the side of?",
+    "ground_truth": "green",
+    "original_answer": "The question cannot be answered because there is no pole visible in the image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The vehicle appears to be a steam locomotive.",
+        "remaining_count": 4,
+        "corrected_answer": "Green",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "13628221",
+    "question": "Who is in front of the wall?",
+    "ground_truth": "man",
+    "original_answer": "The tennis player is in front of the wall.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person is on a tennis court.",
+        "remaining_count": 4,
+        "corrected_answer": "The person.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "07894112",
+    "question": "The boy is where?",
+    "ground_truth": "ground",
+    "original_answer": "The boy is on a beach.",
+    "n_beliefs_total": 7,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The person is barefoot.",
+        "remaining_count": 6,
+        "corrected_answer": "The boy is on a beach.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The person appears to be on a beach.",
+        "remaining_count": 6,
+        "corrected_answer": "The boy is on a beach.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03236221",
+    "question": "Where is the boy?",
+    "ground_truth": "floor",
+    "original_answer": "The boy is in the living room, standing among the other children as they play a video game.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "He appears to be engaged in a video game activity.",
+        "remaining_count": 4,
+        "corrected_answer": "On a striped rug.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11546518",
+    "question": "What is on the vehicle that is in the snow?",
+    "ground_truth": "ladder",
+    "original_answer": "The yellow vehicle (possibly a snowmobile) is on the vehicle (the truck) that is in the snow.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The vehicle is a military-style truck.",
+        "remaining_count": 4,
+        "corrected_answer": "A yellow vehicle is on the vehicle in the snow.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15340115",
+    "question": "Who is wearing a jacket?",
+    "ground_truth": "woman",
+    "original_answer": "The person in the image is wearing a jacket.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The person has long hair.",
+        "remaining_count": 4,
+        "corrected_answer": "The person.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The person is outdoors in a grassy area.",
+        "remaining_count": 4,
+        "corrected_answer": "The person in the picture is wearing a jacket.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02207917",
+    "question": "Who is holding the teddy bear?",
+    "ground_truth": "man",
+    "original_answer": "The person in the image is holding the teddy bear.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The person has a beard.",
+        "remaining_count": 4,
+        "corrected_answer": "The person in the blue shirt is holding the teddy bear.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The person is lying down.",
+        "remaining_count": 4,
+        "corrected_answer": "The person in the blue shirt is holding the teddy bear.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02921844",
+    "question": "What is the appliance to the right of him?",
+    "ground_truth": "microwave oven",
+    "original_answer": "The appliance to the right of him is a refrigerator.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person is reaching towards the refrigerator door.",
+        "remaining_count": 4,
+        "corrected_answer": "Microwave",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05891651",
+    "question": "Is there a plate in this photo?",
+    "ground_truth": "yes",
+    "original_answer": "No, there is no plate in the photo.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The pizza has slices of zucchini on it.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1173487",
+    "question": "Where is that tree?",
+    "ground_truth": "beach",
+    "original_answer": "There is no tree in the image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There is a kite in the sky.",
+        "remaining_count": 4,
+        "corrected_answer": "There is no tree in the image.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "16275129",
+    "question": "Do you see any speaker there?",
+    "ground_truth": "yes",
+    "original_answer": "No, I do not see any speaker in the image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There is a television on the stand.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05973184",
+    "question": "What food is it?",
+    "ground_truth": "biscuit",
+    "original_answer": "The food in the image includes oatmeal, bread, a banana, and a beverage (possibly coffee or tea).",
+    "n_beliefs_total": 5,
+    "n_contradicted": 4,
+    "removal_results": [
+      {
+        "removed_belief": "The tray contains a bowl of cereal with milk.",
+        "remaining_count": 4,
+        "corrected_answer": "Breakfast",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "A piece of bread is on the plate.",
+        "remaining_count": 4,
+        "corrected_answer": "Breakfast",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "A cup of coffee is present on the tray.",
+        "remaining_count": 4,
+        "corrected_answer": "Breakfast",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "A spoon is placed in the bowl of cereal.",
+        "remaining_count": 4,
+        "corrected_answer": "Breakfast",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11207448",
+    "question": "What kind of furniture is the monitor on?",
+    "ground_truth": "shelf",
+    "original_answer": "The monitor is on a desk or table.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The surface appears to be part of a desk or table.",
+        "remaining_count": 4,
+        "corrected_answer": "Wicker basket",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The surface is dark in color.",
+        "remaining_count": 4,
+        "corrected_answer": "Desk",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "09161921",
+    "question": "Are there helmets or snowboards?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are no helmets or snowboards in the image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person is surfing on a wave.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "10926949",
+    "question": "What is the fruit that is to the right of the pink candle?",
+    "ground_truth": "grape",
+    "original_answer": "The fruit to the right of the pink candle is an orange slice.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The cake has a variety of fruits on top.",
+        "remaining_count": 4,
+        "corrected_answer": "Orange",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "18704247",
+    "question": "What is the animal that is to the left of the monitor?",
+    "ground_truth": "bear",
+    "original_answer": "The animal to the left of the monitor is a stuffed animal or a similar object.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "It appears to have a face with eyes and a nose.",
+        "remaining_count": 4,
+        "corrected_answer": "Bear",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "01284498",
+    "question": "What is the man to the right of the bus riding?",
+    "ground_truth": "bike",
+    "original_answer": "The man to the right of the bus is riding a bicycle.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The bicycle has two wheels.",
+        "remaining_count": 4,
+        "corrected_answer": "Bicycle",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "01259702",
+    "question": "What color is the helmet that the man is wearing?",
+    "ground_truth": "black",
+    "original_answer": "The helmet that the man is wearing is dark in color.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There are four people in the image.",
+        "remaining_count": 4,
+        "corrected_answer": "The helmet that the man is wearing is blue.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "161020577",
+    "question": "What kind of aircraft is flying?",
+    "ground_truth": "airplane",
+    "original_answer": "The aircraft flying in the image is a small, single-engine general aviation plane.",
+    "n_beliefs_total": 6,
+    "n_contradicted": 5,
+    "removal_results": [
+      {
+        "removed_belief": "The aircraft has a single propeller.",
+        "remaining_count": 5,
+        "corrected_answer": "Light aircraft",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The aircraft has a low-wing configuration.",
+        "remaining_count": 5,
+        "corrected_answer": "The aircraft is a light aircraft, possibly a training plane.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The aircraft has a tailwheel landing gear.",
+        "remaining_count": 5,
+        "corrected_answer": "Light aircraft",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The aircraft has a registration number \"N415CB\" on its side.",
+        "remaining_count": 5,
+        "corrected_answer": "The aircraft is a light aircraft, possibly a training plane.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The aircraft appears to be a light aircraft, possibly a training plane.",
+        "remaining_count": 5,
+        "corrected_answer": "Single-engine aircraft",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "081032949",
+    "question": "The vehicle the poster is inside of is what color?",
+    "ground_truth": "gray",
+    "original_answer": "The vehicle the poster is inside of is primarily white or silver.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The vehicle has a silver exterior.",
+        "remaining_count": 4,
+        "corrected_answer": "The vehicle is white with a blue stripe.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1583422",
+    "question": "Where is the woman standing?",
+    "ground_truth": "hallway",
+    "original_answer": "The woman is standing on an upper level of a modern indoor building, likely an office or commercial space.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "She has long hair.",
+        "remaining_count": 4,
+        "corrected_answer": "Indoor setting",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1260165",
+    "question": "Are there any remote controls in this image?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are no remote controls in this image.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The setting looks like a conference room with tables and chairs.",
+        "remaining_count": 4,
+        "corrected_answer": "Yes",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "The individuals are actively moving their arms, suggesting they are interacting with the game.",
+        "remaining_count": 4,
+        "corrected_answer": "Yes",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "01274973",
+    "question": "What kind of drink is pictured?",
+    "ground_truth": "milk",
+    "original_answer": "The image does not picture a drink; it shows a bowl of cereal.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There is a spoon in the bowl.",
+        "remaining_count": 4,
+        "corrected_answer": "Milk",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "03715855",
+    "question": "Is the bench on the right side of the picture?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the bench is on the right side of the picture.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The person on the right is leaning towards the bench.",
+        "remaining_count": 4,
+        "corrected_answer": "Yes",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "08134901",
+    "question": "What is on the appliance to the right of the container?",
+    "ground_truth": "chicken",
+    "original_answer": "The appliance to the right of the container is a stove.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The container is brown and cylindrical.",
+        "remaining_count": 4,
+        "corrected_answer": "Food",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03633085",
+    "question": "What device is it?",
+    "ground_truth": "remote control",
+    "original_answer": "The device is a remote control.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 4,
+    "removal_results": [
+      {
+        "removed_belief": "The object has a rectangular shape.",
+        "remaining_count": 4,
+        "corrected_answer": "Remote control",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "It has multiple buttons on its surface.",
+        "remaining_count": 4,
+        "corrected_answer": "Remote control",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "It is placed on a couch.",
+        "remaining_count": 4,
+        "corrected_answer": "Remote control",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "It resembles a remote control.",
+        "remaining_count": 4,
+        "corrected_answer": "Remote control",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "01601562",
+    "question": "Is the purple towel to the left of a toilet?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the purple towel is to the left of the toilet.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The purple towel is positioned to the left of the toilet.",
+        "remaining_count": 4,
+        "corrected_answer": "Yes",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1887740",
+    "question": "What place is shown?",
+    "ground_truth": "pavement",
+    "original_answer": "The image shows a road intersection in an urban or suburban area.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The road has clear lane markings.",
+        "remaining_count": 4,
+        "corrected_answer": "European city street",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11207726",
+    "question": "Is the computer to the left of a dresser?",
+    "ground_truth": "yes",
+    "original_answer": "No, the computer is not to the left of a dresser; it is in front of it.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The computer is positioned to the right of the dresser.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15880558",
+    "question": "How clean are the windows on the side of the train?",
+    "ground_truth": "tinted",
+    "original_answer": "The windows on the side of the train are not clean.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The train's windows have visible streaks of snow.",
+        "remaining_count": 4,
+        "corrected_answer": "Dirty",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The snow appears to be accumulating on the windows.",
+        "remaining_count": 4,
+        "corrected_answer": "Dirty",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05141840",
+    "question": "Does the sky look cloudy and blue?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the sky looks clear and blue.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The horizon line is distinct and straight.",
+        "remaining_count": 4,
+        "corrected_answer": "No",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "14470764",
+    "question": "Who is wearing the tie?",
+    "ground_truth": "guy",
+    "original_answer": "The person on the left is wearing the tie.",
+    "n_beliefs_total": 7,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The person on the right is using a laptop.",
+        "remaining_count": 6,
+        "corrected_answer": "The person on the far left is wearing the tie.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The person in the middle has long hair.",
+        "remaining_count": 6,
+        "corrected_answer": "The person on the far left is wearing the tie.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15519571",
+    "question": "Who is in the sky?",
+    "ground_truth": "man",
+    "original_answer": "The skier is in the sky.",
+    "n_beliefs_total": 8,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The person is performing a ski jump.",
+        "remaining_count": 7,
+        "corrected_answer": "A skier.",
+        "flipped_to_correct": false
+      },
+      {
+        "removed_belief": "The person is airborne with skis attached to their boots.",
+        "remaining_count": 7,
+        "corrected_answer": "A skier.",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "07540985",
+    "question": "Which place is it?",
+    "ground_truth": "restaurant",
+    "original_answer": "This appears to be a social event or gathering held in a venue with a swimming pool, such as a hotel or resort.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The overall atmosphere suggests a restaurant or dining hall.",
+        "remaining_count": 4,
+        "corrected_answer": "Restaurant",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "09407119",
+    "question": "Does the pole have a different color than the hat?",
+    "ground_truth": "yes",
+    "original_answer": "No, the pole does not have a different color than the hat. The pole is red with white stripes, while the hat is solid red.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 2,
+    "removal_results": [
+      {
+        "removed_belief": "The snowboarder is performing a jump.",
+        "remaining_count": 4,
+        "corrected_answer": "Yes",
+        "flipped_to_correct": true
+      },
+      {
+        "removed_belief": "The snowboarder is illuminated by a light source.",
+        "remaining_count": 4,
+        "corrected_answer": "Yes",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "13275255",
+    "question": "What is on the plate that is to the left of the beverage?",
+    "ground_truth": "knife",
+    "original_answer": "The plate to the left of the beverage contains some food remnants.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The plate to the left of the beverage contains a piece of bread.",
+        "remaining_count": 4,
+        "corrected_answer": "Food remnants",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05720322",
+    "question": "Which kind of device is on the table?",
+    "ground_truth": "television",
+    "original_answer": "The device on the table is a DVD player.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The television has a brand name \"AQUOS\" visible on its side.",
+        "remaining_count": 4,
+        "corrected_answer": "Television and DVD player.",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "19388759",
+    "question": "What is in the container?",
+    "ground_truth": "cabbage",
+    "original_answer": "The container in question likely contains a stir-fried dish, as indicated by the red plate on top.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "There is food inside the container.",
+        "remaining_count": 4,
+        "corrected_answer": "Stir-fried vegetables",
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02620369",
+    "question": "Do the shorts have a different color than the trunks?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the shorts have a different color than the trunks.",
+    "n_beliefs_total": 6,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The trunks are blue.",
+        "remaining_count": 5,
+        "corrected_answer": "No",
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "162519",
+    "question": "What animal are the trees behind of, an elephant or a horse?",
+    "ground_truth": "horse",
+    "original_answer": "The trees are behind a donkey.",
+    "n_beliefs_total": 5,
+    "n_contradicted": 1,
+    "removal_results": [
+      {
+        "removed_belief": "The donkey has a harness and a saddlebag.",
+        "remaining_count": 4,
+        "corrected_answer": "The trees are behind a donkey.",
+        "flipped_to_correct": false
+      }
+    ]
+  }
+]

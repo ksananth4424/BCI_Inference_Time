@@ -1,0 +1,1924 @@
+[
+  {
+    "question_id": "0167377",
+    "question": "Are there both helmets and motorcycles in this picture?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are motorcycles in the picture, but there are no helmets visible.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a bikes in the image",
+      "The bikes is to the right of the motorcycle",
+      "The bikes is to the right of the motorcycle",
+      "There is a umbrella in the image",
+      "There is a bike in the image",
+      "The bike is to the left of the motorcycle",
+      "The bike is to the left of the motorcycle",
+      "The bike is to the right of the motorcycle",
+      "The bike is to the left of the motorcycle",
+      "There is a motorcycle in the image",
+      "The motorcycle is on the street",
+      "The motorcycle is to the left of the street",
+      "There is a scooter in the image",
+      "There is a motorcycle in the image",
+      "The motorcycle is to the right of the bike"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The lighting suggests it's nighttime."
+    ]
+  },
+  {
+    "question_id": "09982030",
+    "question": "What kind of food is below the vegetable near the carrots?",
+    "ground_truth": "broth",
+    "original_answer": "The food below the vegetable near the carrots is a smooth soup made from the blended vegetables.",
+    "corrected_answer": "Broth",
+    "gt_beliefs": [
+      "There is a broth in the image",
+      "There is a pot in the image",
+      "There is a table in the image",
+      "The table is brown",
+      "There is a stove in the image",
+      "There is a onion in the image",
+      "The onion is near the carrots",
+      "The onion is to the right of the carrots",
+      "There is a burner in the image",
+      "There is a carrots in the image",
+      "The carrots is orange",
+      "The carrots is sliced",
+      "The carrots is floating",
+      "The carrots is cut",
+      "The carrots is in the pot"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "This mixture is being blended in a blender."
+    ]
+  },
+  {
+    "question_id": "07598996",
+    "question": "What is the animal that is to the right of the black container?",
+    "ground_truth": "giraffe",
+    "original_answer": "There is no animal to the right of the black container.",
+    "corrected_answer": "Giraffe",
+    "gt_beliefs": [
+      "There is a sky in the image",
+      "There is a wire in the image",
+      "The wire is black",
+      "There is a wire in the image",
+      "The wire is black",
+      "There is a pole in the image",
+      "The pole is to the right of the container",
+      "There is a tray in the image",
+      "There is a door in the image",
+      "There is a horns in the image",
+      "There is a feet in the image",
+      "There is a spots in the image",
+      "There is a spots in the image",
+      "There is a giraffe in the image",
+      "There is a giraffe in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 3,
+    "contradicted_claims": [
+      "The giraffe to the right of the black container is the smallest.",
+      "The giraffe to the right of the black container is closest to the brick wall.",
+      "The giraffe to the right of the black container has a lighter pattern on its neck."
+    ]
+  },
+  {
+    "question_id": "03262245",
+    "question": "Of what color are the bags to the right of the man?",
+    "ground_truth": "black",
+    "original_answer": "There are no bags to the right of the man in the image.",
+    "corrected_answer": "The image does not provide any information about the color of the bags to the right of the man. Therefore, it is impossible to determine their color based solely on the given facts.",
+    "gt_beliefs": [
+      "There is a ski in the image",
+      "The ski is to the left of the man",
+      "There is a ski in the image",
+      "The ski is to the left of the man",
+      "There is a person in the image",
+      "The person is to the left of the bags",
+      "The person is to the right of the man",
+      "The person is to the right of the bag",
+      "There is a ski in the image",
+      "There is a ski in the image",
+      "There is a ski in the image",
+      "The ski is to the right of the man",
+      "There is a ski in the image",
+      "The ski is to the right of the man",
+      "There is a helmet in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There are six people in the image."
+    ]
+  },
+  {
+    "question_id": "17596714",
+    "question": "What is in front of the bushes?",
+    "ground_truth": "train tracks",
+    "original_answer": "The railway tracks are in front of the bushes.",
+    "corrected_answer": "Train tracks",
+    "gt_beliefs": [
+      "There is a sky in the image",
+      "There is a bridge in the image",
+      "The bridge is above the bushes",
+      "There is a train in the image",
+      "There is a bird in the image",
+      "There is a gravel in the image",
+      "There is a train tracks in the image",
+      "The train tracks is in front of the bushes",
+      "There is a bushes in the image",
+      "The bushes is leafy",
+      "The bushes is green",
+      "The bushes is behind the train tracks",
+      "The bushes is under the bridge",
+      "The bushes is by the train tracks"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The elevated track is supported by concrete pillars."
+    ]
+  },
+  {
+    "question_id": "06564130",
+    "question": "What is the device that he holds?",
+    "ground_truth": "cell phone",
+    "original_answer": "The device he holds is a mobile phone.",
+    "corrected_answer": "Cell phone",
+    "gt_beliefs": [
+      "There is a hand in the image",
+      "There is a cell phone in the image",
+      "There is a hair in the image",
+      "There is a hair in the image",
+      "There is a man in the image",
+      "There is a arms in the image",
+      "There is a jacket in the image",
+      "There is a head in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The device appears to be a flip phone.",
+      "The device has a screen and buttons visible."
+    ]
+  },
+  {
+    "question_id": "19104279",
+    "question": "What is the girl playing with?",
+    "ground_truth": "ball",
+    "original_answer": "The girl is playing tennis.",
+    "corrected_answer": "Tennis",
+    "gt_beliefs": [
+      "There is a legs in the image",
+      "There is a fence in the image",
+      "There is a shoes in the image",
+      "There is a skirt in the image",
+      "There is a bench in the image",
+      "There is a tennis ball in the image",
+      "There is a foot in the image",
+      "There is a leg in the image",
+      "There is a racket in the image",
+      "The racket is to the left of the girl",
+      "There is a clothes in the image",
+      "There is a ground in the image",
+      "There is a foot in the image",
+      "There is a ball in the image",
+      "There is a ball in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The setting appears to be a tennis court."
+    ]
+  },
+  {
+    "question_id": "03581765",
+    "question": "Is there either a small scooter or motorcycle?",
+    "ground_truth": "no",
+    "original_answer": "Yes, there are small scooters or motorcycles in the image.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a door in the image",
+      "There is a garage in the image",
+      "There is a windows in the image",
+      "There is a building in the image",
+      "There is a trees in the image",
+      "There is a building in the image",
+      "There is a mirror in the image",
+      "The mirror is on the motorcycle",
+      "There is a sky in the image",
+      "There is a balcony in the image",
+      "There is a castle in the image",
+      "There is a tower in the image",
+      "There is a parking lot in the image",
+      "There is a motorcycle in the image",
+      "The motorcycle is large"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There are multiple scooters parked in a row."
+    ]
+  },
+  {
+    "question_id": "10259915",
+    "question": "Does the sidewalk seem to be red and dirty?",
+    "ground_truth": "no",
+    "original_answer": "The sidewalk seems to be red.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a river in the image",
+      "There is a sign in the image",
+      "The sign is red",
+      "There is a bush in the image",
+      "There is a sidewalk in the image",
+      "The sidewalk is gray",
+      "The sidewalk is dirty",
+      "The sidewalk is to the left of the grass",
+      "There is a sky in the image",
+      "There is a pole in the image",
+      "There is a water in the image",
+      "There is a tree in the image",
+      "There is a fire hydrant in the image",
+      "There is a stop sign in the image",
+      "The stop sign is red"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The overall scene suggests recent rainfall."
+    ]
+  },
+  {
+    "question_id": "09964815",
+    "question": "Are there logoes on the oven?",
+    "ground_truth": "no",
+    "original_answer": "Yes, there is a logo on the oven.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a muffin in the image",
+      "There is a oven in the image",
+      "The oven is white",
+      "The oven is to the left of the herbs",
+      "The oven is to the left of the appliance",
+      "The oven is to the left of the herbs",
+      "The oven is to the left of the spice",
+      "The oven is to the left of the spice",
+      "The oven is to the left of the lid",
+      "There is a clock in the image",
+      "The clock is on the oven",
+      "There is a muffin in the image",
+      "There is a muffin in the image",
+      "There is a burner in the image",
+      "There is a herbs in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The time displayed on the oven is 10:43."
+    ]
+  },
+  {
+    "question_id": "05755315",
+    "question": "Are there any green pillows or bridges?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are no green pillows or bridges in the image.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a leaves in the image",
+      "The leaves is green",
+      "There is a logo in the image",
+      "There is a car in the image",
+      "There is a chimney in the image",
+      "There is a roof in the image",
+      "There is a trees in the image",
+      "The trees is green",
+      "There is a sign in the image",
+      "There is a chimney in the image",
+      "There is a chimney in the image",
+      "There is a bridge in the image",
+      "The bridge is green",
+      "There is a sky in the image",
+      "There is a building in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The image has a filter applied, giving it a vintage look."
+    ]
+  },
+  {
+    "question_id": "15242425",
+    "question": "Of which color is the sky?",
+    "ground_truth": "dark",
+    "original_answer": "The image does not show the sky, so the color of the sky cannot be determined from this image.",
+    "corrected_answer": "Dark",
+    "gt_beliefs": [
+      "There is a sky in the image",
+      "The sky is dark",
+      "The sky is to the right of the window",
+      "The sky is to the right of the store",
+      "The sky is to the right of the doorway",
+      "The sky is to the right of the balcony",
+      "The sky is to the right of the pole",
+      "There is a coat in the image",
+      "There is a trash can in the image",
+      "There is a christmas lights in the image",
+      "There is a balcony in the image",
+      "The balcony is to the left of the sky",
+      "There is a fire hydrant in the image",
+      "There is a doorway in the image",
+      "The doorway is to the left of the sky"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The buildings have lights on.",
+      "The overall scene suggests it is nighttime."
+    ]
+  },
+  {
+    "question_id": "171034612",
+    "question": "Are there tablecloths or bowls?",
+    "ground_truth": "no",
+    "original_answer": "Yes, there are bowls in the image, specifically the compartments of the bento box.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a container in the image",
+      "There is a carrot in the image",
+      "There is a carrot in the image",
+      "There is a carrot in the image",
+      "There is a container in the image",
+      "There is a cauliflower in the image",
+      "There is a tomatoes in the image",
+      "There is a carrot in the image",
+      "There is a carrot in the image",
+      "There is a fruit in the image",
+      "The fruit is to the left of the table",
+      "There is a yogurt in the image",
+      "There is a candy in the image",
+      "The candy is to the left of the table",
+      "There is a container in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "There are grapes in another compartment.",
+      "There is a creamy substance in a separate compartment."
+    ]
+  },
+  {
+    "question_id": "17667821",
+    "question": "Who is holding the device that looks gray and silver?",
+    "ground_truth": "girl",
+    "original_answer": "The person in the image is holding the gray and silver device, which is a mobile phone.",
+    "corrected_answer": "The girl is holding the device that looks gray and silver.",
+    "gt_beliefs": [
+      "There is a phone in the image",
+      "The phone is gray",
+      "There is a hair in the image",
+      "There is a hand in the image",
+      "There is a skirt in the image",
+      "There is a girl in the image",
+      "There is a foot in the image",
+      "There is a sock in the image",
+      "There is a shirt in the image",
+      "There is a ground in the image",
+      "There is a mountain in the image",
+      "There is a tree in the image",
+      "There is a hill in the image",
+      "There is a beads in the image",
+      "There is a hand in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person has a patterned skirt with a mix of colors."
+    ]
+  },
+  {
+    "question_id": "13226655",
+    "question": "On which side of the image is the yellow vegetable?",
+    "ground_truth": "left",
+    "original_answer": "The yellow vegetable is on the right side of the image.",
+    "corrected_answer": "Left",
+    "gt_beliefs": [
+      "There is a rice in the image",
+      "There is a broccoli in the image",
+      "There is a salt in the image",
+      "The salt is on the table",
+      "There is a table in the image",
+      "There is a napkin in the image",
+      "There is a lemon in the image",
+      "The lemon is yellow",
+      "There is a glass in the image",
+      "The glass is on the table",
+      "There is a sauce in the image",
+      "There is a saucer in the image",
+      "There is a pepper in the image",
+      "There is a plate in the image",
+      "There is a paper in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There is a drink on the left side of the image."
+    ]
+  },
+  {
+    "question_id": "15978167",
+    "question": "What's the porch made of?",
+    "ground_truth": "brick",
+    "original_answer": "The porch is made of a combination of red and white tiles and concrete or a similar material.",
+    "corrected_answer": "brick",
+    "gt_beliefs": [
+      "There is a car in the image",
+      "There is a porch in the image",
+      "The porch is gray",
+      "The porch is brick",
+      "The porch is to the left of the road",
+      "The porch is to the left of the plants",
+      "The porch is to the left of the car",
+      "There is a floor in the image",
+      "There is a bus in the image",
+      "There is a car in the image",
+      "There is a car in the image",
+      "There is a ground in the image",
+      "There is a roof in the image",
+      "There is a pole in the image",
+      "There is a car in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The tiles are rectangular and arranged in a grid pattern."
+    ]
+  },
+  {
+    "question_id": "00706944",
+    "question": "Where is the man walking?",
+    "ground_truth": "sidewalk",
+    "original_answer": "The image does not provide enough information to determine where the man is walking.",
+    "corrected_answer": "The man is walking on the sidewalk.",
+    "gt_beliefs": [
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a tree in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a logo in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a sidewalk in the image",
+      "There is a street in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person's posture suggests movement."
+    ]
+  },
+  {
+    "question_id": "14144547",
+    "question": "What kind of vehicle is it?",
+    "ground_truth": "car",
+    "original_answer": "The vehicle is a police motorcycle.",
+    "corrected_answer": "Motorcycle",
+    "gt_beliefs": [
+      "There is a car in the image",
+      "There is a road in the image",
+      "There is a motorcycle in the image",
+      "There is a policeman in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The vehicle has two wheels.",
+      "There is a helmet on the rider's head."
+    ]
+  },
+  {
+    "question_id": "01385341",
+    "question": "What does the man hold onto?",
+    "ground_truth": "pole",
+    "original_answer": "The man holds onto the boom of the sail.",
+    "corrected_answer": "The man holds onto the pole.",
+    "gt_beliefs": [
+      "There is a man in the image",
+      "The man is holding onto the pole",
+      "There is a sky in the image",
+      "There is a jacket in the image",
+      "There is a arm in the image",
+      "There is a leg in the image",
+      "There is a leg in the image",
+      "There is a sail in the image",
+      "There is a pole in the image",
+      "There is a wetsuit in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The person is windsurfing.",
+      "The person's hands are gripping the boom."
+    ]
+  },
+  {
+    "question_id": "11196211",
+    "question": "What are the men to the left of the horse wearing?",
+    "ground_truth": "cowboy hat",
+    "original_answer": "The men to the left of the horse are wearing traditional clothing, including long coats and hats.",
+    "corrected_answer": "coat",
+    "gt_beliefs": [
+      "There is a man in the image",
+      "The man is to the left of the men",
+      "The man is to the left of the cowboy hat",
+      "There is a people in the image",
+      "The people is to the right of the men",
+      "The people is to the right of the cowboy hat",
+      "There is a stick in the image",
+      "There is a horse in the image",
+      "The horse is brown",
+      "The horse is to the left of the tail",
+      "The horse is to the left of the horses",
+      "The horse is to the right of the men",
+      "The horse is to the right of the coat",
+      "There is a head in the image",
+      "There is a cowboy hat in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "They have hats on their heads."
+    ]
+  },
+  {
+    "question_id": "19695032",
+    "question": "Which place is it?",
+    "ground_truth": "lake",
+    "original_answer": "This image appears to be taken in a wildlife park or a zoo.",
+    "corrected_answer": "Zoo",
+    "gt_beliefs": [
+      "There is a trunk in the image",
+      "There is a tree in the image",
+      "There is a tree in the image",
+      "There is a tree in the image",
+      "There is a tree in the image",
+      "There is a tree in the image",
+      "There is a tree in the image",
+      "There is a wall in the image",
+      "There is a sky in the image",
+      "There is a dirt in the image",
+      "There is a plants in the image",
+      "There is a grass in the image",
+      "There is a tail in the image",
+      "There is a rocks in the image",
+      "There is a dirt in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The landscape includes trees and shrubs."
+    ]
+  },
+  {
+    "question_id": "00296203",
+    "question": "What is the woman carrying?",
+    "ground_truth": "radio",
+    "original_answer": "The woman is carrying a piece of paper or a cloth.",
+    "corrected_answer": "The woman is carrying a bottle.",
+    "gt_beliefs": [
+      "There is a hand in the image",
+      "There is a elephant in the image",
+      "The elephant is to the left of the woman",
+      "There is a bottle in the image",
+      "There is a mouth in the image",
+      "There is a jacket in the image",
+      "There is a ear in the image",
+      "The ear is to the left of the woman",
+      "There is a hair in the image",
+      "There is a eye in the image",
+      "There is a antenna in the image",
+      "There is a fence in the image",
+      "There is a trunk in the image",
+      "There is a radio in the image",
+      "There is a fence in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "She has long hair."
+    ]
+  },
+  {
+    "question_id": "18437330",
+    "question": "What is sitting in the bowl?",
+    "ground_truth": "sauce",
+    "original_answer": "The bowl contains a yellowish liquid, likely syrup or honey.",
+    "corrected_answer": "Sauce",
+    "gt_beliefs": [
+      "There is a sauce in the image",
+      "The sauce is sitting in the bowl",
+      "There is a bowl in the image",
+      "The bowl is small",
+      "The bowl is glass",
+      "The bowl is half full",
+      "The bowl is to the right of the coffee cup",
+      "There is a plate in the image",
+      "There is a coffee cup in the image",
+      "The coffee cup is to the left of the bowl",
+      "There is a donut in the image",
+      "There is a donut in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The liquid appears to be syrupy."
+    ]
+  },
+  {
+    "question_id": "08728446",
+    "question": "What is the woman wearing?",
+    "ground_truth": "cap",
+    "original_answer": "The person in the image is wearing a white shirt, dark shorts, and white shoes.",
+    "corrected_answer": "The image does not contain any information about a woman. The only person present is a man who is playing tennis. Therefore, it is not possible to determine what the woman is wearing based on the given facts.",
+    "gt_beliefs": [
+      "There is a socks in the image",
+      "There is a sign in the image",
+      "There is a hat in the image",
+      "The hat is white",
+      "There is a man in the image",
+      "The man is holding the racket",
+      "The man is wearing the socks",
+      "The man is wearing the shirt",
+      "The man is wearing the shoes",
+      "The man is wearing the shorts",
+      "There is a shirt in the image",
+      "There is a shorts in the image",
+      "There is a sneakers in the image",
+      "There is a sneakers in the image",
+      "There is a man in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person has a headband on their head."
+    ]
+  },
+  {
+    "question_id": "03987139",
+    "question": "What is the appliance to the left of the person in the middle?",
+    "ground_truth": "refrigerator",
+    "original_answer": "The appliance to the left of the person in the middle is a microwave oven.",
+    "corrected_answer": "Fan",
+    "gt_beliefs": [
+      "There is a floor in the image",
+      "There is a sauce in the image",
+      "There is a tortilla in the image",
+      "There is a shelf in the image",
+      "There is a door in the image",
+      "There is a gloves in the image",
+      "There is a box in the image",
+      "There is a vegetables in the image",
+      "There is a head in the image",
+      "There is a fan in the image",
+      "There is a shirt in the image",
+      "There is a foot in the image",
+      "There is a refrigerator in the image",
+      "There is a bags in the image",
+      "There is a shoe in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "A refrigerator is to the right of the person."
+    ]
+  },
+  {
+    "question_id": "0449386",
+    "question": "What place is it?",
+    "ground_truth": "hangar",
+    "original_answer": "This is a museum or exhibition space dedicated to displaying aircraft, specifically the F-15 Eagle.",
+    "corrected_answer": "Hangar",
+    "gt_beliefs": [
+      "There is a cockpit in the image",
+      "There is a pipes in the image",
+      "There is a hangar in the image",
+      "There is a wings in the image",
+      "There is a camera in the image",
+      "There is a wheels in the image",
+      "There is a nose in the image",
+      "There is a number in the image",
+      "There is a airplane in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The aircraft is displayed indoors.",
+      "The environment has a high ceiling with structural beams."
+    ]
+  },
+  {
+    "question_id": "02447446",
+    "question": "Who is in the water?",
+    "ground_truth": "man",
+    "original_answer": "The person and the dog are in the water.",
+    "corrected_answer": "The man and the dog are in the water.",
+    "gt_beliefs": [
+      "There is a head in the image",
+      "There is a water in the image",
+      "The water is calm",
+      "There is a pole in the image",
+      "There is a boat in the image",
+      "There is a hand in the image",
+      "There is a sky in the image",
+      "There is a man in the image",
+      "The man is in the water",
+      "There is a boat in the image",
+      "The boat is on the water",
+      "There is a dog in the image",
+      "There is a cap in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person has a camera attached to their head."
+    ]
+  },
+  {
+    "question_id": "16464458",
+    "question": "What is the black item of furniture called?",
+    "ground_truth": "shelf",
+    "original_answer": "The black item of furniture is likely a television or a stereo system.",
+    "corrected_answer": "shelf",
+    "gt_beliefs": [
+      "There is a cat in the image",
+      "There is a toy in the image",
+      "There is a rug in the image",
+      "The rug is black",
+      "There is a nose in the image",
+      "There is a tail in the image",
+      "There is a flower in the image",
+      "There is a ear in the image",
+      "There is a eye in the image",
+      "There is a paw in the image",
+      "The paw is black",
+      "There is a shelf in the image",
+      "The shelf is black"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The furniture has a rectangular shape."
+    ]
+  },
+  {
+    "question_id": "00212582",
+    "question": "Of what color is the vehicle the pole is on the side of?",
+    "ground_truth": "green",
+    "original_answer": "The question cannot be answered because there is no pole visible in the image.",
+    "corrected_answer": "Green",
+    "gt_beliefs": [
+      "There is a sign in the image",
+      "The sign is to the left of the pole",
+      "There is a wheel in the image",
+      "There is a man in the image",
+      "There is a pipe in the image",
+      "There is a window in the image",
+      "There is a pipe in the image",
+      "There is a train in the image",
+      "There is a steps in the image",
+      "There is a hat in the image",
+      "The hat is blue",
+      "The hat is to the right of the steering wheel",
+      "There is a numbers in the image",
+      "There is a pole in the image",
+      "The pole is on the side of the train"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The vehicle appears to be a steam locomotive."
+    ]
+  },
+  {
+    "question_id": "13628221",
+    "question": "Who is in front of the wall?",
+    "ground_truth": "man",
+    "original_answer": "The tennis player is in front of the wall.",
+    "corrected_answer": "The person in the image is in front of the wall.",
+    "gt_beliefs": [
+      "There is a head in the image",
+      "The head is to the right of the wall",
+      "There is a racket in the image",
+      "The racket is to the right of the wall",
+      "There is a jacket in the image",
+      "The jacket is to the right of the wall",
+      "There is a shoe in the image",
+      "There is a wrist in the image",
+      "There is a sneakers in the image",
+      "There is a racket in the image",
+      "There is a hand in the image",
+      "The hand is to the right of the wall",
+      "There is a logo in the image",
+      "There is a letters in the image",
+      "The letters is to the right of the wall"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person is on a tennis court."
+    ]
+  },
+  {
+    "question_id": "07894112",
+    "question": "The boy is where?",
+    "ground_truth": "ground",
+    "original_answer": "The boy is on a beach.",
+    "corrected_answer": "The boy is on the beach.",
+    "gt_beliefs": [
+      "There is a grass in the image",
+      "There is a shorts in the image",
+      "There is a hair in the image",
+      "There is a sky in the image",
+      "There is a water in the image",
+      "There is a sand in the image",
+      "There is a people in the image",
+      "The people is to the right of the boy",
+      "There is a trees in the image",
+      "There is a frisbee in the image",
+      "There is a boy in the image",
+      "The boy is shirtless",
+      "The boy is jumping",
+      "The boy is wearing the shorts",
+      "The boy is at the ground"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The person is barefoot.",
+      "The person appears to be on a beach."
+    ]
+  },
+  {
+    "question_id": "03236221",
+    "question": "Where is the boy?",
+    "ground_truth": "floor",
+    "original_answer": "The boy is in the living room, standing among the other children as they play a video game.",
+    "corrected_answer": "The boy is near the couch and the wall.",
+    "gt_beliefs": [
+      "There is a shirt in the image",
+      "The shirt is to the left of the boy",
+      "There is a floor in the image",
+      "There is a girl in the image",
+      "The girl is near the boy",
+      "The girl is to the left of the boy",
+      "There is a boy in the image",
+      "The boy is standing",
+      "The boy is small",
+      "The boy is smiling",
+      "The boy is playing",
+      "The boy is young",
+      "The boy is happy",
+      "The boy is near the couch",
+      "The boy is near the wall"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "He appears to be engaged in a video game activity."
+    ]
+  },
+  {
+    "question_id": "11546518",
+    "question": "What is on the vehicle that is in the snow?",
+    "ground_truth": "ladder",
+    "original_answer": "The yellow vehicle (possibly a snowmobile) is on the vehicle (the truck) that is in the snow.",
+    "corrected_answer": "A crane arm.",
+    "gt_beliefs": [
+      "There is a ground in the image",
+      "There is a people in the image",
+      "There is a ladder in the image",
+      "There is a tire in the image",
+      "There is a tire in the image",
+      "There is a tree in the image",
+      "There is a tire in the image",
+      "There is a trees in the image",
+      "There is a helmet in the image",
+      "There is a snow in the image",
+      "The snow is on the roof",
+      "There is a roof in the image",
+      "The roof is covered in the snow",
+      "There is a man in the image",
+      "The man is standing in the snow"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The vehicle is a military-style truck."
+    ]
+  },
+  {
+    "question_id": "15340115",
+    "question": "Who is wearing a jacket?",
+    "ground_truth": "woman",
+    "original_answer": "The person in the image is wearing a jacket.",
+    "corrected_answer": "The person in the image is wearing a jacket.",
+    "gt_beliefs": [
+      "There is a grass in the image",
+      "There is a hair in the image",
+      "There is a field in the image",
+      "There is a label in the image",
+      "There is a pole in the image",
+      "There is a fence in the image",
+      "There is a jacket in the image",
+      "The jacket is to the right of the fingers",
+      "The jacket is to the right of the bottle",
+      "The jacket is to the left of the frisbee",
+      "The jacket is to the right of the label",
+      "There is a bottle in the image",
+      "The bottle is to the left of the jacket",
+      "There is a face in the image",
+      "There is a jeans in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The person has long hair.",
+      "The person is outdoors in a grassy area."
+    ]
+  },
+  {
+    "question_id": "02207917",
+    "question": "Who is holding the teddy bear?",
+    "ground_truth": "man",
+    "original_answer": "The person in the image is holding the teddy bear.",
+    "corrected_answer": "The man is holding the teddy bear.",
+    "gt_beliefs": [
+      "There is a mouth in the image",
+      "There is a man in the image",
+      "The man is holding the teddy bear",
+      "There is a eye in the image",
+      "There is a car in the image",
+      "There is a shirt in the image",
+      "The shirt is to the right of the teddy bear",
+      "There is a eyes in the image",
+      "There is a arm in the image",
+      "The arm is to the right of the teddy bear",
+      "There is a teddy bear in the image",
+      "The teddy bear is brown",
+      "The teddy bear is stuffed",
+      "The teddy bear is to the left of the shirt",
+      "The teddy bear is to the left of the arm"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The person has a beard.",
+      "The person is lying down."
+    ]
+  },
+  {
+    "question_id": "02921844",
+    "question": "What is the appliance to the right of him?",
+    "ground_truth": "microwave oven",
+    "original_answer": "The appliance to the right of him is a refrigerator.",
+    "corrected_answer": "Microwave oven",
+    "gt_beliefs": [
+      "There is a stove in the image",
+      "There is a hand in the image",
+      "There is a shelf in the image",
+      "There is a window in the image",
+      "There is a kitchen in the image",
+      "There is a arm in the image",
+      "There is a microwave oven in the image",
+      "There is a hair in the image",
+      "There is a leaves in the image",
+      "There is a plant in the image",
+      "There is a wall in the image",
+      "There is a refrigerator in the image",
+      "There is a shirt in the image",
+      "There is a container in the image",
+      "There is a noodles in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person is reaching towards the refrigerator door."
+    ]
+  },
+  {
+    "question_id": "05891651",
+    "question": "Is there a plate in this photo?",
+    "ground_truth": "yes",
+    "original_answer": "No, there is no plate in the photo.",
+    "corrected_answer": "Yes, there is a plate in this photo.",
+    "gt_beliefs": [
+      "There is a cucumber in the image",
+      "There is a cucumber in the image",
+      "There is a cucumber in the image",
+      "There is a cucumber in the image",
+      "There is a crust in the image",
+      "There is a woman in the image",
+      "There is a cucumber in the image",
+      "There is a cucumber in the image",
+      "There is a glasses in the image",
+      "There is a salad in the image",
+      "There is a cheese in the image",
+      "There is a peppers in the image",
+      "There is a shirt in the image",
+      "There is a chair in the image",
+      "There is a sweater in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The pizza has slices of zucchini on it."
+    ]
+  },
+  {
+    "question_id": "1173487",
+    "question": "Where is that tree?",
+    "ground_truth": "beach",
+    "original_answer": "There is no tree in the image.",
+    "corrected_answer": "On the beach",
+    "gt_beliefs": [
+      "There is a sea foam in the image",
+      "There is a cloud in the image",
+      "There is a tree in the image",
+      "The tree is on the beach",
+      "There is a sky in the image",
+      "There is a rocks in the image",
+      "There is a person in the image",
+      "There is a beach in the image",
+      "There is a water in the image",
+      "There is a person in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There is a kite in the sky."
+    ]
+  },
+  {
+    "question_id": "16275129",
+    "question": "Do you see any speaker there?",
+    "ground_truth": "yes",
+    "original_answer": "No, I do not see any speaker in the image.",
+    "corrected_answer": "Yes",
+    "gt_beliefs": [
+      "There is a chair in the image",
+      "The chair is to the right of the speaker",
+      "There is a hand in the image",
+      "There is a man in the image",
+      "The man is to the right of the speaker",
+      "There is a candle in the image",
+      "There is a belt in the image",
+      "There is a purse in the image",
+      "There is a coffee table in the image",
+      "There is a magazines in the image",
+      "There is a blinds in the image",
+      "There is a speaker in the image",
+      "The speaker is silver",
+      "The speaker is to the left of the ear",
+      "The speaker is to the left of the chair"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There is a television on the stand."
+    ]
+  },
+  {
+    "question_id": "05973184",
+    "question": "What food is it?",
+    "ground_truth": "biscuit",
+    "original_answer": "The food in the image includes oatmeal, bread, a banana, and a beverage (possibly coffee or tea).",
+    "corrected_answer": "Breakfast",
+    "gt_beliefs": [
+      "There is a biscuit in the image",
+      "There is a plate in the image",
+      "There is a banana in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 4,
+    "contradicted_claims": [
+      "The tray contains a bowl of cereal with milk.",
+      "A piece of bread is on the plate.",
+      "A cup of coffee is present on the tray.",
+      "A spoon is placed in the bowl of cereal."
+    ]
+  },
+  {
+    "question_id": "11207448",
+    "question": "What kind of furniture is the monitor on?",
+    "ground_truth": "shelf",
+    "original_answer": "The monitor is on a desk or table.",
+    "corrected_answer": "Table",
+    "gt_beliefs": [
+      "There is a light switch in the image",
+      "There is a curtains in the image",
+      "The curtains is to the right of the monitor",
+      "There is a laptop in the image",
+      "The laptop is on",
+      "There is a monitor in the image",
+      "The monitor is black",
+      "The monitor is on the shelf",
+      "The monitor is to the left of the curtains",
+      "The monitor is to the left of the vase",
+      "The monitor is to the left of the dresser",
+      "The monitor is on the table",
+      "The monitor is of the computer",
+      "There is a table in the image",
+      "There is a picture in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The surface appears to be part of a desk or table.",
+      "The surface is dark in color."
+    ]
+  },
+  {
+    "question_id": "09161921",
+    "question": "Are there helmets or snowboards?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are no helmets or snowboards in the image.",
+    "corrected_answer": "Snowboards",
+    "gt_beliefs": [
+      "There is a foot in the image",
+      "There is a water in the image",
+      "There is a man in the image",
+      "The man is on the snowboard",
+      "There is a sky in the image",
+      "There is a ocean in the image",
+      "There is a snowboard in the image",
+      "The snowboard is to the right of the wall",
+      "There is a trunks in the image",
+      "There is a wall in the image",
+      "The wall is to the left of the snowboard",
+      "There is a shirt in the image",
+      "There is a watch in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person is surfing on a wave."
+    ]
+  },
+  {
+    "question_id": "10926949",
+    "question": "What is the fruit that is to the right of the pink candle?",
+    "ground_truth": "grape",
+    "original_answer": "The fruit to the right of the pink candle is an orange slice.",
+    "corrected_answer": "Grape",
+    "gt_beliefs": [
+      "There is a grape in the image",
+      "The grape is to the right of the candle",
+      "There is a strawberry in the image",
+      "The strawberry is to the right of the candle",
+      "The strawberry is to the left of the candle",
+      "There is a strawberry in the image",
+      "There is a strawberry in the image",
+      "The strawberry is to the left of the candle",
+      "There is a strawberry in the image",
+      "The strawberry is to the right of the candle",
+      "The strawberry is to the left of the candle",
+      "There is a tray in the image",
+      "There is a strawberry in the image",
+      "There is a candle in the image",
+      "The candle is lit"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The cake has a variety of fruits on top."
+    ]
+  },
+  {
+    "question_id": "18704247",
+    "question": "What is the animal that is to the left of the monitor?",
+    "ground_truth": "bear",
+    "original_answer": "The animal to the left of the monitor is a stuffed animal or a similar object.",
+    "corrected_answer": "Bear",
+    "gt_beliefs": [
+      "There is a hat in the image",
+      "The hat is pointy",
+      "The hat is to the left of the monitor",
+      "There is a computer mouse in the image",
+      "There is a computer in the image",
+      "There is a book in the image",
+      "There is a people in the image",
+      "The people is to the left of the monitor",
+      "There is a drawer in the image",
+      "There is a paper in the image",
+      "There is a bear in the image",
+      "The bear is to the left of the monitor",
+      "The bear is wearing the hat",
+      "There is a picture in the image",
+      "The picture is to the left of the monitor"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "It appears to have a face with eyes and a nose."
+    ]
+  },
+  {
+    "question_id": "01284498",
+    "question": "What is the man to the right of the bus riding?",
+    "ground_truth": "bike",
+    "original_answer": "The man to the right of the bus is riding a bicycle.",
+    "corrected_answer": "A bicycle.",
+    "gt_beliefs": [
+      "There is a bus in the image",
+      "The bus is to the right of the people",
+      "The bus is to the left of the ground",
+      "The bus is to the right of the bag",
+      "The bus is to the left of the car",
+      "The bus is to the left of the man",
+      "The bus is to the right of the athlete",
+      "The bus is to the right of the people",
+      "The bus is to the left of the helmet",
+      "The bus is to the right of the street light",
+      "The bus is to the right of the street light",
+      "There is a athlete in the image",
+      "The athlete is to the left of the bus",
+      "The athlete is to the left of the man",
+      "There is a man in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The bicycle has two wheels."
+    ]
+  },
+  {
+    "question_id": "01259702",
+    "question": "What color is the helmet that the man is wearing?",
+    "ground_truth": "black",
+    "original_answer": "The helmet that the man is wearing is dark in color.",
+    "corrected_answer": "The helmet is black.",
+    "gt_beliefs": [
+      "There is a woman in the image",
+      "The woman is to the left of the man",
+      "The woman is to the left of the helmet",
+      "There is a woman in the image",
+      "The woman is to the left of the helmet",
+      "The woman is to the left of the man",
+      "The woman is to the left of the helmet",
+      "There is a pants in the image",
+      "The pants is to the left of the man",
+      "There is a jacket in the image",
+      "The jacket is to the left of the man",
+      "The jacket is to the left of the helmet",
+      "There is a helmet in the image",
+      "The helmet is black",
+      "The helmet is to the left of the tree"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There are four people in the image."
+    ]
+  },
+  {
+    "question_id": "161020577",
+    "question": "What kind of aircraft is flying?",
+    "ground_truth": "airplane",
+    "original_answer": "The aircraft flying in the image is a small, single-engine general aviation plane.",
+    "corrected_answer": "Single-engine light aircraft",
+    "gt_beliefs": [
+      "There is a airplane in the image",
+      "The airplane is flying",
+      "There is a number in the image",
+      "There is a tire in the image",
+      "There is a trees in the image",
+      "There is a pine tree in the image",
+      "There is a man in the image",
+      "There is a cockpit in the image",
+      "There is a tail in the image",
+      "There is a leaves in the image",
+      "There is a wheel in the image",
+      "There is a window in the image",
+      "There is a windshield in the image",
+      "There is a sky in the image",
+      "There is a propeller in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 5,
+    "contradicted_claims": [
+      "The aircraft has a single propeller.",
+      "The aircraft has a low-wing configuration.",
+      "The aircraft has a tailwheel landing gear.",
+      "The aircraft has a registration number \"N415CB\" on its side.",
+      "The aircraft appears to be a light aircraft, possibly a training plane."
+    ]
+  },
+  {
+    "question_id": "081032949",
+    "question": "The vehicle the poster is inside of is what color?",
+    "ground_truth": "gray",
+    "original_answer": "The vehicle the poster is inside of is primarily white or silver.",
+    "corrected_answer": "The vehicle the poster is inside of is white.",
+    "gt_beliefs": [
+      "There is a train in the image",
+      "There is a window in the image",
+      "The window is to the right of the poster",
+      "There is a door in the image",
+      "There is a phone in the image",
+      "There is a man in the image",
+      "There is a jeans in the image",
+      "There is a chair in the image",
+      "There is a ground in the image",
+      "There is a woman in the image",
+      "There is a sign in the image",
+      "There is a hair in the image",
+      "There is a american flag in the image",
+      "There is a legs in the image",
+      "There is a shoe in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The vehicle has a silver exterior."
+    ]
+  },
+  {
+    "question_id": "1583422",
+    "question": "Where is the woman standing?",
+    "ground_truth": "hallway",
+    "original_answer": "The woman is standing on an upper level of a modern indoor building, likely an office or commercial space.",
+    "corrected_answer": "In the hallway.",
+    "gt_beliefs": [
+      "There is a legs in the image",
+      "There is a hallway in the image",
+      "There is a woman in the image",
+      "The woman is to the right of the phone",
+      "The woman is standing in the hallway",
+      "The woman is to the left of the people",
+      "The woman is to the left of the person",
+      "The woman is to the right of the hair",
+      "The woman is to the right of the finger",
+      "The woman is to the right of the finger",
+      "The woman is to the right of the person",
+      "The woman is to the right of the hand",
+      "The woman is to the right of the head",
+      "There is a head in the image",
+      "The head is to the left of the woman"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "She has long hair."
+    ]
+  },
+  {
+    "question_id": "1260165",
+    "question": "Are there any remote controls in this image?",
+    "ground_truth": "yes",
+    "original_answer": "No, there are no remote controls in this image.",
+    "corrected_answer": "Yes",
+    "gt_beliefs": [
+      "There is a television in the image",
+      "The television is to the left of the remote control",
+      "There is a table in the image",
+      "There is a remote control in the image",
+      "The remote control is to the right of the man",
+      "The remote control is to the left of the guy",
+      "The remote control is to the right of the man",
+      "The remote control is to the left of the shirt",
+      "There is a guy in the image",
+      "The guy is holding the remote control",
+      "The guy is to the right of the remote control",
+      "The guy is to the left of the remote control",
+      "The guy is to the right of the remote control",
+      "There is a guy in the image",
+      "The guy is to the right of the remote control"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The setting looks like a conference room with tables and chairs.",
+      "The individuals are actively moving their arms, suggesting they are interacting with the game."
+    ]
+  },
+  {
+    "question_id": "01274973",
+    "question": "What kind of drink is pictured?",
+    "ground_truth": "milk",
+    "original_answer": "The image does not picture a drink; it shows a bowl of cereal.",
+    "corrected_answer": "Milk",
+    "gt_beliefs": [
+      "There is a milk in the image",
+      "There is a bowl in the image",
+      "There is a remote control in the image",
+      "There is a cell phone in the image",
+      "There is a book in the image",
+      "There is a table in the image",
+      "There is a antenna in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There is a spoon in the bowl."
+    ]
+  },
+  {
+    "question_id": "03715855",
+    "question": "Is the bench on the right side of the picture?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the bench is on the right side of the picture.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a sky in the image",
+      "There is a head in the image",
+      "There is a glass in the image",
+      "There is a bench in the image",
+      "The bench is wood",
+      "The bench is to the left of the jeans",
+      "The bench is to the left of the man",
+      "The bench is to the left of the table",
+      "There is a jeans in the image",
+      "The jeans is to the right of the bench",
+      "There is a man in the image",
+      "The man is to the right of the bench",
+      "The man is on the bench",
+      "There is a woman in the image",
+      "The woman is on the bench"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The person on the right is leaning towards the bench."
+    ]
+  },
+  {
+    "question_id": "08134901",
+    "question": "What is on the appliance to the right of the container?",
+    "ground_truth": "chicken",
+    "original_answer": "The appliance to the right of the container is a stove.",
+    "corrected_answer": "Stove",
+    "gt_beliefs": [
+      "There is a tongs in the image",
+      "There is a food in the image",
+      "There is a cabbage in the image",
+      "There is a utensils in the image",
+      "There is a salt shaker in the image",
+      "The salt shaker is to the left of the container",
+      "There is a stove in the image",
+      "The stove is to the right of the container",
+      "There is a plate in the image",
+      "There is a countertop in the image",
+      "There is a plate in the image",
+      "There is a chicken in the image",
+      "There is a carrots in the image",
+      "There is a pot in the image",
+      "There is a container in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The container is brown and cylindrical."
+    ]
+  },
+  {
+    "question_id": "03633085",
+    "question": "What device is it?",
+    "ground_truth": "remote control",
+    "original_answer": "The device is a remote control.",
+    "corrected_answer": "Remote control",
+    "gt_beliefs": [
+      "There is a flower in the image",
+      "There is a mouth in the image",
+      "There is a ear in the image",
+      "There is a paw in the image",
+      "There is a collar in the image",
+      "There is a nose in the image",
+      "There is a paw in the image",
+      "There is a eye in the image",
+      "There is a eye in the image",
+      "There is a dog in the image",
+      "There is a couch in the image",
+      "There is a ear in the image",
+      "There is a pillow in the image",
+      "There is a remote control in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 4,
+    "contradicted_claims": [
+      "The object has a rectangular shape.",
+      "It has multiple buttons on its surface.",
+      "It is placed on a couch.",
+      "It resembles a remote control."
+    ]
+  },
+  {
+    "question_id": "01601562",
+    "question": "Is the purple towel to the left of a toilet?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the purple towel is to the left of the toilet.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a floor in the image",
+      "There is a shower in the image",
+      "The shower is next to the toilet",
+      "There is a door in the image",
+      "There is a wall in the image",
+      "There is a seat in the image",
+      "The seat is to the left of the towel",
+      "The seat is to the left of the towel",
+      "There is a trash can in the image",
+      "The trash can is next to the toilet",
+      "The trash can is to the right of the toilet",
+      "The trash can is to the left of the towel",
+      "There is a roll in the image",
+      "The roll is to the left of the toilet",
+      "There is a counter in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The purple towel is positioned to the left of the toilet."
+    ]
+  },
+  {
+    "question_id": "1887740",
+    "question": "What place is shown?",
+    "ground_truth": "pavement",
+    "original_answer": "The image shows a road intersection in an urban or suburban area.",
+    "corrected_answer": "Intersection",
+    "gt_beliefs": [
+      "There is a traffic light in the image",
+      "There is a sign in the image",
+      "There is a roof in the image",
+      "There is a letters in the image",
+      "There is a leaves in the image",
+      "There is a trunk in the image",
+      "There is a window in the image",
+      "There is a air in the image",
+      "There is a wires in the image",
+      "There is a sidewalk in the image",
+      "There is a traffic light in the image",
+      "There is a tree in the image",
+      "There is a pole in the image",
+      "There is a sign in the image",
+      "There is a sign in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The road has clear lane markings."
+    ]
+  },
+  {
+    "question_id": "11207726",
+    "question": "Is the computer to the left of a dresser?",
+    "ground_truth": "yes",
+    "original_answer": "No, the computer is not to the left of a dresser; it is in front of it.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a light switch in the image",
+      "There is a curtains in the image",
+      "The curtains is to the left of the dresser",
+      "There is a laptop in the image",
+      "The laptop is to the right of the computer",
+      "There is a monitor in the image",
+      "The monitor is to the left of the dresser",
+      "The monitor is of the computer",
+      "There is a table in the image",
+      "The table is to the left of the dresser",
+      "There is a picture in the image",
+      "There is a table in the image",
+      "There is a window in the image",
+      "The window is to the right of the dresser",
+      "There is a bag in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The computer is positioned to the right of the dresser."
+    ]
+  },
+  {
+    "question_id": "15880558",
+    "question": "How clean are the windows on the side of the train?",
+    "ground_truth": "tinted",
+    "original_answer": "The windows on the side of the train are not clean.",
+    "corrected_answer": "Tinted",
+    "gt_beliefs": [
+      "There is a windows in the image",
+      "The windows is tinted",
+      "The windows is to the left of the painting",
+      "The windows is to the left of the window",
+      "The windows is on the side of the train",
+      "The windows is to the left of the door",
+      "There is a numbers in the image",
+      "There is a sign in the image",
+      "The sign is to the right of the train",
+      "There is a door in the image",
+      "The door is to the right of the windows",
+      "The door is to the left of the window",
+      "There is a building in the image",
+      "The building is to the right of the train",
+      "The building is to the right of the window"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The train's windows have visible streaks of snow.",
+      "The snow appears to be accumulating on the windows."
+    ]
+  },
+  {
+    "question_id": "05141840",
+    "question": "Does the sky look cloudy and blue?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the sky looks clear and blue.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a pasture in the image",
+      "There is a sky in the image",
+      "The sky is blue",
+      "The sky is clear",
+      "There is a rocks in the image",
+      "There is a lake in the image",
+      "The lake is blue",
+      "There is a grass in the image",
+      "There is a plants in the image",
+      "There is a rock in the image",
+      "There is a cows in the image",
+      "There is a hills in the image",
+      "There is a pine trees in the image",
+      "There is a shore in the image",
+      "There is a road in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The horizon line is distinct and straight."
+    ]
+  },
+  {
+    "question_id": "14470764",
+    "question": "Who is wearing the tie?",
+    "ground_truth": "guy",
+    "original_answer": "The person on the left is wearing the tie.",
+    "corrected_answer": "The guy is wearing the tie.",
+    "gt_beliefs": [
+      "There is a keyboard in the image",
+      "There is a tree in the image",
+      "There is a tie in the image",
+      "There is a girl in the image",
+      "There is a jacket in the image",
+      "There is a girl in the image",
+      "There is a leaves in the image",
+      "There is a keyboard in the image",
+      "There is a guy in the image",
+      "The guy is wearing the tie",
+      "There is a laptop in the image",
+      "There is a logo in the image",
+      "There is a cell phones in the image",
+      "There is a hands in the image",
+      "There is a hair in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The person on the right is using a laptop.",
+      "The person in the middle has long hair."
+    ]
+  },
+  {
+    "question_id": "15519571",
+    "question": "Who is in the sky?",
+    "ground_truth": "man",
+    "original_answer": "The skier is in the sky.",
+    "corrected_answer": "A man is in the sky.",
+    "gt_beliefs": [
+      "There is a man in the image",
+      "The man is in the sky",
+      "There is a sky in the image",
+      "The sky is blue",
+      "There is a cloud in the image",
+      "There is a shirt in the image",
+      "There is a helmet in the image",
+      "There is a pants in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The person is performing a ski jump.",
+      "The person is airborne with skis attached to their boots."
+    ]
+  },
+  {
+    "question_id": "07540985",
+    "question": "Which place is it?",
+    "ground_truth": "restaurant",
+    "original_answer": "This appears to be a social event or gathering held in a venue with a swimming pool, such as a hotel or resort.",
+    "corrected_answer": "Restaurant",
+    "gt_beliefs": [
+      "There is a water bottle in the image",
+      "There is a flower in the image",
+      "There is a chair in the image",
+      "There is a swimming pool in the image",
+      "There is a can in the image",
+      "There is a waiter in the image",
+      "There is a necklace in the image",
+      "There is a chair in the image",
+      "There is a shirt in the image",
+      "There is a people in the image",
+      "There is a doors in the image",
+      "There is a table in the image",
+      "There is a restaurant in the image",
+      "There is a pants in the image",
+      "There is a sneakers in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The overall atmosphere suggests a restaurant or dining hall."
+    ]
+  },
+  {
+    "question_id": "09407119",
+    "question": "Does the pole have a different color than the hat?",
+    "ground_truth": "yes",
+    "original_answer": "No, the pole does not have a different color than the hat. The pole is red with white stripes, while the hat is solid red.",
+    "corrected_answer": "Yes",
+    "gt_beliefs": [
+      "There is a hat in the image",
+      "The hat is red",
+      "The hat is to the left of the window",
+      "There is a pants in the image",
+      "There is a goggles in the image",
+      "There is a person in the image",
+      "There is a jacket in the image",
+      "There is a pole in the image",
+      "The pole is white",
+      "There is a window in the image",
+      "There is a window in the image",
+      "There is a building in the image",
+      "There is a window in the image",
+      "There is a window in the image",
+      "The window is to the right of the hat"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 2,
+    "contradicted_claims": [
+      "The snowboarder is performing a jump.",
+      "The snowboarder is illuminated by a light source."
+    ]
+  },
+  {
+    "question_id": "13275255",
+    "question": "What is on the plate that is to the left of the beverage?",
+    "ground_truth": "knife",
+    "original_answer": "The plate to the left of the beverage contains some food remnants.",
+    "corrected_answer": "Food",
+    "gt_beliefs": [
+      "There is a plate in the image",
+      "The plate is white",
+      "The plate is dirty",
+      "The plate is to the right of the plate",
+      "The plate is on the table",
+      "There is a girl in the image",
+      "The girl is to the right of the plate",
+      "The girl is to the right of the plate",
+      "There is a woman in the image",
+      "The woman is to the left of the plate",
+      "There is a head in the image",
+      "There is a head in the image",
+      "There is a fingers in the image",
+      "There is a arm in the image",
+      "There is a leg in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The plate to the left of the beverage contains a piece of bread."
+    ]
+  },
+  {
+    "question_id": "05720322",
+    "question": "Which kind of device is on the table?",
+    "ground_truth": "television",
+    "original_answer": "The device on the table is a DVD player.",
+    "corrected_answer": "Player",
+    "gt_beliefs": [
+      "There is a wall in the image",
+      "There is a player in the image",
+      "The player is on the table",
+      "There is a cat in the image",
+      "There is a table in the image",
+      "The table is wood",
+      "There is a television in the image",
+      "The television is on the table",
+      "There is a remote control in the image",
+      "There is a bear in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The television has a brand name \"AQUOS\" visible on its side."
+    ]
+  },
+  {
+    "question_id": "19388759",
+    "question": "What is in the container?",
+    "ground_truth": "cabbage",
+    "original_answer": "The container in question likely contains a stir-fried dish, as indicated by the red plate on top.",
+    "corrected_answer": "Salad",
+    "gt_beliefs": [
+      "There is a shirt in the image",
+      "There is a bowl in the image",
+      "There is a bowl in the image",
+      "There is a words in the image",
+      "There is a chicken in the image",
+      "There is a kettle in the image",
+      "The kettle is to the left of the container",
+      "There is a onions in the image",
+      "There is a beans in the image",
+      "There is a tray in the image",
+      "There is a bowls in the image",
+      "There is a carrots in the image",
+      "There is a scissors in the image",
+      "There is a napkin in the image",
+      "There is a salad in the image"
+    ],
+    "flipped_to_correct": false,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "There is food inside the container."
+    ]
+  },
+  {
+    "question_id": "02620369",
+    "question": "Do the shorts have a different color than the trunks?",
+    "ground_truth": "no",
+    "original_answer": "Yes, the shorts have a different color than the trunks.",
+    "corrected_answer": "No",
+    "gt_beliefs": [
+      "There is a head in the image",
+      "There is a surfer in the image",
+      "There is a hair in the image",
+      "There is a man in the image",
+      "The man is with the shorts",
+      "There is a trunks in the image",
+      "The trunks is red",
+      "The trunks is to the right of the surfboard",
+      "There is a surfboard in the image",
+      "The surfboard is to the left of the trunks",
+      "The surfboard is to the left of the shorts",
+      "There is a shorts in the image",
+      "The shorts is red",
+      "The shorts is to the right of the surfboard",
+      "There is a water in the image"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The trunks are blue."
+    ]
+  },
+  {
+    "question_id": "162519",
+    "question": "What animal are the trees behind of, an elephant or a horse?",
+    "ground_truth": "horse",
+    "original_answer": "The trees are behind a donkey.",
+    "corrected_answer": "horse",
+    "gt_beliefs": [
+      "There is a horse in the image",
+      "The horse is standing",
+      "The horse is brown",
+      "The horse is in front of the trees",
+      "The horse is near the man",
+      "There is a man in the image",
+      "The man is in front of the trees",
+      "The man is near the horse",
+      "The man is with the horse",
+      "The man is wearing the hat",
+      "The man is holding the horse",
+      "There is a trees in the image",
+      "The trees is lush",
+      "The trees is behind the man",
+      "The trees is behind the horse"
+    ],
+    "flipped_to_correct": true,
+    "n_contradicted_claims": 1,
+    "contradicted_claims": [
+      "The donkey has a harness and a saddlebag."
+    ]
+  }
+]

@@ -1,0 +1,2055 @@
+[
+  {
+    "question_id": "0167377",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There are multiple motorcycles parked in the foreground."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There are multiple motorcycles parked in the foreground."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The scene appears to be a night market with shops in the background."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "09982030",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There are carrots visible in the pot."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There are carrots visible in the pot."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There are carrots visible in the pot."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "07598996",
+    "n_removed": 3,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There are three giraffes in the image.",
+          "The giraffe to the right of the black container has a lighter pattern on its neck.",
+          "The giraffe to the right of the black container is the smallest."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The giraffe to the right of the black container is closest to the brick wall.",
+          "There are three giraffes in the image.",
+          "The giraffe to the right of the black container has a lighter pattern on its neck."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There are three giraffes in the image.",
+          "The black container is hanging from the ceiling.",
+          "The giraffe to the right of the black container has a lighter pattern on its neck."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "03262245",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The individuals are wearing helmets."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The individuals are wearing helmets."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The individuals are wearing red jackets with white crosses."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "17596714",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.3333333333333333,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The elevated track is supported by concrete pillars."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a curved section of railway track in the foreground."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The elevated track is supported by concrete pillars."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "06564130",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.3333333333333333,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person's hand is gripping the device firmly.",
+          "The device has a metallic finish."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person's hand is gripping the device firmly.",
+          "The device appears to be a flip phone."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is holding a device to their ear.",
+          "The device has a metallic finish."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "19104279",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The setting appears to be a tennis court."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "She is wearing a white tennis outfit."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "She is wearing a white tennis outfit."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03581765",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The scooters have visible license plates."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The scooters have visible license plates."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The scooters are of similar size and design."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "10259915",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The sidewalk appears wet."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The sidewalk appears wet."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The water reflects the surrounding environment."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "09964815",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The time displayed on the oven is 10:43."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The oven has a control panel with knobs."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The oven has a control panel with knobs."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "05755315",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The train is on a track."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The sky is overcast."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The image has a filter applied, giving it a vintage look."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15242425",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The sky appears dark.",
+          "The buildings have lights on."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The overall scene suggests it is nighttime.",
+          "The sky appears dark."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The buildings have lights on.",
+          "The sky appears dark."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "171034612",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The container is placed on a wooden surface.",
+          "There are grapes in another compartment."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The container is placed on a wooden surface.",
+          "There are grapes in another compartment."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The container is placed on a wooden surface.",
+          "There are tomatoes in one compartment."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "17667821",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is wearing a black tank top."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person is wearing a black tank top."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person has a patterned skirt with a mix of colors."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "13226655",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The broccoli is on the right side of the plate."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The plate with food is in the center of the image."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is a drink on the left side of the image."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15978167",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The porch has a tiled surface."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a small patch of green grass growing near the edge of the porch."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The tiles are primarily red and white in color."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "00706944",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.6666666666666666,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person's posture suggests movement."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person is positioned between two parked cars."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person appears to be walking on the sidewalk."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "14144547",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a helmet on the rider's head.",
+          "The rider is wearing a reflective vest."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "It has a police emblem on the back.",
+          "There is a helmet on the rider's head."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The vehicle has two wheels.",
+          "It has a police emblem on the back."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "01385341",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person's hands are gripping the boom.",
+          "The sail is blue with white stripes."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The sail is blue with white stripes.",
+          "The sail is attached to the boom."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The sail is attached to the boom.",
+          "The person is holding onto the boom of the sail."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11196211",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The men are riding horses."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "They have hats on their heads."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "One man is wearing a red garment."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "19695032",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is an elephant near a body of water."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The landscape includes trees and shrubs."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is an elephant near a body of water."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "00296203",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "She is holding something in her right hand."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a white object in her hand."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "She is holding something in her right hand."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "18437330",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The bowl is transparent."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a yellowish liquid in the bowl."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The donuts are golden brown and sugared."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "08728446",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is wearing white shoes."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person is wearing dark shorts."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is holding a tennis racket."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03987139",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.6666666666666666,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "A trash can is to the left of the person."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "A trash can is to the left of the person."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is a yellow wall behind the person."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "0449386",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The environment has a high ceiling with structural beams.",
+          "There are multiple aircraft in the background."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There are multiple aircraft in the background.",
+          "The environment has a high ceiling with structural beams."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is a sign with the number \"105\" on the aircraft.",
+          "The aircraft has a military design."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02447446",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The water appears calm with minimal ripples."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "A dog is sitting on the paddleboard with the person."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person has a camera attached to their head."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "16464458",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The furniture has a wooden base."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The furniture has a wooden base."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The furniture has a rectangular shape."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "00212582",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There are pipes and mechanical components visible on the side of the vehicle."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The vehicle has a green body."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The vehicle has a green body."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "13628221",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is wearing a purple shirt."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person is holding a tennis racket."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is holding a tennis racket."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "07894112",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person appears to be on a beach.",
+          "There is water visible in the distance."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The background shows a clear blue sky.",
+          "The ground is sandy with some patches of seaweed."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is wearing white shorts.",
+          "The background shows a clear blue sky."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03236221",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There are other children around him."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "He appears to be engaged in a video game activity."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There are other children around him."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11546518",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "Two individuals are standing near the truck."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The truck is parked on a snowy road."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "Two individuals are standing near the truck."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15340115",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is holding a bottle.",
+          "The person is outdoors in a grassy area."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person is outdoors in a grassy area.",
+          "The person is wearing sunglasses."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is wearing sunglasses.",
+          "The person is holding a bottle."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02207917",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is lying down.",
+          "The person is holding a brown object."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person has a beard.",
+          "The person is holding a brown object."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is wearing a blue shirt.",
+          "The person is lying down."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02921844",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is reaching towards the refrigerator door."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There are two large metal pots on the stove."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is reaching towards the refrigerator door."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05891651",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a large pizza on a metal tray."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a bowl of salad with strawberries on the table."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "People are seated around the table eating."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1173487",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a green object on the right side of the image."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The sky is partly cloudy."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The sky is partly cloudy."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "16275129",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The room has a wooden floor."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The people are holding white controllers."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The wall has a colorful abstract design."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05973184",
+    "n_removed": 4,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "A spoon is placed in the bowl of cereal.",
+          "The tray contains a bowl of cereal with milk.",
+          "A piece of bread is on the plate.",
+          "There is a banana on the plate."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "A cup of coffee is present on the tray.",
+          "The tray contains a bowl of cereal with milk.",
+          "A spoon is placed in the bowl of cereal.",
+          "There is a banana on the plate."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "A piece of bread is on the plate.",
+          "There is a banana on the plate.",
+          "The tray contains a bowl of cereal with milk.",
+          "A spoon is placed in the bowl of cereal."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11207448",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The surface is dark in color.",
+          "The monitor is placed on a flat surface."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The monitor is placed on a flat surface.",
+          "The wicker basket has a woven texture."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The monitor is placed on a flat surface.",
+          "There is a wicker basket underneath the monitor."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "09161921",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is wearing a blue shirt."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The water is greenish-blue."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is holding onto the surfboard with both hands."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "10926949",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The cake has a variety of fruits on top."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a pink candle in the center of the cake."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The orange slice is located on the right side of the pink candle."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "18704247",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.6666666666666666,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The stuffed animal is positioned behind a keyboard."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "It appears to have a face with eyes and a nose."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "To the left of the monitor, there is a stuffed animal resembling a bear."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "01284498",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The bus is stopped at a traffic light."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "He is riding a bicycle."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The bicycle has two wheels."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "01259702",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person third from the left is wearing a white jacket."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The person second from the left is wearing a pink jacket."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person third from the left is wearing a white jacket."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "161020577",
+    "n_removed": 5,
+    "n_trials": 3,
+    "flip_rate": 0.6666666666666666,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The aircraft has a registration number \"N415CB\" on its side.",
+          "The aircraft has a metallic fuselage.",
+          "The aircraft has a single propeller.",
+          "The aircraft appears to be a light aircraft, possibly a training plane.",
+          "The aircraft has a tailwheel landing gear."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The aircraft has a single propeller.",
+          "The aircraft has a tailwheel landing gear.",
+          "The aircraft appears to be a light aircraft, possibly a training plane.",
+          "The aircraft has a registration number \"N415CB\" on its side.",
+          "The aircraft has a metallic fuselage."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The aircraft has a registration number \"N415CB\" on its side.",
+          "The aircraft has a low-wing configuration.",
+          "The aircraft has a single propeller.",
+          "The aircraft has a metallic fuselage.",
+          "The aircraft has a tailwheel landing gear."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "081032949",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a blue stripe running horizontally along the side of the vehicle."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The vehicle has a silver exterior."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The vehicle has a silver exterior."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1583422",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "She is holding a phone to her ear."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The woman is wearing a beige sweater."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The background shows an indoor setting with people and a staircase."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1260165",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.6666666666666666,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a television screen mounted on the wall.",
+          "The people are holding objects that resemble Wii controllers."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The setting looks like a conference room with tables and chairs.",
+          "There is a television screen mounted on the wall."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The individuals are actively moving their arms, suggesting they are interacting with the game.",
+          "There is a television screen mounted on the wall."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "01274973",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a phone partially visible in the background."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a phone partially visible in the background."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The background includes a book titled \"Falling Out\"."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "03715855",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person on the right is leaning towards the bench."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The bench is positioned behind the people."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The bench is positioned behind the people."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "08134901",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is food in the pot."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The pot is on the stove."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The pot is on the stove."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "03633085",
+    "n_removed": 4,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The object is gray in color.",
+          "It is placed on a couch.",
+          "It has multiple buttons on its surface.",
+          "It resembles a remote control."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The object is gray in color.",
+          "The object has a rectangular shape.",
+          "It is placed on a couch.",
+          "It resembles a remote control."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The object has a rectangular shape.",
+          "The object is gray in color.",
+          "It is placed on a couch.",
+          "It has multiple buttons on its surface."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "01601562",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The toilet is white and located in the center of the image."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There is a purple towel on the left side of the image, near the sink."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is a purple towel on the left side of the image, near the sink."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "1887740",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a pedestrian crossing sign below the traffic light."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The road has clear lane markings."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There are trees with autumn-colored leaves."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "11207726",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is a piece of furniture behind the computer that appears to be a dresser."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The computer is positioned to the right of the dresser."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is a piece of furniture behind the computer that appears to be a dresser."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15880558",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The windows are partially obscured by the snow.",
+          "There are no clear areas of the window that are free from snow."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The snow appears to be accumulating on the windows.",
+          "The train's windows have visible streaks of snow."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There are no clear areas of the window that are free from snow.",
+          "The train's windows have visible streaks of snow."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05141840",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The sky appears clear."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The lighting suggests a sunny day with no overcast conditions."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The sky appears clear."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "14470764",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person on the far left is wearing a tie.",
+          "The tie is red."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The tie is red.",
+          "The person on the right is using a laptop."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person on the right is using a laptop.",
+          "The person on the right has glasses."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "15519571",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The person is wearing purple pants.",
+          "The background is a clear blue sky."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The background is a clear blue sky.",
+          "The person is wearing a helmet."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The person is performing a ski jump.",
+          "The person is wearing purple pants."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "07540985",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There are people seated around tables with food and drinks."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "There are decorative elements like flowers hanging from the ceiling."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The tables have white tablecloths and are set for a meal."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "09407119",
+    "n_removed": 2,
+    "n_trials": 3,
+    "flip_rate": 1.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The snowboarder is performing a jump.",
+          "The snowboarder's jacket is light blue."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The snowboarder is performing a jump.",
+          "The snowboarder is illuminated by a light source."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The pole has a red and white striped pattern.",
+          "The snowboarder is illuminated by a light source."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "13275255",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The plate to the left of the beverage contains a piece of bread."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The beverage is a red bottle located near the center of the table."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is a plate with food remnants on the table."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "05720322",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.6666666666666666,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The DVD player is placed in front of the television."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The DVD player is placed in front of the television."
+        ],
+        "flipped_to_correct": true
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "There is a television on the table."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "19388759",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "There is food inside the container."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The container is metallic."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The container is metallic."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "02620369",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.0,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The shorts are worn by the person in the foreground."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The trunks have a pattern."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The shorts are worn by the person in the foreground."
+        ],
+        "flipped_to_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "162519",
+    "n_removed": 1,
+    "n_trials": 3,
+    "flip_rate": 0.3333333333333333,
+    "trial_results": [
+      {
+        "trial": 0,
+        "removed": [
+          "The background consists of dense green foliage."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 1,
+        "removed": [
+          "The donkey has a harness and a saddlebag."
+        ],
+        "flipped_to_correct": false
+      },
+      {
+        "trial": 2,
+        "removed": [
+          "The animal in the foreground is a donkey."
+        ],
+        "flipped_to_correct": true
+      }
+    ]
+  }
+]
