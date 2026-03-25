@@ -1,0 +1,18 @@
+experiment:
+  name: phase1_qwen_gqa_full
+  description: Full Phase 1 pipeline with Qwen2.5-VL on GQA
+
+pipeline:
+  steps:
+    - download
+    - setup
+    - experiment1
+    - analyze
+    - experiment2
+    - experiment4
+    - random_ablation
+
+runtime:
+  notes:
+    - Ensure conda env has transformers, torch, datasets, qwen-vl-utils
+    - Ensure GPU memory availability before experiment1

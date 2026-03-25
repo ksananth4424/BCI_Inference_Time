@@ -14,9 +14,9 @@ from pathlib import Path
 
 from PIL import Image
 
-from config import RANDOM_SEED, RESULTS_DIR
-from data_loader import scene_graph_to_facts
-from vlm_inference import VLMInference, CONSTRAINED_REASONING_PROMPT
+from bci.config import RANDOM_SEED, RESULTS_DIR
+from bci.data.data_loader import scene_graph_to_facts
+from bci.models.vlm_inference import VLMInference, CONSTRAINED_REASONING_PROMPT
 
 
 def generate_ground_truth_beliefs(scene_graph: dict, question: str) -> list[str]:
@@ -107,7 +107,7 @@ def run_premise_correction(
             image, item["question"], gt_beliefs
         )
 
-        from error_classification import answers_match
+        from bci.analysis.error_classification import answers_match
 
         corrected_answer = corrected.get("answer", "")
         flipped = answers_match(corrected_answer, item["ground_truth"])
@@ -180,7 +180,7 @@ def run_belief_minimality(
         if not all_beliefs or not contradicted:
             continue
 
-        from error_classification import answers_match
+        from bci.analysis.error_classification import answers_match
 
         # Try removing one contradicted belief at a time
         removal_results = []
@@ -242,7 +242,7 @@ def run_random_ablation(
     output_path = output_path or RESULTS_DIR / "experiment_random_ablation.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    from error_classification import answers_match
+    from bci.analysis.error_classification import answers_match
 
     results = []
 

@@ -10,7 +10,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-from config import FIGURES_DIR, RESULTS_DIR
+from bci.config import FIGURES_DIR, RESULTS_DIR
 
 
 def plot_error_breakdown(breakdown: dict, save_path: Path | None = None) -> None:
