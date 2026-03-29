@@ -1,0 +1,78 @@
+# Phase 2, Experiment 10: Verifier Audit (Precision/Recall by Claim Type)
+#
+# Audit verifier reliability on GQA baseline inference outputs.
+# Measure precision/recall per claim type to validate verifier as research instrument.
+#
+# Config Version: 1.0
+# Date: 2026-03-29
+
+experiment:
+  id: "E10_gqa_verifier_audit"
+  description: "Audit verifier precision/recall (clean + noise robustness)"
+  evidence_for: "Verifier transparency: establish credibility for causal claims"
+  paper_section: "Appendix: Verifier Reliability Matrix"
+
+dataset:
+  name: "gqa"
+  split: "val_balanced"
+  n_samples: 500
+  random_seed: 42
+  scene_graph_version: "latest"
+
+audit:
+  verifier_profile: "balanced"
+  metrics:
+    - "detection_rate_per_type"      # % of claims marked CONTRADICTED
+    - "contradicted_count_per_type"  # Absolute count
+    - "claim_counts_per_type"        # Total claims extracted per type
+  
+  noise_injection:
+    enabled: true
+    error_rates: [0.05, 0.10, 0.20]  # Inject 5%, 10%, 20% false errors
+    seed: 42
+    notes: "Measure robustness to imperfect verifiers"
+  
+  stratification:
+    - "claim_type"          # object, attribute, spatial, counting, action, text_ocr
+    - "question_type"       # optional: query, verify, logical, choose, compare
+  
+  threshold_tuning:
+    enabled: false
+    notes: "Audit only; no tuning here (separate experiments per profile)"
+
+outputs:
+  results_csv: "results/audit_gqa_balanced_clean.csv"
+  noisy_5_csv: "results/audit_gqa_balanced_noisy_5pct.csv"
+  noisy_10_csv: "results/audit_gqa_balanced_noisy_10pct.csv"
+  noisy_20_csv: "results/audit_gqa_balanced_noisy_20pct.csv"
+  metrics_json: "results/audit_gqa_balanced_metrics.json"
+  reliability_matrix_pdf: "results/verifier_reliability_matrix_gqa.pdf"
+  manifest_json: "results/audit_gqa_balanced_manifest.json"
+
+reproducibility:
+  random_seed: 42
+  deterministic_mode: true
+  noise_seed: 42
+
+acceptance_criteria:
+  # Success thresholds for NeurIPS acceptance
+  overall_detection_rate: 0.50          # ~50% of claims marked contradicted
+  min_precision_per_type: 0.75          # At least 75% of marked contradictions are real
+  min_recall_per_type: 0.40             # At least 40% of real contradictions caught
+  noise_robustness_5pct: 0.95           # At 5% error injection, metrics degrade <5%
+  noise_robustness_10pct: 0.90          # At 10% error injection, metrics degrade <10%
+
+notes: |
+  This is a critical transparency audit.
+  Purpose: Establish verifier as a credible research instrument, not just a heuristic.
+  
+  Output: Verifier Reliability Matrix will be a table in paper appendix:
+    - Rows: claim types (object, attribute, spatial, counting, action, text_ocr)
+    - Columns: detection rate, mean confidence, sample count
+    - Footer: Noise robustness curves showing graceful degradation
+  
+  This justifies causal claims in E1—reviewers will see the verifier is not arbitrary.
+  If audit fails, investigate:
+    1. Scene graph completeness (may be missing many facts)
+    2. Claim extraction issues (may extract malformed claims)
+    3. Verifier threshold tuning (may need strict or high_recall profile)

@@ -1,0 +1,109 @@
+# Phase 2, Experiment 1: Replace All Contradicted Beliefs (GQA)
+# 
+# H1 Test: Replacing ALL contradicted beliefs with ground truth should flip
+# errors to correct at high rate (~60% expected, establishing causal upper bound).
+#
+# Config Version: 1.0
+# Date: 2026-03-29
+
+experiment:
+  id: "E1_gqa_replace_all"
+  description: "Causal hypothesis: replacing all contradicted beliefs with GT flips answer to correct."
+  evidence_for: "H1 - Premise errors cause wrong answers"
+  paper_section: "Main Results, Table 1"
+  expected_flip_rate: 0.60  # From Phase 1: 60.3% on GQA with Qwen
+
+dataset:
+  name: "gqa"
+  split: "val_balanced"
+  n_samples: 500
+  random_seed: 42
+  scene_graph_version: "latest"
+  notes: "Phase 1 setup; rerun for reproducibility validation"
+
+model:
+  name: "Qwen2.5-VL"
+  model_id: "Qwen/Qwen2.5-VL-7B-Instruct"
+  device: "cuda:1"
+  temperature: 0.0
+  max_tokens: 768
+  deterministic: true
+  notes: "Deterministic: temp=0, fixed seed, reproducible across runs"
+
+pipeline:
+  # Stages: baseline → externalize → extract → verify → intervene → re-answer → classify
+  stages:
+    - name: "baseline_inference"
+      enabled: true
+      description: "Capture baseline answer without belief externalization"
+    
+    - name: "belief_externalization"
+      enabled: true
+      description: "Force VLM to verbalize atomic premises before reasoning"
+    
+    - name: "claim_extraction"
+      enabled: true
+      config:
+        max_claims_per_sample: 10
+      description: "Extract atomic claims from belief text; classify by type"
+    
+    - name: "verification"
+      enabled: true
+      verifier_profile: "balanced"  # Moderate precision/recall
+      description: "Verify claims against scene graph; mark SUPPORTED/CONTRADICTED/UNCERTAIN"
+    
+    - name: "intervention_policy"
+      enabled: true
+      policy: "replace_contradicted_with_ground_truth"
+      description: "Replace all contradicted claims with ground truth from scene graph"
+    
+    - name: "constrained_reasoning"
+      enabled: true
+      description: "Re-answer question with corrected belief set; re-inference"
+    
+    - name: "error_classification"
+      enabled: true
+      description: "Compare baseline vs corrected answer; measure flip-to-correct"
+
+evaluation:
+  primary_metric: "flip_to_correct_rate"
+  secondary_metrics:
+    - "n_flipped"
+    - "baseline_accuracy"
+    - "corrected_accuracy"
+    - "avg_contradicted_claims_per_sample"
+  
+  statistical_test: "chi_squared"  # Binary outcome (flipped or not)
+  confidence_level: 0.95
+  
+  stratify_by:
+    - "claim_type"        # object vs attribute vs spatial etc.
+    - "question_type"     # query vs verify vs logical etc.
+    - "answer_type"       # yes/no vs numeric vs text
+  
+  hypothesis_test: "H0: flip_rate <= 0.25 (random baseline) vs H1: flip_rate > 0.50"
+  notes: "Gap vs random ablation (E1 - E_random) ≥30 pp indicates strong causal signal"
+
+outputs:
+  results_csv: "results/e1_gqa_replace_all_results.csv"
+  summary_json: "results/e1_gqa_replace_all_summary.json"
+  manifest_json: "results/e1_gqa_replace_all_manifest.json"
+  figures_dir: "results/figures_e1/"
+
+reproducibility:
+  random_seed: 42
+  deterministic_mode: true
+  pytorch_deterministic: true
+  cuda_deterministic: true
+  log_git_hash: true
+  log_code_hash: true
+  log_config_hash: true
+  notes: "All sources of randomness are fixed and logged in manifest"
+
+notes: |
+  This is a reproduction of Phase 1 Experiment 2 (premise correction).
+  Expected outcome: ~60% flip rate, consistent with Phase 1 results on same dataset.
+  If outcome diverges, investigate changes in:
+    1. Model version (Qwen checkpoint)
+    2. Verifier thresholds (can tune via profile)
+    3. Claim coverage (may vary with dataset sampling)

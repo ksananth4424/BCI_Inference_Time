@@ -16,7 +16,7 @@ import torch
 from PIL import Image
 from transformers import AutoProcessor
 
-from bci.config import (
+from bci_src.config import (
     RESULTS_DIR,
     VLM_DEVICE,
     VLM_MAX_NEW_TOKENS,

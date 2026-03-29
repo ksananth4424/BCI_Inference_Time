@@ -27,11 +27,10 @@ import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SRC_DIR = PROJECT_ROOT / "src"
-if str(SRC_DIR) not in sys.path:
-    sys.path.insert(0, str(SRC_DIR))
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
-from bci.config import (
+from bci_src.config import (
     GQA_DIR,
     NUM_SAMPLES,
     RESULTS_DIR,
@@ -41,7 +40,7 @@ from bci.config import (
 
 def step_download():
     """Download GQA scene graphs from Stanford."""
-    from bci.data.data_loader import download_scene_graphs
+    from bci_src.data.data_loader import download_scene_graphs
     download_scene_graphs()
 
 
@@ -50,7 +49,7 @@ def step_setup():
     Load questions from HuggingFace, sample those with scene graphs,
     and download only the needed images.
     """
-    from bci.data.data_loader import setup_gqa_data
+    from bci_src.data.data_loader import setup_gqa_data
 
     samples, sg, image_dir = setup_gqa_data()
 
@@ -70,8 +69,8 @@ def step_experiment1():
     Experiment 1: Run VLM on sampled GQA questions.
     Generates baseline + belief externalization responses.
     """
-    from bci.data.data_loader import load_scene_graphs, load_gqa_from_hf, sample_questions
-    from bci.models.vlm_inference import run_experiment_1
+    from bci_src.data.data_loader import load_scene_graphs, load_gqa_from_hf, sample_questions
+    from bci_src.models.vlm_inference import run_experiment_1
 
     sg = load_scene_graphs("val")
     questions = load_gqa_from_hf()
@@ -103,16 +102,16 @@ def step_analyze():
     - Classify errors
     - Generate plots
     """
-    from bci.data.data_loader import load_scene_graphs
-    from bci.verification.claim_extraction import extract_and_classify
-    from bci.verification.claim_verification import verify_all_claims, compute_verification_summary, CONTRADICTED
-    from bci.analysis.error_classification import (
+    from bci_src.data.data_loader import load_scene_graphs
+    from bci_src.verification.claim_extraction import extract_and_classify
+    from bci_src.verification.claim_verification import verify_all_claims, compute_verification_summary, CONTRADICTED
+    from bci_src.analysis.error_classification import (
         classify_error,
         compute_error_breakdown,
         find_recoverable_errors,
     )
-    from bci.experiments.phase1_experiments import compute_claim_coverage
-    from bci.analysis.reporting import (
+    from bci_src.experiments.phase1_experiments import compute_claim_coverage
+    from bci_src.analysis.reporting import (
         plot_error_breakdown,
         plot_claim_coverage,
         generate_summary_table,
@@ -263,9 +262,9 @@ def step_analyze():
 
 def step_experiment2():
     """Experiment 2: Premise correction test."""
-    from bci.data.data_loader import load_scene_graphs
-    from bci.experiments.phase1_experiments import run_premise_correction
-    from bci.analysis.reporting import plot_premise_correction
+    from bci_src.data.data_loader import load_scene_graphs
+    from bci_src.experiments.phase1_experiments import run_premise_correction
+    from bci_src.analysis.reporting import plot_premise_correction
 
     # Load recoverable errors
     rec_path = RESULTS_DIR / "recoverable_errors.json"
@@ -285,9 +284,9 @@ def step_experiment2():
 
 def step_experiment4():
     """Experiment 4: Belief minimality."""
-    from bci.data.data_loader import load_scene_graphs
-    from bci.experiments.phase1_experiments import run_belief_minimality
-    from bci.analysis.reporting import plot_belief_minimality
+    from bci_src.data.data_loader import load_scene_graphs
+    from bci_src.experiments.phase1_experiments import run_belief_minimality
+    from bci_src.analysis.reporting import plot_belief_minimality
 
     rec_path = RESULTS_DIR / "recoverable_errors.json"
     if not rec_path.exists():
@@ -306,8 +305,8 @@ def step_experiment4():
 
 def step_random_ablation():
     """Placebo control: random belief removal."""
-    from bci.experiments.phase1_experiments import run_random_ablation
-    from bci.analysis.reporting import plot_random_vs_targeted
+    from bci_src.experiments.phase1_experiments import run_random_ablation
+    from bci_src.analysis.reporting import plot_random_vs_targeted
 
     rec_path = RESULTS_DIR / "recoverable_errors.json"
     exp2_path = RESULTS_DIR / "experiment2_premise_correction.json"

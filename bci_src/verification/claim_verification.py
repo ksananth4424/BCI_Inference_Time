@@ -10,8 +10,8 @@ Verification statuses:
 import re
 from difflib import SequenceMatcher
 
-from bci.config import ATTRIBUTE_SIMILARITY_THRESHOLD, SPATIAL_TOLERANCE
-from bci.data.data_loader import scene_graph_to_facts
+from bci_src.config import ATTRIBUTE_SIMILARITY_THRESHOLD, SPATIAL_TOLERANCE
+from bci_src.data.data_loader import scene_graph_to_facts
 
 # ─── Status Constants ────────────────────────────────────────────────────────
 SUPPORTED = "SUPPORTED"
