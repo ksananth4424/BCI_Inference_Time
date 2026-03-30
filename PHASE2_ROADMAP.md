@@ -4,6 +4,46 @@
 **Target**: Week-by-week execution guide for this roadmap document  
 **Status**: Pre-Execution
 
+## **Fast-Track Mode (Compute-Only Bottleneck)**
+
+### **Objective**
+Remove all human orchestration overhead and make GPU time the only limiter.
+
+### **One-Command Parallel Launch**
+
+```bash
+cd /data/cs22btech11029/playground/Inference_time_VLM
+conda activate mech_interp
+python scripts/launch_fast_track.py --gpus 0,1,2 --samples 500 --profile balanced
+```
+
+This launches in parallel:
+- **E1** on GPU 0
+- **E3** on GPU 1
+- **E10** on GPU 2
+
+Artifacts are grouped under:
+- `results/fasttrack_<timestamp>/launch_manifest.json`
+- `results/fasttrack_<timestamp>/logs/E1.log`
+- `results/fasttrack_<timestamp>/logs/E3.log`
+- `results/fasttrack_<timestamp>/logs/E10.log`
+
+### **Run Monitoring**
+
+```bash
+tail -f results/fasttrack_*/logs/E1.log
+tail -f results/fasttrack_*/logs/E3.log
+tail -f results/fasttrack_*/logs/E10.log
+```
+
+### **Immediate Decision Gates (Same Day)**
+
+1. **Causal gate**: E1 targeted correction strongly beats E3/random baseline
+2. **Reliability gate**: E10 claim-type metrics stable under 5% noise
+3. **Go/No-Go**:
+    - If both pass: start cross-benchmark adapters next (MMMU, MathVista)
+    - If not: tune verifier profile and relaunch only failed arm
+
 ---
 
 ## **Week 1: Foundation & Validation (Phase 2a)**

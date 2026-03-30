@@ -1,0 +1,35 @@
+{
+  "run_name": "fasttrack_20260329_165615",
+  "created_utc": "2026-03-29T16:56:15.823498",
+  "gpus": {
+    "E1": "0",
+    "E3": "1",
+    "E10": "2"
+  },
+  "samples": 120,
+  "profile": "balanced",
+  "configs": {
+    "E1": "/data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615/configs/e1.yaml",
+    "E3": "/data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615/configs/e3.yaml"
+  },
+  "launches": {
+    "E1": {
+      "cmd": "/data/cs22btech11029/miniconda3_new/envs/mech_interp/bin/python scripts/run_phase2_experiment.py --exp E1 --config /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615/configs/e1.yaml --output-dir /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615",
+      "pid": null,
+      "log": "/data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615/logs/E1.log",
+      "status": "dry-run"
+    },
+    "E3": {
+      "cmd": "/data/cs22btech11029/miniconda3_new/envs/mech_interp/bin/python scripts/run_phase2_experiment.py --exp E3 --config /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615/configs/e3.yaml --output-dir /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615",
+      "pid": null,
+      "log": "/data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615/logs/E3.log",
+      "status": "dry-run"
+    },
+    "E10": {
+      "cmd": "/data/cs22btech11029/miniconda3_new/envs/mech_interp/bin/python scripts/audit_verifier.py --benchmark gqa --n-samples 120 --profile balanced --device cuda:2 --output-dir /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615",
+      "pid": null,
+      "log": "/data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165615/logs/E10.log",
+      "status": "dry-run"
+    }
+  }
+}

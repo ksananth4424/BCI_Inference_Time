@@ -1,0 +1,553 @@
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+
+======================================================================
+VERIFIER AUDIT: GQA (balanced)
+======================================================================
+
+[1/5] Loading benchmark adapter...
+[2/5] Loading verifier profile...
+[3/5] Initializing VLM...
+Loading model Qwen/Qwen2.5-VL-7B-Instruct on cuda:2 ...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.50s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:04,  1.51s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:03,  1.53s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.55s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.33s/it]
+Model loaded.
+[4/5] Loading 500 benchmark samples...
+Loading scene graphs from val_sceneGraphs.json ...
+Loading GQA from HuggingFace (val_balanced_instructions, val) ...
+  Total questions: 132062
+Sampled 500 questions (from 132062 candidates).
+All 487 images already downloaded.
+      ✓ Loaded 500 samples
+[5/5] Processing samples and verifying claims...
+      Warning: Error processing sample 0: Image not found: data/gqa/images/2374257.jpg
+      Warning: Error processing sample 1: Image not found: data/gqa/images/2355736.jpg
+      Warning: Error processing sample 2: Image not found: data/gqa/images/2340617.jpg
+      Warning: Error processing sample 3: Image not found: data/gqa/images/2351365.jpg
+      Warning: Error processing sample 4: Image not found: data/gqa/images/2407698.jpg
+      Warning: Error processing sample 5: Image not found: data/gqa/images/2375491.jpg
+      Warning: Error processing sample 6: Image not found: data/gqa/images/2389835.jpg
+      Warning: Error processing sample 7: Image not found: data/gqa/images/2381611.jpg
+      Warning: Error processing sample 8: Image not found: data/gqa/images/2409000.jpg
+      Warning: Error processing sample 9: Image not found: data/gqa/images/2378563.jpg
+      Warning: Error processing sample 10: Image not found: data/gqa/images/2412339.jpg
+      Warning: Error processing sample 11: Image not found: data/gqa/images/2397873.jpg
+      Warning: Error processing sample 12: Image not found: data/gqa/images/2391908.jpg
+      Warning: Error processing sample 13: Image not found: data/gqa/images/2391802.jpg
+      Warning: Error processing sample 14: Image not found: data/gqa/images/2359746.jpg
+      Warning: Error processing sample 15: Image not found: data/gqa/images/2349334.jpg
+      Warning: Error processing sample 16: Image not found: data/gqa/images/2400350.jpg
+      Warning: Error processing sample 17: Image not found: data/gqa/images/61533.jpg
+      Warning: Error processing sample 18: Image not found: data/gqa/images/2412363.jpg
+      Warning: Error processing sample 19: Image not found: data/gqa/images/2398184.jpg
+      Warning: Error processing sample 20: Image not found: data/gqa/images/1159963.jpg
+      Warning: Error processing sample 21: Image not found: data/gqa/images/2405244.jpg
+      Warning: Error processing sample 22: Image not found: data/gqa/images/2387148.jpg
+      Warning: Error processing sample 23: Image not found: data/gqa/images/2404083.jpg
+      Warning: Error processing sample 24: Image not found: data/gqa/images/2394960.jpg
+      Warning: Error processing sample 25: Image not found: data/gqa/images/2383905.jpg
+      Warning: Error processing sample 26: Image not found: data/gqa/images/2381259.jpg
+      Warning: Error processing sample 27: Image not found: data/gqa/images/2415221.jpg
+      Warning: Error processing sample 28: Image not found: data/gqa/images/2345050.jpg
+      Warning: Error processing sample 29: Image not found: data/gqa/images/2332415.jpg
+      Warning: Error processing sample 30: Image not found: data/gqa/images/2386297.jpg
+      Warning: Error processing sample 31: Image not found: data/gqa/images/2352380.jpg
+      Warning: Error processing sample 32: Image not found: data/gqa/images/2379976.jpg
+      Warning: Error processing sample 33: Image not found: data/gqa/images/1159296.jpg
+      Warning: Error processing sample 34: Image not found: data/gqa/images/2342134.jpg
+      Warning: Error processing sample 35: Image not found: data/gqa/images/2344393.jpg
+      Warning: Error processing sample 36: Image not found: data/gqa/images/2378264.jpg
+      Warning: Error processing sample 37: Image not found: data/gqa/images/2386440.jpg
+      Warning: Error processing sample 38: Image not found: data/gqa/images/2406473.jpg
+      Warning: Error processing sample 39: Image not found: data/gqa/images/2358081.jpg
+      Warning: Error processing sample 40: Image not found: data/gqa/images/2368742.jpg
+      Warning: Error processing sample 41: Image not found: data/gqa/images/2347146.jpg
+      Warning: Error processing sample 42: Image not found: data/gqa/images/2397987.jpg
+      Warning: Error processing sample 43: Image not found: data/gqa/images/2359451.jpg
+      Warning: Error processing sample 44: Image not found: data/gqa/images/2387777.jpg
+      Warning: Error processing sample 45: Image not found: data/gqa/images/2390480.jpg
+      Warning: Error processing sample 46: Image not found: data/gqa/images/2396634.jpg
+      Warning: Error processing sample 47: Image not found: data/gqa/images/2378292.jpg
+      Warning: Error processing sample 48: Image not found: data/gqa/images/2358122.jpg
+      [  50/500] samples processed...
+      Warning: Error processing sample 49: Image not found: data/gqa/images/2349159.jpg
+      Warning: Error processing sample 50: Image not found: data/gqa/images/2401803.jpg
+      Warning: Error processing sample 51: Image not found: data/gqa/images/2367411.jpg
+      Warning: Error processing sample 52: Image not found: data/gqa/images/498329.jpg
+      Warning: Error processing sample 53: Image not found: data/gqa/images/497937.jpg
+      Warning: Error processing sample 54: Image not found: data/gqa/images/2362562.jpg
+      Warning: Error processing sample 55: Image not found: data/gqa/images/2337103.jpg
+      Warning: Error processing sample 56: Image not found: data/gqa/images/2346071.jpg
+      Warning: Error processing sample 57: Image not found: data/gqa/images/2409219.jpg
+      Warning: Error processing sample 58: Image not found: data/gqa/images/2406002.jpg
+      Warning: Error processing sample 59: Image not found: data/gqa/images/2360703.jpg
+      Warning: Error processing sample 60: Image not found: data/gqa/images/2402333.jpg
+      Warning: Error processing sample 61: Image not found: data/gqa/images/2413541.jpg
+      Warning: Error processing sample 62: Image not found: data/gqa/images/2327623.jpg
+      Warning: Error processing sample 63: Image not found: data/gqa/images/2406090.jpg
+      Warning: Error processing sample 64: Image not found: data/gqa/images/2337616.jpg
+      Warning: Error processing sample 65: Image not found: data/gqa/images/2344757.jpg
+      Warning: Error processing sample 66: Image not found: data/gqa/images/713360.jpg
+      Warning: Error processing sample 67: Image not found: data/gqa/images/2354196.jpg
+      Warning: Error processing sample 68: Image not found: data/gqa/images/1592615.jpg
+      Warning: Error processing sample 69: Image not found: data/gqa/images/2374803.jpg
+      Warning: Error processing sample 70: Image not found: data/gqa/images/2327830.jpg
+      Warning: Error processing sample 71: Image not found: data/gqa/images/2321052.jpg
+      Warning: Error processing sample 72: Image not found: data/gqa/images/2365760.jpg
+      Warning: Error processing sample 73: Image not found: data/gqa/images/2322984.jpg
+      Warning: Error processing sample 74: Image not found: data/gqa/images/2398835.jpg
+      Warning: Error processing sample 75: Image not found: data/gqa/images/2400752.jpg
+      Warning: Error processing sample 76: Image not found: data/gqa/images/2330700.jpg
+      Warning: Error processing sample 77: Image not found: data/gqa/images/2363629.jpg
+      Warning: Error processing sample 78: Image not found: data/gqa/images/2403590.jpg
+      Warning: Error processing sample 79: Image not found: data/gqa/images/2401635.jpg
+      Warning: Error processing sample 80: Image not found: data/gqa/images/2414646.jpg
+      Warning: Error processing sample 81: Image not found: data/gqa/images/2332780.jpg
+      Warning: Error processing sample 82: Image not found: data/gqa/images/2400761.jpg
+      Warning: Error processing sample 83: Image not found: data/gqa/images/2393510.jpg
+      Warning: Error processing sample 84: Image not found: data/gqa/images/2368963.jpg
+      Warning: Error processing sample 85: Image not found: data/gqa/images/2349328.jpg
+      Warning: Error processing sample 86: Image not found: data/gqa/images/2378978.jpg
+      Warning: Error processing sample 87: Image not found: data/gqa/images/2385070.jpg
+      Warning: Error processing sample 88: Image not found: data/gqa/images/1592427.jpg
+      Warning: Error processing sample 89: Image not found: data/gqa/images/2345855.jpg
+      Warning: Error processing sample 90: Image not found: data/gqa/images/2367211.jpg
+      Warning: Error processing sample 91: Image not found: data/gqa/images/2341585.jpg
+      Warning: Error processing sample 92: Image not found: data/gqa/images/2406152.jpg
+      Warning: Error processing sample 93: Image not found: data/gqa/images/2387376.jpg
+      Warning: Error processing sample 94: Image not found: data/gqa/images/2370053.jpg
+      Warning: Error processing sample 95: Image not found: data/gqa/images/2405983.jpg
+      Warning: Error processing sample 96: Image not found: data/gqa/images/2367977.jpg
+      Warning: Error processing sample 97: Image not found: data/gqa/images/497933.jpg
+      Warning: Error processing sample 98: Image not found: data/gqa/images/2367555.jpg
+      [ 100/500] samples processed...
+      Warning: Error processing sample 99: Image not found: data/gqa/images/2399053.jpg
+      Warning: Error processing sample 100: Image not found: data/gqa/images/2320327.jpg
+      Warning: Error processing sample 101: Image not found: data/gqa/images/2356227.jpg
+      Warning: Error processing sample 102: Image not found: data/gqa/images/2360758.jpg
+      Warning: Error processing sample 103: Image not found: data/gqa/images/2407279.jpg
+      Warning: Error processing sample 104: Image not found: data/gqa/images/1593177.jpg
+      Warning: Error processing sample 105: Image not found: data/gqa/images/2396469.jpg
+      Warning: Error processing sample 106: Image not found: data/gqa/images/2413411.jpg
+      Warning: Error processing sample 107: Image not found: data/gqa/images/2351317.jpg
+      Warning: Error processing sample 108: Image not found: data/gqa/images/2363282.jpg
+      Warning: Error processing sample 109: Image not found: data/gqa/images/2344439.jpg
+      Warning: Error processing sample 110: Image not found: data/gqa/images/2392869.jpg
+      Warning: Error processing sample 111: Image not found: data/gqa/images/2344782.jpg
+      Warning: Error processing sample 112: Image not found: data/gqa/images/2404154.jpg
+      Warning: Error processing sample 113: Image not found: data/gqa/images/2381128.jpg
+      Warning: Error processing sample 114: Image not found: data/gqa/images/2393949.jpg
+      Warning: Error processing sample 115: Image not found: data/gqa/images/2411136.jpg
+      Warning: Error processing sample 116: Image not found: data/gqa/images/2384811.jpg
+      Warning: Error processing sample 117: Image not found: data/gqa/images/2335112.jpg
+      Warning: Error processing sample 118: Image not found: data/gqa/images/2337535.jpg
+      Warning: Error processing sample 119: Image not found: data/gqa/images/2382462.jpg
+      Warning: Error processing sample 120: Image not found: data/gqa/images/2326388.jpg
+      Warning: Error processing sample 121: Image not found: data/gqa/images/2378984.jpg
+      Warning: Error processing sample 122: Image not found: data/gqa/images/2388377.jpg
+      Warning: Error processing sample 123: Image not found: data/gqa/images/2352718.jpg
+      Warning: Error processing sample 124: Image not found: data/gqa/images/2363931.jpg
+      Warning: Error processing sample 125: Image not found: data/gqa/images/2366958.jpg
+      Warning: Error processing sample 126: Image not found: data/gqa/images/2352617.jpg
+      Warning: Error processing sample 127: Image not found: data/gqa/images/2317381.jpg
+      Warning: Error processing sample 128: Image not found: data/gqa/images/2412682.jpg
+      Warning: Error processing sample 129: Image not found: data/gqa/images/2367978.jpg
+      Warning: Error processing sample 130: Image not found: data/gqa/images/2382366.jpg
+      Warning: Error processing sample 131: Image not found: data/gqa/images/2368747.jpg
+      Warning: Error processing sample 132: Image not found: data/gqa/images/2387991.jpg
+      Warning: Error processing sample 133: Image not found: data/gqa/images/2365868.jpg
+      Warning: Error processing sample 134: Image not found: data/gqa/images/2378836.jpg
+      Warning: Error processing sample 135: Image not found: data/gqa/images/2338567.jpg
+      Warning: Error processing sample 136: Image not found: data/gqa/images/1592640.jpg
+      Warning: Error processing sample 137: Image not found: data/gqa/images/2356933.jpg
+      Warning: Error processing sample 138: Image not found: data/gqa/images/2415972.jpg
+      Warning: Error processing sample 139: Image not found: data/gqa/images/2342151.jpg
+      Warning: Error processing sample 140: Image not found: data/gqa/images/2336505.jpg
+      Warning: Error processing sample 141: Image not found: data/gqa/images/2369432.jpg
+      Warning: Error processing sample 142: Image not found: data/gqa/images/2345598.jpg
+      Warning: Error processing sample 143: Image not found: data/gqa/images/2410380.jpg
+      Warning: Error processing sample 144: Image not found: data/gqa/images/4633.jpg
+      Warning: Error processing sample 145: Image not found: data/gqa/images/2349795.jpg
+      Warning: Error processing sample 146: Image not found: data/gqa/images/2342323.jpg
+      Warning: Error processing sample 147: Image not found: data/gqa/images/1575.jpg
+      Warning: Error processing sample 148: Image not found: data/gqa/images/2365644.jpg
+      [ 150/500] samples processed...
+      Warning: Error processing sample 149: Image not found: data/gqa/images/2404247.jpg
+      Warning: Error processing sample 150: Image not found: data/gqa/images/314.jpg
+      Warning: Error processing sample 151: Image not found: data/gqa/images/2407870.jpg
+      Warning: Error processing sample 152: Image not found: data/gqa/images/2410973.jpg
+      Warning: Error processing sample 153: Image not found: data/gqa/images/2375648.jpg
+      Warning: Error processing sample 154: Image not found: data/gqa/images/2376382.jpg
+      Warning: Error processing sample 155: Image not found: data/gqa/images/2357279.jpg
+      Warning: Error processing sample 156: Image not found: data/gqa/images/2332332.jpg
+      Warning: Error processing sample 157: Image not found: data/gqa/images/2324283.jpg
+      Warning: Error processing sample 158: Image not found: data/gqa/images/2361211.jpg
+      Warning: Error processing sample 159: Image not found: data/gqa/images/2327476.jpg
+      Warning: Error processing sample 160: Image not found: data/gqa/images/2394408.jpg
+      Warning: Error processing sample 161: Image not found: data/gqa/images/2368062.jpg
+      Warning: Error processing sample 162: Image not found: data/gqa/images/2335783.jpg
+      Warning: Error processing sample 163: Image not found: data/gqa/images/2399024.jpg
+      Warning: Error processing sample 164: Image not found: data/gqa/images/2334745.jpg
+      Warning: Error processing sample 165: Image not found: data/gqa/images/2416765.jpg
+      Warning: Error processing sample 166: Image not found: data/gqa/images/2333498.jpg
+      Warning: Error processing sample 167: Image not found: data/gqa/images/2377193.jpg
+      Warning: Error processing sample 168: Image not found: data/gqa/images/2414061.jpg
+      Warning: Error processing sample 169: Image not found: data/gqa/images/2411178.jpg
+      Warning: Error processing sample 170: Image not found: data/gqa/images/2378833.jpg
+      Warning: Error processing sample 171: Image not found: data/gqa/images/2343965.jpg
+      Warning: Error processing sample 172: Image not found: data/gqa/images/2397981.jpg
+      Warning: Error processing sample 173: Image not found: data/gqa/images/2385133.jpg
+      Warning: Error processing sample 174: Image not found: data/gqa/images/2359553.jpg
+      Warning: Error processing sample 175: Image not found: data/gqa/images/2365049.jpg
+      Warning: Error processing sample 176: Image not found: data/gqa/images/2358938.jpg
+      Warning: Error processing sample 177: Image not found: data/gqa/images/2386099.jpg
+      Warning: Error processing sample 178: Image not found: data/gqa/images/2372163.jpg
+      Warning: Error processing sample 179: Image not found: data/gqa/images/2377682.jpg
+      Warning: Error processing sample 180: Image not found: data/gqa/images/2357841.jpg
+      Warning: Error processing sample 181: Image not found: data/gqa/images/2410392.jpg
+      Warning: Error processing sample 182: Image not found: data/gqa/images/2414858.jpg
+      Warning: Error processing sample 183: Image not found: data/gqa/images/2363223.jpg
+      Warning: Error processing sample 184: Image not found: data/gqa/images/2359433.jpg
+      Warning: Error processing sample 185: Image not found: data/gqa/images/2349045.jpg
+      Warning: Error processing sample 186: Image not found: data/gqa/images/2319436.jpg
+      Warning: Error processing sample 187: Image not found: data/gqa/images/2380135.jpg
+      Warning: Error processing sample 188: Image not found: data/gqa/images/2329006.jpg
+      Warning: Error processing sample 189: Image not found: data/gqa/images/2318174.jpg
+      Warning: Error processing sample 190: Image not found: data/gqa/images/2358464.jpg
+      Warning: Error processing sample 191: Image not found: data/gqa/images/2395206.jpg
+      Warning: Error processing sample 192: Image not found: data/gqa/images/2404130.jpg
+      Warning: Error processing sample 193: Image not found: data/gqa/images/2347438.jpg
+      Warning: Error processing sample 194: Image not found: data/gqa/images/2394152.jpg
+      Warning: Error processing sample 195: Image not found: data/gqa/images/2401908.jpg
+      Warning: Error processing sample 196: Image not found: data/gqa/images/2400651.jpg
+      Warning: Error processing sample 197: Image not found: data/gqa/images/2386051.jpg
+      Warning: Error processing sample 198: Image not found: data/gqa/images/2366610.jpg
+      [ 200/500] samples processed...
+      Warning: Error processing sample 199: Image not found: data/gqa/images/2407766.jpg
+      Warning: Error processing sample 200: Image not found: data/gqa/images/2406463.jpg
+      Warning: Error processing sample 201: Image not found: data/gqa/images/2376032.jpg
+      Warning: Error processing sample 202: Image not found: data/gqa/images/2350568.jpg
+      Warning: Error processing sample 203: Image not found: data/gqa/images/2339910.jpg
+      Warning: Error processing sample 204: Image not found: data/gqa/images/2346486.jpg
+      Warning: Error processing sample 205: Image not found: data/gqa/images/2362400.jpg
+      Warning: Error processing sample 206: Image not found: data/gqa/images/2376766.jpg
+      Warning: Error processing sample 207: Image not found: data/gqa/images/2369561.jpg
+      Warning: Error processing sample 208: Image not found: data/gqa/images/2326324.jpg
+      Warning: Error processing sample 209: Image not found: data/gqa/images/2331126.jpg
+      Warning: Error processing sample 210: Image not found: data/gqa/images/2406643.jpg
+      Warning: Error processing sample 211: Image not found: data/gqa/images/2399484.jpg
+      Warning: Error processing sample 212: Image not found: data/gqa/images/2358152.jpg
+      Warning: Error processing sample 213: Image not found: data/gqa/images/2348905.jpg
+      Warning: Error processing sample 214: Image not found: data/gqa/images/2344018.jpg
+      Warning: Error processing sample 215: Image not found: data/gqa/images/2389376.jpg
+      Warning: Error processing sample 216: Image not found: data/gqa/images/2397958.jpg
+      Warning: Error processing sample 217: Image not found: data/gqa/images/2318983.jpg
+      Warning: Error processing sample 218: Image not found: data/gqa/images/2388404.jpg
+      Warning: Error processing sample 219: Image not found: data/gqa/images/2400828.jpg
+      Warning: Error processing sample 220: Image not found: data/gqa/images/4888.jpg
+      Warning: Error processing sample 221: Image not found: data/gqa/images/2400117.jpg
+      Warning: Error processing sample 222: Image not found: data/gqa/images/2410862.jpg
+      Warning: Error processing sample 223: Image not found: data/gqa/images/2320507.jpg
+      Warning: Error processing sample 224: Image not found: data/gqa/images/2362824.jpg
+      Warning: Error processing sample 225: Image not found: data/gqa/images/2359333.jpg
+      Warning: Error processing sample 226: Image not found: data/gqa/images/2360862.jpg
+      Warning: Error processing sample 227: Image not found: data/gqa/images/2365515.jpg
+      Warning: Error processing sample 228: Image not found: data/gqa/images/2361523.jpg
+      Warning: Error processing sample 229: Image not found: data/gqa/images/2402403.jpg
+      Warning: Error processing sample 230: Image not found: data/gqa/images/2398481.jpg
+      Warning: Error processing sample 231: Image not found: data/gqa/images/2348612.jpg
+      Warning: Error processing sample 232: Image not found: data/gqa/images/2318090.jpg
+      Warning: Error processing sample 233: Image not found: data/gqa/images/2390571.jpg
+      Warning: Error processing sample 234: Image not found: data/gqa/images/2368239.jpg
+      Warning: Error processing sample 235: Image not found: data/gqa/images/2339853.jpg
+      Warning: Error processing sample 236: Image not found: data/gqa/images/2380656.jpg
+      Warning: Error processing sample 237: Image not found: data/gqa/images/2411357.jpg
+      Warning: Error processing sample 238: Image not found: data/gqa/images/2376493.jpg
+      Warning: Error processing sample 239: Image not found: data/gqa/images/2374257.jpg
+      Warning: Error processing sample 240: Image not found: data/gqa/images/2378292.jpg
+      Warning: Error processing sample 241: Image not found: data/gqa/images/2346213.jpg
+      Warning: Error processing sample 242: Image not found: data/gqa/images/2392595.jpg
+      Warning: Error processing sample 243: Image not found: data/gqa/images/2339244.jpg
+      Warning: Error processing sample 244: Image not found: data/gqa/images/2410790.jpg
+      Warning: Error processing sample 245: Image not found: data/gqa/images/2405260.jpg
+      Warning: Error processing sample 246: Image not found: data/gqa/images/2339777.jpg
+      Warning: Error processing sample 247: Image not found: data/gqa/images/2414784.jpg
+      Warning: Error processing sample 248: Image not found: data/gqa/images/2403478.jpg
+      [ 250/500] samples processed...
+      Warning: Error processing sample 249: Image not found: data/gqa/images/2363920.jpg
+      Warning: Error processing sample 250: Image not found: data/gqa/images/2375919.jpg
+      Warning: Error processing sample 251: Image not found: data/gqa/images/2366066.jpg
+      Warning: Error processing sample 252: Image not found: data/gqa/images/2318963.jpg
+      Warning: Error processing sample 253: Image not found: data/gqa/images/2379978.jpg
+      Warning: Error processing sample 254: Image not found: data/gqa/images/2342793.jpg
+      Warning: Error processing sample 255: Image not found: data/gqa/images/2386341.jpg
+      Warning: Error processing sample 256: Image not found: data/gqa/images/2370908.jpg
+      Warning: Error processing sample 257: Image not found: data/gqa/images/2393919.jpg
+      Warning: Error processing sample 258: Image not found: data/gqa/images/2342004.jpg
+      Warning: Error processing sample 259: Image not found: data/gqa/images/2341622.jpg
+      Warning: Error processing sample 260: Image not found: data/gqa/images/2379906.jpg
+      Warning: Error processing sample 261: Image not found: data/gqa/images/2338671.jpg
+      Warning: Error processing sample 262: Image not found: data/gqa/images/2328701.jpg
+      Warning: Error processing sample 263: Image not found: data/gqa/images/2387426.jpg
+      Warning: Error processing sample 264: Image not found: data/gqa/images/2413307.jpg
+      Warning: Error processing sample 265: Image not found: data/gqa/images/2322487.jpg
+      Warning: Error processing sample 266: Image not found: data/gqa/images/2407291.jpg
+      Warning: Error processing sample 267: Image not found: data/gqa/images/2405085.jpg
+      Warning: Error processing sample 268: Image not found: data/gqa/images/498265.jpg
+      Warning: Error processing sample 269: Image not found: data/gqa/images/2387080.jpg
+      Warning: Error processing sample 270: Image not found: data/gqa/images/2411222.jpg
+      Warning: Error processing sample 271: Image not found: data/gqa/images/2386698.jpg
+      Warning: Error processing sample 272: Image not found: data/gqa/images/2380112.jpg
+      Warning: Error processing sample 273: Image not found: data/gqa/images/2366036.jpg
+      Warning: Error processing sample 274: Image not found: data/gqa/images/2390911.jpg
+      Warning: Error processing sample 275: Image not found: data/gqa/images/2373574.jpg
+      Warning: Error processing sample 276: Image not found: data/gqa/images/2402409.jpg
+      Warning: Error processing sample 277: Image not found: data/gqa/images/2324171.jpg
+      Warning: Error processing sample 278: Image not found: data/gqa/images/2333016.jpg
+      Warning: Error processing sample 279: Image not found: data/gqa/images/2342950.jpg
+      Warning: Error processing sample 280: Image not found: data/gqa/images/2405414.jpg
+      Warning: Error processing sample 281: Image not found: data/gqa/images/2371601.jpg
+      Warning: Error processing sample 282: Image not found: data/gqa/images/2321894.jpg
+      Warning: Error processing sample 283: Image not found: data/gqa/images/2325932.jpg
+      Warning: Error processing sample 284: Image not found: data/gqa/images/2368905.jpg
+      Warning: Error processing sample 285: Image not found: data/gqa/images/2397987.jpg
+      Warning: Error processing sample 286: Image not found: data/gqa/images/2414935.jpg
+      Warning: Error processing sample 287: Image not found: data/gqa/images/2320665.jpg
+      Warning: Error processing sample 288: Image not found: data/gqa/images/2393892.jpg
+      Warning: Error processing sample 289: Image not found: data/gqa/images/2373925.jpg
+      Warning: Error processing sample 290: Image not found: data/gqa/images/2383506.jpg
+      Warning: Error processing sample 291: Image not found: data/gqa/images/2396488.jpg
+      Warning: Error processing sample 292: Image not found: data/gqa/images/2387572.jpg
+      Warning: Error processing sample 293: Image not found: data/gqa/images/2376384.jpg
+      Warning: Error processing sample 294: Image not found: data/gqa/images/2412272.jpg
+      Warning: Error processing sample 295: Image not found: data/gqa/images/2384647.jpg
+      Warning: Error processing sample 296: Image not found: data/gqa/images/2363939.jpg
+      Warning: Error processing sample 297: Image not found: data/gqa/images/2338149.jpg
+      Warning: Error processing sample 298: Image not found: data/gqa/images/2408312.jpg
+      [ 300/500] samples processed...
+      Warning: Error processing sample 299: Image not found: data/gqa/images/2354443.jpg
+      Warning: Error processing sample 300: Image not found: data/gqa/images/2384793.jpg
+      Warning: Error processing sample 301: Image not found: data/gqa/images/2380178.jpg
+      Warning: Error processing sample 302: Image not found: data/gqa/images/2344193.jpg
+      Warning: Error processing sample 303: Image not found: data/gqa/images/2385218.jpg
+      Warning: Error processing sample 304: Image not found: data/gqa/images/2395760.jpg
+      Warning: Error processing sample 305: Image not found: data/gqa/images/1074.jpg
+      Warning: Error processing sample 306: Image not found: data/gqa/images/2330610.jpg
+      Warning: Error processing sample 307: Image not found: data/gqa/images/498188.jpg
+      Warning: Error processing sample 308: Image not found: data/gqa/images/1159380.jpg
+      Warning: Error processing sample 309: Image not found: data/gqa/images/2356833.jpg
+      Warning: Error processing sample 310: Image not found: data/gqa/images/2403039.jpg
+      Warning: Error processing sample 311: Image not found: data/gqa/images/2323162.jpg
+      Warning: Error processing sample 312: Image not found: data/gqa/images/2380483.jpg
+      Warning: Error processing sample 313: Image not found: data/gqa/images/2398522.jpg
+      Warning: Error processing sample 314: Image not found: data/gqa/images/2370684.jpg
+      Warning: Error processing sample 315: Image not found: data/gqa/images/2366862.jpg
+      Warning: Error processing sample 316: Image not found: data/gqa/images/2379466.jpg
+      Warning: Error processing sample 317: Image not found: data/gqa/images/2316019.jpg
+      Warning: Error processing sample 318: Image not found: data/gqa/images/2415396.jpg
+      Warning: Error processing sample 319: Image not found: data/gqa/images/2316747.jpg
+      Warning: Error processing sample 320: Image not found: data/gqa/images/2406370.jpg
+      Warning: Error processing sample 321: Image not found: data/gqa/images/2396386.jpg
+      Warning: Error processing sample 322: Image not found: data/gqa/images/2416885.jpg
+      Warning: Error processing sample 323: Image not found: data/gqa/images/2370705.jpg
+      Warning: Error processing sample 324: Image not found: data/gqa/images/2371012.jpg
+      Warning: Error processing sample 325: Image not found: data/gqa/images/713230.jpg
+      Warning: Error processing sample 326: Image not found: data/gqa/images/2372613.jpg
+      Warning: Error processing sample 327: Image not found: data/gqa/images/2362883.jpg
+      Warning: Error processing sample 328: Image not found: data/gqa/images/2403546.jpg
+      Warning: Error processing sample 329: Image not found: data/gqa/images/2380873.jpg
+      Warning: Error processing sample 330: Image not found: data/gqa/images/2329846.jpg
+      Warning: Error processing sample 331: Image not found: data/gqa/images/2381580.jpg
+      Warning: Error processing sample 332: Image not found: data/gqa/images/2365501.jpg
+      Warning: Error processing sample 333: Image not found: data/gqa/images/2405230.jpg
+      Warning: Error processing sample 334: Image not found: data/gqa/images/2399600.jpg
+      Warning: Error processing sample 335: Image not found: data/gqa/images/498197.jpg
+      Warning: Error processing sample 336: Image not found: data/gqa/images/2317262.jpg
+      Warning: Error processing sample 337: Image not found: data/gqa/images/2362041.jpg
+      Warning: Error processing sample 338: Image not found: data/gqa/images/498025.jpg
+      Warning: Error processing sample 339: Image not found: data/gqa/images/2382208.jpg
+      Warning: Error processing sample 340: Image not found: data/gqa/images/2354914.jpg
+      Warning: Error processing sample 341: Image not found: data/gqa/images/2360080.jpg
+      Warning: Error processing sample 342: Image not found: data/gqa/images/2347236.jpg
+      Warning: Error processing sample 343: Image not found: data/gqa/images/2386651.jpg
+      Warning: Error processing sample 344: Image not found: data/gqa/images/2386644.jpg
+      Warning: Error processing sample 345: Image not found: data/gqa/images/2393295.jpg
+      Warning: Error processing sample 346: Image not found: data/gqa/images/2338167.jpg
+      Warning: Error processing sample 347: Image not found: data/gqa/images/2352537.jpg
+      Warning: Error processing sample 348: Image not found: data/gqa/images/2383984.jpg
+      [ 350/500] samples processed...
+      Warning: Error processing sample 349: Image not found: data/gqa/images/2385910.jpg
+      Warning: Error processing sample 350: Image not found: data/gqa/images/2315740.jpg
+      Warning: Error processing sample 351: Image not found: data/gqa/images/2409083.jpg
+      Warning: Error processing sample 352: Image not found: data/gqa/images/2342416.jpg
+      Warning: Error processing sample 353: Image not found: data/gqa/images/2402334.jpg
+      Warning: Error processing sample 354: Image not found: data/gqa/images/2353117.jpg
+      Warning: Error processing sample 355: Image not found: data/gqa/images/2371222.jpg
+      Warning: Error processing sample 356: Image not found: data/gqa/images/4900.jpg
+      Warning: Error processing sample 357: Image not found: data/gqa/images/2404849.jpg
+      Warning: Error processing sample 358: Image not found: data/gqa/images/2363072.jpg
+      Warning: Error processing sample 359: Image not found: data/gqa/images/2388975.jpg
+      Warning: Error processing sample 360: Image not found: data/gqa/images/2353347.jpg
+      Warning: Error processing sample 361: Image not found: data/gqa/images/2400683.jpg
+      Warning: Error processing sample 362: Image not found: data/gqa/images/2399842.jpg
+      Warning: Error processing sample 363: Image not found: data/gqa/images/2365281.jpg
+      Warning: Error processing sample 364: Image not found: data/gqa/images/2320242.jpg
+      Warning: Error processing sample 365: Image not found: data/gqa/images/2331481.jpg
+      Warning: Error processing sample 366: Image not found: data/gqa/images/2369489.jpg
+      Warning: Error processing sample 367: Image not found: data/gqa/images/150356.jpg
+      Warning: Error processing sample 368: Image not found: data/gqa/images/28.jpg
+      Warning: Error processing sample 369: Image not found: data/gqa/images/2374220.jpg
+      Warning: Error processing sample 370: Image not found: data/gqa/images/2336635.jpg
+      Warning: Error processing sample 371: Image not found: data/gqa/images/2354042.jpg
+      Warning: Error processing sample 372: Image not found: data/gqa/images/2411136.jpg
+      Warning: Error processing sample 373: Image not found: data/gqa/images/2412014.jpg
+      Warning: Error processing sample 374: Image not found: data/gqa/images/2356112.jpg
+      Warning: Error processing sample 375: Image not found: data/gqa/images/2334942.jpg
+      Warning: Error processing sample 376: Image not found: data/gqa/images/2366017.jpg
+      Warning: Error processing sample 377: Image not found: data/gqa/images/2360374.jpg
+      Warning: Error processing sample 378: Image not found: data/gqa/images/2345013.jpg
+      Warning: Error processing sample 379: Image not found: data/gqa/images/2390677.jpg
+      Warning: Error processing sample 380: Image not found: data/gqa/images/2367808.jpg
+      Warning: Error processing sample 381: Image not found: data/gqa/images/2388009.jpg
+      Warning: Error processing sample 382: Image not found: data/gqa/images/2347454.jpg
+      Warning: Error processing sample 383: Image not found: data/gqa/images/2388030.jpg
+      Warning: Error processing sample 384: Image not found: data/gqa/images/2387346.jpg
+      Warning: Error processing sample 385: Image not found: data/gqa/images/2410808.jpg
+      Warning: Error processing sample 386: Image not found: data/gqa/images/2366467.jpg
+      Warning: Error processing sample 387: Image not found: data/gqa/images/2359433.jpg
+      Warning: Error processing sample 388: Image not found: data/gqa/images/2316480.jpg
+      Warning: Error processing sample 389: Image not found: data/gqa/images/2383167.jpg
+      Warning: Error processing sample 390: Image not found: data/gqa/images/2365742.jpg
+      Warning: Error processing sample 391: Image not found: data/gqa/images/2320176.jpg
+      Warning: Error processing sample 392: Image not found: data/gqa/images/2375361.jpg
+      Warning: Error processing sample 393: Image not found: data/gqa/images/2345259.jpg
+      Warning: Error processing sample 394: Image not found: data/gqa/images/2373119.jpg
+      Warning: Error processing sample 395: Image not found: data/gqa/images/2329033.jpg
+      Warning: Error processing sample 396: Image not found: data/gqa/images/1159827.jpg
+      Warning: Error processing sample 397: Image not found: data/gqa/images/4120.jpg
+      Warning: Error processing sample 398: Image not found: data/gqa/images/2374729.jpg
+      [ 400/500] samples processed...
+      Warning: Error processing sample 399: Image not found: data/gqa/images/2390742.jpg
+      Warning: Error processing sample 400: Image not found: data/gqa/images/2408642.jpg
+      Warning: Error processing sample 401: Image not found: data/gqa/images/2359040.jpg
+      Warning: Error processing sample 402: Image not found: data/gqa/images/2414496.jpg
+      Warning: Error processing sample 403: Image not found: data/gqa/images/2392742.jpg
+      Warning: Error processing sample 404: Image not found: data/gqa/images/2321317.jpg
+      Warning: Error processing sample 405: Image not found: data/gqa/images/2385456.jpg
+      Warning: Error processing sample 406: Image not found: data/gqa/images/2342152.jpg
+      Warning: Error processing sample 407: Image not found: data/gqa/images/2411038.jpg
+      Warning: Error processing sample 408: Image not found: data/gqa/images/2389268.jpg
+      Warning: Error processing sample 409: Image not found: data/gqa/images/2320720.jpg
+      Warning: Error processing sample 410: Image not found: data/gqa/images/2406152.jpg
+      Warning: Error processing sample 411: Image not found: data/gqa/images/2387163.jpg
+      Warning: Error processing sample 412: Image not found: data/gqa/images/2316747.jpg
+      Warning: Error processing sample 413: Image not found: data/gqa/images/2406331.jpg
+      Warning: Error processing sample 414: Image not found: data/gqa/images/2410808.jpg
+      Warning: Error processing sample 415: Image not found: data/gqa/images/2345081.jpg
+      Warning: Error processing sample 416: Image not found: data/gqa/images/2353890.jpg
+      Warning: Error processing sample 417: Image not found: data/gqa/images/2375184.jpg
+      Warning: Error processing sample 418: Image not found: data/gqa/images/2383983.jpg
+      Warning: Error processing sample 419: Image not found: data/gqa/images/2390488.jpg
+      Warning: Error processing sample 420: Image not found: data/gqa/images/2365213.jpg
+      Warning: Error processing sample 421: Image not found: data/gqa/images/2356643.jpg
+      Warning: Error processing sample 422: Image not found: data/gqa/images/2326436.jpg
+      Warning: Error processing sample 423: Image not found: data/gqa/images/1592305.jpg
+      Warning: Error processing sample 424: Image not found: data/gqa/images/2402117.jpg
+      Warning: Error processing sample 425: Image not found: data/gqa/images/1159745.jpg
+      Warning: Error processing sample 426: Image not found: data/gqa/images/2414484.jpg
+      Warning: Error processing sample 427: Image not found: data/gqa/images/713118.jpg
+      Warning: Error processing sample 428: Image not found: data/gqa/images/2319837.jpg
+      Warning: Error processing sample 429: Image not found: data/gqa/images/2414326.jpg
+      Warning: Error processing sample 430: Image not found: data/gqa/images/2392752.jpg
+      Warning: Error processing sample 431: Image not found: data/gqa/images/2357784.jpg
+      Warning: Error processing sample 432: Image not found: data/gqa/images/2332903.jpg
+      Warning: Error processing sample 433: Image not found: data/gqa/images/2350666.jpg
+      Warning: Error processing sample 434: Image not found: data/gqa/images/2410656.jpg
+      Warning: Error processing sample 435: Image not found: data/gqa/images/2395361.jpg
+      Warning: Error processing sample 436: Image not found: data/gqa/images/2390938.jpg
+      Warning: Error processing sample 437: Image not found: data/gqa/images/2410733.jpg
+      Warning: Error processing sample 438: Image not found: data/gqa/images/2348601.jpg
+      Warning: Error processing sample 439: Image not found: data/gqa/images/2358626.jpg
+      Warning: Error processing sample 440: Image not found: data/gqa/images/2359451.jpg
+      Warning: Error processing sample 441: Image not found: data/gqa/images/2320720.jpg
+      Warning: Error processing sample 442: Image not found: data/gqa/images/4426.jpg
+      Warning: Error processing sample 443: Image not found: data/gqa/images/2335736.jpg
+      Warning: Error processing sample 444: Image not found: data/gqa/images/2412962.jpg
+      Warning: Error processing sample 445: Image not found: data/gqa/images/2374759.jpg
+      Warning: Error processing sample 446: Image not found: data/gqa/images/2320104.jpg
+      Warning: Error processing sample 447: Image not found: data/gqa/images/2386929.jpg
+      Warning: Error processing sample 448: Image not found: data/gqa/images/2373429.jpg
+      [ 450/500] samples processed...
+      Warning: Error processing sample 449: Image not found: data/gqa/images/2318297.jpg
+      Warning: Error processing sample 450: Image not found: data/gqa/images/2400406.jpg
+      Warning: Error processing sample 451: Image not found: data/gqa/images/2379924.jpg
+      Warning: Error processing sample 452: Image not found: data/gqa/images/2355481.jpg
+      Warning: Error processing sample 453: Image not found: data/gqa/images/2389829.jpg
+      Warning: Error processing sample 454: Image not found: data/gqa/images/2332249.jpg
+      Warning: Error processing sample 455: Image not found: data/gqa/images/2389885.jpg
+      Warning: Error processing sample 456: Image not found: data/gqa/images/2324396.jpg
+      Warning: Error processing sample 457: Image not found: data/gqa/images/2386438.jpg
+      Warning: Error processing sample 458: Image not found: data/gqa/images/2386784.jpg
+      Warning: Error processing sample 459: Image not found: data/gqa/images/2367639.jpg
+      Warning: Error processing sample 460: Image not found: data/gqa/images/150356.jpg
+      Warning: Error processing sample 461: Image not found: data/gqa/images/2358727.jpg
+      Warning: Error processing sample 462: Image not found: data/gqa/images/2369861.jpg
+      Warning: Error processing sample 463: Image not found: data/gqa/images/2408450.jpg
+      Warning: Error processing sample 464: Image not found: data/gqa/images/2345745.jpg
+      Warning: Error processing sample 465: Image not found: data/gqa/images/2344041.jpg
+      Warning: Error processing sample 466: Image not found: data/gqa/images/2411094.jpg
+      Warning: Error processing sample 467: Image not found: data/gqa/images/2410046.jpg
+      Warning: Error processing sample 468: Image not found: data/gqa/images/2345287.jpg
+      Warning: Error processing sample 469: Image not found: data/gqa/images/2338299.jpg
+      Warning: Error processing sample 470: Image not found: data/gqa/images/2371554.jpg
+      Warning: Error processing sample 471: Image not found: data/gqa/images/2412358.jpg
+      Warning: Error processing sample 472: Image not found: data/gqa/images/2342525.jpg
+      Warning: Error processing sample 473: Image not found: data/gqa/images/2345193.jpg
+      Warning: Error processing sample 474: Image not found: data/gqa/images/2392341.jpg
+      Warning: Error processing sample 475: Image not found: data/gqa/images/2361918.jpg
+      Warning: Error processing sample 476: Image not found: data/gqa/images/4426.jpg
+      Warning: Error processing sample 477: Image not found: data/gqa/images/2316255.jpg
+      Warning: Error processing sample 478: Image not found: data/gqa/images/2351463.jpg
+      Warning: Error processing sample 479: Image not found: data/gqa/images/2397231.jpg
+      Warning: Error processing sample 480: Image not found: data/gqa/images/2383239.jpg
+      Warning: Error processing sample 481: Image not found: data/gqa/images/2397884.jpg
+      Warning: Error processing sample 482: Image not found: data/gqa/images/2407659.jpg
+      Warning: Error processing sample 483: Image not found: data/gqa/images/2362843.jpg
+      Warning: Error processing sample 484: Image not found: data/gqa/images/2373574.jpg
+      Warning: Error processing sample 485: Image not found: data/gqa/images/2409707.jpg
+      Warning: Error processing sample 486: Image not found: data/gqa/images/2388805.jpg
+      Warning: Error processing sample 487: Image not found: data/gqa/images/2316836.jpg
+      Warning: Error processing sample 488: Image not found: data/gqa/images/2338286.jpg
+      Warning: Error processing sample 489: Image not found: data/gqa/images/2341763.jpg
+      Warning: Error processing sample 490: Image not found: data/gqa/images/2407603.jpg
+      Warning: Error processing sample 491: Image not found: data/gqa/images/2383601.jpg
+      Warning: Error processing sample 492: Image not found: data/gqa/images/2323659.jpg
+      Warning: Error processing sample 493: Image not found: data/gqa/images/1159729.jpg
+      Warning: Error processing sample 494: Image not found: data/gqa/images/2325119.jpg
+      Warning: Error processing sample 495: Image not found: data/gqa/images/2413347.jpg
+      Warning: Error processing sample 496: Image not found: data/gqa/images/2356670.jpg
+      Warning: Error processing sample 497: Image not found: data/gqa/images/2333821.jpg
+      Warning: Error processing sample 498: Image not found: data/gqa/images/2399406.jpg
+      [ 500/500] samples processed...
+      Warning: Error processing sample 499: Image not found: data/gqa/images/2385819.jpg
+
+Computing metrics...
+
+======================================================================
+CLEAN VERIFIER METRICS (by claim type)
+======================================================================
+
+======================================================================
+NOISE ROBUSTNESS
+======================================================================
+
+At 5% injected error rate:
+
+At 10% injected error rate:
+
+At 20% injected error rate:
+
+✓ Clean results saved to /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165748/audit_gqa_balanced_clean.csv
+✓ Metrics saved to /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165748/audit_gqa_balanced_metrics.json
+✓ Manifest saved to /data/cs22btech11029/playground/Inference_time_VLM/results/fasttrack_20260329_165748/run_E10_E11_gqa_balanced_20260329_165753_manifest.json
+
+======================================================================
+

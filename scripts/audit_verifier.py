@@ -25,8 +25,9 @@ from bci_src.verification.profiles import get_profile
 from bci_src.models.vlm_inference import VLMInference
 from bci_src.verification.claim_extraction import extract_and_classify
 from bci_src.verification.claim_verification import verify_claim
+import bci_src.verification.claim_verification as claim_verification_module
 from bci_src.runtime.run_manifest import RunManifest
-from bci_src.config import RANDOM_SEED
+from bci_src.config import RANDOM_SEED, GQA_DIR
 import pandas as pd
 
 
@@ -105,10 +106,18 @@ def compute_metrics_by_type(
     return metrics
 
 
+def _claim_field(claim: Any, key: str, default: Any = None) -> Any:
+    """Read claim field from either dict-based or object-based claims."""
+    if isinstance(claim, dict):
+        return claim.get(key, default)
+    return getattr(claim, key, default)
+
+
 def run_audit(
     benchmark_name: str,
     n_samples: int,
     verifier_profile: str,
+    device: str,
     output_dir: Path = None,
 ) -> None:
     """
@@ -118,6 +127,7 @@ def run_audit(
         benchmark_name: Benchmark ID (e.g., "gqa")
         n_samples: Number of samples to audit
         verifier_profile: Profile name ("strict", "balanced", "high_recall")
+        device: Torch device string (e.g., "cuda:0")
         output_dir: Where to save results
     
     Raises:
@@ -146,9 +156,15 @@ def run_audit(
         profile = get_profile(verifier_profile)
     except KeyError as e:
         raise ValueError(f"Unknown profile: {verifier_profile}") from e
+
+    # Wire profile thresholds into verifier runtime for this audit run.
+    claim_verification_module.ATTRIBUTE_SIMILARITY_THRESHOLD = (
+        profile.ATTRIBUTE_SIMILARITY_THRESHOLD
+    )
+    claim_verification_module.SPATIAL_TOLERANCE = profile.SPATIAL_TOLERANCE
     
     print(f"[3/5] Initializing VLM...")
-    vlm = VLMInference(device="cuda:1")  # Uses default model from config
+    vlm = VLMInference(device=device)  # Uses default model from config
     
     # Load samples
     print(f"[4/5] Loading {n_samples} benchmark samples...")
@@ -166,6 +182,8 @@ def run_audit(
         0.20: [],
     }
     
+    scene_graphs = adapter.load_scene_graphs()
+
     for i, sample in enumerate(samples):
         if (i + 1) % max(50, n_samples // 10) == 0:
             print(f"      [{i+1:4d}/{n_samples}] samples processed...")
@@ -179,25 +197,31 @@ def run_audit(
             beliefs_output = vlm.belief_externalization(image, sample.question)
             
             # Extract claims
-            claims = extract_and_classify(beliefs_output.get("beliefs", ""))
+            extraction = extract_and_classify(
+                {
+                    "question_id": sample.sample_id,
+                    "baseline": baseline_output,
+                    "belief_externalization": beliefs_output,
+                }
+            )
+            claims = extraction.get("belief_claims", [])
             if not claims:
                 continue
             
-            # Load scene graph (if available)
-            scene_graphs = adapter.load_scene_graphs()
-            scene_graph = scene_graphs.get(sample.sample_id, {})
+            # GQA scene graphs are keyed by image_id.
+            scene_graph = scene_graphs.get(sample.image_id) or scene_graphs.get(sample.sample_id, {})
             
             # Verify each claim
-            for claim in claims:
+            for claim_idx, claim in enumerate(claims):
                 status_clean, confidence = verify_claim_safe(
                     claim, scene_graph, profile
                 )
                 
                 result_clean = {
                     "sample_id": sample.sample_id,
-                    "claim_id": getattr(claim, "id", f"claim_{len(results_clean)}"),
-                    "claim_text": getattr(claim, "text", str(claim)),
-                    "claim_type": getattr(claim, "type", "unknown"),
+                    "claim_id": _claim_field(claim, "id", f"{sample.sample_id}_{claim_idx}"),
+                    "claim_text": _claim_field(claim, "claim", str(claim)),
+                    "claim_type": _claim_field(claim, "type", "unknown"),
                     "true_status": status_clean,
                     "confidence": confidence,
                 }
@@ -308,14 +332,17 @@ def load_image_for_sample(sample: Any, adapter: Any) -> Any:
     from PIL import Image
     
     image_id = sample.image_id
-    # Simplified: try to load from cache directory
-    cache_dir = Path("data/gqa/images") 
-    image_path = cache_dir / f"{image_id}.jpg"
-    
-    if image_path.exists():
-        return Image.open(image_path).convert("RGB")
-    else:
-        raise FileNotFoundError(f"Image not found: {image_path}")
+    # Prefer config-driven absolute path; keep workspace fallback.
+    candidates = [
+        GQA_DIR / "images" / f"{image_id}.jpg",
+        Path("data/gqa/images") / f"{image_id}.jpg",
+    ]
+
+    for image_path in candidates:
+        if image_path.exists():
+            return Image.open(image_path).convert("RGB")
+
+    raise FileNotFoundError(f"Image not found in any known location for image_id={image_id}")
 
 
 def verify_claim_safe(claim: Any, scene_graph: Dict, profile: Any) -> Tuple[str, float]:
@@ -326,8 +353,9 @@ def verify_claim_safe(claim: Any, scene_graph: Dict, profile: Any) -> Tuple[str,
         (status: str, confidence: float)
     """
     try:
-        # Try to call verify_claim from claim_verification module
-        status, evidence = verify_claim(claim, scene_graph, profile)
+        # verify_claim returns a dict with status/evidence.
+        verified = verify_claim(claim, scene_graph)
+        status = verified.get("status", "UNCERTAIN")
         confidence = 0.9 if status != "UNCERTAIN" else 0.5
         return status, confidence
     except Exception as e:
@@ -362,6 +390,11 @@ if __name__ == "__main__":
         default="results",
         help="Output directory for results (default: results/)",
     )
+    parser.add_argument(
+        "--device",
+        default="cuda:0",
+        help="Torch device for VLM inference (default: cuda:0)",
+    )
     
     args = parser.parse_args()
     
@@ -370,6 +403,7 @@ if __name__ == "__main__":
             args.benchmark,
             args.n_samples,
             args.profile,
+            args.device,
             args.output_dir,
         )
     except Exception as e:

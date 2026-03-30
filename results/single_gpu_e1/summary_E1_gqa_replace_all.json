@@ -1,0 +1,8 @@
+{
+  "flip_to_correct_rate": 0.0,
+  "n_samples": 0,
+  "n_flipped": 0,
+  "n_baseline_correct": 0,
+  "n_corrected_correct": 0,
+  "warning": "No valid samples processed. Check image availability and data paths."
+}

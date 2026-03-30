@@ -1,0 +1,40 @@
+{
+  "benchmark": "gqa",
+  "profile": "high_recall",
+  "n_samples": 500,
+  "total_claims": 2482,
+  "clean_metrics": {
+    "unknown": {
+      "detection_rate": 0.09468170829975826,
+      "contradicted_count": 235,
+      "total_count": 2482,
+      "supported_count": 2247
+    }
+  },
+  "noisy_metrics": {
+    "0.05": {
+      "unknown": {
+        "detection_rate": 0.10999194198227236,
+        "contradicted_count": 273,
+        "total_count": 2482,
+        "supported_count": 2209
+      }
+    },
+    "0.1": {
+      "unknown": {
+        "detection_rate": 0.13174858984689766,
+        "contradicted_count": 327,
+        "total_count": 2482,
+        "supported_count": 2155
+      }
+    },
+    "0.2": {
+      "unknown": {
+        "detection_rate": 0.1780821917808219,
+        "contradicted_count": 442,
+        "total_count": 2482,
+        "supported_count": 2040
+      }
+    }
+  }
+}

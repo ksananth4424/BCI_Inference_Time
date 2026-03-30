@@ -254,6 +254,11 @@ def verify_spatial(
         return UNCERTAIN, "Could not parse spatial relation from claim"
 
     objects = scene_graph.get("objects", {})
+    
+    # Defensive check: objects must be a dict
+    if not isinstance(objects, dict):
+        return UNCERTAIN, "Scene graph objects not in expected format"
+    
     object_facts = [f for f in facts if f["type"] == "object"]
 
     # Find subject and object
@@ -271,6 +276,10 @@ def verify_spatial(
 
     subj_obj = objects.get(subj_id, {})
     obj_obj = objects.get(obj_id, {})
+    
+    # Defensive check: ensure objects are dicts
+    if not isinstance(subj_obj, dict) or not isinstance(obj_obj, dict):
+        return UNCERTAIN, "Could not load bounding box information"
 
     subj_bbox = (subj_obj.get("x", 0), subj_obj.get("y", 0),
                  subj_obj.get("w", 0), subj_obj.get("h", 0))

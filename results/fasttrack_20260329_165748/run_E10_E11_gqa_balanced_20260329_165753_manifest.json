@@ -1,0 +1,49 @@
+{
+  "experiment_id": "E10_E11_gqa_balanced",
+  "start_time": "2026-03-29T16:57:53.998308",
+  "git": {
+    "error": "Failed to get git state: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.",
+    "commit": "unknown",
+    "branch": "unknown"
+  },
+  "code": {
+    "hash": "674729d01bee0edf",
+    "python_file_count": 22,
+    "src_dir": "/data/cs22btech11029/playground/Inference_time_VLM/bci_src"
+  },
+  "config": {
+    "path": "configs/phase2/verifier_audit_gqa.yaml",
+    "hash": "2b63b162744cd5b7",
+    "size_bytes": 3120
+  },
+  "environment": {
+    "python_version": "3.11.14",
+    "platform": "Linux-6.8.0-94-generic-x86_64-with-glibc2.35",
+    "python_executable": "/data/cs22btech11029/miniconda3_new/envs/mech_interp/bin/python",
+    "torch_version": "2.9.1+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device_name": "NVIDIA RTX 6000 Ada Generation",
+    "device_count": 4,
+    "transformers_version": "4.57.3"
+  },
+  "end_time": "2026-03-29T16:58:46.863729",
+  "duration_seconds": 52.865421,
+  "metrics": {},
+  "summary": {
+    "total_claims_audited": 0,
+    "n_samples": 500,
+    "metrics": {
+      "benchmark": "gqa",
+      "profile": "balanced",
+      "n_samples": 500,
+      "total_claims": 0,
+      "clean_metrics": {},
+      "noisy_metrics": {
+        "0.05": {},
+        "0.1": {},
+        "0.2": {}
+      }
+    }
+  }
+}

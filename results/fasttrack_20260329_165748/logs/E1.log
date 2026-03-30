@@ -1,0 +1,549 @@
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+
+======================================================================
+PHASE 2 EXPERIMENT: E1
+======================================================================
+
+[1/6] Loading benchmark adapter...
+[2/6] Loading verifier profile...
+[3/6] Initializing VLM...
+Loading model Qwen/Qwen2.5-VL-7B-Instruct on cuda:0 ...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:07,  1.89s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:05,  1.78s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:05<00:03,  1.75s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.67s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.21s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.45s/it]
+Model loaded.
+[4/6] Loading and preparing samples...
+Loading scene graphs from val_sceneGraphs.json ...
+Loading GQA from HuggingFace (val_balanced_instructions, val) ...
+  Total questions: 132062
+Sampled 500 questions (from 132062 candidates).
+All 487 images already downloaded.
+      ✓ Loaded 500 samples
+[5/6] Running experiment pipeline...
+Loading scene graphs from val_sceneGraphs.json ...
+      Warning: Error on sample 05491615: Failed to load image 2374257: Image not found: 2374257
+      Warning: Error on sample 14192896: Failed to load image 2355736: Image not found: 2355736
+      Warning: Error on sample 03433692: Failed to load image 2340617: Image not found: 2340617
+      Warning: Error on sample 0167377: Failed to load image 2351365: Image not found: 2351365
+      Warning: Error on sample 09982030: Failed to load image 2407698: Image not found: 2407698
+      Warning: Error on sample 07598996: Failed to load image 2375491: Image not found: 2375491
+      Warning: Error on sample 06222534: Failed to load image 2389835: Image not found: 2389835
+      Warning: Error on sample 19359515: Failed to load image 2381611: Image not found: 2381611
+      Warning: Error on sample 03262245: Failed to load image 2409000: Image not found: 2409000
+      Warning: Error on sample 17397767: Failed to load image 2378563: Image not found: 2378563
+      Warning: Error on sample 01417011: Failed to load image 2412339: Image not found: 2412339
+      Warning: Error on sample 17596714: Failed to load image 2397873: Image not found: 2397873
+      Warning: Error on sample 08651263: Failed to load image 2391908: Image not found: 2391908
+      Warning: Error on sample 11293734: Failed to load image 2391802: Image not found: 2391802
+      Warning: Error on sample 06566426: Failed to load image 2359746: Image not found: 2359746
+      Warning: Error on sample 161065162: Failed to load image 2349334: Image not found: 2349334
+      Warning: Error on sample 0365933: Failed to load image 2400350: Image not found: 2400350
+      Warning: Error on sample 18168885: Failed to load image 61533: Image not found: 61533
+      Warning: Error on sample 10682334: Failed to load image 2412363: Image not found: 2412363
+      Warning: Error on sample 06564130: Failed to load image 2398184: Image not found: 2398184
+      Warning: Error on sample 16434006: Failed to load image 1159963: Image not found: 1159963
+      Warning: Error on sample 12252824: Failed to load image 2405244: Image not found: 2405244
+      Warning: Error on sample 0829456: Failed to load image 2387148: Image not found: 2387148
+      Warning: Error on sample 18602180: Failed to load image 2404083: Image not found: 2404083
+      Warning: Error on sample 08337624: Failed to load image 2394960: Image not found: 2394960
+      Warning: Error on sample 03318431: Failed to load image 2383905: Image not found: 2383905
+      Warning: Error on sample 09179577: Failed to load image 2381259: Image not found: 2381259
+      Warning: Error on sample 09432410: Failed to load image 2415221: Image not found: 2415221
+      Warning: Error on sample 19104279: Failed to load image 2345050: Image not found: 2345050
+      Warning: Error on sample 096049: Failed to load image 2332415: Image not found: 2332415
+      Warning: Error on sample 03493955: Failed to load image 2386297: Image not found: 2386297
+      Warning: Error on sample 03437169: Failed to load image 2352380: Image not found: 2352380
+      Warning: Error on sample 06981173: Failed to load image 2379976: Image not found: 2379976
+      Warning: Error on sample 10763404: Failed to load image 1159296: Image not found: 1159296
+      Warning: Error on sample 19225232: Failed to load image 2342134: Image not found: 2342134
+      Warning: Error on sample 05686508: Failed to load image 2344393: Image not found: 2344393
+      Warning: Error on sample 08709099: Failed to load image 2378264: Image not found: 2378264
+      Warning: Error on sample 091039290: Failed to load image 2386440: Image not found: 2386440
+      Warning: Error on sample 03581765: Failed to load image 2406473: Image not found: 2406473
+      Warning: Error on sample 03322739: Failed to load image 2358081: Image not found: 2358081
+      Warning: Error on sample 10259915: Failed to load image 2368742: Image not found: 2368742
+      Warning: Error on sample 0682915: Failed to load image 2347146: Image not found: 2347146
+      Warning: Error on sample 13515619: Failed to load image 2397987: Image not found: 2397987
+      Warning: Error on sample 17560215: Failed to load image 2359451: Image not found: 2359451
+      Warning: Error on sample 1972311: Failed to load image 2387777: Image not found: 2387777
+      Warning: Error on sample 06146373: Failed to load image 2390480: Image not found: 2390480
+      Warning: Error on sample 00930300: Failed to load image 2396634: Image not found: 2396634
+      Warning: Error on sample 12741575: Failed to load image 2378292: Image not found: 2378292
+      Warning: Error on sample 09730771: Failed to load image 2358122: Image not found: 2358122
+      [  50/500] samples processed...
+      Warning: Error on sample 04527826: Failed to load image 2349159: Image not found: 2349159
+      Warning: Error on sample 11193931: Failed to load image 2401803: Image not found: 2401803
+      Warning: Error on sample 06328865: Failed to load image 2367411: Image not found: 2367411
+      Warning: Error on sample 05410113: Failed to load image 498329: Image not found: 498329
+      Warning: Error on sample 00650121: Failed to load image 497937: Image not found: 497937
+      Warning: Error on sample 17949859: Failed to load image 2362562: Image not found: 2362562
+      Warning: Error on sample 14669854: Failed to load image 2337103: Image not found: 2337103
+      Warning: Error on sample 05863853: Failed to load image 2346071: Image not found: 2346071
+      Warning: Error on sample 133485: Failed to load image 2409219: Image not found: 2409219
+      Warning: Error on sample 19954280: Failed to load image 2406002: Image not found: 2406002
+      Warning: Error on sample 08894679: Failed to load image 2360703: Image not found: 2360703
+      Warning: Error on sample 18229012: Failed to load image 2402333: Image not found: 2402333
+      Warning: Error on sample 17459063: Failed to load image 2413541: Image not found: 2413541
+      Warning: Error on sample 03212804: Failed to load image 2327623: Image not found: 2327623
+      Warning: Error on sample 13136918: Failed to load image 2406090: Image not found: 2406090
+      Warning: Error on sample 17853007: Failed to load image 2337616: Image not found: 2337616
+      Warning: Error on sample 09928108: Failed to load image 2344757: Image not found: 2344757
+      Warning: Error on sample 05459303: Failed to load image 713360: Image not found: 713360
+      Warning: Error on sample 0376680: Failed to load image 2354196: Image not found: 2354196
+      Warning: Error on sample 0529198: Failed to load image 1592615: Image not found: 1592615
+      Warning: Error on sample 00397762: Failed to load image 2374803: Image not found: 2374803
+      Warning: Error on sample 10403875: Failed to load image 2327830: Image not found: 2327830
+      Warning: Error on sample 16488440: Failed to load image 2321052: Image not found: 2321052
+      Warning: Error on sample 19494904: Failed to load image 2365760: Image not found: 2365760
+      Warning: Error on sample 1864177: Failed to load image 2322984: Image not found: 2322984
+      Warning: Error on sample 14275115: Failed to load image 2398835: Image not found: 2398835
+      Warning: Error on sample 01763834: Failed to load image 2400752: Image not found: 2400752
+      Warning: Error on sample 00283108: Failed to load image 2330700: Image not found: 2330700
+      Warning: Error on sample 14816347: Failed to load image 2363629: Image not found: 2363629
+      Warning: Error on sample 14381909: Failed to load image 2403590: Image not found: 2403590
+      Warning: Error on sample 13764117: Failed to load image 2401635: Image not found: 2401635
+      Warning: Error on sample 09964815: Failed to load image 2414646: Image not found: 2414646
+      Warning: Error on sample 05913845: Failed to load image 2332780: Image not found: 2332780
+      Warning: Error on sample 05755315: Failed to load image 2400761: Image not found: 2400761
+      Warning: Error on sample 05469399: Failed to load image 2393510: Image not found: 2393510
+      Warning: Error on sample 161036696: Failed to load image 2368963: Image not found: 2368963
+      Warning: Error on sample 1366354: Failed to load image 2349328: Image not found: 2349328
+      Warning: Error on sample 16811715: Failed to load image 2378978: Image not found: 2378978
+      Warning: Error on sample 10882926: Failed to load image 2385070: Image not found: 2385070
+      Warning: Error on sample 14124503: Failed to load image 1592427: Image not found: 1592427
+      Warning: Error on sample 03962729: Failed to load image 2345855: Image not found: 2345855
+      Warning: Error on sample 03635273: Failed to load image 2367211: Image not found: 2367211
+      Warning: Error on sample 11298977: Failed to load image 2341585: Image not found: 2341585
+      Warning: Error on sample 0866588: Failed to load image 2406152: Image not found: 2406152
+      Warning: Error on sample 15242425: Failed to load image 2387376: Image not found: 2387376
+      Warning: Error on sample 07777814: Failed to load image 2370053: Image not found: 2370053
+      Warning: Error on sample 01956518: Failed to load image 2405983: Image not found: 2405983
+      Warning: Error on sample 12171112: Failed to load image 2367977: Image not found: 2367977
+      Warning: Error on sample 001009938: Failed to load image 497933: Image not found: 497933
+      Warning: Error on sample 02325517: Failed to load image 2367555: Image not found: 2367555
+      [ 100/500] samples processed...
+      Warning: Error on sample 131059645: Failed to load image 2399053: Image not found: 2399053
+      Warning: Error on sample 02591010: Failed to load image 2320327: Image not found: 2320327
+      Warning: Error on sample 06983021: Failed to load image 2356227: Image not found: 2356227
+      Warning: Error on sample 00222257: Failed to load image 2360758: Image not found: 2360758
+      Warning: Error on sample 14524305: Failed to load image 2407279: Image not found: 2407279
+      Warning: Error on sample 03150880: Failed to load image 1593177: Image not found: 1593177
+      Warning: Error on sample 08116986: Failed to load image 2396469: Image not found: 2396469
+      Warning: Error on sample 13430682: Failed to load image 2413411: Image not found: 2413411
+      Warning: Error on sample 051058592: Failed to load image 2351317: Image not found: 2351317
+      Warning: Error on sample 05111627: Failed to load image 2363282: Image not found: 2363282
+      Warning: Error on sample 11139796: Failed to load image 2344439: Image not found: 2344439
+      Warning: Error on sample 141036087: Failed to load image 2392869: Image not found: 2392869
+      Warning: Error on sample 171034612: Failed to load image 2344782: Image not found: 2344782
+      Warning: Error on sample 11119089: Failed to load image 2404154: Image not found: 2404154
+      Warning: Error on sample 01750921: Failed to load image 2381128: Image not found: 2381128
+      Warning: Error on sample 17667821: Failed to load image 2393949: Image not found: 2393949
+      Warning: Error on sample 04173770: Failed to load image 2411136: Image not found: 2411136
+      Warning: Error on sample 1573911: Failed to load image 2384811: Image not found: 2384811
+      Warning: Error on sample 10587792: Failed to load image 2335112: Image not found: 2335112
+      Warning: Error on sample 13363918: Failed to load image 2337535: Image not found: 2337535
+      Warning: Error on sample 11354848: Failed to load image 2382462: Image not found: 2382462
+      Warning: Error on sample 11385575: Failed to load image 2326388: Image not found: 2326388
+      Warning: Error on sample 16742353: Failed to load image 2378984: Image not found: 2378984
+      Warning: Error on sample 07696685: Failed to load image 2388377: Image not found: 2388377
+      Warning: Error on sample 06356032: Failed to load image 2352718: Image not found: 2352718
+      Warning: Error on sample 15425887: Failed to load image 2363931: Image not found: 2363931
+      Warning: Error on sample 10660951: Failed to load image 2366958: Image not found: 2366958
+      Warning: Error on sample 15586374: Failed to load image 2352617: Image not found: 2352617
+      Warning: Error on sample 04914252: Failed to load image 2317381: Image not found: 2317381
+      Warning: Error on sample 13425365: Failed to load image 2412682: Image not found: 2412682
+      Warning: Error on sample 13226655: Failed to load image 2367978: Image not found: 2367978
+      Warning: Error on sample 19693907: Failed to load image 2382366: Image not found: 2382366
+      Warning: Error on sample 10611191: Failed to load image 2368747: Image not found: 2368747
+      Warning: Error on sample 1645076: Failed to load image 2387991: Image not found: 2387991
+      Warning: Error on sample 15978167: Failed to load image 2365868: Image not found: 2365868
+      Warning: Error on sample 13497067: Failed to load image 2378836: Image not found: 2378836
+      Warning: Error on sample 05433112: Failed to load image 2338567: Image not found: 2338567
+      Warning: Error on sample 08297228: Failed to load image 1592640: Image not found: 1592640
+      Warning: Error on sample 18782434: Failed to load image 2356933: Image not found: 2356933
+      Warning: Error on sample 11524226: Failed to load image 2415972: Image not found: 2415972
+      Warning: Error on sample 12772816: Failed to load image 2342151: Image not found: 2342151
+      Warning: Error on sample 16661127: Failed to load image 2336505: Image not found: 2336505
+      Warning: Error on sample 10742293: Failed to load image 2369432: Image not found: 2369432
+      Warning: Error on sample 14202781: Failed to load image 2345598: Image not found: 2345598
+      Warning: Error on sample 1886024: Failed to load image 2410380: Image not found: 2410380
+      Warning: Error on sample 181000995: Failed to load image 4633: Image not found: 4633
+      Warning: Error on sample 06840268: Failed to load image 2349795: Image not found: 2349795
+      Warning: Error on sample 041025251: Failed to load image 2342323: Image not found: 2342323
+      Warning: Error on sample 1167999: Failed to load image 1575: Image not found: 1575
+      Warning: Error on sample 16350496: Failed to load image 2365644: Image not found: 2365644
+      [ 150/500] samples processed...
+      Warning: Error on sample 18484260: Failed to load image 2404247: Image not found: 2404247
+      Warning: Error on sample 00706944: Failed to load image 314: Image not found: 314
+      Warning: Error on sample 16535089: Failed to load image 2407870: Image not found: 2407870
+      Warning: Error on sample 14389529: Failed to load image 2410973: Image not found: 2410973
+      Warning: Error on sample 13726900: Failed to load image 2375648: Image not found: 2375648
+      Warning: Error on sample 19992444: Failed to load image 2376382: Image not found: 2376382
+      Warning: Error on sample 11908666: Failed to load image 2357279: Image not found: 2357279
+      Warning: Error on sample 10123004: Failed to load image 2332332: Image not found: 2332332
+      Warning: Error on sample 14144547: Failed to load image 2324283: Image not found: 2324283
+      Warning: Error on sample 04869171: Failed to load image 2361211: Image not found: 2361211
+      Warning: Error on sample 09623056: Failed to load image 2327476: Image not found: 2327476
+      Warning: Error on sample 19501031: Failed to load image 2394408: Image not found: 2394408
+      Warning: Error on sample 17746156: Failed to load image 2368062: Image not found: 2368062
+      Warning: Error on sample 01385341: Failed to load image 2335783: Image not found: 2335783
+      Warning: Error on sample 11196211: Failed to load image 2399024: Image not found: 2399024
+      Warning: Error on sample 15641002: Failed to load image 2334745: Image not found: 2334745
+      Warning: Error on sample 10230544: Failed to load image 2416765: Image not found: 2416765
+      Warning: Error on sample 11499909: Failed to load image 2333498: Image not found: 2333498
+      Warning: Error on sample 03337468: Failed to load image 2377193: Image not found: 2377193
+      Warning: Error on sample 09569413: Failed to load image 2414061: Image not found: 2414061
+      Warning: Error on sample 13368717: Failed to load image 2411178: Image not found: 2411178
+      Warning: Error on sample 12565565: Failed to load image 2378833: Image not found: 2378833
+      Warning: Error on sample 19695032: Failed to load image 2343965: Image not found: 2343965
+      Warning: Error on sample 13773559: Failed to load image 2397981: Image not found: 2397981
+      Warning: Error on sample 10599873: Failed to load image 2385133: Image not found: 2385133
+      Warning: Error on sample 07846642: Failed to load image 2359553: Image not found: 2359553
+      Warning: Error on sample 11183569: Failed to load image 2365049: Image not found: 2365049
+      Warning: Error on sample 00612856: Failed to load image 2358938: Image not found: 2358938
+      Warning: Error on sample 11985230: Failed to load image 2386099: Image not found: 2386099
+      Warning: Error on sample 11611800: Failed to load image 2372163: Image not found: 2372163
+      Warning: Error on sample 03983167: Failed to load image 2377682: Image not found: 2377682
+      Warning: Error on sample 17387034: Failed to load image 2357841: Image not found: 2357841
+      Warning: Error on sample 15135493: Failed to load image 2410392: Image not found: 2410392
+      Warning: Error on sample 00296203: Failed to load image 2414858: Image not found: 2414858
+      Warning: Error on sample 03612777: Failed to load image 2363223: Image not found: 2363223
+      Warning: Error on sample 00158976: Failed to load image 2359433: Image not found: 2359433
+      Warning: Error on sample 17726909: Failed to load image 2349045: Image not found: 2349045
+      Warning: Error on sample 15776149: Failed to load image 2319436: Image not found: 2319436
+      Warning: Error on sample 18437330: Failed to load image 2380135: Image not found: 2380135
+      Warning: Error on sample 101047999: Failed to load image 2329006: Image not found: 2329006
+      Warning: Error on sample 07740534: Failed to load image 2318174: Image not found: 2318174
+      Warning: Error on sample 02639501: Failed to load image 2358464: Image not found: 2358464
+      Warning: Error on sample 18100369: Failed to load image 2395206: Image not found: 2395206
+      Warning: Error on sample 12974671: Failed to load image 2404130: Image not found: 2404130
+      Warning: Error on sample 13273642: Failed to load image 2347438: Image not found: 2347438
+      Warning: Error on sample 11211902: Failed to load image 2394152: Image not found: 2394152
+      Warning: Error on sample 09488668: Failed to load image 2401908: Image not found: 2401908
+      Warning: Error on sample 111030897: Failed to load image 2400651: Image not found: 2400651
+      Warning: Error on sample 041050837: Failed to load image 2386051: Image not found: 2386051
+      Warning: Error on sample 15794361: Failed to load image 2366610: Image not found: 2366610
+      [ 200/500] samples processed...
+      Warning: Error on sample 0677800: Failed to load image 2407766: Image not found: 2407766
+      Warning: Error on sample 07245061: Failed to load image 2406463: Image not found: 2406463
+      Warning: Error on sample 161071057: Failed to load image 2376032: Image not found: 2376032
+      Warning: Error on sample 0760649: Failed to load image 2350568: Image not found: 2350568
+      Warning: Error on sample 05473419: Failed to load image 2339910: Image not found: 2339910
+      Warning: Error on sample 04145595: Failed to load image 2346486: Image not found: 2346486
+      Warning: Error on sample 08728446: Failed to load image 2362400: Image not found: 2362400
+      Warning: Error on sample 19110577: Failed to load image 2376766: Image not found: 2376766
+      Warning: Error on sample 0784551: Failed to load image 2369561: Image not found: 2369561
+      Warning: Error on sample 04792058: Failed to load image 2326324: Image not found: 2326324
+      Warning: Error on sample 1564748: Failed to load image 2331126: Image not found: 2331126
+      Warning: Error on sample 10630915: Failed to load image 2406643: Image not found: 2406643
+      Warning: Error on sample 19379027: Failed to load image 2399484: Image not found: 2399484
+      Warning: Error on sample 05867327: Failed to load image 2358152: Image not found: 2358152
+      Warning: Error on sample 14770772: Failed to load image 2348905: Image not found: 2348905
+      Warning: Error on sample 11705481: Failed to load image 2344018: Image not found: 2344018
+      Warning: Error on sample 14384714: Failed to load image 2389376: Image not found: 2389376
+      Warning: Error on sample 04229498: Failed to load image 2397958: Image not found: 2397958
+      Warning: Error on sample 12456426: Failed to load image 2318983: Image not found: 2318983
+      Warning: Error on sample 19818113: Failed to load image 2388404: Image not found: 2388404
+      Warning: Error on sample 03987139: Failed to load image 2400828: Image not found: 2400828
+      Warning: Error on sample 07358382: Failed to load image 4888: Image not found: 4888
+      Warning: Error on sample 13930214: Failed to load image 2400117: Image not found: 2400117
+      Warning: Error on sample 161063494: Failed to load image 2410862: Image not found: 2410862
+      Warning: Error on sample 17773211: Failed to load image 2320507: Image not found: 2320507
+      Warning: Error on sample 01235881: Failed to load image 2362824: Image not found: 2362824
+      Warning: Error on sample 12140937: Failed to load image 2359333: Image not found: 2359333
+      Warning: Error on sample 10857773: Failed to load image 2360862: Image not found: 2360862
+      Warning: Error on sample 14740694: Failed to load image 2365515: Image not found: 2365515
+      Warning: Error on sample 06751549: Failed to load image 2361523: Image not found: 2361523
+      Warning: Error on sample 0449386: Failed to load image 2402403: Image not found: 2402403
+      Warning: Error on sample 12165541: Failed to load image 2398481: Image not found: 2398481
+      Warning: Error on sample 09334085: Failed to load image 2348612: Image not found: 2348612
+      Warning: Error on sample 02996718: Failed to load image 2318090: Image not found: 2318090
+      Warning: Error on sample 01863049: Failed to load image 2390571: Image not found: 2390571
+      Warning: Error on sample 12241557: Failed to load image 2368239: Image not found: 2368239
+      Warning: Error on sample 101001520: Failed to load image 2339853: Image not found: 2339853
+      Warning: Error on sample 04248774: Failed to load image 2380656: Image not found: 2380656
+      Warning: Error on sample 17250321: Failed to load image 2411357: Image not found: 2411357
+      Warning: Error on sample 091044151: Failed to load image 2376493: Image not found: 2376493
+      Warning: Error on sample 05491597: Failed to load image 2374257: Image not found: 2374257
+      Warning: Error on sample 12741461: Failed to load image 2378292: Image not found: 2378292
+      Warning: Error on sample 09816097: Failed to load image 2346213: Image not found: 2346213
+      Warning: Error on sample 02411963: Failed to load image 2392595: Image not found: 2392595
+      Warning: Error on sample 18348364: Failed to load image 2339244: Image not found: 2339244
+      Warning: Error on sample 17528428: Failed to load image 2410790: Image not found: 2410790
+      Warning: Error on sample 04891899: Failed to load image 2405260: Image not found: 2405260
+      Warning: Error on sample 02447446: Failed to load image 2339777: Image not found: 2339777
+      Warning: Error on sample 16529302: Failed to load image 2414784: Image not found: 2414784
+      Warning: Error on sample 021061347: Failed to load image 2403478: Image not found: 2403478
+      [ 250/500] samples processed...
+      Warning: Error on sample 11493619: Failed to load image 2363920: Image not found: 2363920
+      Warning: Error on sample 01956330: Failed to load image 2375919: Image not found: 2375919
+      Warning: Error on sample 1697991: Failed to load image 2366066: Image not found: 2366066
+      Warning: Error on sample 19910432: Failed to load image 2318963: Image not found: 2318963
+      Warning: Error on sample 06974680: Failed to load image 2379978: Image not found: 2379978
+      Warning: Error on sample 1370125: Failed to load image 2342793: Image not found: 2342793
+      Warning: Error on sample 16464458: Failed to load image 2386341: Image not found: 2386341
+      Warning: Error on sample 00212582: Failed to load image 2370908: Image not found: 2370908
+      Warning: Error on sample 1796765: Failed to load image 2393919: Image not found: 2393919
+      Warning: Error on sample 13628221: Failed to load image 2342004: Image not found: 2342004
+      Warning: Error on sample 19326711: Failed to load image 2341622: Image not found: 2341622
+      Warning: Error on sample 07894112: Failed to load image 2379906: Image not found: 2379906
+      Warning: Error on sample 14974783: Failed to load image 2338671: Image not found: 2338671
+      Warning: Error on sample 18655716: Failed to load image 2328701: Image not found: 2328701
+      Warning: Error on sample 07859572: Failed to load image 2387426: Image not found: 2387426
+      Warning: Error on sample 17206229: Failed to load image 2413307: Image not found: 2413307
+      Warning: Error on sample 17362266: Failed to load image 2322487: Image not found: 2322487
+      Warning: Error on sample 02532956: Failed to load image 2407291: Image not found: 2407291
+      Warning: Error on sample 16844708: Failed to load image 2405085: Image not found: 2405085
+      Warning: Error on sample 08332189: Failed to load image 498265: Image not found: 498265
+      Warning: Error on sample 01588791: Failed to load image 2387080: Image not found: 2387080
+      Warning: Error on sample 03236221: Failed to load image 2411222: Image not found: 2411222
+      Warning: Error on sample 14445965: Failed to load image 2386698: Image not found: 2386698
+      Warning: Error on sample 11546518: Failed to load image 2380112: Image not found: 2380112
+      Warning: Error on sample 04119802: Failed to load image 2366036: Image not found: 2366036
+      Warning: Error on sample 03431: Failed to load image 2390911: Image not found: 2390911
+      Warning: Error on sample 04813497: Failed to load image 2373574: Image not found: 2373574
+      Warning: Error on sample 0450776: Failed to load image 2402409: Image not found: 2402409
+      Warning: Error on sample 13629300: Failed to load image 2324171: Image not found: 2324171
+      Warning: Error on sample 13663536: Failed to load image 2333016: Image not found: 2333016
+      Warning: Error on sample 03539432: Failed to load image 2342950: Image not found: 2342950
+      Warning: Error on sample 18671112: Failed to load image 2405414: Image not found: 2405414
+      Warning: Error on sample 18492629: Failed to load image 2371601: Image not found: 2371601
+      Warning: Error on sample 14279279: Failed to load image 2321894: Image not found: 2321894
+      Warning: Error on sample 15340115: Failed to load image 2325932: Image not found: 2325932
+      Warning: Error on sample 19904701: Failed to load image 2368905: Image not found: 2368905
+      Warning: Error on sample 13515501: Failed to load image 2397987: Image not found: 2397987
+      Warning: Error on sample 05310359: Failed to load image 2414935: Image not found: 2414935
+      Warning: Error on sample 041029551: Failed to load image 2320665: Image not found: 2320665
+      Warning: Error on sample 02207917: Failed to load image 2393892: Image not found: 2393892
+      Warning: Error on sample 03510424: Failed to load image 2373925: Image not found: 2373925
+      Warning: Error on sample 02921844: Failed to load image 2383506: Image not found: 2383506
+      Warning: Error on sample 00600980: Failed to load image 2396488: Image not found: 2396488
+      Warning: Error on sample 07202148: Failed to load image 2387572: Image not found: 2387572
+      Warning: Error on sample 1979414: Failed to load image 2376384: Image not found: 2376384
+      Warning: Error on sample 11214457: Failed to load image 2412272: Image not found: 2412272
+      Warning: Error on sample 05891651: Failed to load image 2384647: Image not found: 2384647
+      Warning: Error on sample 15427529: Failed to load image 2363939: Image not found: 2363939
+      Warning: Error on sample 00736977: Failed to load image 2338149: Image not found: 2338149
+      Warning: Error on sample 0292525: Failed to load image 2408312: Image not found: 2408312
+      [ 300/500] samples processed...
+      Warning: Error on sample 1173487: Failed to load image 2354443: Image not found: 2354443
+      Warning: Error on sample 01650140: Failed to load image 2384793: Image not found: 2384793
+      Warning: Error on sample 04986662: Failed to load image 2380178: Image not found: 2380178
+      Warning: Error on sample 10338521: Failed to load image 2344193: Image not found: 2344193
+      Warning: Error on sample 19757872: Failed to load image 2385218: Image not found: 2385218
+      Warning: Error on sample 00289920: Failed to load image 2395760: Image not found: 2395760
+      Warning: Error on sample 16710724: Failed to load image 1074: Image not found: 1074
+      Warning: Error on sample 15225219: Failed to load image 2330610: Image not found: 2330610
+      Warning: Error on sample 021010741: Failed to load image 498188: Image not found: 498188
+      Warning: Error on sample 19358398: Failed to load image 1159380: Image not found: 1159380
+      Warning: Error on sample 13339719: Failed to load image 2356833: Image not found: 2356833
+      Warning: Error on sample 00889726: Failed to load image 2403039: Image not found: 2403039
+      Warning: Error on sample 12639700: Failed to load image 2323162: Image not found: 2323162
+      Warning: Error on sample 16275129: Failed to load image 2380483: Image not found: 2380483
+      Warning: Error on sample 17297249: Failed to load image 2398522: Image not found: 2398522
+      Warning: Error on sample 13178406: Failed to load image 2370684: Image not found: 2370684
+      Warning: Error on sample 1925086: Failed to load image 2366862: Image not found: 2366862
+      Warning: Error on sample 06459412: Failed to load image 2379466: Image not found: 2379466
+      Warning: Error on sample 05973184: Failed to load image 2316019: Image not found: 2316019
+      Warning: Error on sample 18920464: Failed to load image 2415396: Image not found: 2415396
+      Warning: Error on sample 11207448: Failed to load image 2316747: Image not found: 2316747
+      Warning: Error on sample 06615020: Failed to load image 2406370: Image not found: 2406370
+      Warning: Error on sample 06898905: Failed to load image 2396386: Image not found: 2396386
+      Warning: Error on sample 09161921: Failed to load image 2416885: Image not found: 2416885
+      Warning: Error on sample 06651580: Failed to load image 2370705: Image not found: 2370705
+      Warning: Error on sample 1942684: Failed to load image 2371012: Image not found: 2371012
+      Warning: Error on sample 11311050: Failed to load image 713230: Image not found: 713230
+      Warning: Error on sample 19773949: Failed to load image 2372613: Image not found: 2372613
+      Warning: Error on sample 18583209: Failed to load image 2362883: Image not found: 2362883
+      Warning: Error on sample 13357495: Failed to load image 2403546: Image not found: 2403546
+      Warning: Error on sample 001058312: Failed to load image 2380873: Image not found: 2380873
+      Warning: Error on sample 11589201: Failed to load image 2329846: Image not found: 2329846
+      Warning: Error on sample 06889758: Failed to load image 2381580: Image not found: 2381580
+      Warning: Error on sample 10926949: Failed to load image 2365501: Image not found: 2365501
+      Warning: Error on sample 13502157: Failed to load image 2405230: Image not found: 2405230
+      Warning: Error on sample 01584117: Failed to load image 2399600: Image not found: 2399600
+      Warning: Error on sample 18704247: Failed to load image 498197: Image not found: 498197
+      Warning: Error on sample 18997484: Failed to load image 2317262: Image not found: 2317262
+      Warning: Error on sample 01284498: Failed to load image 2362041: Image not found: 2362041
+      Warning: Error on sample 01715357: Failed to load image 498025: Image not found: 498025
+      Warning: Error on sample 09745246: Failed to load image 2382208: Image not found: 2382208
+      Warning: Error on sample 10561393: Failed to load image 2354914: Image not found: 2354914
+      Warning: Error on sample 0467034: Failed to load image 2360080: Image not found: 2360080
+      Warning: Error on sample 01259702: Failed to load image 2347236: Image not found: 2347236
+      Warning: Error on sample 19737324: Failed to load image 2386651: Image not found: 2386651
+      Warning: Error on sample 161020577: Failed to load image 2386644: Image not found: 2386644
+      Warning: Error on sample 081032949: Failed to load image 2393295: Image not found: 2393295
+      Warning: Error on sample 07508793: Failed to load image 2338167: Image not found: 2338167
+      Warning: Error on sample 07300998: Failed to load image 2352537: Image not found: 2352537
+      Warning: Error on sample 0464509: Failed to load image 2383984: Image not found: 2383984
+      [ 350/500] samples processed...
+      Warning: Error on sample 06895886: Failed to load image 2385910: Image not found: 2385910
+      Warning: Error on sample 00331039: Failed to load image 2315740: Image not found: 2315740
+      Warning: Error on sample 14796793: Failed to load image 2409083: Image not found: 2409083
+      Warning: Error on sample 08625104: Failed to load image 2342416: Image not found: 2342416
+      Warning: Error on sample 18230133: Failed to load image 2402334: Image not found: 2402334
+      Warning: Error on sample 05661687: Failed to load image 2353117: Image not found: 2353117
+      Warning: Error on sample 13908048: Failed to load image 2371222: Image not found: 2371222
+      Warning: Error on sample 01300656: Failed to load image 4900: Image not found: 4900
+      Warning: Error on sample 02914081: Failed to load image 2404849: Image not found: 2404849
+      Warning: Error on sample 03376045: Failed to load image 2363072: Image not found: 2363072
+      Warning: Error on sample 10737505: Failed to load image 2388975: Image not found: 2388975
+      Warning: Error on sample 14996062: Failed to load image 2353347: Image not found: 2353347
+      Warning: Error on sample 00204122: Failed to load image 2400683: Image not found: 2400683
+      Warning: Error on sample 12745124: Failed to load image 2399842: Image not found: 2399842
+      Warning: Error on sample 0045244: Failed to load image 2365281: Image not found: 2365281
+      Warning: Error on sample 12334288: Failed to load image 2320242: Image not found: 2320242
+      Warning: Error on sample 098145: Failed to load image 2331481: Image not found: 2331481
+      Warning: Error on sample 16351287: Failed to load image 2369489: Image not found: 2369489
+      Warning: Error on sample 06314056: Failed to load image 150356: Image not found: 150356
+      Warning: Error on sample 06587843: Failed to load image 28: Image not found: 28
+      Warning: Error on sample 11411531: Failed to load image 2374220: Image not found: 2374220
+      Warning: Error on sample 1583422: Failed to load image 2336635: Image not found: 2336635
+      Warning: Error on sample 1260165: Failed to load image 2354042: Image not found: 2354042
+      Warning: Error on sample 04174158: Failed to load image 2411136: Image not found: 2411136
+      Warning: Error on sample 10767860: Failed to load image 2412014: Image not found: 2412014
+      Warning: Error on sample 00101458: Failed to load image 2356112: Image not found: 2356112
+      Warning: Error on sample 01656731: Failed to load image 2334942: Image not found: 2334942
+      Warning: Error on sample 121037827: Failed to load image 2366017: Image not found: 2366017
+      Warning: Error on sample 1693927: Failed to load image 2360374: Image not found: 2360374
+      Warning: Error on sample 16448765: Failed to load image 2345013: Image not found: 2345013
+      Warning: Error on sample 04197453: Failed to load image 2390677: Image not found: 2390677
+      Warning: Error on sample 051042704: Failed to load image 2367808: Image not found: 2367808
+      Warning: Error on sample 01274973: Failed to load image 2388009: Image not found: 2388009
+      Warning: Error on sample 10970525: Failed to load image 2347454: Image not found: 2347454
+      Warning: Error on sample 18368230: Failed to load image 2388030: Image not found: 2388030
+      Warning: Error on sample 03715855: Failed to load image 2387346: Image not found: 2387346
+      Warning: Error on sample 08134901: Failed to load image 2410808: Image not found: 2410808
+      Warning: Error on sample 18546918: Failed to load image 2366467: Image not found: 2366467
+      Warning: Error on sample 00159172: Failed to load image 2359433: Image not found: 2359433
+      Warning: Error on sample 03633085: Failed to load image 2316480: Image not found: 2316480
+      Warning: Error on sample 04806476: Failed to load image 2383167: Image not found: 2383167
+      Warning: Error on sample 1928517: Failed to load image 2365742: Image not found: 2365742
+      Warning: Error on sample 0260575: Failed to load image 2320176: Image not found: 2320176
+      Warning: Error on sample 0416216: Failed to load image 2375361: Image not found: 2375361
+      Warning: Error on sample 07542804: Failed to load image 2345259: Image not found: 2345259
+      Warning: Error on sample 04251893: Failed to load image 2373119: Image not found: 2373119
+      Warning: Error on sample 1335954: Failed to load image 2329033: Image not found: 2329033
+      Warning: Error on sample 13539044: Failed to load image 1159827: Image not found: 1159827
+      Warning: Error on sample 15729910: Failed to load image 4120: Image not found: 4120
+      Warning: Error on sample 08416146: Failed to load image 2374729: Image not found: 2374729
+      [ 400/500] samples processed...
+      Warning: Error on sample 18961291: Failed to load image 2390742: Image not found: 2390742
+      Warning: Error on sample 01601562: Failed to load image 2408642: Image not found: 2408642
+      Warning: Error on sample 16791638: Failed to load image 2359040: Image not found: 2359040
+      Warning: Error on sample 1887740: Failed to load image 2414496: Image not found: 2414496
+      Warning: Error on sample 08410054: Failed to load image 2392742: Image not found: 2392742
+      Warning: Error on sample 05748173: Failed to load image 2321317: Image not found: 2321317
+      Warning: Error on sample 00352807: Failed to load image 2385456: Image not found: 2385456
+      Warning: Error on sample 12774477: Failed to load image 2342152: Image not found: 2342152
+      Warning: Error on sample 18107049: Failed to load image 2411038: Image not found: 2411038
+      Warning: Error on sample 18470134: Failed to load image 2389268: Image not found: 2389268
+      Warning: Error on sample 08174094: Failed to load image 2320720: Image not found: 2320720
+      Warning: Error on sample 0866562: Failed to load image 2406152: Image not found: 2406152
+      Warning: Error on sample 01190702: Failed to load image 2387163: Image not found: 2387163
+      Warning: Error on sample 11207726: Failed to load image 2316747: Image not found: 2316747
+      Warning: Error on sample 11366797: Failed to load image 2406331: Image not found: 2406331
+      Warning: Error on sample 08134794: Failed to load image 2410808: Image not found: 2410808
+      Warning: Error on sample 10980191: Failed to load image 2345081: Image not found: 2345081
+      Warning: Error on sample 12582202: Failed to load image 2353890: Image not found: 2353890
+      Warning: Error on sample 12246928: Failed to load image 2375184: Image not found: 2375184
+      Warning: Error on sample 04869296: Failed to load image 2383983: Image not found: 2383983
+      Warning: Error on sample 06144103: Failed to load image 2390488: Image not found: 2390488
+      Warning: Error on sample 06674998: Failed to load image 2365213: Image not found: 2365213
+      Warning: Error on sample 15880558: Failed to load image 2356643: Image not found: 2356643
+      Warning: Error on sample 131009649: Failed to load image 2326436: Image not found: 2326436
+✗ Error: 'flip_to_correct'
+Traceback (most recent call last):
+  File "/data/cs22btech11029/playground/Inference_time_VLM/scripts/run_phase2_experiment.py", line 341, in main
+    runner.run()
+  File "/data/cs22btech11029/playground/Inference_time_VLM/scripts/run_phase2_experiment.py", line 178, in run
+    self._analyze_and_save()
+  File "/data/cs22btech11029/playground/Inference_time_VLM/scripts/run_phase2_experiment.py", line 273, in _analyze_and_save
+    flip_rate = results_df["flip_to_correct"].mean()
+                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/data/cs22btech11029/miniconda3_new/envs/mech_interp/lib/python3.11/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cs22btech11029/miniconda3_new/envs/mech_interp/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'flip_to_correct'
+
+      Warning: Error on sample 19743171: Failed to load image 1592305: Image not found: 1592305
+      Warning: Error on sample 00215401: Failed to load image 2402117: Image not found: 2402117
+      Warning: Error on sample 12105812: Failed to load image 1159745: Image not found: 1159745
+      Warning: Error on sample 05141840: Failed to load image 2414484: Image not found: 2414484
+      Warning: Error on sample 14470764: Failed to load image 713118: Image not found: 713118
+      Warning: Error on sample 0623848: Failed to load image 2319837: Image not found: 2319837
+      Warning: Error on sample 03600057: Failed to load image 2414326: Image not found: 2414326
+      Warning: Error on sample 11804543: Failed to load image 2392752: Image not found: 2392752
+      Warning: Error on sample 18983693: Failed to load image 2357784: Image not found: 2357784
+      Warning: Error on sample 06319036: Failed to load image 2332903: Image not found: 2332903
+      Warning: Error on sample 11327974: Failed to load image 2350666: Image not found: 2350666
+      Warning: Error on sample 03513850: Failed to load image 2410656: Image not found: 2410656
+      Warning: Error on sample 06347045: Failed to load image 2395361: Image not found: 2395361
+      Warning: Error on sample 15127182: Failed to load image 2390938: Image not found: 2390938
+      Warning: Error on sample 00684249: Failed to load image 2410733: Image not found: 2410733
+      Warning: Error on sample 05444127: Failed to load image 2348601: Image not found: 2348601
+      Warning: Error on sample 12640880: Failed to load image 2358626: Image not found: 2358626
+      Warning: Error on sample 17560384: Failed to load image 2359451: Image not found: 2359451
+      Warning: Error on sample 08173549: Failed to load image 2320720: Image not found: 2320720
+      Warning: Error on sample 01530411: Failed to load image 4426: Image not found: 4426
+      Warning: Error on sample 09894390: Failed to load image 2335736: Image not found: 2335736
+      Warning: Error on sample 03681747: Failed to load image 2412962: Image not found: 2412962
+      Warning: Error on sample 04803484: Failed to load image 2374759: Image not found: 2374759
+      Warning: Error on sample 16167582: Failed to load image 2320104: Image not found: 2320104
+      Warning: Error on sample 04903562: Failed to load image 2386929: Image not found: 2386929
+      Warning: Error on sample 101008884: Failed to load image 2373429: Image not found: 2373429
+      [ 450/500] samples processed...
+      Warning: Error on sample 11925963: Failed to load image 2318297: Image not found: 2318297
+      Warning: Error on sample 15519571: Failed to load image 2400406: Image not found: 2400406
+      Warning: Error on sample 15785278: Failed to load image 2379924: Image not found: 2379924
+      Warning: Error on sample 0038509: Failed to load image 2355481: Image not found: 2355481
+      Warning: Error on sample 10110879: Failed to load image 2389829: Image not found: 2389829
+      Warning: Error on sample 01698074: Failed to load image 2332249: Image not found: 2332249
+      Warning: Error on sample 07540985: Failed to load image 2389885: Image not found: 2389885
+      Warning: Error on sample 09407119: Failed to load image 2324396: Image not found: 2324396
+      Warning: Error on sample 0660247: Failed to load image 2386438: Image not found: 2386438
+      Warning: Error on sample 07639572: Failed to load image 2386784: Image not found: 2386784
+      Warning: Error on sample 191038862: Failed to load image 2367639: Image not found: 2367639
+      Warning: Error on sample 06313835: Failed to load image 150356: Image not found: 150356
+      Warning: Error on sample 10281484: Failed to load image 2358727: Image not found: 2358727
+      Warning: Error on sample 17456829: Failed to load image 2369861: Image not found: 2369861
+      Warning: Error on sample 13517306: Failed to load image 2408450: Image not found: 2408450
+      Warning: Error on sample 13275255: Failed to load image 2345745: Image not found: 2345745
+      Warning: Error on sample 02759474: Failed to load image 2344041: Image not found: 2344041
+      Warning: Error on sample 16540407: Failed to load image 2411094: Image not found: 2411094
+      Warning: Error on sample 123230: Failed to load image 2410046: Image not found: 2410046
+      Warning: Error on sample 15705216: Failed to load image 2345287: Image not found: 2345287
+      Warning: Error on sample 13294481: Failed to load image 2338299: Image not found: 2338299
+      Warning: Error on sample 03297650: Failed to load image 2371554: Image not found: 2371554
+      Warning: Error on sample 19831270: Failed to load image 2412358: Image not found: 2412358
+      Warning: Error on sample 14904180: Failed to load image 2342525: Image not found: 2342525
+      Warning: Error on sample 17797182: Failed to load image 2345193: Image not found: 2345193
+      Warning: Error on sample 07142578: Failed to load image 2392341: Image not found: 2392341
+      Warning: Error on sample 0797841: Failed to load image 2361918: Image not found: 2361918
+      Warning: Error on sample 01530372: Failed to load image 4426: Image not found: 4426
+      Warning: Error on sample 09795233: Failed to load image 2316255: Image not found: 2316255
+      Warning: Error on sample 07742316: Failed to load image 2351463: Image not found: 2351463
+      Warning: Error on sample 19929863: Failed to load image 2397231: Image not found: 2397231
+      Warning: Error on sample 06846279: Failed to load image 2383239: Image not found: 2383239
+      Warning: Error on sample 16409146: Failed to load image 2397884: Image not found: 2397884
+      Warning: Error on sample 00839093: Failed to load image 2407659: Image not found: 2407659
+      Warning: Error on sample 13831517: Failed to load image 2362843: Image not found: 2362843
+      Warning: Error on sample 04813428: Failed to load image 2373574: Image not found: 2373574
+      Warning: Error on sample 17569381: Failed to load image 2409707: Image not found: 2409707
+      Warning: Error on sample 05720322: Failed to load image 2388805: Image not found: 2388805
+      Warning: Error on sample 19900274: Failed to load image 2316836: Image not found: 2316836
+      Warning: Error on sample 05175025: Failed to load image 2338286: Image not found: 2338286
+      Warning: Error on sample 19284369: Failed to load image 2341763: Image not found: 2341763
+      Warning: Error on sample 11595526: Failed to load image 2407603: Image not found: 2407603
+      Warning: Error on sample 08832502: Failed to load image 2383601: Image not found: 2383601
+      Warning: Error on sample 13387365: Failed to load image 2323659: Image not found: 2323659
+      Warning: Error on sample 10611152: Failed to load image 1159729: Image not found: 1159729
+      Warning: Error on sample 19388759: Failed to load image 2325119: Image not found: 2325119
+      Warning: Error on sample 02620369: Failed to load image 2413347: Image not found: 2413347
+      Warning: Error on sample 196941: Failed to load image 2356670: Image not found: 2356670
+      Warning: Error on sample 18445197: Failed to load image 2333821: Image not found: 2333821
+      Warning: Error on sample 162519: Failed to load image 2399406: Image not found: 2399406
+      [ 500/500] samples processed...
+      Warning: Error on sample 1638555: Failed to load image 2385819: Image not found: 2385819
+[6/6] Analyzing and saving results...
+

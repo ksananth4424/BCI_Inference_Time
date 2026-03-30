@@ -1,0 +1,4502 @@
+[
+  {
+    "question_id": "05491615",
+    "question": "The vehicle is in front of who?",
+    "answer": "pedestrian",
+    "image_id": "2374257",
+    "full_answer": "The vehicle is in front of the pedestrian.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14192896",
+    "question": "Which side of the picture is the spectator on?",
+    "answer": "right",
+    "image_id": "2355736",
+    "full_answer": "The spectator is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "03433692",
+    "question": "Are there any bottles in the image?",
+    "answer": "yes",
+    "image_id": "2340617",
+    "full_answer": "Yes, there is a bottle.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "0167377",
+    "question": "Are there both helmets and motorcycles in this picture?",
+    "answer": "yes",
+    "image_id": "2351365",
+    "full_answer": "Yes, there are both a motorcycle and a helmet.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "09982030",
+    "question": "What kind of food is below the vegetable near the carrots?",
+    "answer": "broth",
+    "image_id": "2407698",
+    "full_answer": "The food is broth.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07598996",
+    "question": "What is the animal that is to the right of the black container?",
+    "answer": "giraffe",
+    "image_id": "2375491",
+    "full_answer": "The animal is a giraffe.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06222534",
+    "question": "On which side is the statue?",
+    "answer": "right",
+    "image_id": "2389835",
+    "full_answer": "The statue is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "19359515",
+    "question": "Is it indoors?",
+    "answer": "no",
+    "image_id": "2381611",
+    "full_answer": "No, it is outdoors.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "03262245",
+    "question": "Of what color are the bags to the right of the man?",
+    "answer": "black",
+    "image_id": "2409000",
+    "full_answer": "The bags are black.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "17397767",
+    "question": "Is there a white truck or bus?",
+    "answer": "no",
+    "image_id": "2378563",
+    "full_answer": "No, there is a truck but it is brown.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "01417011",
+    "question": "Which side is the helmet on?",
+    "answer": "left",
+    "image_id": "2412339",
+    "full_answer": "The helmet is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "17596714",
+    "question": "What is in front of the bushes?",
+    "answer": "train tracks",
+    "image_id": "2397873",
+    "full_answer": "The train tracks are in front of the bushes.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08651263",
+    "question": "What is the street sign on?",
+    "answer": "street light",
+    "image_id": "2391908",
+    "full_answer": "The street sign is on the street lamp.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11293734",
+    "question": "Is there a lamb to the left of the ball?",
+    "answer": "no",
+    "image_id": "2391802",
+    "full_answer": "No, there are horses to the left of the ball.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06566426",
+    "question": "What is the man in?",
+    "answer": "canoe",
+    "image_id": "2359746",
+    "full_answer": "The man is in the kayak.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "161065162",
+    "question": "Who is wearing the jeans?",
+    "answer": "man",
+    "image_id": "2349334",
+    "full_answer": "The man is wearing jeans.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0365933",
+    "question": "What is the color of the placemat in the top part of the photo?",
+    "answer": "cream colored",
+    "image_id": "2400350",
+    "full_answer": "The placemat is cream colored.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18168885",
+    "question": "Does she look at the ball in the top of the picture?",
+    "answer": "yes",
+    "image_id": "61533",
+    "full_answer": "Yes, the girl looks at the ball.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10682334",
+    "question": "Is there food to the right of the tomato that the pepper is to the right of?",
+    "answer": "no",
+    "image_id": "2412363",
+    "full_answer": "No, the food is to the left of the tomato.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06564130",
+    "question": "What is the device that he holds?",
+    "answer": "cell phone",
+    "image_id": "2398184",
+    "full_answer": "The device is a cell phone.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16434006",
+    "question": "What does the person that to the right of the boy wear?",
+    "answer": "blouse",
+    "image_id": "1159963",
+    "full_answer": "The person wears a blouse.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12252824",
+    "question": "What is the color of the train to the left of the woman?",
+    "answer": "blue",
+    "image_id": "2405244",
+    "full_answer": "The train is blue.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "0829456",
+    "question": "What place was the image taken at?",
+    "answer": "street",
+    "image_id": "2387148",
+    "full_answer": "It was taken at the street.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "18602180",
+    "question": "Are the clouds in the sky rainy or cloudy?",
+    "answer": "rainy",
+    "image_id": "2404083",
+    "full_answer": "The clouds are rainy.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "08337624",
+    "question": "Which side of the image is the man on?",
+    "answer": "left",
+    "image_id": "2394960",
+    "full_answer": "The man is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "03318431",
+    "question": "What are the bleachers made of?",
+    "answer": "wood",
+    "image_id": "2383905",
+    "full_answer": "The bleachers are made of wood.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "09179577",
+    "question": "What is located on top of the skateboard?",
+    "answer": "sneakers",
+    "image_id": "2381259",
+    "full_answer": "The sneakers are on top of the skateboard.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "09432410",
+    "question": "What animal is striped?",
+    "answer": "cat",
+    "image_id": "2415221",
+    "full_answer": "The animal is a cat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "19104279",
+    "question": "What is the girl playing with?",
+    "answer": "ball",
+    "image_id": "2345050",
+    "full_answer": "The girl is playing with a ball.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "096049",
+    "question": "Is the woman to the left or to the right of the man that holds the racket?",
+    "answer": "right",
+    "image_id": "2332415",
+    "full_answer": "The woman is to the right of the man.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03493955",
+    "question": "Is the silver car to the left or to the right of the people that are on the right side?",
+    "answer": "left",
+    "image_id": "2386297",
+    "full_answer": "The car is to the left of the people.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03437169",
+    "question": "On which side of the image are the nuts?",
+    "answer": "right",
+    "image_id": "2352380",
+    "full_answer": "The nuts are on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "06981173",
+    "question": "What place is it?",
+    "answer": "display",
+    "image_id": "2379976",
+    "full_answer": "It is a display.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "10763404",
+    "question": "Are the utensils to the right of a refrigerator?",
+    "answer": "no",
+    "image_id": "1159296",
+    "full_answer": "No, the utensils are to the right of the oven.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19225232",
+    "question": "Are there any fences or helmets?",
+    "answer": "no",
+    "image_id": "2342134",
+    "full_answer": "No, there are no fences or helmets.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "05686508",
+    "question": "Is the car to the left of the other car green or silver?",
+    "answer": "silver",
+    "image_id": "2344393",
+    "full_answer": "The car is silver.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "08709099",
+    "question": "Is the man to the left of the boat wearing a jacket?",
+    "answer": "no",
+    "image_id": "2378264",
+    "full_answer": "No, the man is wearing a hat.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "091039290",
+    "question": "Is the blue truck to the left of a person?",
+    "answer": "no",
+    "image_id": "2386440",
+    "full_answer": "No, the truck is to the right of a person.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03581765",
+    "question": "Is there either a small scooter or motorcycle?",
+    "answer": "no",
+    "image_id": "2406473",
+    "full_answer": "No, there is a motorcycle but it is large.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "03322739",
+    "question": "Is the man to the left or to the right of the spectator on the left?",
+    "answer": "right",
+    "image_id": "2358081",
+    "full_answer": "The man is to the right of the spectator.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10259915",
+    "question": "Does the sidewalk seem to be red and dirty?",
+    "answer": "no",
+    "image_id": "2368742",
+    "full_answer": "No, the sidewalk is dirty but gray.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "0682915",
+    "question": "Does the nose that looks black look round and small?",
+    "answer": "yes",
+    "image_id": "2347146",
+    "full_answer": "Yes, the nose is round and small.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13515619",
+    "question": "What kind of furniture is to the left of the rug?",
+    "answer": "ottoman",
+    "image_id": "2397987",
+    "full_answer": "The piece of furniture is an ottoman.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17560215",
+    "question": "Who wears shoes?",
+    "answer": "man",
+    "image_id": "2359451",
+    "full_answer": "The man wears shoes.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1972311",
+    "question": "Is this a lamb or a cow?",
+    "answer": "lamb",
+    "image_id": "2387777",
+    "full_answer": "This is a lamb.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "06146373",
+    "question": "Is the toilet to the right of the food?",
+    "answer": "yes",
+    "image_id": "2390480",
+    "full_answer": "Yes, the toilet is to the right of the food.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00930300",
+    "question": "Do the shorts look black or red?",
+    "answer": "black",
+    "image_id": "2396634",
+    "full_answer": "The shorts are black.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "12741575",
+    "question": "Are there any salt shakers or batteries?",
+    "answer": "no",
+    "image_id": "2378292",
+    "full_answer": "No, there are no batteries or salt shakers.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "09730771",
+    "question": "What vehicle is the man in?",
+    "answer": "carriage",
+    "image_id": "2358122",
+    "full_answer": "The man is in the carriage.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04527826",
+    "question": "Are both the cooking pot and the chair made of the same material?",
+    "answer": "yes",
+    "image_id": "2349159",
+    "full_answer": "Yes, both the cooking pot and the chair are made of metal.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11193931",
+    "question": "Are the remote and the floor made of the same material?",
+    "answer": "no",
+    "image_id": "2401803",
+    "full_answer": "No, the remote is made of plastic and the floor is made of wood.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "06328865",
+    "question": "Is the green car in the bottom part or in the top of the picture?",
+    "answer": "bottom",
+    "image_id": "2367411",
+    "full_answer": "The car is in the bottom of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05410113",
+    "question": "Which side of the image is the television on?",
+    "answer": "left",
+    "image_id": "498329",
+    "full_answer": "The television is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "00650121",
+    "question": "What animal is on the chair on the right side of the picture?",
+    "answer": "cat",
+    "image_id": "497937",
+    "full_answer": "The cat is on the chair.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17949859",
+    "question": "Is there any lettuce to the right of the carrot in the center of the image?",
+    "answer": "yes",
+    "image_id": "2362562",
+    "full_answer": "Yes, there is lettuce to the right of the carrot.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14669854",
+    "question": "Are there controllers or beds?",
+    "answer": "no",
+    "image_id": "2337103",
+    "full_answer": "No, there are no beds or controllers.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "05863853",
+    "question": "Does the man in front of the end table appear to be standing?",
+    "answer": "no",
+    "image_id": "2346071",
+    "full_answer": "No, the man is sitting.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "133485",
+    "question": "Are there any chairs to the right of the young child?",
+    "answer": "no",
+    "image_id": "2409219",
+    "full_answer": "No, there is a girl to the right of the kid.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19954280",
+    "question": "What vegetables are on the plate?",
+    "answer": "tomatoes",
+    "image_id": "2406002",
+    "full_answer": "The vegetables are tomatoes.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08894679",
+    "question": "Are there any boxes beside the device to the left of the mat?",
+    "answer": "yes",
+    "image_id": "2360703",
+    "full_answer": "Yes, there is a box beside the television.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18229012",
+    "question": "What is located on top of the white table?",
+    "answer": "lamp",
+    "image_id": "2402333",
+    "full_answer": "The lamp is on top of the table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17459063",
+    "question": "Which place is it?",
+    "answer": "airport",
+    "image_id": "2413541",
+    "full_answer": "It is an airport.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "03212804",
+    "question": "What does the person wear?",
+    "answer": "shorts",
+    "image_id": "2327623",
+    "full_answer": "The person wears shorts.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13136918",
+    "question": "Is the sky both blue and overcast?",
+    "answer": "no",
+    "image_id": "2406090",
+    "full_answer": "No, the sky is blue but clear.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "17853007",
+    "question": "Is there any horse or sheep that is not gray?",
+    "answer": "no",
+    "image_id": "2337616",
+    "full_answer": "No, there is a horse but it is gray.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "09928108",
+    "question": "On which side is the umpire?",
+    "answer": "right",
+    "image_id": "2344757",
+    "full_answer": "The umpire is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05459303",
+    "question": "Who is carrying the bag?",
+    "answer": "lady",
+    "image_id": "713360",
+    "full_answer": "The lady is carrying the bag.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0376680",
+    "question": "Does the woman to the left of the man wear shorts?",
+    "answer": "yes",
+    "image_id": "2354196",
+    "full_answer": "Yes, the woman wears shorts.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0529198",
+    "question": "Are there any chairs or computers in this scene?",
+    "answer": "yes",
+    "image_id": "1592615",
+    "full_answer": "Yes, there is a computer.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "00397762",
+    "question": "What is the player that is to the left of the helmet preparing?",
+    "answer": "baseball bat",
+    "image_id": "2374803",
+    "full_answer": "The player is preparing baseball bat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10403875",
+    "question": "On what kind of furniture is the cat?",
+    "answer": "table",
+    "image_id": "2327830",
+    "full_answer": "The cat is on the table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16488440",
+    "question": "Which kind of appliance is to the left of the lamp?",
+    "answer": "air conditioner",
+    "image_id": "2321052",
+    "full_answer": "The appliance is an air conditioner.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19494904",
+    "question": "Are there both tables and couches in the picture?",
+    "answer": "yes",
+    "image_id": "2365760",
+    "full_answer": "Yes, there are both a couch and a table.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "1864177",
+    "question": "In which part is the person, the top or the bottom?",
+    "answer": "bottom",
+    "image_id": "2322984",
+    "full_answer": "The person is in the bottom of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14275115",
+    "question": "Does the chair have a different color than the headband?",
+    "answer": "yes",
+    "image_id": "2398835",
+    "full_answer": "Yes, the chair is black and the headband is white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01763834",
+    "question": "What vehicles are in the street?",
+    "answer": "cars",
+    "image_id": "2400752",
+    "full_answer": "The vehicles are cars.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00283108",
+    "question": "What's on the plate?",
+    "answer": "pizza",
+    "image_id": "2330700",
+    "full_answer": "The pizza is on the plate.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14816347",
+    "question": "Is there any bear in the image?",
+    "answer": "yes",
+    "image_id": "2363629",
+    "full_answer": "Yes, there is a bear.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "14381909",
+    "question": "Is the woman to the right or to the left of the glasses that are to the left of the train?",
+    "answer": "left",
+    "image_id": "2403590",
+    "full_answer": "The woman is to the left of the glasses.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13764117",
+    "question": "Are there any teddy bears on top of the bed?",
+    "answer": "no",
+    "image_id": "2401635",
+    "full_answer": "No, there is a pillow on top of the bed.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "09964815",
+    "question": "Are there logoes on the oven?",
+    "answer": "no",
+    "image_id": "2414646",
+    "full_answer": "No, there is an appliance on the oven.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05913845",
+    "question": "What kind of furniture is it?",
+    "answer": "table",
+    "image_id": "2332780",
+    "full_answer": "The piece of furniture is a table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "05755315",
+    "question": "Are there any green pillows or bridges?",
+    "answer": "yes",
+    "image_id": "2400761",
+    "full_answer": "Yes, there is a green bridge.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "05469399",
+    "question": "Is the man with the glasses throwing a ball?",
+    "answer": "no",
+    "image_id": "2393510",
+    "full_answer": "No, the man is throwing a frisbee.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "161036696",
+    "question": "Is the patterned curtain behind the dresser open and long?",
+    "answer": "no",
+    "image_id": "2368963",
+    "full_answer": "No, the curtain is long but closed.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "1366354",
+    "question": "How is the weather?",
+    "answer": "sunny",
+    "image_id": "2349328",
+    "full_answer": "It is sunny.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "16811715",
+    "question": "Is the sky clear or foggy?",
+    "answer": "clear",
+    "image_id": "2378978",
+    "full_answer": "The sky is clear.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10882926",
+    "question": "What do the end table and the frame have in common?",
+    "answer": "material",
+    "image_id": "2385070",
+    "full_answer": "The material, both the end table and the frame are wooden.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14124503",
+    "question": "Are there either trains or trailers in this scene?",
+    "answer": "no",
+    "image_id": "1592427",
+    "full_answer": "No, there are no trailers or trains.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "03962729",
+    "question": "Is the white toilet to the right or to the left of the faucet?",
+    "answer": "right",
+    "image_id": "2345855",
+    "full_answer": "The toilet is to the right of the faucet.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03635273",
+    "question": "What is in the kitchen?",
+    "answer": "cabinets",
+    "image_id": "2367211",
+    "full_answer": "The cabinets are in the kitchen.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11298977",
+    "question": "Is the woman in front of the people using a computer?",
+    "answer": "no",
+    "image_id": "2341585",
+    "full_answer": "No, the woman is using a phone.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0866588",
+    "question": "Which type of furniture is made of wood?",
+    "answer": "computer desk",
+    "image_id": "2406152",
+    "full_answer": "The furniture is a computer desk.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "15242425",
+    "question": "Of which color is the sky?",
+    "answer": "dark",
+    "image_id": "2387376",
+    "full_answer": "The sky is dark.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "07777814",
+    "question": "Is the man to the right of the cars wearing a watch?",
+    "answer": "yes",
+    "image_id": "2370053",
+    "full_answer": "Yes, the man is wearing a watch.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01956518",
+    "question": "Is the bright sky overcast or sunny?",
+    "answer": "sunny",
+    "image_id": "2405983",
+    "full_answer": "The sky is sunny.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "12171112",
+    "question": "What is this, an oven or a dishwasher?",
+    "answer": "dishwasher",
+    "image_id": "2367977",
+    "full_answer": "This is a dishwasher.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "001009938",
+    "question": "Who stands on the skis?",
+    "answer": "boy",
+    "image_id": "497933",
+    "full_answer": "The boy stands on the skis.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02325517",
+    "question": "Is there a cat or a dog in the photo?",
+    "answer": "no",
+    "image_id": "2367555",
+    "full_answer": "No, there are no cats or dogs.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "131059645",
+    "question": "What is the man on?",
+    "answer": "bench",
+    "image_id": "2399053",
+    "full_answer": "The man is on the bench.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02591010",
+    "question": "Is the cat healthy?",
+    "answer": "yes",
+    "image_id": "2320327",
+    "full_answer": "Yes, the cat is healthy.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "06983021",
+    "question": "Who in the picture is eating?",
+    "answer": "man",
+    "image_id": "2356227",
+    "full_answer": "The man is eating.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "00222257",
+    "question": "Is there a couch to the left of the man the cans are to the right of?",
+    "answer": "yes",
+    "image_id": "2360758",
+    "full_answer": "Yes, there is a couch to the left of the man.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14524305",
+    "question": "What is the brown bear balancing on?",
+    "answer": "log",
+    "image_id": "2407279",
+    "full_answer": "The bear is balancing on the log.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03150880",
+    "question": "What is the net on?",
+    "answer": "pole",
+    "image_id": "1593177",
+    "full_answer": "The net is on the pole.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08116986",
+    "question": "What is the man walking on?",
+    "answer": "ground",
+    "image_id": "2396469",
+    "full_answer": "The man is walking on the ground.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13430682",
+    "question": "Do you see onions in this photograph?",
+    "answer": "no",
+    "image_id": "2413411",
+    "full_answer": "No, there are no onions.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "051058592",
+    "question": "What is the color of the tshirt the girl is wearing?",
+    "answer": "white",
+    "image_id": "2351317",
+    "full_answer": "The tshirt is white.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05111627",
+    "question": "Are there ramekins or bottles in the picture?",
+    "answer": "no",
+    "image_id": "2363282",
+    "full_answer": "No, there are no bottles or ramekins.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11139796",
+    "question": "Is the bicycle to the right or to the left of the person that looks blonde?",
+    "answer": "right",
+    "image_id": "2344439",
+    "full_answer": "The bicycle is to the right of the woman.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "141036087",
+    "question": "What is the person holding?",
+    "answer": "surfboard",
+    "image_id": "2392869",
+    "full_answer": "The skater is holding the surfboard.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "171034612",
+    "question": "Are there tablecloths or bowls?",
+    "answer": "no",
+    "image_id": "2344782",
+    "full_answer": "No, there are no bowls or tablecloths.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11119089",
+    "question": "Is the sauce on top of a pizza slice?",
+    "answer": "yes",
+    "image_id": "2404154",
+    "full_answer": "Yes, the sauce is on top of a pizza slice.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01750921",
+    "question": "What is the lady wearing?",
+    "answer": "pants",
+    "image_id": "2381128",
+    "full_answer": "The lady is wearing pants.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17667821",
+    "question": "Who is holding the device that looks gray and silver?",
+    "answer": "girl",
+    "image_id": "2393949",
+    "full_answer": "The girl is holding the phone.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04173770",
+    "question": "Do the paper and the liquid have a different colors?",
+    "answer": "yes",
+    "image_id": "2411136",
+    "full_answer": "Yes, the paper is blue and the liquid is white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "1573911",
+    "question": "Does the man's hair appear to be black or light brown?",
+    "answer": "black",
+    "image_id": "2384811",
+    "full_answer": "The hair is black.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10587792",
+    "question": "What is the bottle on?",
+    "answer": "counter",
+    "image_id": "2335112",
+    "full_answer": "The bottle is on the counter.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13363918",
+    "question": "Are there both steam and smoke?",
+    "answer": "yes",
+    "image_id": "2337535",
+    "full_answer": "Yes, there are both steam and smoke.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11354848",
+    "question": "Does the jacket have brown color?",
+    "answer": "yes",
+    "image_id": "2382462",
+    "full_answer": "Yes, the jacket is brown.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11385575",
+    "question": "What animal is this child on?",
+    "answer": "horse",
+    "image_id": "2326388",
+    "full_answer": "The child is on the horse.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16742353",
+    "question": "Are there both chairs and windows in the image?",
+    "answer": "no",
+    "image_id": "2378984",
+    "full_answer": "No, there is a window but no chairs.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "07696685",
+    "question": "Are there both a chair and a desk in this scene?",
+    "answer": "yes",
+    "image_id": "2388377",
+    "full_answer": "Yes, there are both a chair and a desk.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "06356032",
+    "question": "What is the vehicle to the left of the person that is standing by the fire hydrant?",
+    "answer": "car",
+    "image_id": "2352718",
+    "full_answer": "The vehicle is a car.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15425887",
+    "question": "Which side of the photo is the kid on?",
+    "answer": "left",
+    "image_id": "2363931",
+    "full_answer": "The kid is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10660951",
+    "question": "Do you see white plates or mugs?",
+    "answer": "no",
+    "image_id": "2366958",
+    "full_answer": "No, there is a plate but it is blue.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "15586374",
+    "question": "What is located on top of the bed?",
+    "answer": "pillow",
+    "image_id": "2352617",
+    "full_answer": "The pillow is on top of the bed.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04914252",
+    "question": "How long is the blond hair?",
+    "answer": "short",
+    "image_id": "2317381",
+    "full_answer": "The hair is short.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13425365",
+    "question": "On which side is the bicycle?",
+    "answer": "right",
+    "image_id": "2412682",
+    "full_answer": "The bicycle is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13226655",
+    "question": "On which side of the image is the yellow vegetable?",
+    "answer": "left",
+    "image_id": "2367978",
+    "full_answer": "The lemon is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "19693907",
+    "question": "What's the man holding?",
+    "answer": "fish",
+    "image_id": "2382366",
+    "full_answer": "The man is holding the fish.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10611191",
+    "question": "Is it outdoors?",
+    "answer": "yes",
+    "image_id": "2368747",
+    "full_answer": "Yes, it is outdoors.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "1645076",
+    "question": "Are there any blankets?",
+    "answer": "yes",
+    "image_id": "2387991",
+    "full_answer": "Yes, there is a blanket.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "15978167",
+    "question": "What's the porch made of?",
+    "answer": "brick",
+    "image_id": "2365868",
+    "full_answer": "The porch is made of brick.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13497067",
+    "question": "What is the pepper shaker that is to the left of the mug made of?",
+    "answer": "plastic",
+    "image_id": "2378836",
+    "full_answer": "The pepper shaker is made of plastic.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05433112",
+    "question": "Are there either any dream catchers or lamps?",
+    "answer": "yes",
+    "image_id": "2338567",
+    "full_answer": "Yes, there is a lamp.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "08297228",
+    "question": "Do you think that shirt is red?",
+    "answer": "yes",
+    "image_id": "1592640",
+    "full_answer": "Yes, the shirt is red.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18782434",
+    "question": "What do the mug and the tablecloth have in common?",
+    "answer": "color",
+    "image_id": "2356933",
+    "full_answer": "The color, both the mug and the tablecloth are white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11524226",
+    "question": "Are there either juice boxes or toothbrushes in the scene?",
+    "answer": "no",
+    "image_id": "2415972",
+    "full_answer": "No, there are no toothbrushes or juice boxes.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "12772816",
+    "question": "What is the appliance in the kitchen?",
+    "answer": "refrigerator",
+    "image_id": "2342151",
+    "full_answer": "The appliance is a refrigerator.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16661127",
+    "question": "Is the door tan or is it maroon?",
+    "answer": "maroon",
+    "image_id": "2336505",
+    "full_answer": "The door is maroon.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10742293",
+    "question": "On which side of the picture is the boat?",
+    "answer": "right",
+    "image_id": "2369432",
+    "full_answer": "The boat is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14202781",
+    "question": "What is the piece of clothing that is black called?",
+    "answer": "jacket",
+    "image_id": "2345598",
+    "full_answer": "The clothing item is a jacket.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "1886024",
+    "question": "Do you see any grass there that is brown?",
+    "answer": "yes",
+    "image_id": "2410380",
+    "full_answer": "Yes, there is grass that is brown.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "181000995",
+    "question": "What item of furniture is to the right of the fruit?",
+    "answer": "chair",
+    "image_id": "4633",
+    "full_answer": "The piece of furniture is a chair.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06840268",
+    "question": "Who is riding the elephant?",
+    "answer": "guy",
+    "image_id": "2349795",
+    "full_answer": "The guy is riding an elephant.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "041025251",
+    "question": "Who is wearing a hat?",
+    "answer": "woman",
+    "image_id": "2342323",
+    "full_answer": "The woman is wearing a hat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1167999",
+    "question": "Which place is it?",
+    "answer": "river",
+    "image_id": "1575",
+    "full_answer": "It is a river.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "16350496",
+    "question": "What clothing item is long sleeved?",
+    "answer": "jacket",
+    "image_id": "2365644",
+    "full_answer": "The clothing item is a jacket.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "18484260",
+    "question": "Is there either a triangular pizza or sandwich in this photo?",
+    "answer": "no",
+    "image_id": "2404247",
+    "full_answer": "No, there is a pizza but it is round.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "00706944",
+    "question": "Where is the man walking?",
+    "answer": "sidewalk",
+    "image_id": "314",
+    "full_answer": "The man is walking on the sidewalk.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16535089",
+    "question": "Does the motorbike on the road look black?",
+    "answer": "no",
+    "image_id": "2407870",
+    "full_answer": "No, the motorbike is white.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14389529",
+    "question": "Are there either curtains or towels that are white?",
+    "answer": "yes",
+    "image_id": "2410973",
+    "full_answer": "Yes, the towel is white.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "13726900",
+    "question": "Are there either cabinets or towels in this scene?",
+    "answer": "yes",
+    "image_id": "2375648",
+    "full_answer": "Yes, there is a towel.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "19992444",
+    "question": "Are there any clocks to the right of the jar that is to the right of the box?",
+    "answer": "yes",
+    "image_id": "2376382",
+    "full_answer": "Yes, there is a clock to the right of the jar.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11908666",
+    "question": "What color is the towel on the right side of the photo?",
+    "answer": "brown",
+    "image_id": "2357279",
+    "full_answer": "The towel is brown.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10123004",
+    "question": "In which part is the flag, the top or the bottom?",
+    "answer": "top",
+    "image_id": "2332332",
+    "full_answer": "The flag is in the top of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14144547",
+    "question": "What kind of vehicle is it?",
+    "answer": "car",
+    "image_id": "2324283",
+    "full_answer": "The vehicle is a car.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "04869171",
+    "question": "In which part is the small shelf?",
+    "answer": "left",
+    "image_id": "2361211",
+    "full_answer": "The shelf is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "09623056",
+    "question": "What kind of furniture is red?",
+    "answer": "table",
+    "image_id": "2327476",
+    "full_answer": "The furniture is a table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "19501031",
+    "question": "Are there both a door and window in the image?",
+    "answer": "no",
+    "image_id": "2394408",
+    "full_answer": "No, there are windows but no doors.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "17746156",
+    "question": "What color is the shirt that the boy is in?",
+    "answer": "white",
+    "image_id": "2368062",
+    "full_answer": "The shirt is white.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01385341",
+    "question": "What does the man hold onto?",
+    "answer": "pole",
+    "image_id": "2335783",
+    "full_answer": "The man holds onto the pole.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11196211",
+    "question": "What are the men to the left of the horse wearing?",
+    "answer": "cowboy hat",
+    "image_id": "2399024",
+    "full_answer": "The men are wearing a cowboy hat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15641002",
+    "question": "Is there food to the right of the food that is lying on top of the plate?",
+    "answer": "yes",
+    "image_id": "2334745",
+    "full_answer": "Yes, there is food to the right of the pancake.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10230544",
+    "question": "Do you see both a door and a window?",
+    "answer": "yes",
+    "image_id": "2416765",
+    "full_answer": "Yes, there are both a door and a window.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11499909",
+    "question": "Do you see both cars and umbrellas there?",
+    "answer": "yes",
+    "image_id": "2333498",
+    "full_answer": "Yes, there are both an umbrella and a car.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "03337468",
+    "question": "Which kind of furniture is the statue on?",
+    "answer": "bookshelf",
+    "image_id": "2377193",
+    "full_answer": "The statue is on the bookshelf.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "09569413",
+    "question": "What animal is this fence behind of?",
+    "answer": "cat",
+    "image_id": "2414061",
+    "full_answer": "The fence is behind the cat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13368717",
+    "question": "Is the poster above the books?",
+    "answer": "yes",
+    "image_id": "2411178",
+    "full_answer": "Yes, the poster is above the books.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12565565",
+    "question": "Are there boats in the image?",
+    "answer": "no",
+    "image_id": "2378833",
+    "full_answer": "No, there are no boats.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "19695032",
+    "question": "Which place is it?",
+    "answer": "lake",
+    "image_id": "2343965",
+    "full_answer": "It is a lake.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "13773559",
+    "question": "Do you see cars or clocks there?",
+    "answer": "yes",
+    "image_id": "2397981",
+    "full_answer": "Yes, there is a clock.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "10599873",
+    "question": "How is the vehicle that is parked by the sidewalk called?",
+    "answer": "bus",
+    "image_id": "2385133",
+    "full_answer": "The vehicle is a bus.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07846642",
+    "question": "Is the man on the right side or on the left of the photo?",
+    "answer": "right",
+    "image_id": "2359553",
+    "full_answer": "The man is on the right of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11183569",
+    "question": "What is the purse on?",
+    "answer": "bench",
+    "image_id": "2365049",
+    "full_answer": "The purse is on the bench.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00612856",
+    "question": "How large is the porcelain sink?",
+    "answer": "large",
+    "image_id": "2358938",
+    "full_answer": "The sink is large.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11985230",
+    "question": "What is on the table?",
+    "answer": "glass",
+    "image_id": "2386099",
+    "full_answer": "The glass is on the table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11611800",
+    "question": "What is the table in front of?",
+    "answer": "clock",
+    "image_id": "2372163",
+    "full_answer": "The table is in front of the clock.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03983167",
+    "question": "Do you see fences to the right of the vehicle on the right?",
+    "answer": "yes",
+    "image_id": "2377682",
+    "full_answer": "Yes, there is a fence to the right of the locomotive.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17387034",
+    "question": "What kind of sign is on the post?",
+    "answer": "street sign",
+    "image_id": "2357841",
+    "full_answer": "The sign is a street sign.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15135493",
+    "question": "What does the man read?",
+    "answer": "paper",
+    "image_id": "2410392",
+    "full_answer": "The man reads a paper.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00296203",
+    "question": "What is the woman carrying?",
+    "answer": "radio",
+    "image_id": "2414858",
+    "full_answer": "The woman is carrying a radio.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03612777",
+    "question": "Who is petting the horse?",
+    "answer": "man",
+    "image_id": "2363223",
+    "full_answer": "The man is petting the horse.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00158976",
+    "question": "Is the person to the right or to the left of the pink candle?",
+    "answer": "right",
+    "image_id": "2359433",
+    "full_answer": "The person is to the right of the candle.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17726909",
+    "question": "Is the man to the right or to the left of the people that are wearing glasses?",
+    "answer": "left",
+    "image_id": "2349045",
+    "full_answer": "The man is to the left of the people.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15776149",
+    "question": "What color is the fruit to the left of the bowl?",
+    "answer": "yellow",
+    "image_id": "2319436",
+    "full_answer": "The banana is yellow.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18437330",
+    "question": "What is sitting in the bowl?",
+    "answer": "sauce",
+    "image_id": "2380135",
+    "full_answer": "The sauce is sitting in the bowl.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "101047999",
+    "question": "Are there chairs to the right of the blanket in the top of the photo?",
+    "answer": "no",
+    "image_id": "2329006",
+    "full_answer": "No, there is a pillow to the right of the blanket.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07740534",
+    "question": "Is there any racket or fence in the picture?",
+    "answer": "yes",
+    "image_id": "2318174",
+    "full_answer": "Yes, there is a fence.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "02639501",
+    "question": "Are there both a knife and a potato in the photograph?",
+    "answer": "yes",
+    "image_id": "2358464",
+    "full_answer": "Yes, there are both a potato and a knife.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "18100369",
+    "question": "Are there bells or helmets in the scene?",
+    "answer": "no",
+    "image_id": "2395206",
+    "full_answer": "No, there are no bells or helmets.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "12974671",
+    "question": "What is on the table?",
+    "answer": "tray",
+    "image_id": "2404130",
+    "full_answer": "The tray is on the table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13273642",
+    "question": "What kind of furniture is above the trunk?",
+    "answer": "bed",
+    "image_id": "2347438",
+    "full_answer": "The piece of furniture is a bed.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11211902",
+    "question": "Is the salad to the left or to the right of the food on the plate?",
+    "answer": "right",
+    "image_id": "2394152",
+    "full_answer": "The salad is to the right of the food.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "09488668",
+    "question": "What is the device that is to the right of the chair at the table?",
+    "answer": "remote control",
+    "image_id": "2401908",
+    "full_answer": "The device is a remote control.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "111030897",
+    "question": "Which side of the image is the boy on?",
+    "answer": "left",
+    "image_id": "2400651",
+    "full_answer": "The boy is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "041050837",
+    "question": "What is the woman on the street wearing?",
+    "answer": "shirt",
+    "image_id": "2386051",
+    "full_answer": "The woman is wearing a shirt.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15794361",
+    "question": "Does the shirt have white color?",
+    "answer": "yes",
+    "image_id": "2366610",
+    "full_answer": "Yes, the shirt is white.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "0677800",
+    "question": "What do both the floor and the wall have in common?",
+    "answer": "material",
+    "image_id": "2407766",
+    "full_answer": "The material, both the floor and the wall are concrete.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "07245061",
+    "question": "What item of furniture is wooden?",
+    "answer": "table",
+    "image_id": "2406463",
+    "full_answer": "The piece of furniture is a table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "161071057",
+    "question": "Do you see dogs in the photo?",
+    "answer": "no",
+    "image_id": "2376032",
+    "full_answer": "No, there are no dogs.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "0760649",
+    "question": "What is the woman on?",
+    "answer": "chair",
+    "image_id": "2350568",
+    "full_answer": "The woman is on the chair.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05473419",
+    "question": "Which color is the plate?",
+    "answer": "blue",
+    "image_id": "2339910",
+    "full_answer": "The plate is blue.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "04145595",
+    "question": "Are there any shelves on the wall?",
+    "answer": "no",
+    "image_id": "2346486",
+    "full_answer": "No, there is a picture on the wall.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08728446",
+    "question": "What is the woman wearing?",
+    "answer": "cap",
+    "image_id": "2362400",
+    "full_answer": "The woman is wearing a cap.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19110577",
+    "question": "What is the man on?",
+    "answer": "bench",
+    "image_id": "2376766",
+    "full_answer": "The man is on the bench.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0784551",
+    "question": "Which side of the photo are the cars on?",
+    "answer": "right",
+    "image_id": "2369561",
+    "full_answer": "The cars are on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "04792058",
+    "question": "Is the color of the man shirt different than the umbrella?",
+    "answer": "no",
+    "image_id": "2326324",
+    "full_answer": "No, both the shirt and the umbrella are black.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "1564748",
+    "question": "Does the bowl to the right of the surfboard have black color and small size?",
+    "answer": "yes",
+    "image_id": "2331126",
+    "full_answer": "Yes, the bowl is black and small.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10630915",
+    "question": "Who is wearing a helmet?",
+    "answer": "skateboarder",
+    "image_id": "2406643",
+    "full_answer": "The skateboarder is wearing a helmet.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19379027",
+    "question": "Is there any food or wine that is white?",
+    "answer": "yes",
+    "image_id": "2399484",
+    "full_answer": "Yes, the wine is white.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "05867327",
+    "question": "On which side of the picture are the figurines?",
+    "answer": "right",
+    "image_id": "2358152",
+    "full_answer": "The figurines are on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14770772",
+    "question": "What color does the beard have?",
+    "answer": "gray",
+    "image_id": "2348905",
+    "full_answer": "The beard has gray color.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11705481",
+    "question": "What's the bottle made of?",
+    "answer": "plastic",
+    "image_id": "2344018",
+    "full_answer": "The bottle is made of plastic.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14384714",
+    "question": "What is the umpire wearing?",
+    "answer": "hat",
+    "image_id": "2389376",
+    "full_answer": "The umpire is wearing a hat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04229498",
+    "question": "Are there white zebras or dogs?",
+    "answer": "yes",
+    "image_id": "2397958",
+    "full_answer": "Yes, there is a white dog.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "12456426",
+    "question": "On which side of the image is the surfboard?",
+    "answer": "left",
+    "image_id": "2318983",
+    "full_answer": "The surfboard is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "19818113",
+    "question": "Is there a train or a window in this image?",
+    "answer": "yes",
+    "image_id": "2388404",
+    "full_answer": "Yes, there are windows.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "03987139",
+    "question": "What is the appliance to the left of the person in the middle?",
+    "answer": "refrigerator",
+    "image_id": "2400828",
+    "full_answer": "The appliance is a refrigerator.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07358382",
+    "question": "What is the cooking utensil to the left of the chair that is sitting at the counter called?",
+    "answer": "pan",
+    "image_id": "4888",
+    "full_answer": "The cooking utensil is a pan.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13930214",
+    "question": "Is the woman wearing jeans?",
+    "answer": "yes",
+    "image_id": "2400117",
+    "full_answer": "Yes, the woman is wearing jeans.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "161063494",
+    "question": "What animal rides the animal to the left of the wine?",
+    "answer": "frog",
+    "image_id": "2410862",
+    "full_answer": "The frog rides the snail.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17773211",
+    "question": "What color is the animal's tail, white or black?",
+    "answer": "white",
+    "image_id": "2320507",
+    "full_answer": "The tail is white.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01235881",
+    "question": "Is the nose pink?",
+    "answer": "yes",
+    "image_id": "2362824",
+    "full_answer": "Yes, the nose is pink.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "12140937",
+    "question": "What are the headphones on?",
+    "answer": "sofa",
+    "image_id": "2359333",
+    "full_answer": "The headphones are on the sofa.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10857773",
+    "question": "Are there both berries and peaches in the image?",
+    "answer": "no",
+    "image_id": "2360862",
+    "full_answer": "No, there are berries but no peaches.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "14740694",
+    "question": "Which item of furniture is made of leather?",
+    "answer": "couch",
+    "image_id": "2365515",
+    "full_answer": "The piece of furniture is a couch.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "06751549",
+    "question": "In which part of the picture is the rope, the top or the bottom?",
+    "answer": "bottom",
+    "image_id": "2361523",
+    "full_answer": "The rope is in the bottom of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "0449386",
+    "question": "What place is it?",
+    "answer": "hangar",
+    "image_id": "2402403",
+    "full_answer": "It is a hangar.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "12165541",
+    "question": "Where are the scissors?",
+    "answer": "floor",
+    "image_id": "2398481",
+    "full_answer": "The scissors are on the floor.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "09334085",
+    "question": "Is the man on the left side?",
+    "answer": "no",
+    "image_id": "2348612",
+    "full_answer": "No, the man is on the right of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "02996718",
+    "question": "Who is wearing pants?",
+    "answer": "player",
+    "image_id": "2318090",
+    "full_answer": "The player is wearing pants.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01863049",
+    "question": "Is the man to the right of the person that is standing on the side walk?",
+    "answer": "no",
+    "image_id": "2390571",
+    "full_answer": "No, the man is to the left of the person.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12241557",
+    "question": "On which side of the image is the teddy bear, the left or the right?",
+    "answer": "right",
+    "image_id": "2368239",
+    "full_answer": "The teddy bear is on the right of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "101001520",
+    "question": "What is the vegetable to the left of the olives that look black?",
+    "answer": "broccoli",
+    "image_id": "2339853",
+    "full_answer": "The vegetable is broccoli.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04248774",
+    "question": "Are there both a fence and a bench in this photograph?",
+    "answer": "yes",
+    "image_id": "2380656",
+    "full_answer": "Yes, there are both a fence and a bench.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "17250321",
+    "question": "What appliance is on?",
+    "answer": "oven",
+    "image_id": "2411357",
+    "full_answer": "The appliance is an oven.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "091044151",
+    "question": "What kind of animal is in front of the trees?",
+    "answer": "bears",
+    "image_id": "2376493",
+    "full_answer": "The animals are bears.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05491597",
+    "question": "What is the color of the vehicle on the street?",
+    "answer": "dark",
+    "image_id": "2374257",
+    "full_answer": "The vehicle is dark.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "12741461",
+    "question": "Which color is the balloon that is to the right of the other balloon?",
+    "answer": "pink",
+    "image_id": "2378292",
+    "full_answer": "The balloon is pink.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "09816097",
+    "question": "What is on the roof?",
+    "answer": "chimney",
+    "image_id": "2346213",
+    "full_answer": "The chimney is on the roof.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02411963",
+    "question": "In which part of the image is the camera, the bottom or the top?",
+    "answer": "bottom",
+    "image_id": "2392595",
+    "full_answer": "The camera is in the bottom of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18348364",
+    "question": "What is the piece of furniture to the left of the coffee table the tray is on top of?",
+    "answer": "sofa",
+    "image_id": "2339244",
+    "full_answer": "The piece of furniture is a sofa.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17528428",
+    "question": "Does the chair on the side walk look pink and plastic?",
+    "answer": "no",
+    "image_id": "2410790",
+    "full_answer": "No, the chair is pink but wooden.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "04891899",
+    "question": "What is standing behind the girl?",
+    "answer": "tree",
+    "image_id": "2405260",
+    "full_answer": "The tree is standing behind the girl.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02447446",
+    "question": "Who is in the water?",
+    "answer": "man",
+    "image_id": "2339777",
+    "full_answer": "The man is in the water.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16529302",
+    "question": "Is the tub the same color as the cat?",
+    "answer": "no",
+    "image_id": "2414784",
+    "full_answer": "No, the cat is black and the tub is white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "021061347",
+    "question": "What is the color of the desk?",
+    "answer": "black",
+    "image_id": "2403478",
+    "full_answer": "The desk is black.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11493619",
+    "question": "Is the vehicle tan and large?",
+    "answer": "no",
+    "image_id": "2363920",
+    "full_answer": "No, the vehicle is large but green.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01956330",
+    "question": "What are the people in front of the forest wearing?",
+    "answer": "jeans",
+    "image_id": "2375919",
+    "full_answer": "The people are wearing jeans.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1697991",
+    "question": "Are there any skiers to the left of the people that are skiing?",
+    "answer": "no",
+    "image_id": "2366066",
+    "full_answer": "No, the skier is to the right of the people.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19910432",
+    "question": "What food is to the right of the woman?",
+    "answer": "pasta",
+    "image_id": "2318963",
+    "full_answer": "The food is pasta.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06974680",
+    "question": "What do you think is on the shelf above the sink?",
+    "answer": "glass",
+    "image_id": "2379978",
+    "full_answer": "The glass is on the shelf.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1370125",
+    "question": "What is located on top of the cabinet by the desk?",
+    "answer": "printer",
+    "image_id": "2342793",
+    "full_answer": "The printer is on top of the cabinet.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16464458",
+    "question": "What is the black item of furniture called?",
+    "answer": "shelf",
+    "image_id": "2386341",
+    "full_answer": "The piece of furniture is a shelf.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "00212582",
+    "question": "Of what color is the vehicle the pole is on the side of?",
+    "answer": "green",
+    "image_id": "2370908",
+    "full_answer": "The train is green.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "1796765",
+    "question": "Do you see any maroon ties?",
+    "answer": "yes",
+    "image_id": "2393919",
+    "full_answer": "Yes, there is a maroon tie.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "13628221",
+    "question": "Who is in front of the wall?",
+    "answer": "man",
+    "image_id": "2342004",
+    "full_answer": "The man is in front of the wall.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19326711",
+    "question": "What kind of animal is large?",
+    "answer": "bird",
+    "image_id": "2341622",
+    "full_answer": "The animal is a bird.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "07894112",
+    "question": "The boy is where?",
+    "answer": "ground",
+    "image_id": "2379906",
+    "full_answer": "The boy is at the ground.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14974783",
+    "question": "Is the orange to the right of an apple?",
+    "answer": "no",
+    "image_id": "2338671",
+    "full_answer": "No, the orange is to the right of a jeep.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18655716",
+    "question": "What color does the backpack on the right have?",
+    "answer": "green",
+    "image_id": "2328701",
+    "full_answer": "The backpack has green color.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "07859572",
+    "question": "What vehicle has the same color as the large window?",
+    "answer": "truck",
+    "image_id": "2387426",
+    "full_answer": "The truck is the same color as the window.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17206229",
+    "question": "Is the girl that is not sad wearing boots?",
+    "answer": "no",
+    "image_id": "2413307",
+    "full_answer": "No, the girl is wearing shorts.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17362266",
+    "question": "Is the field covered with weeds?",
+    "answer": "yes",
+    "image_id": "2322487",
+    "full_answer": "Yes, the field is covered with weeds.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02532956",
+    "question": "What animal is standing in the dirt?",
+    "answer": "zebra",
+    "image_id": "2407291",
+    "full_answer": "The zebra is standing in the dirt.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16844708",
+    "question": "What is the fence in front of?",
+    "answer": "pole",
+    "image_id": "2405085",
+    "full_answer": "The fence is in front of the pole.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08332189",
+    "question": "Is the woman in the bottom part?",
+    "answer": "yes",
+    "image_id": "498265",
+    "full_answer": "Yes, the woman is in the bottom of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01588791",
+    "question": "On which side of the photo is the cardboard box?",
+    "answer": "left",
+    "image_id": "2387080",
+    "full_answer": "The box is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "03236221",
+    "question": "Where is the boy?",
+    "answer": "floor",
+    "image_id": "2411222",
+    "full_answer": "The boy is on the floor.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14445965",
+    "question": "Is the bowl to the left or to the right of the mug?",
+    "answer": "right",
+    "image_id": "2386698",
+    "full_answer": "The bowl is to the right of the mug.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11546518",
+    "question": "What is on the vehicle that is in the snow?",
+    "answer": "ladder",
+    "image_id": "2380112",
+    "full_answer": "The ladder is on the truck.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04119802",
+    "question": "Is the black bag on the right side?",
+    "answer": "no",
+    "image_id": "2366036",
+    "full_answer": "No, the bag is on the left of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "03431",
+    "question": "How big is the giraffe near the other giraffes?",
+    "answer": "large",
+    "image_id": "2390911",
+    "full_answer": "The giraffe is large.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "04813497",
+    "question": "Is the orange on a plate?",
+    "answer": "yes",
+    "image_id": "2373574",
+    "full_answer": "Yes, the orange is on a plate.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0450776",
+    "question": "What is leaning against the bench?",
+    "answer": "bicycle",
+    "image_id": "2402409",
+    "full_answer": "The bicycle is leaning against the bench.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13629300",
+    "question": "What is the seat on?",
+    "answer": "bench",
+    "image_id": "2324171",
+    "full_answer": "The seat is on the bench.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13663536",
+    "question": "Which kind of furniture is the keyboard on?",
+    "answer": "desk",
+    "image_id": "2333016",
+    "full_answer": "The keyboard is on the desk.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03539432",
+    "question": "What is the color of the socks the boy is wearing?",
+    "answer": "red",
+    "image_id": "2342950",
+    "full_answer": "The socks are red.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18671112",
+    "question": "What's located on top of the man?",
+    "answer": "jacket",
+    "image_id": "2405414",
+    "full_answer": "The jacket is on top of the man.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18492629",
+    "question": "Who is in front of the dark trees?",
+    "answer": "man",
+    "image_id": "2371601",
+    "full_answer": "The man is in front of the trees.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14279279",
+    "question": "What's the pipe on?",
+    "answer": "motorcycle",
+    "image_id": "2321894",
+    "full_answer": "The pipe is on the motorcycle.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15340115",
+    "question": "Who is wearing a jacket?",
+    "answer": "woman",
+    "image_id": "2325932",
+    "full_answer": "The woman is wearing a jacket.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19904701",
+    "question": "On which side is the chair?",
+    "answer": "left",
+    "image_id": "2368905",
+    "full_answer": "The chair is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13515501",
+    "question": "Is the large device on the left?",
+    "answer": "yes",
+    "image_id": "2397987",
+    "full_answer": "Yes, the TV is on the left of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05310359",
+    "question": "Who is sitting?",
+    "answer": "man",
+    "image_id": "2414935",
+    "full_answer": "The man is sitting.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "041029551",
+    "question": "What is full of water?",
+    "answer": "fountain",
+    "image_id": "2320665",
+    "full_answer": "The fountain is full of water.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02207917",
+    "question": "Who is holding the teddy bear?",
+    "answer": "man",
+    "image_id": "2393892",
+    "full_answer": "The man is holding the teddy bear.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03510424",
+    "question": "What is the vegetable that is to the left of the bag in the top of the photo?",
+    "answer": "broccoli",
+    "image_id": "2373925",
+    "full_answer": "The vegetable is broccoli.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02921844",
+    "question": "What is the appliance to the right of him?",
+    "answer": "microwave oven",
+    "image_id": "2383506",
+    "full_answer": "The appliance is a microwave oven.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00600980",
+    "question": "Who is riding on a skateboard?",
+    "answer": "skater",
+    "image_id": "2396488",
+    "full_answer": "The skater is riding on a skateboard.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07202148",
+    "question": "What is on the traffic signal?",
+    "answer": "chain",
+    "image_id": "2387572",
+    "full_answer": "The chain is on the traffic signal.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1979414",
+    "question": "Do you see both mirrors and towels?",
+    "answer": "yes",
+    "image_id": "2376384",
+    "full_answer": "Yes, there are both a towel and a mirror.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11214457",
+    "question": "On which side of the picture is the woman?",
+    "answer": "right",
+    "image_id": "2412272",
+    "full_answer": "The woman is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05891651",
+    "question": "Is there a plate in this photo?",
+    "answer": "yes",
+    "image_id": "2384647",
+    "full_answer": "Yes, there is a plate.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "15427529",
+    "question": "Is this pillow on a bed?",
+    "answer": "no",
+    "image_id": "2363939",
+    "full_answer": "No, the pillow is on the armchair.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00736977",
+    "question": "On which side is the bear?",
+    "answer": "left",
+    "image_id": "2338149",
+    "full_answer": "The bear is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "0292525",
+    "question": "What is on the post?",
+    "answer": "wire",
+    "image_id": "2408312",
+    "full_answer": "The wire is on the post.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1173487",
+    "question": "Where is that tree?",
+    "answer": "beach",
+    "image_id": "2354443",
+    "full_answer": "The tree is on the beach.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01650140",
+    "question": "Is the book in front of a remote control?",
+    "answer": "no",
+    "image_id": "2384793",
+    "full_answer": "No, the book is in front of the keyboard.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04986662",
+    "question": "What is the vehicle in the grass called?",
+    "answer": "bus",
+    "image_id": "2380178",
+    "full_answer": "The vehicle is a bus.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10338521",
+    "question": "What is in front of the horse?",
+    "answer": "gate",
+    "image_id": "2344193",
+    "full_answer": "The gate is in front of the horse.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19757872",
+    "question": "Is the person to the left of the woman carrying an umbrella?",
+    "answer": "no",
+    "image_id": "2385218",
+    "full_answer": "No, the person is carrying a backpack.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00289920",
+    "question": "Does the shirt look brown?",
+    "answer": "yes",
+    "image_id": "2395760",
+    "full_answer": "Yes, the shirt is brown.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "16710724",
+    "question": "What is the bike in front of?",
+    "answer": "steps",
+    "image_id": "1074",
+    "full_answer": "The bike is in front of the steps.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15225219",
+    "question": "Is the woman wearing a skirt?",
+    "answer": "no",
+    "image_id": "2330610",
+    "full_answer": "No, the woman is wearing an undershirt.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "021010741",
+    "question": "Which color is the knife, red or black?",
+    "answer": "red",
+    "image_id": "498188",
+    "full_answer": "The knife is red.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "19358398",
+    "question": "Is the lamp on the left side?",
+    "answer": "yes",
+    "image_id": "1159380",
+    "full_answer": "Yes, the lamp is on the left of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13339719",
+    "question": "Does the person that is to the right of the console appear to be driving or playing?",
+    "answer": "playing",
+    "image_id": "2356833",
+    "full_answer": "The man is playing.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "00889726",
+    "question": "In which part of the photo is the sheep, the bottom or the top?",
+    "answer": "top",
+    "image_id": "2403039",
+    "full_answer": "The sheep is in the top of the image.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "12639700",
+    "question": "How large are the towers?",
+    "answer": "large",
+    "image_id": "2323162",
+    "full_answer": "The towers are large.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "16275129",
+    "question": "Do you see any speaker there?",
+    "answer": "yes",
+    "image_id": "2380483",
+    "full_answer": "Yes, there is a speaker.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "17297249",
+    "question": "What is in front of the bushes?",
+    "answer": "bench",
+    "image_id": "2398522",
+    "full_answer": "The bench is in front of the shrubs.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13178406",
+    "question": "What kind of sign do you think is above the snow on the ground?",
+    "answer": "street sign",
+    "image_id": "2370684",
+    "full_answer": "The sign is a street sign.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1925086",
+    "question": "Does the animal next to the bath tub look large?",
+    "answer": "no",
+    "image_id": "2366862",
+    "full_answer": "No, the cat is small.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "06459412",
+    "question": "What are these guys at, a table or a sofa?",
+    "answer": "table",
+    "image_id": "2379466",
+    "full_answer": "The guys are at a table.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05973184",
+    "question": "What food is it?",
+    "answer": "biscuit",
+    "image_id": "2316019",
+    "full_answer": "The food is a biscuit.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "18920464",
+    "question": "Are the pear to the left of the bowl and the banana to the left of the bowl both tiny?",
+    "answer": "yes",
+    "image_id": "2415396",
+    "full_answer": "Yes, both the pear and the banana are tiny.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11207448",
+    "question": "What kind of furniture is the monitor on?",
+    "answer": "shelf",
+    "image_id": "2316747",
+    "full_answer": "The monitor is on the shelf.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06615020",
+    "question": "Who wears a mask?",
+    "answer": "biker",
+    "image_id": "2406370",
+    "full_answer": "The motorcyclist wears a mask.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06898905",
+    "question": "Do you see any refrigerators or blenders?",
+    "answer": "yes",
+    "image_id": "2396386",
+    "full_answer": "Yes, there is a refrigerator.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "09161921",
+    "question": "Are there helmets or snowboards?",
+    "answer": "yes",
+    "image_id": "2416885",
+    "full_answer": "Yes, there is a snowboard.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "06651580",
+    "question": "What is the color of the book?",
+    "answer": "black",
+    "image_id": "2370705",
+    "full_answer": "The book is black.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "1942684",
+    "question": "Do the bull and the sky have a different colors?",
+    "answer": "yes",
+    "image_id": "2371012",
+    "full_answer": "Yes, the bull is blue and the sky is white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11311050",
+    "question": "Is there a bench or a star that is brown?",
+    "answer": "yes",
+    "image_id": "713230",
+    "full_answer": "Yes, the star is brown.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "19773949",
+    "question": "Which kind of vegetable is to the right of the spinach?",
+    "answer": "carrot",
+    "image_id": "2372613",
+    "full_answer": "The vegetable is a carrot.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18583209",
+    "question": "Who is wearing jeans?",
+    "answer": "man",
+    "image_id": "2362883",
+    "full_answer": "The man is wearing jeans.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13357495",
+    "question": "Who is holding the bat?",
+    "answer": "girl",
+    "image_id": "2403546",
+    "full_answer": "The girl is holding the bat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "001058312",
+    "question": "Who is wearing the glasses?",
+    "answer": "man",
+    "image_id": "2380873",
+    "full_answer": "The man is wearing glasses.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11589201",
+    "question": "On which side of the picture is the blue bag?",
+    "answer": "left",
+    "image_id": "2329846",
+    "full_answer": "The backpack is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "06889758",
+    "question": "Does the hair look brown?",
+    "answer": "no",
+    "image_id": "2381580",
+    "full_answer": "No, the hair is blond.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10926949",
+    "question": "What is the fruit that is to the right of the pink candle?",
+    "answer": "grape",
+    "image_id": "2365501",
+    "full_answer": "The fruit is a grape.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13502157",
+    "question": "What clothing item is long?",
+    "answer": "jacket",
+    "image_id": "2405230",
+    "full_answer": "The clothing item is a jacket.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "01584117",
+    "question": "What is in front of the pedestrians?",
+    "answer": "taxi",
+    "image_id": "2399600",
+    "full_answer": "The cab is in front of the pedestrians.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18704247",
+    "question": "What is the animal that is to the left of the monitor?",
+    "answer": "bear",
+    "image_id": "498197",
+    "full_answer": "The animal is a bear.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18997484",
+    "question": "Is the brown fence in front of the animal that is not short?",
+    "answer": "no",
+    "image_id": "2317262",
+    "full_answer": "No, the fence is behind the giraffe.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01284498",
+    "question": "What is the man to the right of the bus riding?",
+    "answer": "bike",
+    "image_id": "2362041",
+    "full_answer": "The man is riding a bike.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01715357",
+    "question": "Where is the man sitting?",
+    "answer": "table",
+    "image_id": "498025",
+    "full_answer": "The man is sitting at the table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "09745246",
+    "question": "Which side is the clock on?",
+    "answer": "left",
+    "image_id": "2382208",
+    "full_answer": "The clock is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10561393",
+    "question": "Is the bag to the right or to the left of the person who is holding the umbrella?",
+    "answer": "right",
+    "image_id": "2354914",
+    "full_answer": "The bag is to the right of the man.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0467034",
+    "question": "What is the mirror on?",
+    "answer": "bike",
+    "image_id": "2360080",
+    "full_answer": "The mirror is on the bike.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01259702",
+    "question": "What color is the helmet that the man is wearing?",
+    "answer": "black",
+    "image_id": "2347236",
+    "full_answer": "The helmet is black.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "19737324",
+    "question": "What's the bag on?",
+    "answer": "coffee table",
+    "image_id": "2386651",
+    "full_answer": "The bag is on the coffee table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "161020577",
+    "question": "What kind of aircraft is flying?",
+    "answer": "airplane",
+    "image_id": "2386644",
+    "full_answer": "The aircraft is an airplane.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "081032949",
+    "question": "The vehicle the poster is inside of is what color?",
+    "answer": "gray",
+    "image_id": "2393295",
+    "full_answer": "The train is gray.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "07508793",
+    "question": "What is that lock on?",
+    "answer": "window",
+    "image_id": "2338167",
+    "full_answer": "The lock is on the window.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07300998",
+    "question": "What is on the light pole?",
+    "answer": "street sign",
+    "image_id": "2352537",
+    "full_answer": "The street sign is on the pole.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0464509",
+    "question": "Is the white vase to the left or to the right of the sofa?",
+    "answer": "right",
+    "image_id": "2383984",
+    "full_answer": "The vase is to the right of the sofa.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06895886",
+    "question": "Does the sheep that is not young appear to be lying?",
+    "answer": "no",
+    "image_id": "2385910",
+    "full_answer": "No, the sheep is standing.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "00331039",
+    "question": "What is the color of the cow to the right of the other cows?",
+    "answer": "black",
+    "image_id": "2315740",
+    "full_answer": "The cow is black.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14796793",
+    "question": "Is the knife to the right of a bread?",
+    "answer": "yes",
+    "image_id": "2409083",
+    "full_answer": "Yes, the knife is to the right of a bread.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08625104",
+    "question": "What kind of fast food is cooked?",
+    "answer": "hot dog",
+    "image_id": "2342416",
+    "full_answer": "The fast food is a hot dog.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "18230133",
+    "question": "Which color is the shirt that the person is wearing?",
+    "answer": "red",
+    "image_id": "2402334",
+    "full_answer": "The shirt is red.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05661687",
+    "question": "Are the people on the road holding the bag on the right?",
+    "answer": "yes",
+    "image_id": "2353117",
+    "full_answer": "Yes, the people are holding the bag.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13908048",
+    "question": "Which side of the picture are the glasses on?",
+    "answer": "left",
+    "image_id": "2371222",
+    "full_answer": "The glasses are on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01300656",
+    "question": "What kind of furniture is to the left of the blue chair?",
+    "answer": "drawers",
+    "image_id": "4900",
+    "full_answer": "The pieces of furniture are drawers.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02914081",
+    "question": "Is there either a fork or a pizza in this image?",
+    "answer": "yes",
+    "image_id": "2404849",
+    "full_answer": "Yes, there is a pizza.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "03376045",
+    "question": "What is the sticker on?",
+    "answer": "toilet",
+    "image_id": "2363072",
+    "full_answer": "The sticker is on the toilet.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10737505",
+    "question": "Which kind of vegetable is on the sandwich?",
+    "answer": "avocado",
+    "image_id": "2388975",
+    "full_answer": "The vegetable is an avocado.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14996062",
+    "question": "Are there both motorcycles and helmets in the picture?",
+    "answer": "no",
+    "image_id": "2353347",
+    "full_answer": "No, there is a helmet but no motorcycles.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "00204122",
+    "question": "Which kind of vehicle is to the left of the bag?",
+    "answer": "car",
+    "image_id": "2400683",
+    "full_answer": "The vehicle is a car.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12745124",
+    "question": "Is it an indoors or outdoors scene?",
+    "answer": "indoors",
+    "image_id": "2399842",
+    "full_answer": "It is indoors.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "0045244",
+    "question": "On which side is the pillow?",
+    "answer": "left",
+    "image_id": "2365281",
+    "full_answer": "The pillow is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "12334288",
+    "question": "What device is to the left of the cabinet?",
+    "answer": "controller",
+    "image_id": "2320242",
+    "full_answer": "The device is a controller.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "098145",
+    "question": "Where is the elephant to the left of the traffic light walking?",
+    "answer": "road",
+    "image_id": "2331481",
+    "full_answer": "The elephant is walking on the road.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16351287",
+    "question": "Is the television on a dresser?",
+    "answer": "no",
+    "image_id": "2369489",
+    "full_answer": "No, the television is on an entertainment center.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06314056",
+    "question": "Are there any people on the motorcycle?",
+    "answer": "yes",
+    "image_id": "150356",
+    "full_answer": "Yes, there is a person on the motorcycle.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06587843",
+    "question": "Is the white couch to the right of the colorful pillows?",
+    "answer": "no",
+    "image_id": "28",
+    "full_answer": "No, the couch is to the left of the pillows.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11411531",
+    "question": "Does the device to the right of the umbrella look black?",
+    "answer": "no",
+    "image_id": "2374220",
+    "full_answer": "No, the camera is white.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "1583422",
+    "question": "Where is the woman standing?",
+    "answer": "hallway",
+    "image_id": "2336635",
+    "full_answer": "The woman is standing in the hallway.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1260165",
+    "question": "Are there any remote controls in this image?",
+    "answer": "yes",
+    "image_id": "2354042",
+    "full_answer": "Yes, there is a remote control.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "04174158",
+    "question": "On which side of the photo is the little doll?",
+    "answer": "left",
+    "image_id": "2411136",
+    "full_answer": "The doll is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "10767860",
+    "question": "Is it an indoors scene?",
+    "answer": "yes",
+    "image_id": "2412014",
+    "full_answer": "Yes, it is indoors.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "00101458",
+    "question": "Where does the man ski?",
+    "answer": "hills",
+    "image_id": "2356112",
+    "full_answer": "The man skis on the hills.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01656731",
+    "question": "Do you see a keyboard to the left of the person that is wearing a shirt?",
+    "answer": "yes",
+    "image_id": "2334942",
+    "full_answer": "Yes, there is a keyboard to the left of the man.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "121037827",
+    "question": "What animal is to the right of the dog?",
+    "answer": "sheep",
+    "image_id": "2366017",
+    "full_answer": "The animal is a sheep.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1693927",
+    "question": "What's the remote control on?",
+    "answer": "desk",
+    "image_id": "2360374",
+    "full_answer": "The remote control is on the desk.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16448765",
+    "question": "Is the man to the right or to the left of the chair on the left?",
+    "answer": "right",
+    "image_id": "2345013",
+    "full_answer": "The man is to the right of the chair.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04197453",
+    "question": "On which side is the oven?",
+    "answer": "right",
+    "image_id": "2390677",
+    "full_answer": "The oven is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "051042704",
+    "question": "Is the flower red?",
+    "answer": "no",
+    "image_id": "2367808",
+    "full_answer": "No, the flower is yellow.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01274973",
+    "question": "What kind of drink is pictured?",
+    "answer": "milk",
+    "image_id": "2388009",
+    "full_answer": "The drink is milk.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "10970525",
+    "question": "What's in the sink?",
+    "answer": "ball",
+    "image_id": "2347454",
+    "full_answer": "The ball is in the sink.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18368230",
+    "question": "What is the color of the arrow on the street sign?",
+    "answer": "white",
+    "image_id": "2388030",
+    "full_answer": "The arrow is white.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "03715855",
+    "question": "Is the bench on the right side of the picture?",
+    "answer": "no",
+    "image_id": "2387346",
+    "full_answer": "No, the bench is on the left of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "08134901",
+    "question": "What is on the appliance to the right of the container?",
+    "answer": "chicken",
+    "image_id": "2410808",
+    "full_answer": "The chicken is on the stove.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18546918",
+    "question": "What is the shape of the plate on the right?",
+    "answer": "octagonal",
+    "image_id": "2366467",
+    "full_answer": "The plate is octagonal.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "00159172",
+    "question": "What are the fruits to the right of the brown cake?",
+    "answer": "strawberries",
+    "image_id": "2359433",
+    "full_answer": "The fruits are strawberries.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "03633085",
+    "question": "What device is it?",
+    "answer": "remote control",
+    "image_id": "2316480",
+    "full_answer": "The device is a remote control.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "04806476",
+    "question": "Are there both a plate and a table in the image?",
+    "answer": "no",
+    "image_id": "2383167",
+    "full_answer": "No, there is a table but no plates.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "1928517",
+    "question": "Are there either any refrigerators or bags that are red?",
+    "answer": "yes",
+    "image_id": "2365742",
+    "full_answer": "Yes, the refrigerator is red.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "0260575",
+    "question": "Are there either small cars or words?",
+    "answer": "yes",
+    "image_id": "2320176",
+    "full_answer": "Yes, there are small words.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "0416216",
+    "question": "Are there any forks on the white object on top of the table?",
+    "answer": "no",
+    "image_id": "2375361",
+    "full_answer": "No, there is a banana on the plate.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07542804",
+    "question": "Is the drawer to the right of a man?",
+    "answer": "no",
+    "image_id": "2345259",
+    "full_answer": "No, the drawer is to the left of a man.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04251893",
+    "question": "Are there bowls to the right of the food in the top of the photo?",
+    "answer": "no",
+    "image_id": "2373119",
+    "full_answer": "No, the bowl is to the left of the food.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1335954",
+    "question": "Is the man to the left or to the right of the people in the middle of the picture?",
+    "answer": "right",
+    "image_id": "2329033",
+    "full_answer": "The man is to the right of the people.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13539044",
+    "question": "What material is the floor, hardwood or stone?",
+    "answer": "hardwood",
+    "image_id": "1159827",
+    "full_answer": "The floor is made of hardwood.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "15729910",
+    "question": "Is the bridge brown or green?",
+    "answer": "brown",
+    "image_id": "4120",
+    "full_answer": "The bridge is brown.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "08416146",
+    "question": "Which side of the picture is the couch on?",
+    "answer": "right",
+    "image_id": "2374729",
+    "full_answer": "The couch is on the right of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18961291",
+    "question": "What color do you think the adult sheep that is eating grass is?",
+    "answer": "black",
+    "image_id": "2390742",
+    "full_answer": "The sheep is black.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01601562",
+    "question": "Is the purple towel to the left of a toilet?",
+    "answer": "no",
+    "image_id": "2408642",
+    "full_answer": "No, the towel is to the right of a toilet.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16791638",
+    "question": "Is the tap on the right side?",
+    "answer": "no",
+    "image_id": "2359040",
+    "full_answer": "No, the tap is on the left of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "1887740",
+    "question": "What place is shown?",
+    "answer": "pavement",
+    "image_id": "2414496",
+    "full_answer": "It is a pavement.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "08410054",
+    "question": "Are the people of the boat to the left or to the right of the red flag on the boat?",
+    "answer": "right",
+    "image_id": "2392742",
+    "full_answer": "The people are to the right of the flag.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05748173",
+    "question": "Are there both a plate and a donut in this image?",
+    "answer": "no",
+    "image_id": "2321317",
+    "full_answer": "No, there is a donut but no plates.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "00352807",
+    "question": "What is the device to the right of the black device?",
+    "answer": "television",
+    "image_id": "2385456",
+    "full_answer": "The device is a television.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12774477",
+    "question": "What animal is in front of the trees on the right side?",
+    "answer": "giraffe",
+    "image_id": "2342152",
+    "full_answer": "The giraffe is in front of the palm trees.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18107049",
+    "question": "Is the brown chair to the left or to the right of the ottoman that looks black?",
+    "answer": "left",
+    "image_id": "2411038",
+    "full_answer": "The chair is to the left of the ottoman.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "18470134",
+    "question": "What is the name of the food to the left of the tomato that is underneath the pickles?",
+    "answer": "hamburger",
+    "image_id": "2389268",
+    "full_answer": "The food is a hamburger.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08174094",
+    "question": "Does the scooter look red?",
+    "answer": "no",
+    "image_id": "2320720",
+    "full_answer": "No, the scooter is gray.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "0866562",
+    "question": "What is the pillow lying on?",
+    "answer": "bed",
+    "image_id": "2406152",
+    "full_answer": "The pillow is lying on the bed.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01190702",
+    "question": "What color are the clouds?",
+    "answer": "gray",
+    "image_id": "2387163",
+    "full_answer": "The clouds are gray.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11207726",
+    "question": "Is the computer to the left of a dresser?",
+    "answer": "yes",
+    "image_id": "2316747",
+    "full_answer": "Yes, the computer is to the left of a dresser.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "11366797",
+    "question": "What is that woman doing?",
+    "answer": "riding",
+    "image_id": "2406331",
+    "full_answer": "The woman is riding.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "08134794",
+    "question": "Are there any cups on the countertop?",
+    "answer": "no",
+    "image_id": "2410808",
+    "full_answer": "No, there is a salt shaker on the countertop.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10980191",
+    "question": "What do you think is in the pot?",
+    "answer": "tree",
+    "image_id": "2345081",
+    "full_answer": "The tree is in the pot.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12582202",
+    "question": "Is the wood cabinet to the right or to the left of the couch in the image?",
+    "answer": "right",
+    "image_id": "2353890",
+    "full_answer": "The cabinet is to the right of the couch.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12246928",
+    "question": "What's the cat on?",
+    "answer": "rug",
+    "image_id": "2375184",
+    "full_answer": "The cat is on the rug.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "04869296",
+    "question": "Is there a flag or a kite that is not purple?",
+    "answer": "no",
+    "image_id": "2383983",
+    "full_answer": "No, there is a flag but it is purple.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "06144103",
+    "question": "Are there any laptops?",
+    "answer": "no",
+    "image_id": "2390488",
+    "full_answer": "No, there are no laptops.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "06674998",
+    "question": "What's on the ceiling?",
+    "answer": "cord",
+    "image_id": "2365213",
+    "full_answer": "The cord is on the ceiling.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15880558",
+    "question": "How clean are the windows on the side of the train?",
+    "answer": "tinted",
+    "image_id": "2356643",
+    "full_answer": "The windows are tinted.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "131009649",
+    "question": "Which is less healthy, the cookies or the tomato?",
+    "answer": "cookies",
+    "image_id": "2326436",
+    "full_answer": "The cookies is less healthy than the tomato.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "19743171",
+    "question": "Do you see any cones on the road the man is crossing?",
+    "answer": "no",
+    "image_id": "1592305",
+    "full_answer": "No, there is a car on the road.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00215401",
+    "question": "Is there a chair or a plate in this photo?",
+    "answer": "yes",
+    "image_id": "2402117",
+    "full_answer": "Yes, there is a plate.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "12105812",
+    "question": "What is the bat made of?",
+    "answer": "metal",
+    "image_id": "1159745",
+    "full_answer": "The bat is made of metal.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "05141840",
+    "question": "Does the sky look cloudy and blue?",
+    "answer": "no",
+    "image_id": "2414484",
+    "full_answer": "No, the sky is blue but clear.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "14470764",
+    "question": "Who is wearing the tie?",
+    "answer": "guy",
+    "image_id": "713118",
+    "full_answer": "The guy is wearing a necktie.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0623848",
+    "question": "What color is the shoe?",
+    "answer": "gray",
+    "image_id": "2319837",
+    "full_answer": "The shoe is gray.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "03600057",
+    "question": "Is the computer in the bottom of the picture?",
+    "answer": "yes",
+    "image_id": "2414326",
+    "full_answer": "Yes, the computer is in the bottom of the image.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11804543",
+    "question": "What color is the ball?",
+    "answer": "white",
+    "image_id": "2392752",
+    "full_answer": "The ball is white.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18983693",
+    "question": "What is on the statue?",
+    "answer": "jacket",
+    "image_id": "2357784",
+    "full_answer": "The jacket is on the statue.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06319036",
+    "question": "What color is the sweater?",
+    "answer": "gray",
+    "image_id": "2332903",
+    "full_answer": "The sweater is gray.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "11327974",
+    "question": "Which sign is white?",
+    "answer": "street sign",
+    "image_id": "2350666",
+    "full_answer": "The sign is a street sign.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "03513850",
+    "question": "Is the girl wearing shorts?",
+    "answer": "no",
+    "image_id": "2410656",
+    "full_answer": "No, the girl is wearing gloves.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06347045",
+    "question": "What kind of vegetable is to the right of the tomato?",
+    "answer": "broccoli",
+    "image_id": "2395361",
+    "full_answer": "The vegetable is broccoli.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15127182",
+    "question": "What fruits are to the left of the strawberry on the plate?",
+    "answer": "cherries",
+    "image_id": "2390938",
+    "full_answer": "The fruits are cherries.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "00684249",
+    "question": "Are there any cabinets under the counter the plate is on?",
+    "answer": "no",
+    "image_id": "2410733",
+    "full_answer": "No, there is an oven under the counter.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05444127",
+    "question": "Do you see curtains to the right of the person who is looking at the laptop computer?",
+    "answer": "no",
+    "image_id": "2348601",
+    "full_answer": "No, the curtain is to the left of the woman.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "12640880",
+    "question": "Does he wear a cap?",
+    "answer": "yes",
+    "image_id": "2358626",
+    "full_answer": "Yes, the boy wears a cap.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17560384",
+    "question": "Is the train to the right or to the left of the bag the man is carrying?",
+    "answer": "right",
+    "image_id": "2359451",
+    "full_answer": "The train is to the right of the bag.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "08173549",
+    "question": "Do you see people to the left of the motorcycle the fire is in front of?",
+    "answer": "yes",
+    "image_id": "2320720",
+    "full_answer": "Yes, there are people to the left of the motorcycle.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01530411",
+    "question": "What color is the vehicle to the right of the car?",
+    "answer": "red",
+    "image_id": "4426",
+    "full_answer": "The SUV is red.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "09894390",
+    "question": "Is it outdoors?",
+    "answer": "no",
+    "image_id": "2335736",
+    "full_answer": "No, it is indoors.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "03681747",
+    "question": "Is the shirt different in color than the tennis racket?",
+    "answer": "yes",
+    "image_id": "2412962",
+    "full_answer": "Yes, the tennis racket is black and the shirt is white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "04803484",
+    "question": "Who is wearing a helmet?",
+    "answer": "man",
+    "image_id": "2374759",
+    "full_answer": "The man is wearing a helmet.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16167582",
+    "question": "On which side is the man?",
+    "answer": "left",
+    "image_id": "2320104",
+    "full_answer": "The man is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "04903562",
+    "question": "What's located on top of the table?",
+    "answer": "phone",
+    "image_id": "2386929",
+    "full_answer": "The telephone is on top of the table.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "101008884",
+    "question": "Are there bikes or brooms?",
+    "answer": "no",
+    "image_id": "2373429",
+    "full_answer": "No, there are no brooms or bikes.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11925963",
+    "question": "What color does the uniform have?",
+    "answer": "red",
+    "image_id": "2318297",
+    "full_answer": "The uniform has red color.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "15519571",
+    "question": "Who is in the sky?",
+    "answer": "man",
+    "image_id": "2400406",
+    "full_answer": "The man is in the sky.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "15785278",
+    "question": "Who do you think is in front of the person that wears glasses?",
+    "answer": "child",
+    "image_id": "2379924",
+    "full_answer": "The child is in front of the boy.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0038509",
+    "question": "Are there both trains and doors in the picture?",
+    "answer": "yes",
+    "image_id": "2355481",
+    "full_answer": "Yes, there are both a door and a train.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "10110879",
+    "question": "What is the man that is standing doing?",
+    "answer": "skateboarding",
+    "image_id": "2389829",
+    "full_answer": "The man is skateboarding.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "01698074",
+    "question": "The shirt the lady is wearing has which color?",
+    "answer": "blue",
+    "image_id": "2332249",
+    "full_answer": "The shirt is blue.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "07540985",
+    "question": "Which place is it?",
+    "answer": "restaurant",
+    "image_id": "2389885",
+    "full_answer": "It is a restaurant.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "09407119",
+    "question": "Does the pole have a different color than the hat?",
+    "answer": "yes",
+    "image_id": "2324396",
+    "full_answer": "Yes, the hat is red and the pole is white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "0660247",
+    "question": "The bag that to the right of the girl lies on what?",
+    "answer": "rug",
+    "image_id": "2386438",
+    "full_answer": "The bag lies on the rug.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "07639572",
+    "question": "What is covered in sea foam?",
+    "answer": "surfboard",
+    "image_id": "2386784",
+    "full_answer": "The surfboard is covered in sea foam.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "191038862",
+    "question": "Is the plant in a vase?",
+    "answer": "no",
+    "image_id": "2367639",
+    "full_answer": "No, the plant is in the pot.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06313835",
+    "question": "Who is standing?",
+    "answer": "man",
+    "image_id": "150356",
+    "full_answer": "The man is standing.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "10281484",
+    "question": "Do you see any checkered tablecloths or tables?",
+    "answer": "yes",
+    "image_id": "2358727",
+    "full_answer": "Yes, there is a checkered table.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "17456829",
+    "question": "Is this rug brown or blue?",
+    "answer": "blue",
+    "image_id": "2369861",
+    "full_answer": "The rug is blue.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13517306",
+    "question": "What place was the photo taken at?",
+    "answer": "station",
+    "image_id": "2408450",
+    "full_answer": "It was taken at the station.",
+    "question_type_structural": "query",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "13275255",
+    "question": "What is on the plate that is to the left of the beverage?",
+    "answer": "knife",
+    "image_id": "2345745",
+    "full_answer": "The knife is on the plate.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02759474",
+    "question": "Are there either napkins or brooms in the photo?",
+    "answer": "no",
+    "image_id": "2344041",
+    "full_answer": "No, there are no napkins or brooms.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "16540407",
+    "question": "Are there both towels and mirrors in the picture?",
+    "answer": "no",
+    "image_id": "2411094",
+    "full_answer": "No, there is a towel but no mirrors.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "123230",
+    "question": "Is the ground white or black?",
+    "answer": "white",
+    "image_id": "2410046",
+    "full_answer": "The ground is white.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "15705216",
+    "question": "Which side is the shelf on?",
+    "answer": "left",
+    "image_id": "2345287",
+    "full_answer": "The shelf is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13294481",
+    "question": "Which kind of animal is it?",
+    "answer": "elephant",
+    "image_id": "2338299",
+    "full_answer": "The animal is an elephant.",
+    "question_type_structural": "query",
+    "question_type_semantic": "cat"
+  },
+  {
+    "question_id": "03297650",
+    "question": "Is it an indoors scene?",
+    "answer": "yes",
+    "image_id": "2371554",
+    "full_answer": "Yes, it is indoors.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "19831270",
+    "question": "What is the man in the crowd wearing?",
+    "answer": "hat",
+    "image_id": "2412358",
+    "full_answer": "The man is wearing a hat.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "14904180",
+    "question": "Is it outdoors?",
+    "answer": "yes",
+    "image_id": "2342525",
+    "full_answer": "Yes, it is outdoors.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "global"
+  },
+  {
+    "question_id": "17797182",
+    "question": "What color is the shirt the woman is wearing?",
+    "answer": "red",
+    "image_id": "2345193",
+    "full_answer": "The shirt is red.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "07142578",
+    "question": "What is in front of the faucet?",
+    "answer": "sink",
+    "image_id": "2392341",
+    "full_answer": "The sink is in front of the faucet.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "0797841",
+    "question": "What vehicle is to the right of the dark car?",
+    "answer": "bus",
+    "image_id": "2361918",
+    "full_answer": "The vehicle is a bus.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "01530372",
+    "question": "What is the fence made of?",
+    "answer": "metal",
+    "image_id": "4426",
+    "full_answer": "The fence is made of metal.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "09795233",
+    "question": "Is the fire extinguisher different in color than the sky?",
+    "answer": "yes",
+    "image_id": "2316255",
+    "full_answer": "Yes, the fire extinguisher is red and the sky is blue.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "07742316",
+    "question": "Are there any children or men?",
+    "answer": "no",
+    "image_id": "2351463",
+    "full_answer": "No, there are no men or children.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "19929863",
+    "question": "What is the bench in front of?",
+    "answer": "tree",
+    "image_id": "2397231",
+    "full_answer": "The bench is in front of the tree.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "06846279",
+    "question": "Is the lady to the left of glasses?",
+    "answer": "no",
+    "image_id": "2383239",
+    "full_answer": "No, the lady is to the left of the chairs.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "16409146",
+    "question": "Is the train white?",
+    "answer": "yes",
+    "image_id": "2397884",
+    "full_answer": "Yes, the train is white.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "00839093",
+    "question": "In which part of the photo is the brown animal?",
+    "answer": "left",
+    "image_id": "2407659",
+    "full_answer": "The dog is on the left of the image.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "13831517",
+    "question": "Does the roof have the same color as the post?",
+    "answer": "no",
+    "image_id": "2362843",
+    "full_answer": "No, the post is blue and the roof is white.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "04813428",
+    "question": "What is the food on the plate that is to the right of the orange?",
+    "answer": "sushi",
+    "image_id": "2373574",
+    "full_answer": "The food is sushi.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "17569381",
+    "question": "Are the napkins to the right of the person on the left side?",
+    "answer": "yes",
+    "image_id": "2409707",
+    "full_answer": "Yes, the napkins are to the right of the kid.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05720322",
+    "question": "Which kind of device is on the table?",
+    "answer": "television",
+    "image_id": "2388805",
+    "full_answer": "The device is a television.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19900274",
+    "question": "Is there any laptop on the table?",
+    "answer": "no",
+    "image_id": "2316836",
+    "full_answer": "No, there is a vase on the table.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "05175025",
+    "question": "Is there an oven to the left of the fridge that is to the left of the lamp?",
+    "answer": "no",
+    "image_id": "2338286",
+    "full_answer": "No, there is a microwave to the left of the refrigerator.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19284369",
+    "question": "Do you see both a door and a window?",
+    "answer": "yes",
+    "image_id": "2341763",
+    "full_answer": "Yes, there are both a door and a window.",
+    "question_type_structural": "logical",
+    "question_type_semantic": "obj"
+  },
+  {
+    "question_id": "11595526",
+    "question": "What's the trash can made of?",
+    "answer": "metal",
+    "image_id": "2407603",
+    "full_answer": "The trash can is made of metal.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "08832502",
+    "question": "Is the happy man to the left or to the right of the cone?",
+    "answer": "right",
+    "image_id": "2383601",
+    "full_answer": "The man is to the right of the cone.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "13387365",
+    "question": "Who is wearing the socks?",
+    "answer": "child",
+    "image_id": "2323659",
+    "full_answer": "The kid is wearing socks.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "10611152",
+    "question": "What kind of appliance is to the left of the blender in the center?",
+    "answer": "coffee maker",
+    "image_id": "1159729",
+    "full_answer": "The appliance is a coffee maker.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "19388759",
+    "question": "What is in the container?",
+    "answer": "cabbage",
+    "image_id": "2325119",
+    "full_answer": "The cabbage is in the container.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "02620369",
+    "question": "Do the shorts have a different color than the trunks?",
+    "answer": "no",
+    "image_id": "2413347",
+    "full_answer": "No, both the shorts and the trunks are red.",
+    "question_type_structural": "compare",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "196941",
+    "question": "What's the fence made of?",
+    "answer": "wood",
+    "image_id": "2356670",
+    "full_answer": "The fence is made of wood.",
+    "question_type_structural": "query",
+    "question_type_semantic": "attr"
+  },
+  {
+    "question_id": "18445197",
+    "question": "What is hanging on the brick wall?",
+    "answer": "flag",
+    "image_id": "2333821",
+    "full_answer": "The flag is hanging on the wall.",
+    "question_type_structural": "query",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "162519",
+    "question": "What animal are the trees behind of, an elephant or a horse?",
+    "answer": "horse",
+    "image_id": "2399406",
+    "full_answer": "The trees are behind a horse.",
+    "question_type_structural": "choose",
+    "question_type_semantic": "rel"
+  },
+  {
+    "question_id": "1638555",
+    "question": "Was paper used to make the cup to the left of the plate?",
+    "answer": "no",
+    "image_id": "2385819",
+    "full_answer": "No, the cup is made of plastic.",
+    "question_type_structural": "verify",
+    "question_type_semantic": "attr"
+  }
+]

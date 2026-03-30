@@ -1,0 +1,12 @@
+{
+  "benchmark": "gqa",
+  "profile": "balanced",
+  "n_samples": 500,
+  "total_claims": 0,
+  "clean_metrics": {},
+  "noisy_metrics": {
+    "0.05": {},
+    "0.1": {},
+    "0.2": {}
+  }
+}

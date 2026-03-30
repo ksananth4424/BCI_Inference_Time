@@ -15,7 +15,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict, List, Any, Tuple, Optional
+from typing import Dict, List, Any, Optional
 import yaml
 
 # Add project root to path so bci_src can be imported
@@ -30,7 +30,8 @@ from bci_src.verification.claim_extraction import extract_and_classify
 from bci_src.verification.claim_verification import verify_claim
 from bci_src.analysis.error_classification import classify_error, answers_match
 from bci_src.runtime.run_manifest import RunManifest
-from bci_src.config import RANDOM_SEED
+from bci_src.config import RANDOM_SEED, GQA_DIR
+from bci_src.data.data_loader import scene_graph_to_facts
 import pandas as pd
 import numpy as np
 from PIL import Image
@@ -58,8 +59,48 @@ class ReplaceAllPolicy(InterventionPolicy):
     def apply(self, verified_claims, scene_graph=None):
         # Keep all non-contradicted claims
         corrected = [c for c in verified_claims if c["status"] != "CONTRADICTED"]
-        # Would normally add GT beliefs here, but for now just return corrected
+        
+        # Extract facts from scene graph and add as ground-truth replacements
+        if scene_graph:
+            facts = scene_graph_to_facts(scene_graph)
+            # Convert facts to natural language claims
+            for fact in facts:
+                claim_text = self._fact_to_claim(fact)
+                if claim_text:
+                    corrected.append({
+                        "claim": claim_text,
+                        "type": fact["type"],
+                        "status": "SUPPORTED",
+                        "confidence": 1.0,
+                        "source": "ground_truth",  # Mark as GT injection
+                    })
+        
         return corrected
+    
+    @staticmethod
+    def _fact_to_claim(fact: dict) -> str:
+        """Convert a scene graph fact to a natural language claim."""
+        fact_type = fact.get("type", "")
+        subject = fact.get("subject", "")
+        predicate = fact.get("predicate", "")
+        obj = fact.get("object")
+        
+        if fact_type == "object":
+            if predicate == "exists":
+                return f"There is a {subject}."
+            return f"A {subject} exists."
+        
+        elif fact_type == "attribute":
+            if obj:
+                return f"The {subject} is {obj}."
+            return f"The {subject} has attribute {predicate}."
+        
+        elif fact_type == "relation":
+            if obj:
+                return f"The {subject} is {predicate} the {obj}."
+            return f"The {subject} {predicate}."
+        
+        return ""
 
 
 class ReplaceConfidentPolicy(InterventionPolicy):
@@ -107,6 +148,8 @@ class Phase2ExpRunner:
         exp_id: str,
         config_path: str,
         output_dir: Optional[Path] = None,
+        device_override: Optional[str] = None,
+        n_samples_override: Optional[int] = None,
     ):
         """
         Initialize experiment.
@@ -124,6 +167,12 @@ class Phase2ExpRunner:
         # Load config
         with open(self.config_path) as f:
             self.cfg = yaml.safe_load(f)
+
+            # Optional CLI overrides for fast/controlled execution.
+            if device_override:
+                self.cfg.setdefault("model", {})["device"] = device_override
+            if n_samples_override is not None:
+                self.cfg.setdefault("dataset", {})["n_samples"] = int(n_samples_override)
         
         self.manifest = RunManifest(
             self.cfg["experiment"]["id"],
@@ -132,6 +181,27 @@ class Phase2ExpRunner:
         )
         
         self.results: List[Dict[str, Any]] = []
+
+    @staticmethod
+    def _normalize_scene_graphs(scene_graphs: Any) -> Dict[str, Dict[str, Any]]:
+        """Normalize scene graphs to an image-id keyed dictionary."""
+        if isinstance(scene_graphs, dict):
+            return scene_graphs
+        if isinstance(scene_graphs, list):
+            normalized: Dict[str, Dict[str, Any]] = {}
+            for item in scene_graphs:
+                if not isinstance(item, dict):
+                    continue
+                image_id = (
+                    item.get("image_id")
+                    or item.get("imageId")
+                    or item.get("id")
+                )
+                if image_id is None:
+                    continue
+                normalized[str(image_id)] = item
+            return normalized
+        return {}
     
     def run(self) -> None:
         """Execute experiment end-to-end."""
@@ -159,7 +229,7 @@ class Phase2ExpRunner:
         
         print(f"[5/6] Running experiment pipeline...")
         
-        scene_graphs = adapter.load_scene_graphs()
+        scene_graphs = self._normalize_scene_graphs(adapter.load_scene_graphs())
         
         for i, sample in enumerate(samples):
             if (i + 1) % max(50, len(samples) // 10) == 0:
@@ -197,18 +267,26 @@ class Phase2ExpRunner:
         beliefs_out = vlm.belief_externalization(image, sample.question)
         
         # Stage 3: Claim extraction + verification
-        claims = extract_and_classify(beliefs_out.get("beliefs", ""))
-        
-        scene_graph = scene_graphs.get(sample.sample_id, {})
+        extraction = extract_and_classify(
+            {
+                "question_id": sample.sample_id,
+                "baseline": baseline_out,
+                "belief_externalization": beliefs_out,
+            }
+        )
+        claims = extraction.get("belief_claims", [])
+
+        # GQA scene graphs are keyed by image_id, not question_id.
+        scene_graph = scene_graphs.get(sample.image_id) or scene_graphs.get(sample.sample_id, {})
         verified_claims = []
         for claim in claims:
-            status, evidence = verify_claim(claim, scene_graph, profile)
-            verified_claims.append({
-                "claim": getattr(claim, "text", str(claim)),
-                "type": getattr(claim, "type", "unknown"),
-                "status": status,
-                "confidence": 0.9 if status != "UNCERTAIN" else 0.5,
-            })
+            verified = verify_claim(claim, scene_graph)
+            verified_claims.append(
+                {
+                    **verified,
+                    "confidence": 0.9 if verified.get("status") != "UNCERTAIN" else 0.5,
+                }
+            )
         
         # Stage 4: Intervention
         policy_name = self.cfg["pipeline"]["stages"][4]["policy"]
@@ -216,8 +294,9 @@ class Phase2ExpRunner:
         corrected_claims = policy.apply(verified_claims, scene_graph)
         
         # Stage 5: Constrained re-reasoning
+        corrected_beliefs = [c.get("claim", "") for c in corrected_claims if c.get("claim")]
         corrected_out = vlm.constrained_reasoning(
-            image, sample.question, corrected_claims
+            image, sample.question, corrected_beliefs
         )
         
         # Stage 6: Error classification
@@ -246,9 +325,9 @@ class Phase2ExpRunner:
     def _load_image(self, sample: Any, adapter: Any) -> Image.Image:
         """Load image for sample."""
         try:
-            # Try adapter-specific loading
-            import os
+            # Prefer config-driven absolute data roots; keep relative fallbacks.
             possible_dirs = [
+                GQA_DIR / "images",
                 Path("data/gqa/images"),
                 Path("data/mmmu/images"),
                 Path("data/mathvista/images"),
@@ -268,6 +347,33 @@ class Phase2ExpRunner:
         """Compute metrics and save results."""
         
         results_df = pd.DataFrame(self.results)
+
+        if results_df.empty:
+            summary = {
+                "flip_to_correct_rate": 0.0,
+                "n_samples": 0,
+                "n_flipped": 0,
+                "n_baseline_correct": 0,
+                "n_corrected_correct": 0,
+                "warning": "No valid samples processed. Check image availability and data paths.",
+            }
+
+            results_csv = self.output_dir / f"results_{self.cfg['experiment']['id']}.csv"
+            summary_json = self.output_dir / f"summary_{self.cfg['experiment']['id']}.json"
+            results_df.to_csv(results_csv, index=False)
+            with open(summary_json, "w") as f:
+                json.dump(summary, f, indent=2)
+
+            manifest_path = self.manifest.finalize(summary)
+            print(f"{'='*70}")
+            print("RESULTS SUMMARY")
+            print(f"{'='*70}")
+            print("No valid samples were processed.")
+            print(f"CSV:      {results_csv}")
+            print(f"Summary:  {summary_json}")
+            print(f"Manifest: {manifest_path}")
+            print(f"{'='*70}\n")
+            return
         
         # Summary metrics
         flip_rate = results_df["flip_to_correct"].mean()
@@ -333,11 +439,28 @@ def main():
         default="results",
         help="Output directory (default: results/)",
     )
+    parser.add_argument(
+        "--device",
+        default=None,
+        help="Optional device override (e.g., cuda:0)",
+    )
+    parser.add_argument(
+        "--n-samples",
+        type=int,
+        default=None,
+        help="Optional sample-count override",
+    )
     
     args = parser.parse_args()
     
     try:
-        runner = Phase2ExpRunner(args.exp, args.config, args.output_dir)
+        runner = Phase2ExpRunner(
+            args.exp,
+            args.config,
+            args.output_dir,
+            device_override=args.device,
+            n_samples_override=args.n_samples,
+        )
         runner.run()
     except Exception as e:
         print(f"\n✗ Error: {e}", file=sys.stderr)

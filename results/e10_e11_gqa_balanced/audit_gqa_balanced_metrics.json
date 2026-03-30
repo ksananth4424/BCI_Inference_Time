@@ -1,0 +1,40 @@
+{
+  "benchmark": "gqa",
+  "profile": "balanced",
+  "n_samples": 500,
+  "total_claims": 2482,
+  "clean_metrics": {
+    "unknown": {
+      "detection_rate": 0.09468170829975826,
+      "contradicted_count": 235,
+      "total_count": 2482,
+      "supported_count": 2247
+    }
+  },
+  "noisy_metrics": {
+    "0.05": {
+      "unknown": {
+        "detection_rate": 0.10757453666398066,
+        "contradicted_count": 267,
+        "total_count": 2482,
+        "supported_count": 2215
+      }
+    },
+    "0.1": {
+      "unknown": {
+        "detection_rate": 0.13013698630136986,
+        "contradicted_count": 323,
+        "total_count": 2482,
+        "supported_count": 2159
+      }
+    },
+    "0.2": {
+      "unknown": {
+        "detection_rate": 0.16720386784850927,
+        "contradicted_count": 415,
+        "total_count": 2482,
+        "supported_count": 2067
+      }
+    }
+  }
+}
