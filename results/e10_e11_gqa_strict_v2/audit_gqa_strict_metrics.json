@@ -1,0 +1,160 @@
+{
+  "benchmark": "gqa",
+  "profile": "strict",
+  "n_samples": 500,
+  "total_claims": 2482,
+  "clean_metrics": {
+    "object_existence": {
+      "detection_rate": 0.23529411764705882,
+      "contradicted_count": 204,
+      "total_count": 867,
+      "supported_count": 663
+    },
+    "spatial": {
+      "detection_rate": 0.043478260869565216,
+      "contradicted_count": 17,
+      "total_count": 391,
+      "supported_count": 374
+    },
+    "text_ocr": {
+      "detection_rate": 0.0,
+      "contradicted_count": 0,
+      "total_count": 103,
+      "supported_count": 103
+    },
+    "action": {
+      "detection_rate": 0.0,
+      "contradicted_count": 0,
+      "total_count": 396,
+      "supported_count": 396
+    },
+    "attribute": {
+      "detection_rate": 0.016736401673640166,
+      "contradicted_count": 12,
+      "total_count": 717,
+      "supported_count": 705
+    },
+    "counting": {
+      "detection_rate": 0.375,
+      "contradicted_count": 3,
+      "total_count": 8,
+      "supported_count": 5
+    }
+  },
+  "noisy_metrics": {
+    "0.05": {
+      "object_existence": {
+        "detection_rate": 0.27566320645905423,
+        "contradicted_count": 239,
+        "total_count": 867,
+        "supported_count": 628
+      },
+      "spatial": {
+        "detection_rate": 0.05115089514066496,
+        "contradicted_count": 20,
+        "total_count": 391,
+        "supported_count": 371
+      },
+      "text_ocr": {
+        "detection_rate": 0.0,
+        "contradicted_count": 0,
+        "total_count": 103,
+        "supported_count": 103
+      },
+      "action": {
+        "detection_rate": 0.047979797979797977,
+        "contradicted_count": 19,
+        "total_count": 396,
+        "supported_count": 377
+      },
+      "attribute": {
+        "detection_rate": 0.01813110181311018,
+        "contradicted_count": 13,
+        "total_count": 717,
+        "supported_count": 704
+      },
+      "counting": {
+        "detection_rate": 0.25,
+        "contradicted_count": 2,
+        "total_count": 8,
+        "supported_count": 6
+      }
+    },
+    "0.1": {
+      "object_existence": {
+        "detection_rate": 0.29988465974625145,
+        "contradicted_count": 260,
+        "total_count": 867,
+        "supported_count": 607
+      },
+      "spatial": {
+        "detection_rate": 0.061381074168797956,
+        "contradicted_count": 24,
+        "total_count": 391,
+        "supported_count": 367
+      },
+      "text_ocr": {
+        "detection_rate": 0.0,
+        "contradicted_count": 0,
+        "total_count": 103,
+        "supported_count": 103
+      },
+      "action": {
+        "detection_rate": 0.10606060606060606,
+        "contradicted_count": 42,
+        "total_count": 396,
+        "supported_count": 354
+      },
+      "attribute": {
+        "detection_rate": 0.01813110181311018,
+        "contradicted_count": 13,
+        "total_count": 717,
+        "supported_count": 704
+      },
+      "counting": {
+        "detection_rate": 0.25,
+        "contradicted_count": 2,
+        "total_count": 8,
+        "supported_count": 6
+      }
+    },
+    "0.2": {
+      "object_existence": {
+        "detection_rate": 0.35409457900807384,
+        "contradicted_count": 307,
+        "total_count": 867,
+        "supported_count": 560
+      },
+      "spatial": {
+        "detection_rate": 0.0741687979539642,
+        "contradicted_count": 29,
+        "total_count": 391,
+        "supported_count": 362
+      },
+      "text_ocr": {
+        "detection_rate": 0.0,
+        "contradicted_count": 0,
+        "total_count": 103,
+        "supported_count": 103
+      },
+      "action": {
+        "detection_rate": 0.1994949494949495,
+        "contradicted_count": 79,
+        "total_count": 396,
+        "supported_count": 317
+      },
+      "attribute": {
+        "detection_rate": 0.029288702928870293,
+        "contradicted_count": 21,
+        "total_count": 717,
+        "supported_count": 696
+      },
+      "counting": {
+        "detection_rate": 0.25,
+        "contradicted_count": 2,
+        "total_count": 8,
+        "supported_count": 6
+      }
+    }
+  }
+}

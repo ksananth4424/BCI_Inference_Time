@@ -28,6 +28,7 @@ from bci_src.verification.profiles import get_profile
 from bci_src.models.vlm_inference import VLMInference
 from bci_src.verification.claim_extraction import extract_and_classify
 from bci_src.verification.claim_verification import verify_claim
+import bci_src.verification.claim_verification as claim_verification_module
 from bci_src.analysis.error_classification import classify_error, answers_match
 from bci_src.runtime.run_manifest import RunManifest
 from bci_src.config import RANDOM_SEED, GQA_DIR
@@ -215,6 +216,12 @@ class Phase2ExpRunner:
         
         print(f"[2/6] Loading verifier profile...")
         profile = get_profile(self.cfg["pipeline"]["stages"][3]["verifier_profile"])
+
+        # Wire profile thresholds into verifier runtime for this experiment run.
+        claim_verification_module.ATTRIBUTE_SIMILARITY_THRESHOLD = (
+            profile.ATTRIBUTE_SIMILARITY_THRESHOLD
+        )
+        claim_verification_module.SPATIAL_TOLERANCE = profile.SPATIAL_TOLERANCE
         
         print(f"[3/6] Initializing VLM...")
         vlm = VLMInference(device=self.cfg["model"].get("device", "cuda:1"))

@@ -1,0 +1,160 @@
+{
+  "benchmark": "gqa",
+  "profile": "strict",
+  "n_samples": 2000,
+  "total_claims": 9780,
+  "clean_metrics": {
+    "object_existence": {
+      "detection_rate": 0.2529217860353611,
+      "contradicted_count": 844,
+      "total_count": 3337,
+      "supported_count": 2493
+    },
+    "spatial": {
+      "detection_rate": 0.04488778054862843,
+      "contradicted_count": 72,
+      "total_count": 1604,
+      "supported_count": 1532
+    },
+    "text_ocr": {
+      "detection_rate": 0.0,
+      "contradicted_count": 0,
+      "total_count": 400,
+      "supported_count": 400
+    },
+    "action": {
+      "detection_rate": 0.0,
+      "contradicted_count": 0,
+      "total_count": 1502,
+      "supported_count": 1502
+    },
+    "attribute": {
+      "detection_rate": 0.021283899759697907,
+      "contradicted_count": 62,
+      "total_count": 2913,
+      "supported_count": 2851
+    },
+    "counting": {
+      "detection_rate": 0.5416666666666666,
+      "contradicted_count": 13,
+      "total_count": 24,
+      "supported_count": 11
+    }
+  },
+  "noisy_metrics": {
+    "0.05": {
+      "object_existence": {
+        "detection_rate": 0.27869343721905904,
+        "contradicted_count": 930,
+        "total_count": 3337,
+        "supported_count": 2407
+      },
+      "spatial": {
+        "detection_rate": 0.057356608478802994,
+        "contradicted_count": 92,
+        "total_count": 1604,
+        "supported_count": 1512
+      },
+      "text_ocr": {
+        "detection_rate": 0.0,
+        "contradicted_count": 0,
+        "total_count": 400,
+        "supported_count": 400
+      },
+      "action": {
+        "detection_rate": 0.059254327563249,
+        "contradicted_count": 89,
+        "total_count": 1502,
+        "supported_count": 1413
+      },
+      "attribute": {
+        "detection_rate": 0.02368692070030896,
+        "contradicted_count": 69,
+        "total_count": 2913,
+        "supported_count": 2844
+      },
+      "counting": {
+        "detection_rate": 0.5,
+        "contradicted_count": 12,
+        "total_count": 24,
+        "supported_count": 12
+      }
+    },
+    "0.1": {
+      "object_existence": {
+        "detection_rate": 0.30176805513934674,
+        "contradicted_count": 1007,
+        "total_count": 3337,
+        "supported_count": 2330
+      },
+      "spatial": {
+        "detection_rate": 0.06670822942643391,
+        "contradicted_count": 107,
+        "total_count": 1604,
+        "supported_count": 1497
+      },
+      "text_ocr": {
+        "detection_rate": 0.0,
+        "contradicted_count": 0,
+        "total_count": 400,
+        "supported_count": 400
+      },
+      "action": {
+        "detection_rate": 0.10452729693741677,
+        "contradicted_count": 157,
+        "total_count": 1502,
+        "supported_count": 1345
+      },
+      "attribute": {
+        "detection_rate": 0.026433230346721594,
+        "contradicted_count": 77,
+        "total_count": 2913,
+        "supported_count": 2836
+      },
+      "counting": {
+        "detection_rate": 0.5,
+        "contradicted_count": 12,
+        "total_count": 24,
+        "supported_count": 12
+      }
+    },
+    "0.2": {
+      "object_existence": {
+        "detection_rate": 0.3518130056937369,
+        "contradicted_count": 1174,
+        "total_count": 3337,
+        "supported_count": 2163
+      },
+      "spatial": {
+        "detection_rate": 0.08541147132169576,
+        "contradicted_count": 137,
+        "total_count": 1604,
+        "supported_count": 1467
+      },
+      "text_ocr": {
+        "detection_rate": 0.0,
+        "contradicted_count": 0,
+        "total_count": 400,
+        "supported_count": 400
+      },
+      "action": {
+        "detection_rate": 0.20639147802929428,
+        "contradicted_count": 310,
+        "total_count": 1502,
+        "supported_count": 1192
+      },
+      "attribute": {
+        "detection_rate": 0.03467215928595949,
+        "contradicted_count": 101,
+        "total_count": 2913,
+        "supported_count": 2812
+      },
+      "counting": {
+        "detection_rate": 0.4583333333333333,
+        "contradicted_count": 11,
+        "total_count": 24,
+        "supported_count": 13
+      }
+    }
+  }
+}

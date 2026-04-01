@@ -1,0 +1,197 @@
+{
+  "experiment_id": "E10_E11_gqa_high_recall",
+  "start_time": "2026-03-31T05:37:50.516697",
+  "git": {
+    "error": "Failed to get git state: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.",
+    "commit": "unknown",
+    "branch": "unknown"
+  },
+  "code": {
+    "hash": "13bf81abf31413bb",
+    "python_file_count": 22,
+    "src_dir": "/data/cs22btech11029/playground/Inference_time_VLM/bci_src"
+  },
+  "config": {
+    "path": "configs/phase2/verifier_audit_gqa.yaml",
+    "hash": "2b63b162744cd5b7",
+    "size_bytes": 3120
+  },
+  "environment": {
+    "python_version": "3.11.14",
+    "platform": "Linux-6.8.0-94-generic-x86_64-with-glibc2.35",
+    "python_executable": "/data/cs22btech11029/miniconda3_new/envs/mech_interp/bin/python",
+    "torch_version": "2.9.1+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device_name": "NVIDIA RTX 6000 Ada Generation",
+    "device_count": 1,
+    "transformers_version": "4.57.3"
+  },
+  "end_time": "2026-03-31T10:35:29.578088",
+  "duration_seconds": 17859.061391,
+  "metrics": {},
+  "summary": {
+    "total_claims_audited": 9780,
+    "n_samples": 2000,
+    "metrics": {
+      "benchmark": "gqa",
+      "profile": "high_recall",
+      "n_samples": 2000,
+      "total_claims": 9780,
+      "clean_metrics": {
+        "object_existence": {
+          "detection_rate": 0.2529217860353611,
+          "contradicted_count": 844,
+          "total_count": 3337,
+          "supported_count": 2493
+        },
+        "spatial": {
+          "detection_rate": 0.040523690773067333,
+          "contradicted_count": 65,
+          "total_count": 1604,
+          "supported_count": 1539
+        },
+        "text_ocr": {
+          "detection_rate": 0.0,
+          "contradicted_count": 0,
+          "total_count": 400,
+          "supported_count": 400
+        },
+        "action": {
+          "detection_rate": 0.0,
+          "contradicted_count": 0,
+          "total_count": 1502,
+          "supported_count": 1502
+        },
+        "attribute": {
+          "detection_rate": 0.021283899759697907,
+          "contradicted_count": 62,
+          "total_count": 2913,
+          "supported_count": 2851
+        },
+        "counting": {
+          "detection_rate": 0.5416666666666666,
+          "contradicted_count": 13,
+          "total_count": 24,
+          "supported_count": 11
+        }
+      },
+      "noisy_metrics": {
+        "0.05": {
+          "object_existence": {
+            "detection_rate": 0.2744980521426431,
+            "contradicted_count": 916,
+            "total_count": 3337,
+            "supported_count": 2421
+          },
+          "spatial": {
+            "detection_rate": 0.04738154613466334,
+            "contradicted_count": 76,
+            "total_count": 1604,
+            "supported_count": 1528
+          },
+          "text_ocr": {
+            "detection_rate": 0.0,
+            "contradicted_count": 0,
+            "total_count": 400,
+            "supported_count": 400
+          },
+          "action": {
+            "detection_rate": 0.05326231691078562,
+            "contradicted_count": 80,
+            "total_count": 1502,
+            "supported_count": 1422
+          },
+          "attribute": {
+            "detection_rate": 0.026776519052523172,
+            "contradicted_count": 78,
+            "total_count": 2913,
+            "supported_count": 2835
+          },
+          "counting": {
+            "detection_rate": 0.5416666666666666,
+            "contradicted_count": 13,
+            "total_count": 24,
+            "supported_count": 11
+          }
+        },
+        "0.1": {
+          "object_existence": {
+            "detection_rate": 0.2930776146239137,
+            "contradicted_count": 978,
+            "total_count": 3337,
+            "supported_count": 2359
+          },
+          "spatial": {
+            "detection_rate": 0.05610972568578554,
+            "contradicted_count": 90,
+            "total_count": 1604,
+            "supported_count": 1514
+          },
+          "text_ocr": {
+            "detection_rate": 0.0,
+            "contradicted_count": 0,
+            "total_count": 400,
+            "supported_count": 400
+          },
+          "action": {
+            "detection_rate": 0.09786950732356857,
+            "contradicted_count": 147,
+            "total_count": 1502,
+            "supported_count": 1355
+          },
+          "attribute": {
+            "detection_rate": 0.03192584963954686,
+            "contradicted_count": 93,
+            "total_count": 2913,
+            "supported_count": 2820
+          },
+          "counting": {
+            "detection_rate": 0.5416666666666666,
+            "contradicted_count": 13,
+            "total_count": 24,
+            "supported_count": 11
+          }
+        },
+        "0.2": {
+          "object_existence": {
+            "detection_rate": 0.3488163020677255,
+            "contradicted_count": 1164,
+            "total_count": 3337,
+            "supported_count": 2173
+          },
+          "spatial": {
+            "detection_rate": 0.06608478802992519,
+            "contradicted_count": 106,
+            "total_count": 1604,
+            "supported_count": 1498
+          },
+          "text_ocr": {
+            "detection_rate": 0.0,
+            "contradicted_count": 0,
+            "total_count": 400,
+            "supported_count": 400
+          },
+          "action": {
+            "detection_rate": 0.19174434087882822,
+            "contradicted_count": 288,
+            "total_count": 1502,
+            "supported_count": 1214
+          },
+          "attribute": {
+            "detection_rate": 0.040851355990387916,
+            "contradicted_count": 119,
+            "total_count": 2913,
+            "supported_count": 2794
+          },
+          "counting": {
+            "detection_rate": 0.4166666666666667,
+            "contradicted_count": 10,
+            "total_count": 24,
+            "supported_count": 14
+          }
+        }
+      }
+    }
+  }
+}

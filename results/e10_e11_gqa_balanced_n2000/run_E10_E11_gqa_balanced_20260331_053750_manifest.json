@@ -1,0 +1,197 @@
+{
+  "experiment_id": "E10_E11_gqa_balanced",
+  "start_time": "2026-03-31T05:37:50.517084",
+  "git": {
+    "error": "Failed to get git state: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.",
+    "commit": "unknown",
+    "branch": "unknown"
+  },
+  "code": {
+    "hash": "13bf81abf31413bb",
+    "python_file_count": 22,
+    "src_dir": "/data/cs22btech11029/playground/Inference_time_VLM/bci_src"
+  },
+  "config": {
+    "path": "configs/phase2/verifier_audit_gqa.yaml",
+    "hash": "2b63b162744cd5b7",
+    "size_bytes": 3120
+  },
+  "environment": {
+    "python_version": "3.11.14",
+    "platform": "Linux-6.8.0-94-generic-x86_64-with-glibc2.35",
+    "python_executable": "/data/cs22btech11029/miniconda3_new/envs/mech_interp/bin/python",
+    "torch_version": "2.9.1+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device_name": "NVIDIA RTX 6000 Ada Generation",
+    "device_count": 1,
+    "transformers_version": "4.57.3"
+  },
+  "end_time": "2026-03-31T10:51:43.102375",
+  "duration_seconds": 18832.585291,
+  "metrics": {},
+  "summary": {
+    "total_claims_audited": 9780,
+    "n_samples": 2000,
+    "metrics": {
+      "benchmark": "gqa",
+      "profile": "balanced",
+      "n_samples": 2000,
+      "total_claims": 9780,
+      "clean_metrics": {
+        "object_existence": {
+          "detection_rate": 0.2529217860353611,
+          "contradicted_count": 844,
+          "total_count": 3337,
+          "supported_count": 2493
+        },
+        "spatial": {
+          "detection_rate": 0.04239401496259352,
+          "contradicted_count": 68,
+          "total_count": 1604,
+          "supported_count": 1536
+        },
+        "text_ocr": {
+          "detection_rate": 0.0,
+          "contradicted_count": 0,
+          "total_count": 400,
+          "supported_count": 400
+        },
+        "action": {
+          "detection_rate": 0.0,
+          "contradicted_count": 0,
+          "total_count": 1502,
+          "supported_count": 1502
+        },
+        "attribute": {
+          "detection_rate": 0.021283899759697907,
+          "contradicted_count": 62,
+          "total_count": 2913,
+          "supported_count": 2851
+        },
+        "counting": {
+          "detection_rate": 0.5416666666666666,
+          "contradicted_count": 13,
+          "total_count": 24,
+          "supported_count": 11
+        }
+      },
+      "noisy_metrics": {
+        "0.05": {
+          "object_existence": {
+            "detection_rate": 0.2768954150434522,
+            "contradicted_count": 924,
+            "total_count": 3337,
+            "supported_count": 2413
+          },
+          "spatial": {
+            "detection_rate": 0.04800498753117207,
+            "contradicted_count": 77,
+            "total_count": 1604,
+            "supported_count": 1527
+          },
+          "text_ocr": {
+            "detection_rate": 0.0,
+            "contradicted_count": 0,
+            "total_count": 400,
+            "supported_count": 400
+          },
+          "action": {
+            "detection_rate": 0.0492676431424767,
+            "contradicted_count": 74,
+            "total_count": 1502,
+            "supported_count": 1428
+          },
+          "attribute": {
+            "detection_rate": 0.025060075523515277,
+            "contradicted_count": 73,
+            "total_count": 2913,
+            "supported_count": 2840
+          },
+          "counting": {
+            "detection_rate": 0.5416666666666666,
+            "contradicted_count": 13,
+            "total_count": 24,
+            "supported_count": 11
+          }
+        },
+        "0.1": {
+          "object_existence": {
+            "detection_rate": 0.29517530716212165,
+            "contradicted_count": 985,
+            "total_count": 3337,
+            "supported_count": 2352
+          },
+          "spatial": {
+            "detection_rate": 0.05860349127182045,
+            "contradicted_count": 94,
+            "total_count": 1604,
+            "supported_count": 1510
+          },
+          "text_ocr": {
+            "detection_rate": 0.0,
+            "contradicted_count": 0,
+            "total_count": 400,
+            "supported_count": 400
+          },
+          "action": {
+            "detection_rate": 0.11118508655126498,
+            "contradicted_count": 167,
+            "total_count": 1502,
+            "supported_count": 1335
+          },
+          "attribute": {
+            "detection_rate": 0.028492962581531067,
+            "contradicted_count": 83,
+            "total_count": 2913,
+            "supported_count": 2830
+          },
+          "counting": {
+            "detection_rate": 0.5,
+            "contradicted_count": 12,
+            "total_count": 24,
+            "supported_count": 12
+          }
+        },
+        "0.2": {
+          "object_existence": {
+            "detection_rate": 0.34671860952951755,
+            "contradicted_count": 1157,
+            "total_count": 3337,
+            "supported_count": 2180
+          },
+          "spatial": {
+            "detection_rate": 0.07169576059850374,
+            "contradicted_count": 115,
+            "total_count": 1604,
+            "supported_count": 1489
+          },
+          "text_ocr": {
+            "detection_rate": 0.0,
+            "contradicted_count": 0,
+            "total_count": 400,
+            "supported_count": 400
+          },
+          "action": {
+            "detection_rate": 0.20173102529960052,
+            "contradicted_count": 303,
+            "total_count": 1502,
+            "supported_count": 1199
+          },
+          "attribute": {
+            "detection_rate": 0.03810504634397528,
+            "contradicted_count": 111,
+            "total_count": 2913,
+            "supported_count": 2802
+          },
+          "counting": {
+            "detection_rate": 0.5,
+            "contradicted_count": 12,
+            "total_count": 24,
+            "supported_count": 12
+          }
+        }
+      }
+    }
+  }
+}
