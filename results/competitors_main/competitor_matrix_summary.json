@@ -1,0 +1,38 @@
+[
+  {
+    "method": "bci_e1",
+    "n": 500,
+    "n_correct": 386,
+    "accuracy": 0.772
+  },
+  {
+    "method": "resample_lite",
+    "n": 500,
+    "n_correct": 303,
+    "accuracy": 0.606
+  },
+  {
+    "method": "vanilla",
+    "n": 500,
+    "n_correct": 296,
+    "accuracy": 0.592
+  },
+  {
+    "method": "bci_e3",
+    "n": 500,
+    "n_correct": 293,
+    "accuracy": 0.586
+  },
+  {
+    "method": "cove_lite",
+    "n": 500,
+    "n_correct": 286,
+    "accuracy": 0.572
+  },
+  {
+    "method": "self_correct",
+    "n": 500,
+    "n_correct": 246,
+    "accuracy": 0.492
+  }
+]

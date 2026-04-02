@@ -1,0 +1,81 @@
+sample_id,image_id,question,ground_truth,method,prediction,correct
+05491615,2374257,The vehicle is in front of who?,pedestrian,vanilla,The vehicle (the truck) is in front of the pedestrians walking on the sidewalk.,1
+05491615,2374257,The vehicle is in front of who?,pedestrian,self_correct,The vehicle is behind the pedestrians.,1
+05491615,2374257,The vehicle is in front of who?,pedestrian,cove_lite,The vehicle (the truck) is in front of the pedestrians walking on the sidewalk.,1
+05491615,2374257,The vehicle is in front of who?,pedestrian,resample_lite,The truck is parked and not moving in front of anyone specific in the image.,0
+14192896,2355736,Which side of the picture is the spectator on?,right,vanilla,The spectator is on the right side of the picture.,1
+14192896,2355736,Which side of the picture is the spectator on?,right,self_correct,The spectator is on the left side of the picture.,0
+14192896,2355736,Which side of the picture is the spectator on?,right,cove_lite,The spectator is on the right side of the picture.,1
+14192896,2355736,Which side of the picture is the spectator on?,right,resample_lite,The spectator is on the right side of the picture.,1
+03433692,2340617,Are there any bottles in the image?,yes,vanilla,"Yes, there appears to be a bottle in the image, though it is not clearly identifiable.",1
+03433692,2340617,Are there any bottles in the image?,yes,self_correct,"No, there are no bottles in the image.",0
+03433692,2340617,Are there any bottles in the image?,yes,cove_lite,"No, there are no bottles in the image.",0
+03433692,2340617,Are there any bottles in the image?,yes,resample_lite,"Yes, there appears to be a bottle in the image based on its location and shape.",1
+0167377,2351365,Are there both helmets and motorcycles in this picture?,yes,vanilla,"No, there are motorcycles in the picture, but there are no helmets visible.",0
+0167377,2351365,Are there both helmets and motorcycles in this picture?,yes,self_correct,"No, there are no helmets visible.",0
+0167377,2351365,Are there both helmets and motorcycles in this picture?,yes,cove_lite,"No, there are no helmets visible in the picture.",0
+0167377,2351365,Are there both helmets and motorcycles in this picture?,yes,resample_lite,"No, there are no helmets in this picture.",0
+09982030,2407698,What kind of food is below the vegetable near the carrots?,broth,vanilla,The food below the vegetable near the carrots is a smooth soup made from the blended vegetables.,0
+09982030,2407698,What kind of food is below the vegetable near the carrots?,broth,self_correct,The food below the vegetable near the carrots is a smooth soup made from the blended vegetables.,0
+09982030,2407698,What kind of food is below the vegetable near the carrots?,broth,cove_lite,The food below the vegetable near the carrots is a smooth soup made from the blended vegetables.,0
+09982030,2407698,What kind of food is below the vegetable near the carrots?,broth,resample_lite,The food below the carrot is the cooked vegetable soup.,0
+07598996,2375491,What is the animal that is to the right of the black container?,giraffe,vanilla,There is no animal to the right of the black container.,0
+07598996,2375491,What is the animal that is to the right of the black container?,giraffe,self_correct,There is a giraffe to the right of the black container.,1
+07598996,2375491,What is the animal that is to the right of the black container?,giraffe,cove_lite,There is no animal to the right of the black container.,0
+07598996,2375491,What is the animal that is to the right of the black container?,giraffe,resample_lite,The animal to the right of the black container is a giraffe.,1
+06222534,2389835,On which side is the statue?,right,vanilla,There is no statue in the image.,0
+06222534,2389835,On which side is the statue?,right,self_correct,There is no statue in the image.,0
+06222534,2389835,On which side is the statue?,right,cove_lite,There is no statue in the image.,0
+06222534,2389835,On which side is the statue?,right,resample_lite,The statues are located on both the left and right sides of the clock tower.,1
+19359515,2381611,Is it indoors?,no,vanilla,"No, it is not indoors.",1
+19359515,2381611,Is it indoors?,no,self_correct,"No, it is not indoors.",1
+19359515,2381611,Is it indoors?,no,cove_lite,"No, it is not indoors.",1
+19359515,2381611,Is it indoors?,no,resample_lite,"No, it is not indoors.",1
+03262245,2409000,Of what color are the bags to the right of the man?,black,vanilla,There are no bags to the right of the man in the image.,0
+03262245,2409000,Of what color are the bags to the right of the man?,black,self_correct,There are no bags to the right of the man.,0
+03262245,2409000,Of what color are the bags to the right of the man?,black,cove_lite,There are no bags to the right of the man in the image.,0
+03262245,2409000,Of what color are the bags to the right of the man?,black,resample_lite,"There are no bags visible in the image, so it's not possible to determine their color.",0
+17397767,2378563,Is there a white truck or bus?,no,vanilla,"No, there is no white truck or bus in the image.",1
+17397767,2378563,Is there a white truck or bus?,no,self_correct,"No, there is no white truck or bus in the image.",1
+17397767,2378563,Is there a white truck or bus?,no,cove_lite,"No, there is no white truck or bus in the image.",1
+17397767,2378563,Is there a white truck or bus?,no,resample_lite,"No, there is no white truck or bus in the image.",1
+01417011,2412339,Which side is the helmet on?,left,vanilla,The helmet is on the left side of the image.,1
+01417011,2412339,Which side is the helmet on?,left,self_correct,The helmet is on the left side of the image.,1
+01417011,2412339,Which side is the helmet on?,left,cove_lite,The helmet is on the left side of the image.,1
+01417011,2412339,Which side is the helmet on?,left,resample_lite,The helmet is on the left side of the image.,1
+17596714,2397873,What is in front of the bushes?,train tracks,vanilla,The railway tracks are in front of the bushes.,0
+17596714,2397873,What is in front of the bushes?,train tracks,self_correct,The railway tracks are in front of the bushes.,0
+17596714,2397873,What is in front of the bushes?,train tracks,cove_lite,The railway tracks are in front of the bushes.,0
+17596714,2397873,What is in front of the bushes?,train tracks,resample_lite,The railway track is in front of the bushes.,0
+08651263,2391908,What is the street sign on?,street light,vanilla,The street sign is on the same pole as the clock.,0
+08651263,2391908,What is the street sign on?,street light,self_correct,The street sign is on a separate pole from the clock.,0
+08651263,2391908,What is the street sign on?,street light,cove_lite,The street sign is on the same pole as the clock.,0
+08651263,2391908,What is the street sign on?,street light,resample_lite,The street sign is on a black post.,0
+11293734,2391802,Is there a lamb to the left of the ball?,no,vanilla,"No, there is no lamb to the left of the ball in the image.",1
+11293734,2391802,Is there a lamb to the left of the ball?,no,self_correct,"No, there is no lamb to the left of the ball.",1
+11293734,2391802,Is there a lamb to the left of the ball?,no,cove_lite,"No, there is no lamb to the left of the ball in the image.",1
+11293734,2391802,Is there a lamb to the left of the ball?,no,resample_lite,"No, there is no lamb to the left of the ball in the image.",1
+06566426,2359746,What is the man in?,canoe,vanilla,The man is in a blue boat.,0
+06566426,2359746,What is the man in?,canoe,self_correct,The man is in a blue boat.,0
+06566426,2359746,What is the man in?,canoe,cove_lite,The man is in a blue boat.,0
+06566426,2359746,What is the man in?,canoe,resample_lite,The man is in a boat.,0
+161065162,2349334,Who is wearing the jeans?,man,vanilla,"Based on the observations, it is not possible to determine who is wearing jeans in the image.",0
+161065162,2349334,Who is wearing the jeans?,man,self_correct,The person on the far right appears to be wearing jeans.,0
+161065162,2349334,Who is wearing the jeans?,man,cove_lite,It is not possible to determine who is wearing jeans in the image.,0
+161065162,2349334,Who is wearing the jeans?,man,resample_lite,"Based on the available visual information, it's not possible to confidently identify who is wearing jeans in this image.",0
+0365933,2400350,What is the color of the placemat in the top part of the photo?,cream colored,vanilla,"There is no placemat in the top part of the photo, so the color cannot be determined.",0
+0365933,2400350,What is the color of the placemat in the top part of the photo?,cream colored,self_correct,There is no placemat in the top part of the photo.,0
+0365933,2400350,What is the color of the placemat in the top part of the photo?,cream colored,cove_lite,There is no placemat in the top part of the photo.,0
+0365933,2400350,What is the color of the placemat in the top part of the photo?,cream colored,resample_lite,"There is no placemat in the top part of the photo, so a color cannot be determined.",0
+18168885,61533,Does she look at the ball in the top of the picture?,yes,vanilla,"Yes, she looks at the ball in the top of the picture.",1
+18168885,61533,Does she look at the ball in the top of the picture?,yes,self_correct,"No, she does not look at the ball in the top of the picture.",0
+18168885,61533,Does she look at the ball in the top of the picture?,yes,cove_lite,"No, she does not look at the ball in the top of the picture.",0
+18168885,61533,Does she look at the ball in the top of the picture?,yes,resample_lite,"Yes, she looks at the ball in the top of the picture.",1
+10682334,2412363,Is there food to the right of the tomato that the pepper is to the right of?,no,vanilla,"No, there is no food to the right of the tomato because there is no pepper in the image, and thus no tomato to the right of it.",1
+10682334,2412363,Is there food to the right of the tomato that the pepper is to the right of?,no,self_correct,"No, there is no food to the right of the tomato.",1
+10682334,2412363,Is there food to the right of the tomato that the pepper is to the right of?,no,cove_lite,"No, there is no food to the right of the tomato because there is no pepper in the image, and thus no tomato to the right of it.",1
+10682334,2412363,Is there food to the right of the tomato that the pepper is to the right of?,no,resample_lite,"No, there is no food to the right of the tomato that the pepper is to the right of; instead, there are cucumber slices.",1
+06564130,2398184,What is the device that he holds?,cell phone,vanilla,The device he holds is a mobile phone.,0
+06564130,2398184,What is the device that he holds?,cell phone,self_correct,The device he holds is a mobile phone.,0
+06564130,2398184,What is the device that he holds?,cell phone,cove_lite,The device he holds is a mobile phone.,0
+06564130,2398184,What is the device that he holds?,cell phone,resample_lite,The device he holds is a mobile phone.,0

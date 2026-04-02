@@ -1,0 +1,7 @@
+method,n,n_correct,accuracy
+bci_e1,500,386,0.772
+bci_e3,500,293,0.586
+resample_lite,20,10,0.5
+vanilla,20,9,0.45
+cove_lite,20,7,0.35
+self_correct,20,7,0.35

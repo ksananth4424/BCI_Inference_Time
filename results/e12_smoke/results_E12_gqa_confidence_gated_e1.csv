@@ -1,0 +1,21 @@
+sample_id,question,ground_truth,baseline_answer,corrected_answer,baseline_correct,corrected_correct,flip_to_correct,n_claims,n_claims_supported,n_claims_contradicted,n_claims_uncertain,intervened,intervention_score,used_fallback
+05491615,The vehicle is in front of who?,pedestrian,The vehicle (the truck) is in front of the pedestrians walking on the sidewalk.,The vehicle is in front of people with umbrellas.,True,False,0,5,0,1,4,1,0.402,0
+14192896,Which side of the picture is the spectator on?,right,The spectator is on the right side of the picture.,Right side,True,True,0,5,2,1,2,1,0.266,0
+03433692,Are there any bottles in the image?,yes,"Yes, there appears to be a bottle in the image, though it is not clearly identifiable.",Yes,True,True,0,5,0,0,5,1,0.35,0
+0167377,Are there both helmets and motorcycles in this picture?,yes,"No, there are motorcycles in the picture, but there are no helmets visible.",Yes,False,True,1,5,2,1,2,1,0.266,0
+09982030,What kind of food is below the vegetable near the carrots?,broth,The food below the vegetable near the carrots is a smooth soup made from the blended vegetables.,Blender mixture,False,False,0,5,2,1,2,1,0.266,0
+07598996,What is the animal that is to the right of the black container?,giraffe,There is no animal to the right of the black container.,Giraffe,False,True,1,5,1,3,1,1,0.438,0
+06222534,On which side is the statue?,right,There is no statue in the image.,There is no statue in the image.,False,False,0,5,4,0,1,0,0.07799999999999999,0
+19359515,Is it indoors?,no,"No, it is not indoors.",No,True,True,0,5,1,2,2,1,0.386,0
+03262245,Of what color are the bags to the right of the man?,black,There are no bags to the right of the man in the image.,There are no bags to the right of the man in the image.,False,False,0,5,3,1,1,0,0.19799999999999998,0
+17397767,Is there a white truck or bus?,no,"No, there is no white truck or bus in the image.",No,True,True,0,5,1,2,2,1,0.386,0
+01417011,Which side is the helmet on?,left,The helmet is on the left side of the image.,The helmet is on the left side of the image.,True,True,0,5,2,0,3,0,0.214,0
+17596714,What is in front of the bushes?,train tracks,The railway tracks are in front of the bushes.,Railway track,False,False,0,5,2,1,2,1,0.266,0
+08651263,What is the street sign on?,street light,The street sign is on the same pole as the clock.,The street sign is on the same pole as the clock.,False,False,0,5,2,0,3,0,0.214,0
+11293734,Is there a lamb to the left of the ball?,no,"No, there is no lamb to the left of the ball in the image.","No, there is no lamb to the left of the ball in the image.",True,True,0,5,2,0,3,0,0.214,0
+06566426,What is the man in?,canoe,The man is in a blue boat.,The man is in a blue boat.,False,False,0,5,2,0,3,0,0.214,0
+161065162,Who is wearing the jeans?,man,"Based on the observations, it is not possible to determine who is wearing jeans in the image.","Based on the observations, it is not possible to determine who is wearing jeans in the image.",False,False,0,5,2,0,3,0,0.214,0
+0365933,What is the color of the placemat in the top part of the photo?,cream colored,"There is no placemat in the top part of the photo, so the color cannot be determined.","There is no placemat in the top part of the photo, so the color cannot be determined.",False,False,0,5,3,0,2,0,0.146,0
+18168885,Does she look at the ball in the top of the picture?,yes,"Yes, she looks at the ball in the top of the picture.",No,True,False,0,5,1,3,1,1,0.438,0
+10682334,Is there food to the right of the tomato that the pepper is to the right of?,no,"No, there is no food to the right of the tomato because there is no pepper in the image, and thus no tomato to the right of it.","No, there is no food to the right of the tomato because there is no pepper in the image, and thus no tomato to the right of it.",True,True,0,5,5,0,0,0,0.009999999999999998,0
+06564130,What is the device that he holds?,cell phone,The device he holds is a mobile phone.,Cell phone,False,True,1,5,2,2,1,1,0.318,0

@@ -1,0 +1,38 @@
+[
+  {
+    "method": "bci_e1",
+    "n": 500,
+    "n_correct": 386,
+    "accuracy": 0.772
+  },
+  {
+    "method": "bci_e3",
+    "n": 500,
+    "n_correct": 293,
+    "accuracy": 0.586
+  },
+  {
+    "method": "resample_lite",
+    "n": 20,
+    "n_correct": 10,
+    "accuracy": 0.5
+  },
+  {
+    "method": "vanilla",
+    "n": 20,
+    "n_correct": 9,
+    "accuracy": 0.45
+  },
+  {
+    "method": "cove_lite",
+    "n": 20,
+    "n_correct": 7,
+    "accuracy": 0.35
+  },
+  {
+    "method": "self_correct",
+    "n": 20,
+    "n_correct": 7,
+    "accuracy": 0.35
+  }
+]

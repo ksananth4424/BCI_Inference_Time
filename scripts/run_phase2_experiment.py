@@ -56,14 +56,31 @@ class InterventionPolicy:
 
 class ReplaceAllPolicy(InterventionPolicy):
     """Replace ALL contradicted beliefs with ground truth (oracle)."""
+
+    def __init__(
+        self,
+        localized_gt_edits: bool = False,
+        max_injected_facts: int = 200,
+    ):
+        self.localized_gt_edits = localized_gt_edits
+        self.max_injected_facts = max(1, int(max_injected_facts))
     
     def apply(self, verified_claims, scene_graph=None):
         # Keep all non-contradicted claims
         corrected = [c for c in verified_claims if c["status"] != "CONTRADICTED"]
+
+        contradicted = [c for c in verified_claims if c.get("status") == "CONTRADICTED"]
+        contradicted_types = {c.get("type") for c in contradicted if c.get("type")}
         
         # Extract facts from scene graph and add as ground-truth replacements
         if scene_graph:
             facts = scene_graph_to_facts(scene_graph)
+
+            if self.localized_gt_edits and contradicted_types:
+                facts = [f for f in facts if f.get("type") in contradicted_types]
+
+            facts = facts[: self.max_injected_facts]
+
             # Convert facts to natural language claims
             for fact in facts:
                 claim_text = self._fact_to_claim(fact)
@@ -127,12 +144,18 @@ class RemoveOnlyPolicy(InterventionPolicy):
         return [c for c in verified_claims if c["status"] != "CONTRADICTED"]
 
 
-def get_policy(name: str) -> InterventionPolicy:
+def get_policy(name: str, stage4_cfg: Optional[Dict[str, Any]] = None) -> InterventionPolicy:
     """Factory for intervention policies."""
+    stage4_cfg = stage4_cfg or {}
     policies = {
-        "replace_contradicted_with_ground_truth": ReplaceAllPolicy,
-        "replace_confident_contradictions": ReplaceConfidentPolicy,
-        "remove_contradicted_only": RemoveOnlyPolicy,
+        "replace_contradicted_with_ground_truth": lambda: ReplaceAllPolicy(
+            localized_gt_edits=bool(stage4_cfg.get("localized_gt_edits", False)),
+            max_injected_facts=int(stage4_cfg.get("max_injected_facts", 200)),
+        ),
+        "replace_confident_contradictions": lambda: ReplaceConfidentPolicy(
+            confidence_threshold=float(stage4_cfg.get("confidence_threshold", 0.7))
+        ),
+        "remove_contradicted_only": lambda: RemoveOnlyPolicy(),
     }
     return policies[name]()
 
@@ -203,6 +226,35 @@ class Phase2ExpRunner:
                 normalized[str(image_id)] = item
             return normalized
         return {}
+
+    @staticmethod
+    def _intervention_score(verified_claims: List[Dict[str, Any]]) -> float:
+        """Compute uncertainty score used by confidence-gated intervention."""
+        if not verified_claims:
+            return 0.0
+
+        n_total = len(verified_claims)
+        n_contradicted = sum(1 for c in verified_claims if c.get("status") == "CONTRADICTED")
+        n_uncertain = sum(1 for c in verified_claims if c.get("status") == "UNCERTAIN")
+        confidences = [float(c.get("confidence", 0.5)) for c in verified_claims]
+        avg_conf = sum(confidences) / len(confidences)
+
+        contradicted_ratio = n_contradicted / n_total
+        uncertain_ratio = n_uncertain / n_total
+        low_conf = 1.0 - avg_conf
+
+        # Weighted blend: contradiction dominates, uncertainty/low-confidence are tie-breakers.
+        return 0.6 * contradicted_ratio + 0.3 * uncertain_ratio + 0.1 * low_conf
+
+    @staticmethod
+    def _should_intervene(stage4_cfg: Dict[str, Any], verified_claims: List[Dict[str, Any]]) -> (bool, float):
+        """Return intervention decision and score under optional confidence gating."""
+        score = Phase2ExpRunner._intervention_score(verified_claims)
+        if not bool(stage4_cfg.get("enable_confidence_gate", False)):
+            return True, score
+
+        min_score = float(stage4_cfg.get("min_intervention_score", 0.25))
+        return score >= min_score, score
     
     def run(self) -> None:
         """Execute experiment end-to-end."""
@@ -296,15 +348,30 @@ class Phase2ExpRunner:
             )
         
         # Stage 4: Intervention
-        policy_name = self.cfg["pipeline"]["stages"][4]["policy"]
-        policy = get_policy(policy_name)
-        corrected_claims = policy.apply(verified_claims, scene_graph)
+        stage4_cfg = self.cfg["pipeline"]["stages"][4]
+        should_intervene, intervention_score = self._should_intervene(stage4_cfg, verified_claims)
+
+        if should_intervene:
+            policy_name = stage4_cfg["policy"]
+            policy = get_policy(policy_name, stage4_cfg)
+            corrected_claims = policy.apply(verified_claims, scene_graph)
+        else:
+            corrected_claims = verified_claims
         
         # Stage 5: Constrained re-reasoning
         corrected_beliefs = [c.get("claim", "") for c in corrected_claims if c.get("claim")]
-        corrected_out = vlm.constrained_reasoning(
-            image, sample.question, corrected_beliefs
-        )
+        corrected_out = baseline_out
+        used_fallback = 0
+
+        if should_intervene and corrected_beliefs:
+            corrected_out = vlm.constrained_reasoning(
+                image, sample.question, corrected_beliefs
+            )
+            if bool(stage4_cfg.get("enable_uncertainty_fallback", True)):
+                corrected_answer = str(corrected_out.get("answer", "")).strip().lower()
+                if corrected_answer in {"", "unknown", "cannot determine", "not sure"}:
+                    corrected_out = baseline_out
+                    used_fallback = 1
         
         # Stage 6: Error classification
         baseline_correct = answers_match(baseline_out["answer"], sample.answer)
@@ -327,6 +394,9 @@ class Phase2ExpRunner:
             "n_claims_supported": sum(1 for c in verified_claims if c["status"] == "SUPPORTED"),
             "n_claims_contradicted": sum(1 for c in verified_claims if c["status"] == "CONTRADICTED"),
             "n_claims_uncertain": sum(1 for c in verified_claims if c["status"] == "UNCERTAIN"),
+            "intervened": int(should_intervene),
+            "intervention_score": float(intervention_score),
+            "used_fallback": int(used_fallback),
         }
     
     def _load_image(self, sample: Any, adapter: Any) -> Image.Image:
@@ -457,6 +527,22 @@ def main():
         default=None,
         help="Optional sample-count override",
     )
+    parser.add_argument(
+        "--enable-confidence-gate",
+        action="store_true",
+        help="Enable confidence-gated intervention in stage 4",
+    )
+    parser.add_argument(
+        "--min-intervention-score",
+        type=float,
+        default=None,
+        help="Optional threshold for confidence-gated intervention",
+    )
+    parser.add_argument(
+        "--localized-gt-edits",
+        action="store_true",
+        help="Inject GT facts only for contradicted claim types",
+    )
     
     args = parser.parse_args()
     
@@ -468,6 +554,15 @@ def main():
             device_override=args.device,
             n_samples_override=args.n_samples,
         )
+
+        stage4_cfg = runner.cfg["pipeline"]["stages"][4]
+        if args.enable_confidence_gate:
+            stage4_cfg["enable_confidence_gate"] = True
+        if args.min_intervention_score is not None:
+            stage4_cfg["min_intervention_score"] = float(args.min_intervention_score)
+        if args.localized_gt_edits:
+            stage4_cfg["localized_gt_edits"] = True
+
         runner.run()
     except Exception as e:
         print(f"\n✗ Error: {e}", file=sys.stderr)

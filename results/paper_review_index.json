@@ -1,0 +1,261 @@
+[
+  {
+    "file": "2024.naacl-long.23.pdf",
+    "pages": 14,
+    "title": "Human Language Technologies (V olume 1: Long Papers), pages 391\u2013404",
+    "benchmarks": [
+      "MM-Vet",
+      "MMHal-Bench",
+      "Mm-vet",
+      "POPE",
+      "Pope"
+    ],
+    "metrics": [
+      "Accuracy",
+      "F1",
+      "Hallucination",
+      "accuracy",
+      "em",
+      "hallucination"
+    ],
+    "tables_first12": 21,
+    "abstract_snippet": "Large multimodal models suffer from multi- modal hallucination, where they provide in- correct responses misaligned with the given visual information. Recent works have con- jectured that one of the reasons behind mul- timodal hallucination is due to the vision en- coder failing to ground on the image properly. To mitigate this issue, we propose a novel ap- proach that leverages self-feedback as visual cues. Building on this approach, we intro- duce VOLCANO , a multimodal self-feedback guided revision model. VOLCANO generates natural language feedback to its initial response based on the provided visual information and utilizes this feedback to self-revise its initial response. VOLCANO effectively reduces multi- modal hallucination and achieves state-of-the- art on MMHal-Bench, POPE, and GA VIE. It also improves on general multimodal abilities and outperforms previous models on MM-Vet an"
+  },
+  {
+    "file": "2309.11495v2.pdf",
+    "pages": 19,
+    "title": "CHAIN -OF-VERIFICATION REDUCES HALLUCINATION",
+    "benchmarks": [],
+    "metrics": [
+      "F1",
+      "HALLUCINATION",
+      "Hallucination",
+      "Precision",
+      "accuracy",
+      "hallucination",
+      "precision",
+      "recall"
+    ],
+    "tables_first12": 9,
+    "abstract_snippet": ""
+  },
+  {
+    "file": "2310.16045v2.pdf",
+    "pages": 16,
+    "title": "Woodpecker: Hallucination Correction for",
+    "benchmarks": [
+      "MME",
+      "Mme",
+      "POPE"
+    ],
+    "metrics": [
+      "Accuracy",
+      "F1",
+      "Hallucination",
+      "Precision",
+      "Recall",
+      "accuracy",
+      "f1",
+      "hallucination",
+      "precision",
+      "recall"
+    ],
+    "tables_first12": 4,
+    "abstract_snippet": ""
+  },
+  {
+    "file": "2407.02352v2.pdf",
+    "pages": 21,
+    "title": "Pelican: Correcting Hallucination in Vision-LLMs via Claim",
+    "benchmarks": [
+      "MME",
+      "MMHal-Bench",
+      "Mme"
+    ],
+    "metrics": [
+      "Hallucination",
+      "accuracy",
+      "em",
+      "hallucination",
+      "precision"
+    ],
+    "tables_first12": 17,
+    "abstract_snippet": "Large Visual Language Models (LVLMs) strug- gle with hallucinations in visual instruction fol- lowing task(s), limiting their trustworthiness and real-world applicability. We propose Pelican \u2013 a novel framework designed to de- tect and mitigate hallucinations through claim verification. Pelican first decomposes the vi- sual claim into a chain of sub-claims based on first-order predicates. These sub-claims consist of (predicate, question) pairs and can be con- ceptualized as nodes of a computational graph. We then use Program-of-Thought prompting to generate Python code for answering these ques- tions through flexible composition of external tools. Pelican improves over prior work by in- troducing (1) intermediate variables for precise grounding of object instances, and (2) shared computation for answering the sub-question to enable adaptive corrections and inconsistency identification. W"
+  },
+  {
+    "file": "2502.06130v2.pdf",
+    "pages": 31,
+    "title": "Published as a conference paper at ICLR 2025",
+    "benchmarks": [
+      "CHAIR",
+      "GQA",
+      "MME",
+      "Mme",
+      "POPE"
+    ],
+    "metrics": [
+      "CHAIRI",
+      "CHAIRS",
+      "F1",
+      "Hallucination",
+      "Recall",
+      "accuracy",
+      "hallucination",
+      "precision",
+      "recall"
+    ],
+    "tables_first12": 17,
+    "abstract_snippet": ""
+  },
+  {
+    "file": "2504.13169v3.pdf",
+    "pages": 29,
+    "title": "Generate, but V erify: Reducing Hallucination in",
+    "benchmarks": [
+      "AMBER",
+      "CHAIR",
+      "MMHal-Bench",
+      "Mme",
+      "POPE"
+    ],
+    "metrics": [
+      "CHAIRi",
+      "CHAIRs",
+      "Hallucination",
+      "IoU",
+      "accuracy",
+      "hallucination",
+      "recall"
+    ],
+    "tables_first12": 0,
+    "abstract_snippet": "Vision-Language Models (VLMs) excel at visual understanding but often suffer from visual hallucinations, where they generate descriptions of nonexistent objects, actions, or concepts, posing significant risks in safety-critical applications. Existing hallucination mitigation methods typically follow one of two paradigms: generation adjustment, which modifies decoding behavior to align text with visual inputs, and post-hoc verification, where external models assess and correct outputs. While effective, generation adjustment methods often rely on heuristics and lack correction mechanisms, while post-hoc verification is complicated, typically requiring multiple models and tending to reject outputs rather than refine them. In this work, we introduceREVERSE, a unified framework that integrates hallucination-aware training with on-the-fly self-verification. By leveraging a new hallucination-ve"
+  },
+  {
+    "file": "2505.22651v2.pdf",
+    "pages": 28,
+    "title": "Sherlock: Self-Correcting Reasoning in",
+    "benchmarks": [
+      "MME",
+      "MMMU",
+      "MMStar",
+      "MathVista",
+      "Mathvista"
+    ],
+    "metrics": [
+      "Accuracy",
+      "accuracy",
+      "hallucination"
+    ],
+    "tables_first12": 13,
+    "abstract_snippet": "Reasoning Vision-Language Models (VLMs) have shown promising performance on complex multimodal tasks. However, they still face significant challenges: they are highly sensitive to reasoning errors, require large volumes of annotated data or accurate verifiers, and struggle to generalize beyond specific domains. To address these limitations, we explore self-correction as a strategy to enhance reasoning VLMs. We first conduct an in-depth analysis of reasoning VLMs\u2019 self-correction abilities and identify key gaps. Based on our findings, we introduceSherlock, a self-correction and self-improvement training framework.Sherlockintroduces a trajectory-level self-correction objective, a preference data construction method based on visual perturbation, and a dynamic \u03b2 for preference tuning. Once the model acquires self-correction capabilities using only 20k randomly sampled annotated data, it cont"
+  },
+  {
+    "file": "2506.17417v3.pdf",
+    "pages": 9,
+    "title": "Aha Moment Revisited: Are VLMs Truly Capable of Self Verification in",
+    "benchmarks": [
+      "MathVista",
+      "Mathvista"
+    ],
+    "metrics": [
+      "Accuracy",
+      "accuracy"
+    ],
+    "tables_first12": 5,
+    "abstract_snippet": "Inference-time techniques such as decoding- time scaling and self-refinement have been shown to substantially improve mathematical reasoning in large language models (LLMs), largely attributed to emergent self-correction and self-verification behaviors often elicited through reinforcement learning (RL). In this work, we ask whether the same recipe transfers to vision\u2013language models (VLMs), especially RL-finetuned variants that claim strong visual mathematical reasoning. Through extensive evaluation, we reach three main findings surprisingly different from text- only models: (I) Generation-time capabil- ity matters more than verification and refine- ment: simple majority voting consistently and substantially outperforms verification- centric strategies such as best-of-N with self- verification. (II) Behaviors often associated with RL-tuned models at inference time, such as the \u201cA-ha mome"
+  },
+  {
+    "file": "2508.00378v1.pdf",
+    "pages": 9,
+    "title": "CoRGI: Verified Chain-of-Thought Reasoning with Visual Grounding",
+    "benchmarks": [],
+    "metrics": [
+      "accuracy",
+      "em",
+      "precision"
+    ],
+    "tables_first12": 6,
+    "abstract_snippet": ""
+  },
+  {
+    "file": "2510.06107v1.pdf",
+    "pages": 19,
+    "title": "Distributional Semantics Tracing: A Framework for Explaining",
+    "benchmarks": [],
+    "metrics": [
+      "Hallucination",
+      "accuracy",
+      "hallucination",
+      "precision",
+      "recall"
+    ],
+    "tables_first12": 6,
+    "abstract_snippet": ""
+  },
+  {
+    "file": "2601.05547v1.pdf",
+    "pages": 13,
+    "title": "VIB-Probe: Detecting and Mitigating Hallucinations in Vision-Language",
+    "benchmarks": [
+      "AMBER",
+      "Amber",
+      "CHAIR",
+      "POPE"
+    ],
+    "metrics": [
+      "F1",
+      "Hallucination",
+      "accuracy",
+      "em",
+      "hallucination",
+      "precision",
+      "recall"
+    ],
+    "tables_first12": 10,
+    "abstract_snippet": "Vision-Language Models (VLMs) have demon- strated remarkable progress in multimodal tasks, but remain susceptible to hallucinations, where generated text deviates from the under- lying visual content. Existing hallucination de- tection methods primarily rely on output logits or external verification tools, often overlook- ing their internal mechanisms. In this work, we investigate the outputs of internal attention heads, postulating that specific heads carry the primary signals for truthful generation. How- ever, directly probing these high-dimensional states is challenging due to the entanglement of visual-linguistic syntax and noise. To ad- dress this, we propose VIB-Probe, a novel hal- lucination detection and mitigation framework leveraging the Variational Information Bottle- neck (VIB) theory. Our method extracts dis- criminative patterns across layers and heads while filtering out "
+  },
+  {
+    "file": "Leng_Mitigating_Object_Hallucinations_in_Large_Vision-Language_Models_through_Visual_Contrastive_CVPR_2024_paper.pdf",
+    "pages": 11,
+    "title": "Mitigating Object Hallucinations in Large Vision-Language Models through",
+    "benchmarks": [
+      "GQA",
+      "Gqa",
+      "MME",
+      "Mme",
+      "POPE",
+      "chair"
+    ],
+    "metrics": [
+      "Accuracy",
+      "F1",
+      "Hallucination",
+      "Precision",
+      "Recall",
+      "accuracy",
+      "chairs",
+      "hallucination",
+      "precision",
+      "recall"
+    ],
+    "tables_first12": 7,
+    "abstract_snippet": ""
+  },
+  {
+    "file": "Suris_ViperGPT_Visual_Inference_via_Python_Execution_for_Reasoning_ICCV_2023_paper.pdf",
+    "pages": 11,
+    "title": "ViperGPT: Visual Inference via Python Execution for Reasoning",
+    "benchmarks": [
+      "GQA",
+      "OK-VQA",
+      "RefCOCO"
+    ],
+    "metrics": [
+      "Accuracy",
+      "IoU",
+      "accuracy"
+    ],
+    "tables_first12": 8,
+    "abstract_snippet": ""
+  }
+]

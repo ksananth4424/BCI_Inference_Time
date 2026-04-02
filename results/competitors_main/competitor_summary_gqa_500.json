@@ -1,0 +1,33 @@
+{
+  "benchmark": "gqa",
+  "n_samples_requested": 500,
+  "n_rows": 2000,
+  "methods": [
+    "vanilla",
+    "self_correct",
+    "cove_lite",
+    "resample_lite"
+  ],
+  "metrics": {
+    "cove_lite": {
+      "n": 500,
+      "accuracy": 0.572,
+      "n_correct": 286
+    },
+    "resample_lite": {
+      "n": 500,
+      "accuracy": 0.606,
+      "n_correct": 303
+    },
+    "self_correct": {
+      "n": 500,
+      "accuracy": 0.492,
+      "n_correct": 246
+    },
+    "vanilla": {
+      "n": 500,
+      "accuracy": 0.592,
+      "n_correct": 296
+    }
+  }
+}
