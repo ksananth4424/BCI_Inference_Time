@@ -1,0 +1,7 @@
+{
+  "flip_to_correct_rate": 0.079,
+  "n_samples": 2000,
+  "n_flipped": 158,
+  "n_baseline_correct": 1258,
+  "n_corrected_correct": 1327
+}
