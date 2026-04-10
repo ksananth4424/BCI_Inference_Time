@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "dataset": "gqa",
+    "split": "val_balanced",
+    "n_target": 2000,
+    "methods": [
+      "baseline",
+      "E1",
+      "E12b"
+    ],
+    "sources": {
+      "E1": "/data/cs22btech11030/test/Inference_time_VLM/results/e1_n2000/results_E1_gqa_replace_all_n2000.csv",
+      "E12b": "/data/cs22btech11030/test/Inference_time_VLM/results/e12b_n2000/results_E12b_gqa_confidence_gated_e1_tuned.csv",
+      "baseline_source": "/data/cs22btech11030/test/Inference_time_VLM/results/e1_n2000/results_E1_gqa_replace_all_n2000.csv"
+    },
+    "note": "E1 and E12b are aligned by sample_id intersection for pairwise tests."
+  },
+  "row_count": 6,
+  "table": [
+    {
+      "method_a": "Baseline",
+      "method_b": "E1",
+      "winner": "E1",
+      "n_paired": 2000,
+      "a_correct": 1271,
+      "b_correct": 1595,
+      "a_accuracy": 0.6355,
+      "b_accuracy": 0.7975,
+      "delta_accuracy_pp_a_minus_b": -16.200000000000003,
+      "a_only_correct": 100,
+      "b_only_correct": 424,
+      "mcnemar_exact_p": 1.779519708459726e-48,
+      "mcnemar_exact_p_holm": 5.338559125379178e-48,
+      "mcnemar_chi_square_cc": 199.10114503816794
+    },
+    {
+      "method_a": "Baseline",
+      "method_b": "E12b",
+      "winner": "E12b",
+      "n_paired": 2000,
+      "a_correct": 1271,
+      "b_correct": 1327,
+      "a_accuracy": 0.6355,
+      "b_accuracy": 0.6635,
+      "delta_accuracy_pp_a_minus_b": -2.8000000000000025,
+      "a_only_correct": 123,
+      "b_only_correct": 179,
+      "mcnemar_exact_p": 0.0015094358163973932,
+      "mcnemar_exact_p_holm": 0.0015094358163973932,
+      "mcnemar_chi_square_cc": 10.016556291390728
+    },
+    {
+      "method_a": "E1",
+      "method_b": "Baseline",
+      "winner": "E1",
+      "n_paired": 2000,
+      "a_correct": 1595,
+      "b_correct": 1271,
+      "a_accuracy": 0.7975,
+      "b_accuracy": 0.6355,
+      "delta_accuracy_pp_a_minus_b": 16.200000000000003,
+      "a_only_correct": 424,
+      "b_only_correct": 100,
+      "mcnemar_exact_p": 1.779519708459726e-48,
+      "mcnemar_exact_p_holm": 5.338559125379178e-48,
+      "mcnemar_chi_square_cc": 199.10114503816794
+    },
+    {
+      "method_a": "E1",
+      "method_b": "E12b",
+      "winner": "E1",
+      "n_paired": 2000,
+      "a_correct": 1595,
+      "b_correct": 1327,
+      "a_accuracy": 0.7975,
+      "b_accuracy": 0.6635,
+      "delta_accuracy_pp_a_minus_b": 13.4,
+      "a_only_correct": 340,
+      "b_only_correct": 72,
+      "mcnemar_exact_p": 9.987852420522724e-43,
+      "mcnemar_exact_p_holm": 1.9975704841045448e-42,
+      "mcnemar_chi_square_cc": 173.03155339805826
+    },
+    {
+      "method_a": "E12b",
+      "method_b": "Baseline",
+      "winner": "E12b",
+      "n_paired": 2000,
+      "a_correct": 1327,
+      "b_correct": 1271,
+      "a_accuracy": 0.6635,
+      "b_accuracy": 0.6355,
+      "delta_accuracy_pp_a_minus_b": 2.8000000000000025,
+      "a_only_correct": 179,
+      "b_only_correct": 123,
+      "mcnemar_exact_p": 0.0015094358163973932,
+      "mcnemar_exact_p_holm": 0.0015094358163973932,
+      "mcnemar_chi_square_cc": 10.016556291390728
+    },
+    {
+      "method_a": "E12b",
+      "method_b": "E1",
+      "winner": "E1",
+      "n_paired": 2000,
+      "a_correct": 1327,
+      "b_correct": 1595,
+      "a_accuracy": 0.6635,
+      "b_accuracy": 0.7975,
+      "delta_accuracy_pp_a_minus_b": -13.4,
+      "a_only_correct": 72,
+      "b_only_correct": 340,
+      "mcnemar_exact_p": 9.987852420522724e-43,
+      "mcnemar_exact_p_holm": 1.9975704841045448e-42,
+      "mcnemar_chi_square_cc": 173.03155339805826
+    }
+  ]
+}

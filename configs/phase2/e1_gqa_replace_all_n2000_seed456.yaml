@@ -1,0 +1,75 @@
+# Phase 2, Experiment 1: Replace All Contradicted Beliefs (GQA)
+# Multi-seed stability run (seed=456)
+# Date: 2026-04-09
+
+experiment:
+  id: "E1_gqa_replace_all_n2000_seed456"
+  description: "E1 n=2000 multi-seed stability run (seed=456)."
+  evidence_for: "H1 - Premise errors cause wrong answers"
+  paper_section: "Main Results, Table 1"
+  expected_flip_rate: 0.60
+
+dataset:
+  name: "gqa"
+  split: "val_balanced"
+  n_samples: 2000
+  random_seed: 456
+  scene_graph_version: "latest"
+  notes: "Multi-seed stability run for Priority A Task 2"
+
+model:
+  name: "Qwen2.5-VL"
+  model_id: "Qwen/Qwen2.5-VL-7B-Instruct"
+  device: "cuda:1"
+  temperature: 0.0
+  max_tokens: 768
+  deterministic: true
+
+pipeline:
+  stages:
+    - name: "baseline_inference"
+      enabled: true
+
+    - name: "belief_externalization"
+      enabled: true
+
+    - name: "claim_extraction"
+      enabled: true
+      config:
+        max_claims_per_sample: 10
+
+    - name: "verification"
+      enabled: true
+      verifier_profile: "balanced"
+
+    - name: "intervention_policy"
+      enabled: true
+      policy: "replace_contradicted_with_ground_truth"
+
+    - name: "constrained_reasoning"
+      enabled: true
+
+    - name: "error_classification"
+      enabled: true
+
+evaluation:
+  primary_metric: "flip_to_correct_rate"
+  secondary_metrics:
+    - "n_flipped"
+    - "baseline_accuracy"
+    - "corrected_accuracy"
+    - "avg_contradicted_claims_per_sample"
+
+outputs:
+  results_csv: "results/e1_gqa_replace_all_n2000_seed456_results.csv"
+  summary_json: "results/e1_gqa_replace_all_n2000_seed456_summary.json"
+  manifest_json: "results/e1_gqa_replace_all_n2000_seed456_manifest.json"
+
+reproducibility:
+  random_seed: 456
+  deterministic_mode: true
+  pytorch_deterministic: true
+  cuda_deterministic: true
+  log_git_hash: true
+  log_code_hash: true
+  log_config_hash: true

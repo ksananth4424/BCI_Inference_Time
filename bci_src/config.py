@@ -6,7 +6,7 @@ from pathlib import Path
 
 # ─── Paths ───────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent
-DATA_ROOT = Path("/data/cs22btech11029/DATA/cs22btech11029")
+DATA_ROOT = Path("/data1/DATA/cs22btech11030")
 DATA_DIR = DATA_ROOT / "datasets"
 GQA_DIR = DATA_DIR / "gqa"
 HF_CACHE_DIR = DATA_ROOT / "hf_cache"

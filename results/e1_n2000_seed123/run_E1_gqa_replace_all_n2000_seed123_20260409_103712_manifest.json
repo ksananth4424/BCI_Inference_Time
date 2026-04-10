@@ -1,0 +1,40 @@
+{
+  "experiment_id": "E1_gqa_replace_all_n2000_seed123",
+  "start_time": "2026-04-09T10:37:12.143987",
+  "git": {
+    "error": "Failed to get git state: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.",
+    "commit": "unknown",
+    "branch": "unknown"
+  },
+  "code": {
+    "hash": "aa7f84b0fd596684",
+    "python_file_count": 22,
+    "src_dir": "/data/cs22btech11030/test/Inference_time_VLM/bci_src"
+  },
+  "config": {
+    "path": "configs/phase2/e1_gqa_replace_all_n2000_seed123.yaml",
+    "hash": "e40cf934253f52da",
+    "size_bytes": 1830
+  },
+  "environment": {
+    "python_version": "3.11.15",
+    "platform": "Linux-6.8.0-94-generic-x86_64-with-glibc2.35",
+    "python_executable": "/data/cs22btech11030/miniconda3/envs/cv_env/bin/python",
+    "torch_version": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device_name": "NVIDIA RTX 6000 Ada Generation",
+    "device_count": 4,
+    "transformers_version": "5.5.0"
+  },
+  "end_time": "2026-04-09T15:31:19.407944",
+  "duration_seconds": 17647.263957,
+  "metrics": {},
+  "summary": {
+    "flip_to_correct_rate": 0.212,
+    "n_samples": 2000,
+    "n_flipped": 424,
+    "n_baseline_correct": 1271,
+    "n_corrected_correct": 1595
+  }
+}
