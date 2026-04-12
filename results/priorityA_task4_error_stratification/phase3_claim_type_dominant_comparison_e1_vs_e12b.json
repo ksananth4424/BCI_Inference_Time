@@ -1,0 +1,57 @@
+[
+  {
+    "stratum": "counting",
+    "n_e1": 5,
+    "n_e12b": 5,
+    "e1_corrected_accuracy": 1.0,
+    "e12b_corrected_accuracy": 0.8,
+    "e1_delta_pp": 19.999999999999996,
+    "e12b_delta_pp": 0.0,
+    "delta_pp_gap_e1_minus_e12b": 19.999999999999996,
+    "corrected_acc_gap_e1_minus_e12b": 0.19999999999999996
+  },
+  {
+    "stratum": "spatial",
+    "n_e1": 35,
+    "n_e12b": 35,
+    "e1_corrected_accuracy": 0.7428571428571429,
+    "e12b_corrected_accuracy": 0.6285714285714286,
+    "e1_delta_pp": 20.000000000000007,
+    "e12b_delta_pp": 2.857142857142858,
+    "delta_pp_gap_e1_minus_e12b": 17.14285714285715,
+    "corrected_acc_gap_e1_minus_e12b": 0.11428571428571432
+  },
+  {
+    "stratum": "attribute",
+    "n_e1": 30,
+    "n_e12b": 30,
+    "e1_corrected_accuracy": 0.9666666666666667,
+    "e12b_corrected_accuracy": 0.7666666666666667,
+    "e1_delta_pp": 13.33333333333333,
+    "e12b_delta_pp": -3.3333333333333326,
+    "delta_pp_gap_e1_minus_e12b": 16.666666666666664,
+    "corrected_acc_gap_e1_minus_e12b": 0.19999999999999996
+  },
+  {
+    "stratum": "object_existence",
+    "n_e1": 301,
+    "n_e12b": 301,
+    "e1_corrected_accuracy": 0.7840531561461794,
+    "e12b_corrected_accuracy": 0.5913621262458472,
+    "e1_delta_pp": 17.94019933554818,
+    "e12b_delta_pp": 1.661129568106312,
+    "delta_pp_gap_e1_minus_e12b": 16.279069767441868,
+    "corrected_acc_gap_e1_minus_e12b": 0.19269102990033227
+  },
+  {
+    "stratum": "none",
+    "n_e1": 653,
+    "n_e12b": 653,
+    "e1_corrected_accuracy": 0.8101071975497703,
+    "e12b_corrected_accuracy": 0.7090352220520674,
+    "e1_delta_pp": 15.46707503828484,
+    "e12b_delta_pp": 6.738131699846861,
+    "delta_pp_gap_e1_minus_e12b": 8.728943338437979,
+    "corrected_acc_gap_e1_minus_e12b": 0.10107197549770297
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "stratum": "counting",
+    "n_e1": 7,
+    "n_e12b": 7,
+    "e1_corrected_accuracy": 0.8571428571428571,
+    "e12b_corrected_accuracy": 0.5714285714285714,
+    "e1_delta_pp": 28.57142857142857,
+    "e12b_delta_pp": 0.0,
+    "delta_pp_gap_e1_minus_e12b": 28.57142857142857,
+    "corrected_acc_gap_e1_minus_e12b": 0.2857142857142857
+  },
+  {
+    "stratum": "attribute",
+    "n_e1": 38,
+    "n_e12b": 38,
+    "e1_corrected_accuracy": 0.9736842105263158,
+    "e12b_corrected_accuracy": 0.7894736842105263,
+    "e1_delta_pp": 21.052631578947366,
+    "e12b_delta_pp": 2.631578947368418,
+    "delta_pp_gap_e1_minus_e12b": 18.42105263157895,
+    "corrected_acc_gap_e1_minus_e12b": 0.1842105263157895
+  },
+  {
+    "stratum": "spatial",
+    "n_e1": 38,
+    "n_e12b": 38,
+    "e1_corrected_accuracy": 0.7631578947368421,
+    "e12b_corrected_accuracy": 0.631578947368421,
+    "e1_delta_pp": 21.052631578947366,
+    "e12b_delta_pp": 2.631578947368418,
+    "delta_pp_gap_e1_minus_e12b": 18.42105263157895,
+    "corrected_acc_gap_e1_minus_e12b": 0.13157894736842113
+  },
+  {
+    "stratum": "object_existence",
+    "n_e1": 301,
+    "n_e12b": 301,
+    "e1_corrected_accuracy": 0.7840531561461794,
+    "e12b_corrected_accuracy": 0.5913621262458472,
+    "e1_delta_pp": 17.94019933554818,
+    "e12b_delta_pp": 1.661129568106312,
+    "delta_pp_gap_e1_minus_e12b": 16.279069767441868,
+    "corrected_acc_gap_e1_minus_e12b": 0.19269102990033227
+  },
+  {
+    "stratum": "action",
+    "n_e1": 0,
+    "n_e12b": 0,
+    "e1_corrected_accuracy": 0.0,
+    "e12b_corrected_accuracy": 0.0,
+    "e1_delta_pp": 0.0,
+    "e12b_delta_pp": 0.0,
+    "delta_pp_gap_e1_minus_e12b": 0.0,
+    "corrected_acc_gap_e1_minus_e12b": 0.0
+  },
+  {
+    "stratum": "text_ocr",
+    "n_e1": 0,
+    "n_e12b": 0,
+    "e1_corrected_accuracy": 0.0,
+    "e12b_corrected_accuracy": 0.0,
+    "e1_delta_pp": 0.0,
+    "e12b_delta_pp": 0.0,
+    "delta_pp_gap_e1_minus_e12b": 0.0,
+    "corrected_acc_gap_e1_minus_e12b": 0.0
+  }
+]

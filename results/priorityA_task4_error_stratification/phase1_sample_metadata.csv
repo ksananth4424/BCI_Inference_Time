@@ -1,0 +1,2001 @@
+sample_id,image_id,question,ground_truth,question_type_structural,question_type_semantic
+05491615,2374257,The vehicle is in front of who?,pedestrian,query,rel
+14192896,2355736,Which side of the picture is the spectator on?,right,query,attr
+03433692,2340617,Are there any bottles in the image?,yes,verify,obj
+0167377,2351365,Are there both helmets and motorcycles in this picture?,yes,logical,obj
+09982030,2407698,What kind of food is below the vegetable near the carrots?,broth,query,rel
+07598996,2375491,What is the animal that is to the right of the black container?,giraffe,query,rel
+06222534,2389835,On which side is the statue?,right,query,attr
+19359515,2381611,Is it indoors?,no,verify,global
+03262245,2409000,Of what color are the bags to the right of the man?,black,query,attr
+17397767,2378563,Is there a white truck or bus?,no,logical,obj
+01417011,2412339,Which side is the helmet on?,left,query,attr
+17596714,2397873,What is in front of the bushes?,train tracks,query,rel
+08651263,2391908,What is the street sign on?,street light,query,rel
+11293734,2391802,Is there a lamb to the left of the ball?,no,verify,rel
+06566426,2359746,What is the man in?,canoe,query,rel
+161065162,2349334,Who is wearing the jeans?,man,query,rel
+0365933,2400350,What is the color of the placemat in the top part of the photo?,cream colored,query,attr
+18168885,61533,Does she look at the ball in the top of the picture?,yes,verify,rel
+10682334,2412363,Is there food to the right of the tomato that the pepper is to the right of?,no,verify,rel
+06564130,2398184,What is the device that he holds?,cell phone,query,rel
+16434006,1159963,What does the person that to the right of the boy wear?,blouse,query,rel
+12252824,2405244,What is the color of the train to the left of the woman?,blue,query,attr
+0829456,2387148,What place was the image taken at?,street,query,global
+18602180,2404083,Are the clouds in the sky rainy or cloudy?,rainy,choose,attr
+08337624,2394960,Which side of the image is the man on?,left,query,attr
+03318431,2383905,What are the bleachers made of?,wood,query,attr
+09179577,2381259,What is located on top of the skateboard?,sneakers,query,rel
+09432410,2415221,What animal is striped?,cat,query,cat
+19104279,2345050,What is the girl playing with?,ball,query,rel
+096049,2332415,Is the woman to the left or to the right of the man that holds the racket?,right,choose,rel
+03493955,2386297,Is the silver car to the left or to the right of the people that are on the right side?,left,choose,rel
+03437169,2352380,On which side of the image are the nuts?,right,query,attr
+06981173,2379976,What place is it?,display,query,global
+10763404,1159296,Are the utensils to the right of a refrigerator?,no,verify,rel
+19225232,2342134,Are there any fences or helmets?,no,logical,obj
+05686508,2344393,Is the car to the left of the other car green or silver?,silver,choose,attr
+08709099,2378264,Is the man to the left of the boat wearing a jacket?,no,verify,rel
+091039290,2386440,Is the blue truck to the left of a person?,no,verify,rel
+03581765,2406473,Is there either a small scooter or motorcycle?,no,logical,obj
+03322739,2358081,Is the man to the left or to the right of the spectator on the left?,right,choose,rel
+10259915,2368742,Does the sidewalk seem to be red and dirty?,no,logical,attr
+0682915,2347146,Does the nose that looks black look round and small?,yes,logical,attr
+13515619,2397987,What kind of furniture is to the left of the rug?,ottoman,query,rel
+17560215,2359451,Who wears shoes?,man,query,rel
+1972311,2387777,Is this a lamb or a cow?,lamb,choose,cat
+06146373,2390480,Is the toilet to the right of the food?,yes,verify,rel
+00930300,2396634,Do the shorts look black or red?,black,choose,attr
+12741575,2378292,Are there any salt shakers or batteries?,no,logical,obj
+09730771,2358122,What vehicle is the man in?,carriage,query,rel
+04527826,2349159,Are both the cooking pot and the chair made of the same material?,yes,compare,attr
+11193931,2401803,Are the remote and the floor made of the same material?,no,compare,attr
+06328865,2367411,Is the green car in the bottom part or in the top of the picture?,bottom,choose,attr
+05410113,498329,Which side of the image is the television on?,left,query,attr
+00650121,497937,What animal is on the chair on the right side of the picture?,cat,query,rel
+17949859,2362562,Is there any lettuce to the right of the carrot in the center of the image?,yes,verify,rel
+14669854,2337103,Are there controllers or beds?,no,logical,obj
+05863853,2346071,Does the man in front of the end table appear to be standing?,no,verify,attr
+133485,2409219,Are there any chairs to the right of the young child?,no,verify,rel
+19954280,2406002,What vegetables are on the plate?,tomatoes,query,rel
+08894679,2360703,Are there any boxes beside the device to the left of the mat?,yes,verify,rel
+18229012,2402333,What is located on top of the white table?,lamp,query,rel
+17459063,2413541,Which place is it?,airport,query,global
+03212804,2327623,What does the person wear?,shorts,query,rel
+13136918,2406090,Is the sky both blue and overcast?,no,logical,attr
+17853007,2337616,Is there any horse or sheep that is not gray?,no,logical,obj
+09928108,2344757,On which side is the umpire?,right,query,attr
+05459303,713360,Who is carrying the bag?,lady,query,rel
+0376680,2354196,Does the woman to the left of the man wear shorts?,yes,verify,rel
+0529198,1592615,Are there any chairs or computers in this scene?,yes,logical,obj
+00397762,2374803,What is the player that is to the left of the helmet preparing?,baseball bat,query,rel
+10403875,2327830,On what kind of furniture is the cat?,table,query,rel
+16488440,2321052,Which kind of appliance is to the left of the lamp?,air conditioner,query,rel
+19494904,2365760,Are there both tables and couches in the picture?,yes,logical,obj
+1864177,2322984,"In which part is the person, the top or the bottom?",bottom,choose,attr
+14275115,2398835,Does the chair have a different color than the headband?,yes,compare,attr
+01763834,2400752,What vehicles are in the street?,cars,query,rel
+00283108,2330700,What's on the plate?,pizza,query,rel
+14816347,2363629,Is there any bear in the image?,yes,verify,obj
+14381909,2403590,Is the woman to the right or to the left of the glasses that are to the left of the train?,left,choose,rel
+13764117,2401635,Are there any teddy bears on top of the bed?,no,verify,rel
+09964815,2414646,Are there logoes on the oven?,no,verify,rel
+05913845,2332780,What kind of furniture is it?,table,query,cat
+05755315,2400761,Are there any green pillows or bridges?,yes,logical,obj
+05469399,2393510,Is the man with the glasses throwing a ball?,no,verify,rel
+161036696,2368963,Is the patterned curtain behind the dresser open and long?,no,logical,attr
+1366354,2349328,How is the weather?,sunny,query,global
+16811715,2378978,Is the sky clear or foggy?,clear,choose,attr
+10882926,2385070,What do the end table and the frame have in common?,material,compare,attr
+14124503,1592427,Are there either trains or trailers in this scene?,no,logical,obj
+03962729,2345855,Is the white toilet to the right or to the left of the faucet?,right,choose,rel
+03635273,2367211,What is in the kitchen?,cabinets,query,rel
+11298977,2341585,Is the woman in front of the people using a computer?,no,verify,rel
+0866588,2406152,Which type of furniture is made of wood?,computer desk,query,cat
+15242425,2387376,Of which color is the sky?,dark,query,attr
+07777814,2370053,Is the man to the right of the cars wearing a watch?,yes,verify,rel
+01956518,2405983,Is the bright sky overcast or sunny?,sunny,choose,attr
+12171112,2367977,"What is this, an oven or a dishwasher?",dishwasher,choose,cat
+001009938,497933,Who stands on the skis?,boy,query,rel
+02325517,2367555,Is there a cat or a dog in the photo?,no,logical,obj
+131059645,2399053,What is the man on?,bench,query,rel
+02591010,2320327,Is the cat healthy?,yes,verify,attr
+06983021,2356227,Who in the picture is eating?,man,query,cat
+00222257,2360758,Is there a couch to the left of the man the cans are to the right of?,yes,verify,rel
+14524305,2407279,What is the brown bear balancing on?,log,query,rel
+03150880,1593177,What is the net on?,pole,query,rel
+08116986,2396469,What is the man walking on?,ground,query,rel
+13430682,2413411,Do you see onions in this photograph?,no,verify,obj
+051058592,2351317,What is the color of the tshirt the girl is wearing?,white,query,attr
+05111627,2363282,Are there ramekins or bottles in the picture?,no,logical,obj
+11139796,2344439,Is the bicycle to the right or to the left of the person that looks blonde?,right,choose,rel
+141036087,2392869,What is the person holding?,surfboard,query,rel
+171034612,2344782,Are there tablecloths or bowls?,no,logical,obj
+11119089,2404154,Is the sauce on top of a pizza slice?,yes,verify,rel
+01750921,2381128,What is the lady wearing?,pants,query,rel
+17667821,2393949,Who is holding the device that looks gray and silver?,girl,query,rel
+04173770,2411136,Do the paper and the liquid have a different colors?,yes,compare,attr
+1573911,2384811,Does the man's hair appear to be black or light brown?,black,choose,attr
+10587792,2335112,What is the bottle on?,counter,query,rel
+13363918,2337535,Are there both steam and smoke?,yes,logical,obj
+11354848,2382462,Does the jacket have brown color?,yes,verify,attr
+11385575,2326388,What animal is this child on?,horse,query,rel
+16742353,2378984,Are there both chairs and windows in the image?,no,logical,obj
+07696685,2388377,Are there both a chair and a desk in this scene?,yes,logical,obj
+06356032,2352718,What is the vehicle to the left of the person that is standing by the fire hydrant?,car,query,rel
+15425887,2363931,Which side of the photo is the kid on?,left,query,attr
+10660951,2366958,Do you see white plates or mugs?,no,logical,obj
+15586374,2352617,What is located on top of the bed?,pillow,query,rel
+04914252,2317381,How long is the blond hair?,short,query,attr
+13425365,2412682,On which side is the bicycle?,right,query,attr
+13226655,2367978,On which side of the image is the yellow vegetable?,left,query,attr
+19693907,2382366,What's the man holding?,fish,query,rel
+10611191,2368747,Is it outdoors?,yes,verify,global
+1645076,2387991,Are there any blankets?,yes,verify,obj
+15978167,2365868,What's the porch made of?,brick,query,attr
+13497067,2378836,What is the pepper shaker that is to the left of the mug made of?,plastic,query,attr
+05433112,2338567,Are there either any dream catchers or lamps?,yes,logical,obj
+08297228,1592640,Do you think that shirt is red?,yes,verify,attr
+18782434,2356933,What do the mug and the tablecloth have in common?,color,compare,attr
+11524226,2415972,Are there either juice boxes or toothbrushes in the scene?,no,logical,obj
+12772816,2342151,What is the appliance in the kitchen?,refrigerator,query,rel
+16661127,2336505,Is the door tan or is it maroon?,maroon,choose,attr
+10742293,2369432,On which side of the picture is the boat?,right,query,attr
+14202781,2345598,What is the piece of clothing that is black called?,jacket,query,cat
+1886024,2410380,Do you see any grass there that is brown?,yes,verify,obj
+181000995,4633,What item of furniture is to the right of the fruit?,chair,query,rel
+06840268,2349795,Who is riding the elephant?,guy,query,rel
+041025251,2342323,Who is wearing a hat?,woman,query,rel
+1167999,1575,Which place is it?,river,query,global
+16350496,2365644,What clothing item is long sleeved?,jacket,query,cat
+18484260,2404247,Is there either a triangular pizza or sandwich in this photo?,no,logical,obj
+00706944,314,Where is the man walking?,sidewalk,query,rel
+16535089,2407870,Does the motorbike on the road look black?,no,verify,attr
+14389529,2410973,Are there either curtains or towels that are white?,yes,logical,obj
+13726900,2375648,Are there either cabinets or towels in this scene?,yes,logical,obj
+19992444,2376382,Are there any clocks to the right of the jar that is to the right of the box?,yes,verify,rel
+11908666,2357279,What color is the towel on the right side of the photo?,brown,query,attr
+10123004,2332332,"In which part is the flag, the top or the bottom?",top,choose,attr
+14144547,2324283,What kind of vehicle is it?,car,query,cat
+04869171,2361211,In which part is the small shelf?,left,query,attr
+09623056,2327476,What kind of furniture is red?,table,query,cat
+19501031,2394408,Are there both a door and window in the image?,no,logical,obj
+17746156,2368062,What color is the shirt that the boy is in?,white,query,attr
+01385341,2335783,What does the man hold onto?,pole,query,rel
+11196211,2399024,What are the men to the left of the horse wearing?,cowboy hat,query,rel
+15641002,2334745,Is there food to the right of the food that is lying on top of the plate?,yes,verify,rel
+10230544,2416765,Do you see both a door and a window?,yes,logical,obj
+11499909,2333498,Do you see both cars and umbrellas there?,yes,logical,obj
+03337468,2377193,Which kind of furniture is the statue on?,bookshelf,query,rel
+09569413,2414061,What animal is this fence behind of?,cat,query,rel
+13368717,2411178,Is the poster above the books?,yes,verify,rel
+12565565,2378833,Are there boats in the image?,no,verify,obj
+19695032,2343965,Which place is it?,lake,query,global
+13773559,2397981,Do you see cars or clocks there?,yes,logical,obj
+10599873,2385133,How is the vehicle that is parked by the sidewalk called?,bus,query,rel
+07846642,2359553,Is the man on the right side or on the left of the photo?,right,choose,attr
+11183569,2365049,What is the purse on?,bench,query,rel
+00612856,2358938,How large is the porcelain sink?,large,query,attr
+11985230,2386099,What is on the table?,glass,query,rel
+11611800,2372163,What is the table in front of?,clock,query,rel
+03983167,2377682,Do you see fences to the right of the vehicle on the right?,yes,verify,rel
+17387034,2357841,What kind of sign is on the post?,street sign,query,rel
+15135493,2410392,What does the man read?,paper,query,rel
+00296203,2414858,What is the woman carrying?,radio,query,rel
+03612777,2363223,Who is petting the horse?,man,query,rel
+00158976,2359433,Is the person to the right or to the left of the pink candle?,right,choose,rel
+17726909,2349045,Is the man to the right or to the left of the people that are wearing glasses?,left,choose,rel
+15776149,2319436,What color is the fruit to the left of the bowl?,yellow,query,attr
+18437330,2380135,What is sitting in the bowl?,sauce,query,rel
+101047999,2329006,Are there chairs to the right of the blanket in the top of the photo?,no,verify,rel
+07740534,2318174,Is there any racket or fence in the picture?,yes,logical,obj
+02639501,2358464,Are there both a knife and a potato in the photograph?,yes,logical,obj
+18100369,2395206,Are there bells or helmets in the scene?,no,logical,obj
+12974671,2404130,What is on the table?,tray,query,rel
+13273642,2347438,What kind of furniture is above the trunk?,bed,query,rel
+11211902,2394152,Is the salad to the left or to the right of the food on the plate?,right,choose,rel
+09488668,2401908,What is the device that is to the right of the chair at the table?,remote control,query,rel
+111030897,2400651,Which side of the image is the boy on?,left,query,attr
+041050837,2386051,What is the woman on the street wearing?,shirt,query,rel
+15794361,2366610,Does the shirt have white color?,yes,verify,attr
+0677800,2407766,What do both the floor and the wall have in common?,material,compare,attr
+07245061,2406463,What item of furniture is wooden?,table,query,cat
+161071057,2376032,Do you see dogs in the photo?,no,verify,obj
+0760649,2350568,What is the woman on?,chair,query,rel
+05473419,2339910,Which color is the plate?,blue,query,attr
+04145595,2346486,Are there any shelves on the wall?,no,verify,rel
+08728446,2362400,What is the woman wearing?,cap,query,rel
+19110577,2376766,What is the man on?,bench,query,rel
+0784551,2369561,Which side of the photo are the cars on?,right,query,attr
+04792058,2326324,Is the color of the man shirt different than the umbrella?,no,compare,attr
+1564748,2331126,Does the bowl to the right of the surfboard have black color and small size?,yes,logical,attr
+10630915,2406643,Who is wearing a helmet?,skateboarder,query,rel
+19379027,2399484,Is there any food or wine that is white?,yes,logical,obj
+05867327,2358152,On which side of the picture are the figurines?,right,query,attr
+14770772,2348905,What color does the beard have?,gray,query,attr
+11705481,2344018,What's the bottle made of?,plastic,query,attr
+14384714,2389376,What is the umpire wearing?,hat,query,rel
+04229498,2397958,Are there white zebras or dogs?,yes,logical,obj
+12456426,2318983,On which side of the image is the surfboard?,left,query,attr
+19818113,2388404,Is there a train or a window in this image?,yes,logical,obj
+03987139,2400828,What is the appliance to the left of the person in the middle?,refrigerator,query,rel
+07358382,4888,What is the cooking utensil to the left of the chair that is sitting at the counter called?,pan,query,rel
+13930214,2400117,Is the woman wearing jeans?,yes,verify,rel
+161063494,2410862,What animal rides the animal to the left of the wine?,frog,query,rel
+17773211,2320507,"What color is the animal's tail, white or black?",white,choose,attr
+01235881,2362824,Is the nose pink?,yes,verify,attr
+12140937,2359333,What are the headphones on?,sofa,query,rel
+10857773,2360862,Are there both berries and peaches in the image?,no,logical,obj
+14740694,2365515,Which item of furniture is made of leather?,couch,query,cat
+06751549,2361523,"In which part of the picture is the rope, the top or the bottom?",bottom,choose,attr
+0449386,2402403,What place is it?,hangar,query,global
+12165541,2398481,Where are the scissors?,floor,query,rel
+09334085,2348612,Is the man on the left side?,no,verify,attr
+02996718,2318090,Who is wearing pants?,player,query,rel
+01863049,2390571,Is the man to the right of the person that is standing on the side walk?,no,verify,rel
+12241557,2368239,"On which side of the image is the teddy bear, the left or the right?",right,choose,attr
+101001520,2339853,What is the vegetable to the left of the olives that look black?,broccoli,query,rel
+04248774,2380656,Are there both a fence and a bench in this photograph?,yes,logical,obj
+17250321,2411357,What appliance is on?,oven,query,cat
+091044151,2376493,What kind of animal is in front of the trees?,bears,query,rel
+05491597,2374257,What is the color of the vehicle on the street?,dark,query,attr
+12741461,2378292,Which color is the balloon that is to the right of the other balloon?,pink,query,attr
+09816097,2346213,What is on the roof?,chimney,query,rel
+02411963,2392595,"In which part of the image is the camera, the bottom or the top?",bottom,choose,attr
+18348364,2339244,What is the piece of furniture to the left of the coffee table the tray is on top of?,sofa,query,rel
+17528428,2410790,Does the chair on the side walk look pink and plastic?,no,logical,attr
+04891899,2405260,What is standing behind the girl?,tree,query,rel
+02447446,2339777,Who is in the water?,man,query,rel
+16529302,2414784,Is the tub the same color as the cat?,no,compare,attr
+021061347,2403478,What is the color of the desk?,black,query,attr
+11493619,2363920,Is the vehicle tan and large?,no,logical,attr
+01956330,2375919,What are the people in front of the forest wearing?,jeans,query,rel
+1697991,2366066,Are there any skiers to the left of the people that are skiing?,no,verify,rel
+19910432,2318963,What food is to the right of the woman?,pasta,query,rel
+06974680,2379978,What do you think is on the shelf above the sink?,glass,query,rel
+1370125,2342793,What is located on top of the cabinet by the desk?,printer,query,rel
+16464458,2386341,What is the black item of furniture called?,shelf,query,cat
+00212582,2370908,Of what color is the vehicle the pole is on the side of?,green,query,attr
+1796765,2393919,Do you see any maroon ties?,yes,verify,obj
+13628221,2342004,Who is in front of the wall?,man,query,rel
+19326711,2341622,What kind of animal is large?,bird,query,cat
+07894112,2379906,The boy is where?,ground,query,rel
+14974783,2338671,Is the orange to the right of an apple?,no,verify,rel
+18655716,2328701,What color does the backpack on the right have?,green,query,attr
+07859572,2387426,What vehicle has the same color as the large window?,truck,query,rel
+17206229,2413307,Is the girl that is not sad wearing boots?,no,verify,rel
+17362266,2322487,Is the field covered with weeds?,yes,verify,rel
+02532956,2407291,What animal is standing in the dirt?,zebra,query,rel
+16844708,2405085,What is the fence in front of?,pole,query,rel
+08332189,498265,Is the woman in the bottom part?,yes,verify,attr
+01588791,2387080,On which side of the photo is the cardboard box?,left,query,attr
+03236221,2411222,Where is the boy?,floor,query,rel
+14445965,2386698,Is the bowl to the left or to the right of the mug?,right,choose,rel
+11546518,2380112,What is on the vehicle that is in the snow?,ladder,query,rel
+04119802,2366036,Is the black bag on the right side?,no,verify,attr
+03431,2390911,How big is the giraffe near the other giraffes?,large,query,attr
+04813497,2373574,Is the orange on a plate?,yes,verify,rel
+0450776,2402409,What is leaning against the bench?,bicycle,query,rel
+13629300,2324171,What is the seat on?,bench,query,rel
+13663536,2333016,Which kind of furniture is the keyboard on?,desk,query,rel
+03539432,2342950,What is the color of the socks the boy is wearing?,red,query,attr
+18671112,2405414,What's located on top of the man?,jacket,query,rel
+18492629,2371601,Who is in front of the dark trees?,man,query,rel
+14279279,2321894,What's the pipe on?,motorcycle,query,rel
+15340115,2325932,Who is wearing a jacket?,woman,query,rel
+19904701,2368905,On which side is the chair?,left,query,attr
+13515501,2397987,Is the large device on the left?,yes,verify,attr
+05310359,2414935,Who is sitting?,man,query,cat
+041029551,2320665,What is full of water?,fountain,query,rel
+02207917,2393892,Who is holding the teddy bear?,man,query,rel
+03510424,2373925,What is the vegetable that is to the left of the bag in the top of the photo?,broccoli,query,rel
+02921844,2383506,What is the appliance to the right of him?,microwave oven,query,rel
+00600980,2396488,Who is riding on a skateboard?,skater,query,rel
+07202148,2387572,What is on the traffic signal?,chain,query,rel
+1979414,2376384,Do you see both mirrors and towels?,yes,logical,obj
+11214457,2412272,On which side of the picture is the woman?,right,query,attr
+05891651,2384647,Is there a plate in this photo?,yes,verify,obj
+15427529,2363939,Is this pillow on a bed?,no,verify,rel
+00736977,2338149,On which side is the bear?,left,query,attr
+0292525,2408312,What is on the post?,wire,query,rel
+1173487,2354443,Where is that tree?,beach,query,rel
+01650140,2384793,Is the book in front of a remote control?,no,verify,rel
+04986662,2380178,What is the vehicle in the grass called?,bus,query,rel
+10338521,2344193,What is in front of the horse?,gate,query,rel
+19757872,2385218,Is the person to the left of the woman carrying an umbrella?,no,verify,rel
+00289920,2395760,Does the shirt look brown?,yes,verify,attr
+16710724,1074,What is the bike in front of?,steps,query,rel
+15225219,2330610,Is the woman wearing a skirt?,no,verify,rel
+021010741,498188,"Which color is the knife, red or black?",red,choose,attr
+19358398,1159380,Is the lamp on the left side?,yes,verify,attr
+13339719,2356833,Does the person that is to the right of the console appear to be driving or playing?,playing,choose,attr
+00889726,2403039,"In which part of the photo is the sheep, the bottom or the top?",top,choose,attr
+12639700,2323162,How large are the towers?,large,query,attr
+16275129,2380483,Do you see any speaker there?,yes,verify,obj
+17297249,2398522,What is in front of the bushes?,bench,query,rel
+13178406,2370684,What kind of sign do you think is above the snow on the ground?,street sign,query,rel
+1925086,2366862,Does the animal next to the bath tub look large?,no,verify,attr
+06459412,2379466,"What are these guys at, a table or a sofa?",table,choose,rel
+05973184,2316019,What food is it?,biscuit,query,cat
+18920464,2415396,Are the pear to the left of the bowl and the banana to the left of the bowl both tiny?,yes,logical,obj
+11207448,2316747,What kind of furniture is the monitor on?,shelf,query,rel
+06615020,2406370,Who wears a mask?,biker,query,rel
+06898905,2396386,Do you see any refrigerators or blenders?,yes,logical,obj
+09161921,2416885,Are there helmets or snowboards?,yes,logical,obj
+06651580,2370705,What is the color of the book?,black,query,attr
+1942684,2371012,Do the bull and the sky have a different colors?,yes,compare,attr
+11311050,713230,Is there a bench or a star that is brown?,yes,logical,obj
+19773949,2372613,Which kind of vegetable is to the right of the spinach?,carrot,query,rel
+18583209,2362883,Who is wearing jeans?,man,query,rel
+13357495,2403546,Who is holding the bat?,girl,query,rel
+001058312,2380873,Who is wearing the glasses?,man,query,rel
+11589201,2329846,On which side of the picture is the blue bag?,left,query,attr
+06889758,2381580,Does the hair look brown?,no,verify,attr
+10926949,2365501,What is the fruit that is to the right of the pink candle?,grape,query,rel
+13502157,2405230,What clothing item is long?,jacket,query,cat
+01584117,2399600,What is in front of the pedestrians?,taxi,query,rel
+18704247,498197,What is the animal that is to the left of the monitor?,bear,query,rel
+18997484,2317262,Is the brown fence in front of the animal that is not short?,no,verify,rel
+01284498,2362041,What is the man to the right of the bus riding?,bike,query,rel
+01715357,498025,Where is the man sitting?,table,query,rel
+09745246,2382208,Which side is the clock on?,left,query,attr
+10561393,2354914,Is the bag to the right or to the left of the person who is holding the umbrella?,right,choose,rel
+0467034,2360080,What is the mirror on?,bike,query,rel
+01259702,2347236,What color is the helmet that the man is wearing?,black,query,attr
+19737324,2386651,What's the bag on?,coffee table,query,rel
+161020577,2386644,What kind of aircraft is flying?,airplane,query,cat
+081032949,2393295,The vehicle the poster is inside of is what color?,gray,query,attr
+07508793,2338167,What is that lock on?,window,query,rel
+07300998,2352537,What is on the light pole?,street sign,query,rel
+0464509,2383984,Is the white vase to the left or to the right of the sofa?,right,choose,rel
+06895886,2385910,Does the sheep that is not young appear to be lying?,no,verify,attr
+00331039,2315740,What is the color of the cow to the right of the other cows?,black,query,attr
+14796793,2409083,Is the knife to the right of a bread?,yes,verify,rel
+08625104,2342416,What kind of fast food is cooked?,hot dog,query,cat
+18230133,2402334,Which color is the shirt that the person is wearing?,red,query,attr
+05661687,2353117,Are the people on the road holding the bag on the right?,yes,verify,rel
+13908048,2371222,Which side of the picture are the glasses on?,left,query,attr
+01300656,4900,What kind of furniture is to the left of the blue chair?,drawers,query,rel
+02914081,2404849,Is there either a fork or a pizza in this image?,yes,logical,obj
+03376045,2363072,What is the sticker on?,toilet,query,rel
+10737505,2388975,Which kind of vegetable is on the sandwich?,avocado,query,rel
+14996062,2353347,Are there both motorcycles and helmets in the picture?,no,logical,obj
+00204122,2400683,Which kind of vehicle is to the left of the bag?,car,query,rel
+12745124,2399842,Is it an indoors or outdoors scene?,indoors,choose,global
+0045244,2365281,On which side is the pillow?,left,query,attr
+12334288,2320242,What device is to the left of the cabinet?,controller,query,rel
+098145,2331481,Where is the elephant to the left of the traffic light walking?,road,query,rel
+16351287,2369489,Is the television on a dresser?,no,verify,rel
+06314056,150356,Are there any people on the motorcycle?,yes,verify,rel
+06587843,28,Is the white couch to the right of the colorful pillows?,no,verify,rel
+11411531,2374220,Does the device to the right of the umbrella look black?,no,verify,attr
+1583422,2336635,Where is the woman standing?,hallway,query,rel
+1260165,2354042,Are there any remote controls in this image?,yes,verify,obj
+04174158,2411136,On which side of the photo is the little doll?,left,query,attr
+10767860,2412014,Is it an indoors scene?,yes,verify,global
+00101458,2356112,Where does the man ski?,hills,query,rel
+01656731,2334942,Do you see a keyboard to the left of the person that is wearing a shirt?,yes,verify,rel
+121037827,2366017,What animal is to the right of the dog?,sheep,query,rel
+1693927,2360374,What's the remote control on?,desk,query,rel
+16448765,2345013,Is the man to the right or to the left of the chair on the left?,right,choose,rel
+04197453,2390677,On which side is the oven?,right,query,attr
+051042704,2367808,Is the flower red?,no,verify,attr
+01274973,2388009,What kind of drink is pictured?,milk,query,cat
+10970525,2347454,What's in the sink?,ball,query,rel
+18368230,2388030,What is the color of the arrow on the street sign?,white,query,attr
+03715855,2387346,Is the bench on the right side of the picture?,no,verify,attr
+08134901,2410808,What is on the appliance to the right of the container?,chicken,query,rel
+18546918,2366467,What is the shape of the plate on the right?,octagonal,query,attr
+00159172,2359433,What are the fruits to the right of the brown cake?,strawberries,query,rel
+03633085,2316480,What device is it?,remote control,query,cat
+04806476,2383167,Are there both a plate and a table in the image?,no,logical,obj
+1928517,2365742,Are there either any refrigerators or bags that are red?,yes,logical,obj
+0260575,2320176,Are there either small cars or words?,yes,logical,obj
+0416216,2375361,Are there any forks on the white object on top of the table?,no,verify,rel
+07542804,2345259,Is the drawer to the right of a man?,no,verify,rel
+04251893,2373119,Are there bowls to the right of the food in the top of the photo?,no,verify,rel
+1335954,2329033,Is the man to the left or to the right of the people in the middle of the picture?,right,choose,rel
+13539044,1159827,"What material is the floor, hardwood or stone?",hardwood,choose,attr
+15729910,4120,Is the bridge brown or green?,brown,choose,attr
+08416146,2374729,Which side of the picture is the couch on?,right,query,attr
+18961291,2390742,What color do you think the adult sheep that is eating grass is?,black,query,attr
+01601562,2408642,Is the purple towel to the left of a toilet?,no,verify,rel
+16791638,2359040,Is the tap on the right side?,no,verify,attr
+1887740,2414496,What place is shown?,pavement,query,global
+08410054,2392742,Are the people of the boat to the left or to the right of the red flag on the boat?,right,choose,rel
+05748173,2321317,Are there both a plate and a donut in this image?,no,logical,obj
+00352807,2385456,What is the device to the right of the black device?,television,query,rel
+12774477,2342152,What animal is in front of the trees on the right side?,giraffe,query,rel
+18107049,2411038,Is the brown chair to the left or to the right of the ottoman that looks black?,left,choose,rel
+18470134,2389268,What is the name of the food to the left of the tomato that is underneath the pickles?,hamburger,query,rel
+08174094,2320720,Does the scooter look red?,no,verify,attr
+0866562,2406152,What is the pillow lying on?,bed,query,rel
+01190702,2387163,What color are the clouds?,gray,query,attr
+11207726,2316747,Is the computer to the left of a dresser?,yes,verify,rel
+11366797,2406331,What is that woman doing?,riding,query,attr
+08134794,2410808,Are there any cups on the countertop?,no,verify,rel
+10980191,2345081,What do you think is in the pot?,tree,query,rel
+12582202,2353890,Is the wood cabinet to the right or to the left of the couch in the image?,right,choose,rel
+12246928,2375184,What's the cat on?,rug,query,rel
+04869296,2383983,Is there a flag or a kite that is not purple?,no,logical,obj
+06144103,2390488,Are there any laptops?,no,verify,obj
+06674998,2365213,What's on the ceiling?,cord,query,rel
+15880558,2356643,How clean are the windows on the side of the train?,tinted,query,attr
+131009649,2326436,"Which is less healthy, the cookies or the tomato?",cookies,compare,attr
+19743171,1592305,Do you see any cones on the road the man is crossing?,no,verify,rel
+00215401,2402117,Is there a chair or a plate in this photo?,yes,logical,obj
+12105812,1159745,What is the bat made of?,metal,query,attr
+05141840,2414484,Does the sky look cloudy and blue?,no,logical,attr
+14470764,713118,Who is wearing the tie?,guy,query,rel
+0623848,2319837,What color is the shoe?,gray,query,attr
+03600057,2414326,Is the computer in the bottom of the picture?,yes,verify,attr
+11804543,2392752,What color is the ball?,white,query,attr
+18983693,2357784,What is on the statue?,jacket,query,rel
+06319036,2332903,What color is the sweater?,gray,query,attr
+11327974,2350666,Which sign is white?,street sign,query,cat
+03513850,2410656,Is the girl wearing shorts?,no,verify,rel
+06347045,2395361,What kind of vegetable is to the right of the tomato?,broccoli,query,rel
+15127182,2390938,What fruits are to the left of the strawberry on the plate?,cherries,query,rel
+00684249,2410733,Are there any cabinets under the counter the plate is on?,no,verify,rel
+05444127,2348601,Do you see curtains to the right of the person who is looking at the laptop computer?,no,verify,rel
+12640880,2358626,Does he wear a cap?,yes,verify,rel
+17560384,2359451,Is the train to the right or to the left of the bag the man is carrying?,right,choose,rel
+08173549,2320720,Do you see people to the left of the motorcycle the fire is in front of?,yes,verify,rel
+01530411,4426,What color is the vehicle to the right of the car?,red,query,attr
+09894390,2335736,Is it outdoors?,no,verify,global
+03681747,2412962,Is the shirt different in color than the tennis racket?,yes,compare,attr
+04803484,2374759,Who is wearing a helmet?,man,query,rel
+16167582,2320104,On which side is the man?,left,query,attr
+04903562,2386929,What's located on top of the table?,phone,query,rel
+101008884,2373429,Are there bikes or brooms?,no,logical,obj
+11925963,2318297,What color does the uniform have?,red,query,attr
+15519571,2400406,Who is in the sky?,man,query,rel
+15785278,2379924,Who do you think is in front of the person that wears glasses?,child,query,rel
+0038509,2355481,Are there both trains and doors in the picture?,yes,logical,obj
+10110879,2389829,What is the man that is standing doing?,skateboarding,query,attr
+01698074,2332249,The shirt the lady is wearing has which color?,blue,query,attr
+07540985,2389885,Which place is it?,restaurant,query,global
+09407119,2324396,Does the pole have a different color than the hat?,yes,compare,attr
+0660247,2386438,The bag that to the right of the girl lies on what?,rug,query,rel
+07639572,2386784,What is covered in sea foam?,surfboard,query,rel
+191038862,2367639,Is the plant in a vase?,no,verify,rel
+06313835,150356,Who is standing?,man,query,cat
+10281484,2358727,Do you see any checkered tablecloths or tables?,yes,logical,obj
+17456829,2369861,Is this rug brown or blue?,blue,choose,attr
+13517306,2408450,What place was the photo taken at?,station,query,global
+13275255,2345745,What is on the plate that is to the left of the beverage?,knife,query,rel
+02759474,2344041,Are there either napkins or brooms in the photo?,no,logical,obj
+16540407,2411094,Are there both towels and mirrors in the picture?,no,logical,obj
+123230,2410046,Is the ground white or black?,white,choose,attr
+15705216,2345287,Which side is the shelf on?,left,query,attr
+13294481,2338299,Which kind of animal is it?,elephant,query,cat
+03297650,2371554,Is it an indoors scene?,yes,verify,global
+19831270,2412358,What is the man in the crowd wearing?,hat,query,rel
+14904180,2342525,Is it outdoors?,yes,verify,global
+17797182,2345193,What color is the shirt the woman is wearing?,red,query,attr
+07142578,2392341,What is in front of the faucet?,sink,query,rel
+0797841,2361918,What vehicle is to the right of the dark car?,bus,query,rel
+01530372,4426,What is the fence made of?,metal,query,attr
+09795233,2316255,Is the fire extinguisher different in color than the sky?,yes,compare,attr
+07742316,2351463,Are there any children or men?,no,logical,obj
+19929863,2397231,What is the bench in front of?,tree,query,rel
+06846279,2383239,Is the lady to the left of glasses?,no,verify,rel
+16409146,2397884,Is the train white?,yes,verify,attr
+00839093,2407659,In which part of the photo is the brown animal?,left,query,attr
+13831517,2362843,Does the roof have the same color as the post?,no,compare,attr
+04813428,2373574,What is the food on the plate that is to the right of the orange?,sushi,query,rel
+17569381,2409707,Are the napkins to the right of the person on the left side?,yes,verify,rel
+05720322,2388805,Which kind of device is on the table?,television,query,rel
+19900274,2316836,Is there any laptop on the table?,no,verify,rel
+05175025,2338286,Is there an oven to the left of the fridge that is to the left of the lamp?,no,verify,rel
+19284369,2341763,Do you see both a door and a window?,yes,logical,obj
+11595526,2407603,What's the trash can made of?,metal,query,attr
+08832502,2383601,Is the happy man to the left or to the right of the cone?,right,choose,rel
+13387365,2323659,Who is wearing the socks?,child,query,rel
+10611152,1159729,What kind of appliance is to the left of the blender in the center?,coffee maker,query,rel
+19388759,2325119,What is in the container?,cabbage,query,rel
+02620369,2413347,Do the shorts have a different color than the trunks?,no,compare,attr
+196941,2356670,What's the fence made of?,wood,query,attr
+18445197,2333821,What is hanging on the brick wall?,flag,query,rel
+162519,2399406,"What animal are the trees behind of, an elephant or a horse?",horse,choose,rel
+1638555,2385819,Was paper used to make the cup to the left of the plate?,no,verify,attr
+09958590,2371178,Do you see any bus on the side of the street?,no,verify,rel
+18495742,2367541,Is there either a truck or a mirror in the picture?,no,logical,obj
+071027132,2368607,Is the plate both full and blue?,yes,logical,attr
+01892468,2409346,Which side of the photo is the cake on?,right,query,attr
+121035917,2366019,Is he reaching for a ball?,no,verify,rel
+06342748,2414208,Is the man to the right of a girl?,yes,verify,rel
+04871139,2323424,On which side of the picture are the batteries?,right,query,attr
+08988237,2386662,Are there toilets near the urinal?,yes,verify,rel
+00101393,2356112,Is the sky blue?,yes,verify,attr
+15569187,2369303,What animal is resting on the counter?,cat,query,rel
+05399723,2349811,On which side of the photo is the toaster?,left,query,attr
+00942597,2368952,Who is wearing a wristband?,soccer player,query,rel
+161055690,2381697,Is the office chair in the top part?,yes,verify,attr
+03452485,2319264,On which side is the box?,right,query,attr
+04800662,2366663,Who is in front of the vehicles?,spectators,query,rel
+04197139,2390677,Are there both a door and a window in this image?,no,logical,obj
+19722362,2409991,Does the gray rug look rectangular?,no,verify,attr
+08157936,2416882,Are there both windows and cars in the scene?,no,logical,obj
+16270020,2407148,Is the woman to the left or to the right of the picture on the wall?,right,choose,rel
+17319928,2338989,What is on the green sign?,flag,query,rel
+14333836,2392431,Are the trees behind the rock brown and dry?,no,logical,attr
+01782896,2417181,Who do you think uses the marker?,woman,query,rel
+10416960,2384448,What is the appliance to the left of the table called?,heater,query,rel
+09726869,1522,What device is sitting on the desk?,computer,query,rel
+04679112,2365189,Is there either a white keyboard or Wii remotes?,no,logical,obj
+1872725,2315718,Who is wearing a shoe?,man,query,rel
+14823603,2415340,Who is wearing the clothes?,officers,query,rel
+07900315,2404338,Is the truck empty and white?,no,logical,attr
+17380615,2413638,What is the fruit to the left of the food that is in the middle of the image?,banana,query,rel
+041026992,2342324,What does the person to the left of the bike wear?,mask,query,rel
+1683024,2370783,On which side of the picture is the car?,left,query,attr
+06187860,2193,What is the cooking utensil to the right of the fruit on the left of the image?,cutting board,query,rel
+05346377,2389085,What color does the carpet have?,orange,query,attr
+02718209,2319558,"What kind of furniture is not wooden, the chair or the table?",chair,choose,cat
+02548462,2405421,Do you see pizzas or chairs in this picture?,yes,logical,obj
+19517906,2376529,What animal is wearing a vest?,dog,query,rel
+08529398,2348614,"What color are the letters, black or orange?",black,choose,attr
+01165173,2364642,Is there either a white pot or kettle?,no,logical,obj
+18418493,2357178,Are there any jets near the metal fence?,yes,verify,rel
+10662285,2316905,Is there a woman in the photograph?,no,verify,obj
+19388822,2325119,Which kind of food is to the left of the plate?,soup,query,rel
+12262425,2351509,What animal is in front of the shelter?,horse,query,rel
+19738608,2403712,Is the officer on the motorcycle wearing a shirt?,yes,verify,rel
+16642960,2361351,Does the sky look blue and cloudy?,no,logical,attr
+07877734,2355789,What vehicle is to the right of the man?,bus,query,rel
+19904735,2368905,What is in front of the tent?,gate,query,rel
+07753661,2350027,What is the guy wearing?,shorts,query,rel
+05683583,2373169,On which side of the image is the man?,right,query,attr
+13451111,2410753,What is the monitor larger than?,laptop,query,rel
+12401491,2391642,Is the bottle to the left or to the right of the large bowl?,left,choose,rel
+14541042,2392572,Is it an indoors or outdoors scene?,indoors,choose,global
+10981648,2390101,Is the player to the left of a racket?,no,verify,rel
+141036559,2392868,Are there umbrellas or bags?,yes,logical,obj
+01945342,2375580,How is the device to the left of the person that is in front of the window called?,projector,query,rel
+09240859,2353102,Which color do you think is the shirt that the man wears?,white,query,attr
+01535217,2381126,Are there any televisions or phones that are silver?,yes,logical,obj
+07831564,2341246,Which side is the white pillow on?,left,query,attr
+01863701,2393007,Do you see either a mirror or an umbrella there?,no,logical,obj
+031016908,268,Is the laptop to the left or to the right of the keyboard that is to the left of the speaker?,left,choose,rel
+101013199,2374319,Are there both pepperoni and cheese in the photograph?,yes,logical,obj
+0224324,2353084,Are there both fences and giraffes in this scene?,yes,logical,obj
+09300510,2340989,What color is the truck?,orange,query,attr
+13127407,2403783,Is the woman to the right of a bottle?,yes,verify,rel
+0881158,2346491,Do the remote to the right of the speaker and the device to the right of the computer both seem to be silver?,yes,logical,obj
+01542761,2406278,Is the bag orange?,no,verify,attr
+05193882,2329965,What does the bouquet to the left of him contain?,flower,query,rel
+1323401,2396504,What kind of baked good is it?,donut,query,cat
+19360948,2355370,What is the vegetable that is to the right of the curtain?,pepper,query,rel
+0840150,2398754,On which side of the picture is the man?,left,query,attr
+05773172,2365989,What color is the sky?,orange,query,attr
+1067170,2336295,Which place is it?,ocean,query,global
+16356748,2361927,Is the calm water blue or brown?,blue,choose,attr
+04805752,2383162,Which place is it?,path,query,global
+04736280,2403830,What is before the wall?,bench,query,rel
+051058996,2351315,Are there both a truck and an airplane in this image?,yes,logical,obj
+0055303,2370424,Who is wearing gloves?,lady,query,rel
+10690348,2322694,What is the person in front of?,plant,query,rel
+01998769,2408242,On which side of the photo is the curtain?,right,query,attr
+03815941,2405454,What is in front of the wall the picture is on?,sink,query,rel
+0966003,2323212,Do the jackets look dark?,yes,verify,attr
+14421511,2338882,Which kind of fruit is on the plate?,apples,query,rel
+12880964,2390599,Is there a truck to the left of the people that are wearing helmets?,yes,verify,rel
+17312211,2405349,Which kind of animal are the trees behind of?,elephant,query,rel
+08877819,2335811,Are there shampoos or napkins in this scene?,no,logical,obj
+1638503,2385819,Is the bowl in the top part of the photo?,yes,verify,attr
+12324593,2408616,Are there any fences to the right of the brown animal?,yes,verify,rel
+10960213,2347450,Is the man to the right or to the left of the bag the woman is carrying?,left,choose,rel
+08209505,2373103,What's the man holding?,racket,query,rel
+1462225,2323323,On which side of the photo is the hydrant?,left,query,attr
+1654837,2336114,Who is wearing the shoe?,player,query,rel
+14682234,2405401,What kind of animal is pulling the carriage?,horses,query,rel
+09937806,2348458,Is the brown chair made of wood?,yes,verify,attr
+02455893,2338551,What is the name of the wooden item of furniture?,table,query,cat
+1525461,2363859,What is that pizza on?,tablecloth,query,rel
+04472229,2402155,Does the sky look clear?,no,verify,attr
+18297316,2398651,Do you think the hair clip is green or black?,green,choose,attr
+02659414,2323938,What kind of food is on the plate?,rice,query,rel
+16144685,2378976,Is the banana on the right or on the left side of the image?,right,choose,attr
+18722631,2414341,Is the tie dotted or checkered?,dotted,choose,attr
+13556250,2371168,What kind of animal is the baby looking at?,calf,query,rel
+06580739,2395431,The man to the right of the backpack is sitting next to who?,woman,query,rel
+0549523,2323459,Is there a cat in this picture?,yes,verify,obj
+17882225,2403214,What is he on?,motorcycle,query,rel
+09655439,2407817,What color is the pine that is not short?,green,query,attr
+161027509,2368893,Are there any lamps on the side of the room?,yes,verify,rel
+06313772,150356,"What color are the shoes, yellow or blue?",yellow,choose,attr
+1033680,2411656,How tall is the fence?,tall,query,attr
+02247525,2386019,Who is in front of the stairs?,snowboarder,query,rel
+06963775,2374420,Does the word have a different color than the tshirt?,yes,compare,attr
+0156688,2322185,Is the person on the snowboard wearing a hat?,yes,verify,rel
+00610098,2401618,Which kind of animal is large?,giraffe,query,cat
+0662419,2408813,Does the palm look tall and thin?,yes,logical,attr
+05111675,2363282,Are there both pizzas and forks in this image?,yes,logical,obj
+04157882,498397,What is he wearing?,shirt,query,rel
+11136250,1159923,What is on the silver tray?,pizza,query,rel
+181047633,2378665,Is there a goat near the sheep?,no,verify,rel
+09672672,2369215,Does the jacket have black color?,yes,verify,attr
+19286295,2401553,Is that dirt dry and brown?,yes,logical,attr
+16403257,2412845,Do you see either any sand or grass that are brown?,yes,logical,obj
+02352299,2406586,What piece of furniture is made of wood?,desk,query,cat
+1396080,2357625,Which color is the boy's hair?,red,query,attr
+00638027,2317105,Which kind of animal is to the left of the boy?,zebra,query,rel
+08928799,2393923,What type of device is the person to the right of the screen holding?,cell phone,query,rel
+09567520,2375017,Are there both doors and windows in this photograph?,yes,logical,obj
+03113337,2407164,What does the woman wear?,pants,query,rel
+08161423,2361664,Are there any men to the right of the bag that is to the right of the woman?,yes,verify,rel
+12702051,2396455,Are there any pots to the right of the person on the left side of the photo?,yes,verify,rel
+17877928,2326665,What is the name of the vegetable that is to the right of the potato on the left?,carrot,query,rel
+15804305,2325937,What is located on top of the dark jacket?,scarf,query,rel
+17836708,2391143,What are the pillows on?,comforter,query,rel
+12546475,2321178,What color is the chair on the right of the image?,brown,query,attr
+02539722,2403960,Is the picture on the right side of the photo?,yes,verify,attr
+15617475,2342145,Is the person that looks still wearing boots?,yes,verify,rel
+1369836,2342793,What is the color of the chair that is on the left side?,dark,query,attr
+11109238,2339498,What are the zebras in front of?,bush,query,rel
+10979451,2390108,What are the artichokes on?,pizza,query,rel
+17220610,2369906,Are there both mirrors and toilet papers in this photo?,yes,logical,obj
+13595079,2400094,Who is wearing a shirt?,girl,query,rel
+14897393,2399882,What is in front of the trash bin?,tree,query,rel
+00839267,2407659,On which side of the image is the boy?,left,query,attr
+01135874,2377787,On which side of the picture is the plate?,right,query,attr
+081020774,2408787,What are the animals that are in the large field?,horses,query,rel
+04728846,2413340,What is the appliance to the right of the cup?,cooker,query,rel
+19757561,2385218,How is the weather?,overcast,query,global
+09118114,2319755,Is the man to the right or to the left of the person that is holding the camera?,right,choose,rel
+02751859,2326912,Is the cat both brown and healthy?,yes,logical,attr
+01924195,2343665,What kind of clothing is gray?,shirt,query,cat
+03337517,2377193,What kind of furniture is small?,couch,query,cat
+10355495,2332541,Are the men to the left or to the right of the people that are in the middle of the photo?,left,choose,rel
+14845064,2319715,Who is wearing the suit?,man,query,rel
+13337951,2336241,What is the knife on?,table,query,rel
+02190762,2350232,What is the black animal doing?,looking down,query,attr
+16643016,2361351,What kind of clothing is not white?,cap,query,cat
+02988021,2331305,Is the dock gray and long?,yes,logical,attr
+091036769,2408800,"Which part of the photo is the cup in, the bottom or the top?",top,choose,attr
+18134995,2398329,Is there either a racket or a fence in this picture?,yes,logical,obj
+08749163,2392955,Does the tablecloth look cream colored?,yes,verify,attr
+04195561,2346165,What are the vegetables in?,skillet,query,rel
+16495730,2341638,What clothing item is pink?,jacket,query,cat
+02637808,2358465,What color are the dried leaves?,brown,query,attr
+04192696,713531,What is the batter holding?,bat,query,rel
+05768172,2400618,Do you see any skateboards or fences in the photo?,yes,logical,obj
+04939757,2379919,Are there glasses or dish drainers?,no,logical,obj
+01784679,2328946,Who is carrying the purse?,woman,query,rel
+02935209,2392665,Is the kid sitting on a horse?,yes,verify,rel
+02411856,2392595,What is on the wall?,poster,query,rel
+08131329,2332116,What is the piece of furniture to the left of the curtains?,dresser,query,rel
+14319,2392240,Do you see an airplane that is blue?,no,verify,obj
+11973787,2318131,Is this a train or a truck?,train,choose,cat
+11385980,2367178,Is there a taxi in the photograph?,yes,verify,obj
+17198006,2331965,How is the appliance to the left of the oven that is to the left of the jar called?,refrigerator,query,rel
+16733888,2370047,The person that looks young is wearing what?,pajamas,query,rel
+10433135,2367895,Does the cross look large and gray?,yes,logical,attr
+15734144,2353016,What animal is standing behind the fence?,donkey,query,rel
+15768882,2363203,What color is the shirt?,orange,query,attr
+01459667,2332472,What is the man wearing?,outfit,query,rel
+09490177,2359155,Is the door dark and wide?,yes,logical,attr
+06348430,2366390,Is the silver spoon to the left or to the right of the plate the drink is to the left of?,right,choose,rel
+03791705,2378457,What do both the letter and the arrow have in common?,color,compare,attr
+161042963,2417949,Are there plates in this photo?,no,verify,obj
+17407322,2322481,Do the shorts have long length?,yes,verify,attr
+02751961,2326912,Do you see any bird on the device that is on the couch?,no,verify,rel
+17312110,2405349,Are there small elephants in the image?,no,verify,obj
+00932663,2410196,Are there any plates or pans in this scene?,yes,logical,obj
+19613738,2377561,Are there any black chairs or glasses?,yes,logical,obj
+1996749,2355725,Is the path made of brick or cobblestone?,brick,choose,attr
+02524467,2410898,Who is standing on the ladder on the right?,man,query,rel
+111044769,1592280,On which side is the blue towel?,left,query,attr
+031007883,2320373,What is the bowl on?,table,query,rel
+01297760,2363316,The pan is on what?,counter,query,rel
+13137031,2406090,Are there any bags on the ground in the image?,no,verify,rel
+08391083,2393430,Which kind of furniture is the newspaper piled on?,shelf,query,rel
+041034238,2324917,Which kind of appliance is it?,refrigerator,query,cat
+16464341,2386341,Is there a black cat or bird?,no,logical,obj
+01726967,2364978,Which kind of baked good is it?,pie,query,cat
+17207845,2322975,Who is playing baseball?,batter,query,cat
+03665512,2323700,Are the people in front of the wall sitting with a boy?,yes,verify,rel
+08355123,2358894,Is the brown blanket to the left or to the right of the person that is in front of the door?,left,choose,rel
+16161557,2376280,What animal is the child holding?,bear,query,rel
+06144077,2390488,Who is in front of the wall?,girl,query,rel
+01780525,2347615,Is the player on the right of the image?,no,verify,attr
+10106049,1592044,What is located on top of the entertainment center that the sofa is to the left of?,vase,query,rel
+11535681,2380448,Which kind of vegetable is waiting?,carrots,query,cat
+16413846,2409066,Is the box in the top part or in the bottom of the picture?,bottom,choose,attr
+19687581,2359055,Is the black bag on the right side or on the left?,right,choose,attr
+05123242,2323268,What is the piece of furniture to the left of the pigeons on the sidewalk?,chair,query,rel
+04893302,2321811,Are there either any bikes or napkins in this image?,no,logical,obj
+11389666,713928,Are there any fences to the right of the boy?,no,verify,rel
+1536492,2362724,What is the dog doing?,sleeping,query,attr
+13189536,2416714,Which place is it?,road,query,global
+11694134,2341991,How big are the windows?,small,query,attr
+10376281,2359715,Is the table to the left of the sitting person that is wearing a shirt?,yes,verify,rel
+08618443,2367922,The elephant is in front of what?,wall,query,rel
+11561839,2413800,Are there any kites in the sky?,no,verify,rel
+15603156,2365166,What is that envelope on?,chair,query,rel
+09169309,2353106,Who is wearing glasses?,people,query,rel
+07131335,2367651,What is the vegetable to the left of the cheese that is to the left of the pepperoni?,pepper,query,rel
+19419571,2365176,Do you see a toast or an orange?,yes,logical,obj
+19687476,2359055,Are these two people the same gender?,no,compare,attr
+01107422,2397689,Is the woman to the left or to the right of the person that is wearing trousers?,left,choose,rel
+03256634,2374686,What is the man holding?,rope,query,rel
+191005826,2402871,What is on the road?,train,query,rel
+15327474,2378167,The man is holding what?,kite,query,rel
+14840896,2416294,Which color is the shirt?,red,query,attr
+031054299,2329177,Is the white chair under a table?,yes,verify,rel
+121016684,2387151,Is the woman on the left or on the right of the picture?,left,choose,attr
+19606759,2370859,"In which part of the picture is the book, the bottom or the top?",bottom,choose,attr
+15138708,2317835,Which side of the image is the toilet on?,left,query,attr
+12952046,2385164,Do you see sprinkles that are not blue?,yes,verify,obj
+05385693,2409481,What color are the beets in the top of the photo?,purple,query,attr
+12658722,2395905,Which kind of vehicle is in the grass?,carriage,query,rel
+09524384,2373158,What is the dog doing?,running,query,attr
+161055762,2381697,Who is wearing trousers?,man,query,rel
+11363405,712964,What color is the small boat?,white,query,attr
+04640772,150274,Does the door appear to be closed?,yes,verify,attr
+10468040,2324084,"What color is the huge sink, silver or cream colored?",silver,choose,attr
+01601394,2408642,Is the cabinet in the top part of the image?,no,verify,attr
+00555283,2368244,Which side is the fork on?,right,query,attr
+03954374,2167,What color is the curtain that the couch is to the left of?,yellow,query,attr
+03842923,2340935,What is the animal to the left of the donuts called?,crab,query,rel
+10620687,2381410,Are both the people of the same gender?,yes,compare,attr
+05346395,2389085,What's the girl wearing?,dress,query,rel
+15994286,2396295,What kind of vehicle is to the right of the men?,train car,query,rel
+01657089,2334942,How is the blue clothing item called?,shirt,query,cat
+1260096,2354042,Is the bottle to the right or to the left of the chair?,right,choose,rel
+04354476,2396447,What is in the soup?,utensil,query,rel
+05743407,2406059,What kind of clothing is striped?,sweater,query,cat
+0788253,2410668,What is the dog on?,surfboard,query,rel
+11535018,2354285,What is the animal that this woman is looking down at?,dog,query,rel
+10882985,2385070,What is the piece of furniture to the right of the end table?,couch,query,rel
+02629333,2412369,What is the fence around of?,house,query,rel
+02315453,2371504,What food is on the plate?,bread,query,rel
+1519121,2337156,Is she wearing a watch?,no,verify,rel
+09302188,2371685,Are the building and the post made of the same material?,yes,compare,attr
+18561070,2346385,Which place is it?,field,query,global
+06197328,2373259,What kind of furniture is the same color as the dress the person is wearing?,bar stool,query,rel
+14732665,2380504,Do you see pine trees in the snow?,no,verify,rel
+10518111,2389367,Are there any trucks behind the man that is wearing a hat?,no,verify,rel
+12879665,2397397,How is the weather?,cloudy,query,global
+02198843,2410230,Do the hat and the bucket have the same color?,yes,compare,attr
+06144000,2390488,Which room is it?,living room,query,global
+06647004,2326564,Are the houses on the left side or on the right of the picture?,right,choose,attr
+07470052,2385432,Does the appliance that looks white look closed?,yes,verify,attr
+05457435,2382213,What is the color of the bare trees?,brown,query,attr
+17891535,2399387,What is the red device called?,screen,query,cat
+09629770,2346651,Is the telephone in the top of the photo?,yes,verify,attr
+19930056,2397231,What's the table in front of?,shelves,query,rel
+06676908,2399149,Who is on the bench in the top?,people,query,rel
+00737701,2364614,On which side is the pot?,right,query,attr
+07616955,2354000,On which side is the lady?,right,query,attr
+00760678,2389205,Is the playing catcher in front of the umpire wearing a uniform?,no,verify,rel
+17590336,2384787,"How does the grass look, green or brown?",green,choose,attr
+18225803,2377485,Who is standing beside the chairs on the right?,man,query,rel
+1378851,2336566,What is located on top of the hydrant on the street?,hat,query,rel
+06817339,2358376,Is that sky behind a bird?,no,verify,rel
+16807450,2368444,Are there any benches above the brown grass?,no,verify,rel
+06368433,2415085,Which kind of furniture is it?,dresser,query,cat
+13136344,2405555,What kind of animal is in front of the dog?,horse,query,rel
+02383363,285631,Is he to the left of a skateboard?,no,verify,rel
+11862368,2407124,What is in the glass made of glass?,smoothie,query,rel
+16872842,2317630,Is the carpet made of the same material as the frame?,no,compare,attr
+08398332,2339831,Who is wearing the pants?,man,query,rel
+03266795,2353078,Do you see either any plates or potatoes that are small?,yes,logical,obj
+15278860,2404197,Is concrete used to make the floor that looks pink?,yes,verify,attr
+09464524,713572,Is the man to the right or to the left of the person in the middle of the image?,left,choose,rel
+0547359,2381701,"Which color is the shirt, white or purple?",white,choose,attr
+06436884,2373592,Which color is the shirt the men are wearing?,red,query,attr
+07907725,2366671,On which side of the photo is the man?,right,query,attr
+17162458,2387947,Are there any lambs?,no,verify,obj
+15894218,2363673,"What kind of animal is not perched, the seagull or the bird?",seagull,choose,cat
+11207388,2316747,Is the laptop to the right or to the left of the camera on the table?,right,choose,rel
+12701952,2396455,What animal is under the tree?,horse,query,rel
+03468828,2355360,What is the item of furniture in front of the tree that is in front of the building called?,table,query,rel
+061001368,2374409,Are there cakes or spoons in the image?,yes,logical,obj
+04425475,2353024,What is on the bear?,hat,query,rel
+04165743,2415263,Are the pants dark or maybe are they blue?,dark,choose,attr
+10329800,2342847,Which kind of animal is to the left of the van?,bull,query,rel
+14476039,2371568,"Which color are the goggles, yellow or black?",yellow,choose,attr
+14205199,2409829,Are there people to the left of the skateboard?,yes,verify,rel
+19501713,2342969,Is the ball to the right of a person?,no,verify,rel
+09401751,2327283,What is located on top of the urinal?,toy,query,rel
+08104134,2364073,Are there either any mirrors or combs?,no,logical,obj
+04544759,2322918,"In which part of the image is the picture, the bottom or the top?",bottom,choose,attr
+08970484,2361258,How big is the vehicle that is on the right side of the image?,small,query,attr
+09954421,2342753,Is there a fire truck near the flag that is to the left of the ladder?,yes,verify,rel
+13741073,2382560,Is the sidewalk behind a dog?,no,verify,rel
+18182187,2381255,What appliance is below the microwave oven?,stove,query,rel
+02951155,2386013,What type of furniture is this?,couch,query,cat
+001035220,2372009,Is there a brown nightstand or desk in the photo?,no,logical,obj
+00215488,2402117,Is there a bag or a cup that is white?,yes,logical,obj
+0185698,2351588,Are there either tablecloths or forks?,no,logical,obj
+02653825,2394067,Who is standing in the attic?,man,query,rel
+091036658,2408800,Of what color is the skateboard?,blue,query,attr
+08390792,2393431,Is the man to the left of the woman wearing shorts?,yes,verify,rel
+17928924,2415373,What piece of furniture is to the left of the refrigerator?,cabinet,query,rel
+10979481,2390108,Is there a pizza to the right of the fork held by the person?,yes,verify,rel
+00738566,2631,What is the log covered by?,plants,query,rel
+14489560,2360003,Who is carrying the purse?,girl,query,rel
+06685432,2325480,Is the man that is to the left of the rope carrying an umbrella?,no,verify,rel
+09849203,2328193,What color is the knee pad on the left?,blue,query,attr
+16762477,2364607,What is the color of the coat the snowboarder is wearing?,pink,query,attr
+01542791,2406278,Is the girl that is standing wearing a skirt?,yes,verify,rel
+13461603,2345674,On which side of the photo is the vase?,right,query,attr
+01521357,2330438,What is located on top of the chicken?,egg yolk,query,rel
+081009456,2322771,Are there both surfboards and kites in the scene?,yes,logical,obj
+1845576,2363144,On which side of the picture is the truck?,right,query,attr
+10443524,2372085,Does the ground look white and snowy?,yes,logical,attr
+15848287,2390389,What's the man holding?,toothbrush,query,rel
+16575183,2389327,Is the bowl dirty and blue?,yes,logical,attr
+04145982,2346486,Is there a woman in the image that is brunette?,yes,verify,obj
+01889121,713277,What is the food to the right of the napkin beneath the knife?,biscuits,query,rel
+0348141,2376548,What kind of fruit is on the full plate?,grape,query,rel
+18191995,2359926,Are there glasses to the left of the phones on the right?,yes,verify,rel
+18103649,2378758,Who is holding the skateboard that looks gray?,people,query,rel
+16581506,2354077,Are there any drawers or beds in the image?,yes,logical,obj
+13507803,2391468,Does the towel have a different color than the sink?,no,compare,attr
+04205062,2327387,Which color is the icing?,white,query,attr
+13357487,2403546,Who is standing in the brown dirt?,girl,query,rel
+13908779,2368544,"Where in the photograph is the van, on the right or on the left?",right,choose,attr
+13927489,2382847,Are there either sugar packets or mattresses?,no,logical,obj
+09897845,2379479,What is the man doing?,jumping,query,attr
+15138662,2317835,Which kind of furniture is in the picture?,shelf,query,cat
+00935718,2362947,What type of furniture is made of the same material as the lamp on the left of the photo?,nightstand,query,rel
+19992555,2376382,Is that a couch or a bed?,bed,choose,cat
+10468175,2324084,Is the coffee maker to the left or to the right of the tap?,right,choose,rel
+08790057,2371049,On which side of the image is the man?,right,query,attr
+1771282,2411252,Are there both a fence and a street sign in the image?,yes,logical,obj
+00111311,2388844,What's the bush in front of?,trees,query,rel
+11302071,2349757,Are the people of the same gender?,no,compare,attr
+04319120,2394172,Who is wearing the jeans?,girl,query,rel
+05473446,2339910,What is on the pizza?,spinach,query,rel
+02948809,2375761,Is the water bottle in the bottom?,no,verify,attr
+00960303,2415620,Do you see both skateboards and ropes?,no,logical,obj
+0612741,2358184,Is the field brown?,yes,verify,attr
+17772714,2318766,Is the computer to the right or to the left of the books on the left side of the photo?,right,choose,rel
+05451171,2382986,Is there a towel to the left of the cat?,yes,verify,rel
+07131269,2367651,Are there any red plates?,yes,verify,obj
+13625035,2379868,What is on the red sign?,letter,query,rel
+10226033,2401073,Who is catching a frisbee?,man,query,rel
+071018520,2376129,The shirt is of what color?,gray,query,attr
+05476610,713580,What kind of vehicle is to the left of the man?,truck,query,rel
+13278244,2389819,Is the tap below a mirror?,yes,verify,rel
+12951517,2385163,The woman is holding what?,remote control,query,rel
+13136458,2405555,Where is the dog behind the horse running?,beach,query,rel
+17621342,2347730,On which side of the photo are the papers?,left,query,attr
+01125051,2383075,Do you see any umbrellas there?,yes,verify,obj
+08243912,2384830,What kind of food is to the right of the utensil on the left?,soup,query,rel
+05179215,2388018,Is the red bottle full or empty?,full,choose,attr
+111051994,2413465,Are there green cans or bottles?,no,logical,obj
+03149337,2346794,Do the tiles look large?,no,verify,attr
+14794003,107960,Are there handbags to the left of the bottle in the bottom part of the image?,yes,verify,rel
+02543220,2384460,Is there a truck behind the person that is wearing a sock?,no,verify,rel
+04584710,2361212,Do you see any cans or carts?,no,logical,obj
+00706855,315,What vehicle is parked?,minivan,query,cat
+17861435,2334149,Are there airplanes?,no,verify,obj
+1399424,498126,Which kind of furniture is it?,cabinet,query,cat
+101010444,2364928,Do the office chair and the door have the same color?,no,compare,attr
+17709168,2316641,What vegetable is green?,parsley,query,cat
+00126851,1159529,Are there carts near the pond?,yes,verify,rel
+14986049,2407964,Is the child to the left or to the right of the man that is to the right of the surf board?,right,choose,rel
+13907912,2371222,On which side of the picture is the plate?,left,query,attr
+07886746,85,On which side of the photo is the chair?,left,query,attr
+09851647,2411681,Which side of the image is the chair on?,left,query,attr
+13339630,2356833,Which kind of furniture is it?,sofa,query,cat
+09544113,2334924,Does the laptop on the desk look gray or dark?,dark,choose,attr
+15689947,2359989,Which kind of clothing is not pink?,hat,query,cat
+13376808,2322673,What vehicle is this?,carriage,query,cat
+14161132,2395232,Which kind of animal is swimming in the water?,cow,query,rel
+1171062,2393271,Is the jacket yellow?,no,verify,attr
+10417562,2329391,What place is it?,road,query,global
+18655457,2328704,What is the item of furniture to the left of the bed the blanket is on?,dresser,query,rel
+19927300,2382358,Who is wearing the helmet?,policeman,query,rel
+18621733,2349442,The pen is lying on what?,computer desk,query,rel
+12379873,2413957,Is it outdoors?,no,verify,global
+16542308,2395353,Which kind of furniture is to the left of the table?,drawers,query,rel
+0074651,2391748,Is that fence behind a bench?,no,verify,rel
+09703532,2341451,Which kind of vehicle is to the left of the mirror?,car,query,rel
+17917621,2320493,Which place is it?,lake,query,global
+01948977,2340318,What is in the basket on the countertop?,bottles,query,rel
+03685790,2316696,Are there black ties or glasses?,yes,logical,obj
+05166167,2396963,Is it a beach?,yes,verify,global
+07872557,2384422,Do you see a bench to the right of the blue bag?,no,verify,rel
+021050681,2394619,What is the man to the right of the CD wearing?,cap,query,rel
+04354574,2396447,Which kind of food is to the right of the sandwich?,dessert,query,rel
+01475361,2322391,The graffiti is on what?,wall,query,rel
+12900671,2340446,What is the food that the bone is in?,meat,query,rel
+03827629,2325456,What is in the water?,surfboard,query,rel
+16761848,2364604,Which kind of cooking utensil is it?,pizza pan,query,cat
+13110399,2339126,What item of furniture is the person in?,bed,query,rel
+01924333,2343665,Are there any mirrors to the right of the driver?,no,verify,rel
+14900663,2339998,On which side is the fence?,right,query,attr
+17102186,2368765,Is the elephant behind the shrub?,no,verify,rel
+02774495,2328879,Are there cats on the side of the plate that is in front of the chair?,no,verify,rel
+09906808,2339330,Is it a zoo?,no,verify,global
+03437151,2352380,"What size is the silver tray, large or small?",large,choose,attr
+17484160,2390985,Which kind of furniture is the blender on?,shelf,query,rel
+13539386,2372430,Is he behind or in front of the fence?,front,choose,rel
+1854849,2411812,What is the color of the chair?,black,query,attr
+19676668,2343187,What's the owl sitting on?,log,query,rel
+12871918,2345501,Do the letters appear to be red?,no,verify,attr
+14484236,2331321,Who is holding the black device?,lady,query,rel
+12934556,2319306,Is the fork on a napkin?,no,verify,rel
+16803030,2397498,Which side is the wood fence on?,right,query,attr
+18826845,2333783,Is the pillow that is to the left of the other pillow tan or maybe red?,tan,choose,attr
+02143499,2317344,Is there either any rice or pancake in the picture?,no,logical,obj
+02548481,2405421,Which kind of food is on the microwave?,cereal,query,rel
+16416420,2323777,What is the item of furniture to the right of the desk lamp on the left?,sofa,query,rel
+17233675,2394369,Do the skis to the right of the woman look white?,no,verify,attr
+12409660,2368332,Which side of the photo is the blue vehicle on?,left,query,attr
+14113282,1507,Is the woman on the right side or on the left?,left,choose,attr
+08221924,2380712,"What color is the elephant, gray or red?",gray,choose,attr
+15884411,2386425,What is the vehicle that is on the street?,bus,query,rel
+124628,2378417,Are there batteries or sugar packets?,no,logical,obj
+10314836,2355069,What are the orchids on?,tree,query,rel
+04147859,2360986,What is the color of the hat?,black,query,attr
+12295337,2401645,Which place is the image in?,street,query,global
+06462058,2379616,Are there either any pots or safety vests?,no,logical,obj
+12356447,2355548,Is the color of the bush different than the carriage?,yes,compare,attr
+09192407,2383280,Is it an indoors scene?,no,verify,global
+03177729,2413296,On which side of the photo is the pink ice cream?,left,query,attr
+17237582,2410006,What is on the animal?,flower,query,rel
+0966081,2323212,What do the people in front of the building hold?,flowers,query,rel
+17736165,2343545,Do the dishwasher to the left of the woman and the gas stove inside the kitchen both have white color?,yes,logical,obj
+08736064,2322026,Of what color are the shorts that the man is wearing?,white,query,attr
+01695245,2386308,Is there a cabinet to the left of the chairs in the bottom of the picture?,no,verify,rel
+02710991,2385332,What appliance is silver?,stove,query,cat
+05272742,2366586,How is the device to the left of the container called?,laptop,query,rel
+06546169,2540,Are there any crates or briefcases?,no,logical,obj
+10803798,2340858,Is the house on the left?,yes,verify,attr
+0450772,2402409,Is the bicycle leaning on the long bench?,yes,verify,rel
+10877399,2337945,What color is the lamp next to the couch?,black,query,attr
+041020948,2398164,What color is the umbrella?,pink,query,attr
+00974584,1593212,Are there both a door and a window in this photo?,yes,logical,obj
+07839359,2370059,Is the cable on a bed?,no,verify,rel
+14389542,2410973,Is the towel to the right of the other towel red or white?,white,choose,attr
+0331409,2394925,What is the color of the couch?,brown,query,attr
+18371168,2317542,What is the dessert that is on the table that is not thin?,cupcake,query,rel
+12553186,2402704,What color is the carpet?,blue,query,attr
+03940926,2384167,Is the shirtless man wearing a jacket?,no,verify,rel
+1630869,2400339,Are there customers or coaches in this scene?,no,logical,obj
+07832021,2320046,Is the pine tree on the left side?,no,verify,attr
+02334990,498077,What is the picture showing?,stage,query,global
+14578931,2361213,What is the vehicle that is on the sign that is on the street?,bus,query,rel
+00906881,2394296,Of what color is the snowboard?,black,query,attr
+14930515,2401996,Does the cooler have a different color than the chair?,no,compare,attr
+0795099,2352473,Is the black book to the right of the coffee mug the bookshelf is to the left of?,yes,verify,rel
+13917881,2378224,Are there any cars to the right of the motorbike?,yes,verify,rel
+141036089,2392869,What is the skater holding?,surfboard,query,rel
+03827624,2325456,Is the surfboard on the left?,no,verify,attr
+03510444,2373925,Which side of the photo are the carrots on?,left,query,attr
+13664550,2352191,Is the knife on a napkin?,yes,verify,rel
+04863548,2333428,On which side are the spectators?,right,query,attr
+01819680,2369230,Who is wearing gloves?,woman,query,rel
+08876591,2367259,Are there either remote controls or keyboards that are not white?,no,logical,obj
+161060488,2358516,Is there any cabinet to the right of the stove?,yes,verify,rel
+02219646,2345211,Who is wearing a cap?,girls,query,rel
+18264847,2368037,Who is wearing glasses?,woman,query,rel
+04468199,1987,Are there both screens and desks in the photo?,no,logical,obj
+10790456,2383561,Do you see a fire hydrant on the short grass?,yes,verify,rel
+0660215,2386438,Which side of the image is the paper bag on?,right,query,attr
+1595101,2389006,Which kind of furniture is white?,bed,query,cat
+07337718,2350709,Who is holding the camera?,woman,query,rel
+17204543,2388260,How is the weather?,sunny,query,global
+05431114,2361264,Are there either any screens or televisions that are on?,yes,logical,obj
+18181637,2381250,Are the toppings in a bun?,yes,verify,rel
+09418168,2417483,Do you see pots that are silver?,no,verify,obj
+06651701,2370705,Is the person to the left or to the right of the white blanket?,left,choose,rel
+08238569,2376199,Does the field look brown and short?,no,logical,attr
+13756106,2366324,What color is the shirt that the man is wearing?,green,query,attr
+19637961,2321955,Is the bag to the left or to the right of the jar in the bottom of the photo?,right,choose,rel
+01104675,2413283,Is the plastic fork on the left?,no,verify,attr
+02403465,2398699,What is located on top of the pole?,flag,query,rel
+05386358,2409484,Is the airport surrounded by the green trees?,yes,verify,rel
+07267041,2355500,What kind of animal is walking?,elephant,query,cat
+131059205,2399053,What is the person near the mug sitting on?,bench,query,rel
+12584792,713911,What are the pieces of furniture to the right of the girl that is to the right of the purse called?,tables,query,rel
+19424301,2383826,Are there both blankets and kittens in the picture?,no,logical,obj
+08214320,2404363,Do the bag and the dress have a different colors?,no,compare,attr
+18370851,2317542,What is the food on the rectangular plate?,donut,query,rel
+11121262,2383270,What is on the brown table?,pen,query,rel
+00239378,2367819,Is there either any white frisbee or dog?,yes,logical,obj
+06996545,2395942,Are there both pillows and cats in the image?,yes,logical,obj
+02620383,2413347,Is the hair both dry and brown?,no,logical,attr
+04532083,1270,Are there any women?,no,verify,obj
+1122141,2269,Is the van to the left of the truck black or white?,black,choose,attr
+17696715,2362334,Does the person that is to the left of the woman appear to be sitting?,yes,verify,attr
+1482147,2331015,What kind of vehicle is it?,train,query,cat
+12774169,2342152,Are the palm trees on the right side or on the left?,right,choose,attr
+04960612,2366715,Is the bicycle in the top part or in the bottom of the picture?,bottom,choose,attr
+01775265,2346673,What is on the shelf?,books,query,rel
+17937844,2371825,"How do the pants look, long or short?",short,choose,attr
+07708612,2355212,What is in the vase?,umbrella,query,rel
+12829148,2325810,Is there a fence or a bicycle in the picture?,yes,logical,obj
+0799534,2361911,Is the shelf in the top or in the bottom?,top,choose,attr
+18814137,2359142,How tall is the grass that is inside the fence?,short,query,attr
+06608092,2333527,Are there napkins or tablecloths in the image?,no,logical,obj
+18593021,2368877,Is there a green blanket or towel?,no,logical,obj
+15185768,2348528,Does the sky look blue and clear?,yes,logical,attr
+13127798,2403783,Does the liquid of the cup have green color?,no,verify,attr
+1683070,2370783,The shirt the boy is wearing has which color?,gray,query,attr
+17394625,2384847,Is there a woman to the left of the tent that looks black?,no,verify,rel
+131007732,2413087,"On which side is the man, the right or the left?",left,choose,attr
+05791648,2402619,What animal is looking in the small mirror?,cat,query,rel
+0972428,2412806,Which place is it?,airport,query,global
+1859645,2403462,What drink is to the left of the chair?,wine,query,rel
+19880584,2359886,What is that statue in front of?,fountain,query,rel
+13726909,2375648,Is the red towel on the left side?,yes,verify,attr
+1398612,2398000,Who is in front of the net?,girl,query,rel
+04705546,2378852,Do the stove and the pan have a different colors?,yes,compare,attr
+11513139,2340391,What is the meat to the right of the girl on the left of the picture called?,pepperoni,query,rel
+1529047,2378825,Are there both windows and clocks in the image?,yes,logical,obj
+1930622,2381305,Does the device near the book appear to be closed and black?,yes,logical,attr
+17791507,2344827,What is the person to the left of the boy wearing?,heels,query,rel
+19954100,2406002,Are there either any parachutes or mats in the image?,no,logical,obj
+15565176,2331434,Is the woman on the right side?,no,verify,attr
+15239070,2328839,Is the curtain different in color than the wire?,yes,compare,attr
+101038518,285971,Are there any small doors or windows in the image?,no,logical,obj
+05749562,2373168,What does the girl wear?,shirt,query,rel
+08180820,2405784,Is this airplane white and small?,yes,logical,attr
+15405128,3494,Is the person to the right of the bottle with the label?,yes,verify,rel
+18924997,2341659,The jeans are of which color?,black,query,attr
+06503462,2329386,Does the motorbike look silver and small?,yes,logical,attr
+09681008,2353765,Who is wearing a helmet?,man,query,rel
+05683489,2373169,Which side is the racket on?,right,query,attr
+15269023,2373262,Does the ground look blue or red?,blue,choose,attr
+13843200,2409391,What color is that coat?,dark,query,attr
+05384064,2391491,What do both the curtain and the stove have in common?,color,compare,attr
+10329849,2342847,What is the animal that the car is behind of called?,bull,query,rel
+19900076,2316836,Are there any pots that are not blue?,yes,verify,obj
+00372868,2346104,Does the chair that looks brown and tan look large?,yes,verify,attr
+031051640,2363074,What item of furniture is brown?,sofa,query,cat
+14863381,2371134,What is the microwave on?,shelf,query,rel
+19417782,2390215,Which type of material is the tie made of?,metal,query,attr
+12341936,2378022,On which side of the image is the person?,left,query,attr
+07539980,2389882,Do the tank top and the street sign have the same color?,no,compare,attr
+11283638,2355633,On which side of the photo is the cup?,right,query,attr
+04173783,2411136,Is the soda bottle made of the same material as the ring?,no,compare,attr
+14824867,2390989,Is the shower curtain gray?,yes,verify,attr
+151026421,2340073,What kind of device is it?,phone,query,cat
+12290473,2403358,Are there orange skateboards in the image?,no,verify,obj
+07527860,2333797,Is he on the edge of the step?,yes,verify,rel
+14532198,2351714,Is there any table or chair that is not made of metal?,no,logical,obj
+1217392,2411391,Is the snow full and brown?,yes,logical,attr
+19545693,2354614,Where is the bench?,balcony,query,rel
+14143913,2324284,Who is wearing trousers?,man,query,rel
+064308,2339845,What's located on top of the soup?,spice,query,rel
+01827473,2326411,Who is wearing a cap?,woman,query,rel
+09885633,2346199,Is the black container to the right or to the left of the person that is wearing trousers?,left,choose,rel
+19468195,2409283,Where are the bricks?,park,query,rel
+01300583,4900,Is the office chair in the bottom part of the photo?,yes,verify,attr
+09469469,2001,Are the drawers to the left of the table?,yes,verify,rel
+00994044,2398539,What is parked by the gray building?,truck,query,rel
+11199016,2382178,Are there bells or toolboxes in this image?,no,logical,obj
+16844801,2405085,Is there a horse in the field?,yes,verify,rel
+18791229,2315632,Is the coat blue?,no,verify,attr
+12556340,2379492,The metal fence in front of the building has what color?,black,query,attr
+18942870,2330603,What is on the bed?,laptop,query,rel
+0869184,2370926,Is the yellow ball to the left of the planes?,yes,verify,rel
+16558482,2410578,Where is the person to the right of the person walking?,mall,query,rel
+161036595,2368963,Are there shelves to the right of the curtain the dresser is in front of?,yes,verify,rel
+03265024,2352815,Are there lamps or chairs?,yes,logical,obj
+0151931,2405545,Are the trousers brown or khaki?,brown,choose,attr
+13339460,2356833,What kind of appliance is to the left of the pillow?,radiator,query,rel
+18890206,2343903,Which place is it?,beach,query,global
+10481180,2347262,What's the man riding on?,snowboard,query,rel
+07514158,2417670,Does the chair have the same material as the floor?,yes,compare,attr
+03680636,2345079,Is the shirt striped and pink?,yes,logical,attr
+19397640,2361493,What kind of appliance is half full?,refrigerator,query,cat
+15551605,2409592,What are the vehicles that are to the left of the person that is crossing the street?,buses,query,rel
+01284137,2362040,Who is on the surf board that is on the ocean?,lady,query,rel
+06751419,2361523,Are both the bench and the gate made of the same material?,yes,compare,attr
+02106534,1592132,Is the pine in the top part or in the bottom of the image?,top,choose,attr
+07542632,2345259,Are there laptops or tennis balls in this picture?,no,logical,obj
+08390892,2393431,What kind of furniture is the woman to the right of the can sitting on?,sofa,query,rel
+04780724,2389455,What kind of appliance is on the counter?,blender,query,rel
+02802172,1669,What kind of device has the same color as the poster on the wall?,keyboard,query,rel
+19311589,2336493,Are there both fences and horses in this picture?,yes,logical,obj
+13877211,2318977,Which kind of instrument is on the bed?,guitar,query,rel
+12113965,2387863,On which side is the yellow flag?,right,query,attr
+06665928,2336198,What is the fence around of?,yard,query,rel
+1662807,2412131,What is the walking person near the person holding?,surfboard,query,rel
+16601356,2416826,On which side is the placemat?,left,query,attr
+19606149,2404854,Is there a pot near the gravel?,yes,verify,rel
+14600148,2390092,Are the green beans on the left side?,no,verify,attr
+01873649,2409967,On which side of the photo is the shelf?,right,query,attr
+12103106,2403677,Which room is it?,kitchen,query,global
+11878829,2390370,"Where in this photograph is the large planter, in the top or in the bottom?",bottom,choose,attr
+16908443,1592877,Which kind of vehicle is the bush behind of?,bus,query,rel
+11948076,2369172,Is the water both choppy and dark?,yes,logical,attr
+10378670,2401699,What is common to the logo and the switch?,color,compare,attr
+16126478,2415614,What is the name of the devices on the table?,laptops,query,rel
+17348940,2328914,"What makes up the cup that is to the left of the stapler, Styrofoam or glass?",styrofoam,choose,attr
+141006820,2410601,Is the apple on a plate?,no,verify,rel
+0578089,2360173,What is the food to the right of the plate that contains food?,egg,query,rel
+0381612,2356977,Is there a cucumber on top of the cabbage that is to the left of the cauliflower?,no,verify,rel
+17891076,2403109,What piece of furniture is in front of the wall?,shelf,query,rel
+13644996,2315563,What do the pole and the planter have in common?,color,compare,attr
+10150791,2412502,Are there cabinets in this photo?,no,verify,obj
+03884252,2316624,What appliance is to the right of the refrigerator?,stove,query,rel
+133040,2409219,Is the young girl to the right or to the left of the young boy?,left,choose,rel
+1129453,2361386,Is the blanket on the right or on the left side of the picture?,right,choose,attr
+021017357,4708,Are there both doors and windows in the scene?,yes,logical,obj
+07937045,2344009,What's the crate made of?,plastic,query,attr
+06457907,2358919,Is the skater to the left of a truck?,no,verify,rel
+1612634,2354693,Are there any tomatoes that are yellow?,no,verify,obj
+101004377,2359779,Is there a pepper on the pizza?,yes,verify,rel
+16761847,2364604,What kind of cooking utensil can be seen in the picture?,pizza pan,query,cat
+15884424,2386425,What is this bus in front of?,tree,query,rel
+1927045,2389074,Who is wearing a shirt?,woman,query,rel
+041037298,2351795,What is on the cake?,icing,query,rel
+13277775,2317358,Does the woman ride on a surfboard?,yes,verify,rel
+04903925,2386929,What is the plate made of?,glass,query,attr
+18167221,2375415,What is on the plate to the left of the knife?,salad,query,rel
+15490974,2380105,Is the large kite striped and curved?,yes,logical,attr
+00143831,2382258,Are both the puddle and the sky the same color?,yes,compare,attr
+07983894,2316520,Which kind of clothing is green?,jacket,query,cat
+04527890,2349159,Do you see either a chair or a plate?,yes,logical,obj
+13103828,2357756,What is this piece of furniture called?,table,query,cat
+05864157,2346071,What device is to the left of the Xbox controller?,cell phone,query,rel
+12977355,2322438,What kind of furniture is the phone on?,shelf,query,rel
+08820164,2405896,On which side of the image is the green container?,right,query,attr
+07967604,2329320,What animal is to the right of the drawer on the left of the image?,cat,query,rel
+13904291,498121,Are there any boys to the left of the man on the right of the image?,no,verify,rel
+171017855,2344162,What is the piece of furniture called?,desk,query,cat
+08790273,2371049,What color is that boot?,brown,query,attr
+171014445,2412343,What are the animals to the right of the bell that is to the right of the sculpture?,lions,query,rel
+12838776,2359174,What is the man wearing?,glasses,query,rel
+04747045,2362436,What item of furniture is the pizza on?,table,query,rel
+17194977,2327964,On which side is the elephant?,right,query,attr
+08511138,2378140,Are there cups or mugs that are made of glass?,no,logical,obj
+03150083,1593172,Are both the crate and the canopy the same color?,no,compare,attr
+01163623,2378434,Where is the elevator?,station,query,rel
+07329844,2409804,"Where in this photo are the stuffed animals, in the top or in the bottom?",top,choose,attr
+04429763,2319924,"Which type of device is not white, the mouse or the computer?",computer mouse,choose,cat
+16774773,2388093,Does the dark water look deep or shallow?,deep,choose,attr
+11817373,2360609,Do you think that kite is surfing?,yes,verify,attr
+08164647,2356740,"Which seems to be less healthy, the hot dog or the lettuce?",hot dog,compare,attr
+14835926,2397009,What color does the glass have?,red,query,attr
+13502130,2405230,What device is on the wall?,phone,query,rel
+18896072,2359495,Which kind of furniture is black?,sofa,query,cat
+04964835,2412602,Is the person that is to the right of the statue wearing a hat?,yes,verify,rel
+041023994,2351481,Is the tray on top of an ottoman?,no,verify,rel
+071028358,2360636,What is the color of the bowl the telephone is to the left of?,orange,query,attr
+06270137,2386977,What kind of cooking utensil is to the right of the coffee maker?,tongs,query,rel
+05957401,2417911,What kind of clothing is not white?,suit,query,cat
+11649314,2393768,The veggies in the middle are which color?,green,query,attr
+02623130,2322211,Is the purse black and small?,no,logical,attr
+12169621,2326760,Are there square tables or ottomen?,no,logical,obj
+06914013,2320767,Of what color is the backpack that is to the left of the pine trees?,black,query,attr
+08173783,2320720,Does the man wear jeans?,yes,verify,rel
+16229883,2390071,What is the plate to the right of the broccoli filled with?,rice,query,rel
+10682862,2412363,What is the vegetable to the right of the salad in the center of the photo?,tomato,query,rel
+0253406,2322450,What color is the nose?,blue,query,attr
+12366045,2390293,Which kind of animal is it?,horse,query,cat
+05643181,2315588,What vegetable is to the right of the container?,lettuce,query,rel
+19229391,2332488,On which side is the dark drink?,left,query,attr
+07358691,4888,"Which color is the vase, blue or brown?",blue,choose,attr
+09296945,2357369,Who is wearing a coat?,people,query,rel
+02774751,2328879,On which side is the fork?,left,query,attr
+06869103,2329708,How long is the black hair?,short,query,attr
+19772922,2372614,Is the frisbee to the right or to the left of the person that is wearing a shoe?,left,choose,rel
+18278638,2316171,What vegetable is on the pizza?,onion,query,rel
+00439981,2412204,What color is the girl's hair?,brown,query,attr
+13713281,2382034,What color is the car in the middle of the picture?,blue,query,attr
+09270883,2367964,Are there both a bag and a fruit in this photo?,yes,logical,obj
+18544222,2320356,Are there glasses or fences?,no,logical,obj
+10421513,2363244,Is the laptop near the cup black or silver?,black,choose,attr
+13673034,2348548,Are the pants blue?,no,verify,attr
+17536415,2382232,What are the animals that the spots are on?,giraffes,query,rel
+17808207,2351035,What kind of furniture is to the left of the soldier?,shelf,query,rel
+1185988,2391692,What is the device on top of the table that is to the right of the trashcan?,monitor,query,rel
+10560405,2354917,On which side are the napkins?,left,query,attr
+08225136,2400869,What does the person that is playing wear?,shorts,query,rel
+1836601,2329782,On which side of the photo is the man?,right,query,attr
+00232878,2324726,What is the instrument that the man to the left of the fence is playing?,trumpet,query,rel
+111273,2320905,Which color is the sky?,gray,query,attr
+101013349,2374319,Which kind of fast food is on the tray?,pizza,query,rel
+17863555,2399389,Are there onions to the left of the tomato on the left side?,yes,verify,rel
+10472185,463,What is used to make the sidewalk?,brick,query,attr
+09427112,2373966,Is the painting to the right of a dispenser?,yes,verify,rel
+151054913,2404827,On which side of the picture is the black mirror?,right,query,attr
+00485133,2394980,What animal is on the appliance on the left of the picture?,dog,query,rel
+05134910,2362838,Is the small bottle to the right or to the left of the container which is to the right of the pots?,right,choose,rel
+14150782,150282,Which kind of clothing is colorful?,coat,query,cat
+07125890,415,Which color is that dress?,black,query,attr
+08264630,2363887,On which side of the picture is the meat?,right,query,attr
+02705797,2330429,What's the man on?,surfboard,query,rel
+02605054,2415117,Is the lid open or closed?,open,choose,attr
+15431506,2344297,Who is holding onto the dog that the woman is to the right of?,man,query,rel
+051014509,2377956,Do you see trucks to the right of the person that is wearing a shirt?,yes,verify,rel
+02156391,2406694,Do you see fire hydrants by the street?,yes,verify,rel
+18342661,2414593,Is the man to the left of the women riding a bike?,yes,verify,rel
+17208249,2413899,What is the vegetable on the plate of food?,cauliflower,query,rel
+17528451,2410790,Are there any chairs or tables that are made of metal?,no,logical,obj
+03884579,2316624,Is the huge refrigerator to the right of a towel?,no,verify,rel
+02812779,1592272,Are the animals of different types?,no,compare,attr
+14647251,2324564,Is the lamp to the left of a pillow?,yes,verify,rel
+08555951,2360831,Is the pillow behind a cat?,no,verify,rel
+08709105,2378264,Is the shirtless man to the left of the boat wearing boots?,no,verify,rel
+00725545,2339309,What type of material is the white chair made of?,plastic,query,attr
+01107251,2397689,"Where in this photograph is the leather bag, on the left or on the right?",left,choose,attr
+04978978,2412735,What device is on?,monitor,query,cat
+03997020,2380622,What vehicle is to the right of the person that is in front of the house?,truck,query,rel
+17211384,2322600,Are there any giraffes to the left of the fence that looks long?,yes,verify,rel
+03422271,2414272,What is the woman using?,hair dryer,query,rel
+01239296,2350340,What is the man staring at?,camera,query,rel
+18645978,2320456,What are the melons on?,side table,query,rel
+051009548,2379747,What is in the sky?,sun,query,rel
+06199787,2353040,Which kind of cooking utensil is to the right of the pot?,skillet,query,rel
+11546566,2380112,What is covered in snow?,roof,query,rel
+03948549,2358903,Is the bowl to the right or to the left of the strawberry near the tomato?,left,choose,rel
+03343283,2349407,What is the name of the animal in the field?,horse,query,rel
+10992521,2322425,What is the lake surrounded by?,trees,query,rel
+04491721,2415416,What kind of furniture is to the left of the box?,tv stand,query,rel
+04150764,2359195,What drink is the bottle filled with?,soda,query,rel
+05888273,2352943,Is the bicycle to the right or to the left of the person who is holding the woman?,right,choose,rel
+01870742,2350792,The plate is on what?,bike,query,rel
+1691597,2394828,What is that fence made of?,metal,query,attr
+13676430,2415204,Is the bottle to the left of the happy person?,no,verify,rel
+07432340,2328240,Who is standing on the grass?,man,query,rel
+0763918,2417543,Is the pipe made of chrome or plastic?,chrome,choose,attr
+17207482,2322049,What is on the oven the bacon is to the left of?,clock,query,rel
+13159250,2366749,Is there a cup or a tomato?,yes,logical,obj
+18655581,2328704,Which kind of furniture is the lamp on?,nightstand,query,rel
+11805654,2324322,On which side of the image is the pepperoni?,left,query,attr
+08516619,2370386,Are there any cages on the hook?,yes,verify,rel
+15854718,2413508,What is holding the sandwich?,box,query,rel
+16654438,2360482,What kind of furniture is sitting on the floor?,ottoman,query,rel
+1825260,2365064,Is there a pot in the kitchen?,yes,verify,rel
+15382420,2345900,Are there any vases or briefcases?,no,logical,obj
+05377879,2394351,What is on the wall in this image?,poster,query,rel
+13461921,2341361,What animal is lying on top of the chair that is on top of the deck?,cat,query,rel
+11746474,2383754,What is the man on the motorbike wearing?,helmet,query,rel
+05712472,2373165,Is the telephone in the top part or in the bottom?,top,choose,attr
+06412652,2397559,What kind of vehicle isn't green?,van,query,cat
+10376400,2359715,Is the screen to the right or to the left of the man that is old?,right,choose,rel
+05382758,2350094,Are there either any crates or fences in the picture?,no,logical,obj
+081005671,2391197,Is the sky clear?,yes,verify,attr
+031050321,2377037,How large is the chimney?,small,query,attr
+07831611,2341246,Is this a bed or a table?,bed,choose,cat
+17150344,2381387,What animal is in the green grass?,horse,query,rel
+1988492,2357988,Are any hats observable?,no,verify,obj
+03722419,2375390,What is in front of the street light?,fence,query,rel
+15975331,2392397,That dish has what color?,green,query,attr
+03422261,2414272,Who is wearing jeans?,woman,query,rel
+19118604,2339867,Which place is it?,parking lot,query,global
+06614960,2406370,Does the motorcyclist to the left of the person wear a helmet?,yes,verify,rel
+09555407,2358945,Are the leaves green and bright?,yes,logical,attr
+021056317,2363020,Are there any lamps or bells in this picture?,yes,logical,obj
+01664087,2411055,Is the man that is playing wearing a watch?,no,verify,rel
+10513400,2325295,Is the purse to the right of the cup that is to the right of the statue?,yes,verify,rel
+10644437,2385743,Is this a black sofa?,no,verify,attr
+18233279,2405819,What does the person that is not tall used?,kite,query,rel
+01192067,2362126,Are there any men to the right of the child in the middle?,yes,verify,rel
+05404218,2383614,What's the woman wearing?,outfit,query,rel
+10112923,2360411,Which kind of food is in the bowl?,tofu,query,rel
+08132376,2361827,What is located on top of the book?,pen,query,rel
+11766196,2334480,Does the drink to the left of the mobile phone look red?,no,verify,attr
+14305270,2387030,Are there any fire hydrants near the blue ocean?,yes,verify,rel
+14775014,2403595,Which kind of furniture is the pillow on?,bed,query,rel
+19737210,2386651,Is the brown chair to the right or to the left of the bag?,right,choose,rel
+02138218,2415535,On which side is the blanket?,right,query,attr
+18173853,2396567,Is the shape of the bananas round?,yes,verify,attr
+19253780,2359700,Who wears the skis?,child,query,rel
+08173848,2320720,What is the fence made of?,metal,query,attr
+11166911,2404979,What is the pole in front of?,trees,query,rel
+09180291,2387762,Which kind of clothing is white?,pants,query,cat
+03567344,2372892,Who is standing?,man,query,cat
+19831594,2412358,Which side of the image is the video camera on?,right,query,attr
+08703656,2319856,Do you see children there?,yes,verify,obj
+16432564,2417831,What is he wearing?,pants,query,rel
+18315874,1012,"What material is the bridge, rock or iron?",rock,choose,attr
+03343225,2349407,On which side of the image is the man?,left,query,attr
+17184724,4290,Are there any chairs in the photo?,yes,verify,obj
+01232038,2324615,Are there towers near the tree that is little?,yes,verify,rel
+00672362,2325349,The bus is where?,street,query,rel
+03242981,2324793,The clouds in the sky have what color?,white,query,attr
+09299205,2340985,On which side is the ship?,left,query,attr
+07507609,2356502,Of what color is the jacket?,black,query,attr
+07149802,2417737,What is the sign that the snow is on?,stop sign,query,rel
+04248786,2380656,Is the tall fence on the right?,yes,verify,attr
+17398608,2321675,What animal is standing in the field?,horse,query,rel
+10161134,2408305,What is in the calm water?,ball,query,rel
+16371841,2396304,Which kind of clothing is thick?,glove,query,cat
+10275952,2316861,What is the purple article of clothing?,dress,query,cat
+00270672,2397179,Do you see fire hydrants or pots there?,yes,logical,obj
+09351221,2386171,How big is the bird that is white?,large,query,attr
+18413100,2354399,What is in the white container?,chocolate,query,rel
+19447661,2350474,How is the weather today?,cloudless,query,global
+061043477,2332286,Are there unpeeled bananas or apples?,no,logical,obj
+1241497,2362038,Which kind of clothing is not white?,apron,query,cat
+14618559,2372563,Are there green bags in the photo?,no,verify,obj
+10568920,2387481,Is there a can beside the woman that is on the left side?,no,verify,rel
+02352081,2406586,Which kind of device is on the desk?,keyboard,query,rel
+12843638,1887,"In which part is the traffic light, the top or the bottom?",bottom,choose,attr
+01672446,2357852,What color is the floor?,dark,query,attr
+13676300,2415204,The lemon is on what?,fork,query,rel
+07184590,2386393,Which color is the dessert that sits on the table?,green,query,attr
+10397944,2387136,"Which side is the bag on, the right or the left?",right,choose,attr
+05627564,2379703,Is the sky white or blue?,white,choose,attr
+03493687,2409878,Who in the scene is sitting?,player,query,cat
+10445249,2367305,Which kind of vegetable is to the right of the onions?,artichokes,query,rel
+12103646,2403677,What are the items of furniture that are to the right of the appliance that is below the microwave?,cabinets,query,rel
+01597179,2388360,What is the fence enclosing?,ground,query,rel
+10153670,2395301,Which kind of vegetable is not red?,onions,query,cat
+08897428,2405382,What is on the stove?,pan,query,rel
+14889337,2374981,Are both the post and the fence made of the same material?,no,compare,attr
+03337741,2377193,What kind of furniture is the table behind of?,couch,query,rel
+17808273,2351035,Is the brown bag to the left of the soldier?,yes,verify,rel
+081022863,2390647,Are there either any stoves or cabinets?,yes,logical,obj
+071002567,2386067,"What is the broccoli on, a table or a nightstand?",table,choose,rel
+09550409,2360257,"What is this, a plate or a wine glass?",plate,choose,cat
+13124398,2400251,Is the gray screen to the right or to the left of the books that are to the right of the scissors?,right,choose,rel
+11985561,2386099,Is there a cake in the photo that is white?,no,verify,obj
+05399923,2349811,What is the appliance to the right of the blue box?,stove,query,rel
+101033450,2405682,On which side of the image is the car?,right,query,attr
+1925120,2366862,What color is the floor?,tan,query,attr
+1861037,2403460,What is on the fridge?,paper,query,rel
+16889949,1159654,What is the animal that is lying in the kitchen?,dog,query,rel
+08649653,2340495,What device is on the desk?,laptop,query,rel
+0366815,2416386,What kind of clothing isn't black?,skirt,query,cat
+03614085,2363226,What is the person in the sand holding?,kite,query,rel
+04135800,2406142,Which place is it?,store,query,global
+05767671,2400612,Are the brown food on the right?,no,verify,attr
+03695298,2393961,Are there either umbrellas or pictures?,yes,logical,obj
+13466792,2316339,Are the people to the right of a chair?,yes,verify,rel
+1972300,2387777,Is the wool covering a cow?,no,verify,rel
+03902589,2337687,Are there any people to the left of the backpack?,no,verify,rel
+18233502,2405819,"On which side of the photo is the boy, the right or the left?",right,choose,attr
+08592939,498237,Are there either any vendors or shoppers in the picture?,no,logical,obj
+19676689,2343187,The owl is on what?,log,query,rel
+19257468,2348008,What is the vehicle that is to the left of the fire hydrant that is in the grass?,bus,query,rel
+06106881,2415549,What device is to the right of the man?,television,query,rel
+00648448,2364797,Are there both meat and cheese in the picture?,yes,logical,obj
+10127447,2376309,Which color are the goggles?,black,query,attr
+15776471,2319436,What kind of vegetable is on the tray the paper is under of?,potatoes,query,rel
+11207697,2316747,Is the computer on the left side or on the right of the photo?,left,choose,attr
+17863618,2399389,Is the bread on a tray?,no,verify,rel
+19108415,2377013,Is the floor wooden and rough?,no,logical,attr
+1228463,2344578,What fruit is to the left of the plate?,banana,query,rel
+18282991,2328576,What is the person to the left of the lamp sitting on?,bed,query,rel
+123206,2410046,Which color do you think the trees in the snow are?,dark,query,attr
+11546576,2380112,On which side is the man?,right,query,attr
+03224711,2416361,What kind of appliance in this image is silver?,blender,query,cat
+04728974,2413340,Which kind of fast food is in the pan?,pizza,query,rel
+03745150,2367712,Which place is it?,field,query,global
+16116618,2317251,The water is in front of what?,mountain,query,rel
+05643335,2315588,Are there both peppers and plates in the photograph?,no,logical,obj
+08848085,2334380,What is this man on?,skateboard,query,rel
+19805785,2331876,Is there either soup or cheese in this image?,yes,logical,obj
+09296163,2374121,Are there any airplanes near the blue car?,no,verify,rel
+08830258,2354268,What is the vehicle to the right of the van?,bus,query,rel
+04172584,2326613,Is the planter that looks square both blue and large?,no,logical,attr
+01349523,2330960,On which side of the image is the car?,left,query,attr
+01845939,2362289,Which side is the umpire on?,right,query,attr
+13425351,2412682,"Which color is the shirt, gray or orange?",gray,choose,attr
+12182875,2349905,What kind of clothing is brown?,jacket,query,cat
+05334749,2386186,Is the man to the right of the racket?,no,verify,rel
+15674769,2384074,What is the person that looks skinny doing?,playing,query,attr
+12866362,2352785,Is there a small bridge in the scene?,yes,verify,obj
+10560556,2354917,Do you see any trays on the microwave?,yes,verify,rel
+02290151,2412855,Is there a can to the left of the toilet?,yes,verify,rel
+09490196,2359155,How wide is the door?,wide,query,attr
+12585351,713913,Is there a woman to the right of the plate?,no,verify,rel
+11576641,285728,Which kind of furniture is to the right of the fence?,chair,query,rel
+19635747,2321959,What is in the street?,train,query,rel
+05113426,2388669,What vehicle is on the street?,van,query,rel
+011007106,1189,Is the towel the same color as the bottle?,no,compare,attr
+07883068,2405464,What color is his tail?,green,query,attr
+031007774,2320373,Is there a spoon inside the bowl?,no,verify,rel
+18821906,2333789,Do you see any kites or flags that are made of plastic?,no,logical,obj
+18573128,2395994,What's in the basket?,bread,query,rel
+05683464,2373169,Does that hair have black color?,yes,verify,attr
+00139902,2354183,Which side of the image is the chair on?,left,query,attr
+19757887,2385218,What is on the cart that is made of metal?,luggage,query,rel
+16541724,2411098,Does the ground look white?,no,verify,attr
+0578153,2360173,Is there any food to the right of the round plate?,yes,verify,rel
+15198474,2390473,Do you see any lettuce in the drawer?,yes,verify,rel
+11826769,2411323,What vehicle is on top of the train tracks?,train,query,rel
+13741235,2382560,What is the animal in front of the house near the trash bin?,cat,query,rel
+06360414,2364689,Are there either chairs or cars?,no,logical,obj
+0977551,2324452,What is the color of the umbrella that the person is carrying?,black,query,attr
+08189731,2384127,Which color do you think the graffiti is?,white,query,attr
+16269666,2407148,What animal is to the right of the person that the bottle is to the left of?,cat,query,rel
+11193316,2401804,Where do you think is the person?,balcony,query,rel
+0426773,2339668,Are there black bags in the image?,yes,verify,obj
+1727120,2408322,On which side of the image is the kid?,right,query,attr
+10316949,2404263,Are there any couches or drawers in this image?,no,logical,obj
+15614530,2399690,Who is sitting on the couch?,boy,query,rel
+19184470,2347169,What is the man to the right of the glasses wearing?,cap,query,rel
+0459331,2371279,"Which kind of furniture is wooden, the cabinet or the table?",cabinet,choose,cat
+03986762,2400829,What is in the street?,truck,query,rel
+00599312,2396483,What is the boy hanging from?,rope,query,rel
+0395036,2368361,How long is the dress that looks black?,short,query,attr
+0219350,2343318,What place is this?,road,query,global
+16160428,2391757,Is there either a gray bench or fence?,yes,logical,obj
+00298493,438,Where is the parking meter?,sidewalk,query,rel
+17558076,2339979,What is the food that is to the left of the fence on the right?,candy,query,rel
+04707174,2378858,Are there any surfboards on the water?,no,verify,rel
+151015949,2251,On which side of the picture is the woman?,left,query,attr
+00411936,2372006,"What is this, a doll or a stuffed bear?",stuffed bear,choose,cat
+06587298,22,Do you think the sky is cloudy?,yes,verify,attr
+15781827,2323573,What is the piece of furniture to the right of the chair made of wood?,cupboard,query,rel
+04536282,2393198,Is the bird on top of the log brown or blue?,blue,choose,attr
+06425541,2399231,Which kind of vehicle are the people on?,train,query,rel
+00224021,2360997,Does the banana look red?,no,verify,attr
+14889537,2374981,Are there blue doors?,no,verify,obj
+11778287,2407394,What kind of place is shown?,ocean,query,global
+08255705,2328788,Is the white curtain to the left or to the right of the couch?,right,choose,rel
+01313791,2345428,What kind of furniture is this?,couch,query,cat
+05891308,2384647,The person to the left of the people is wearing what?,glasses,query,rel
+18782471,2356933,On which side of the image is the tablecloth?,left,query,attr
+17782439,2345405,Is the bench on the right side of the photo?,yes,verify,attr
+10661008,2366958,What clothing item is cream colored?,jacket,query,cat
+19415585,2363785,Is this a hot dog or a sandwich?,sandwich,choose,cat
+18699436,2325830,Is there either a black flag or clock in the scene?,yes,logical,obj
+16591651,2392802,The car is of what color?,white,query,attr
+131044853,1167,Does the chair look white?,no,verify,attr
+17401170,2374484,What's the boy on?,surfboard,query,rel
+07883759,2409543,What device is to the left of the chair?,phone,query,rel
+04438417,2405611,Is the mobile phone on the right side?,no,verify,attr
+13702729,2356634,What is the man wearing?,helmet,query,rel
+12788970,2106,What is the piece of furniture that is to the left of the bed?,shelf,query,rel
+05490026,2359509,Which kind of furniture is made of wood?,desk,query,cat
+1593265,2317027,How big is the garbage can that is to the left of the chair?,small,query,attr
+0172327,2411058,What does the cat sit on?,counter,query,rel
+17873270,2329930,The sauce has which color?,orange,query,attr
+02866828,2353781,What is the color of the hat the woman is wearing?,white,query,attr
+14522466,2393625,Who is wearing a helmet?,boy,query,rel
+02686649,2384060,What color is the umbrella the man is holding?,black,query,attr
+18602175,2404083,Do the gray clouds look light and rainy?,no,logical,attr
+12836406,2348359,Was cardboard used to make the cup which is to the right of the sandwich?,no,verify,attr
+05430734,2338569,Is the plate on the right side of the image?,no,verify,attr
+12739893,4063,What is in the dresser on the right?,lamp,query,rel
+06645324,2372224,Is there a window that is not large?,yes,verify,obj
+03202186,2361908,Is it indoors or outdoors?,indoors,choose,global
+10242800,2394571,What is the color of the large bear?,brown,query,attr
+15323847,2379292,What is the girl holding?,umbrella,query,rel
+08610791,2411389,Who is swinging the racket?,girl,query,rel
+1132190,2410671,Where is the giraffe near the bird eating from?,feeder,query,rel
+05258731,2397301,Is the hair black?,no,verify,attr
+09556084,2358947,What is the vehicle behind the white wall?,car,query,rel
+141034859,713470,Where is the water?,lake,query,rel
+01775182,2372580,Is the fence to the right of him?,yes,verify,rel
+11985754,2386099,Do the people around the table surround a cake?,yes,verify,rel
+12888812,1888,Are there any statues to the left of the man that is wearing a shirt?,no,verify,rel
+06652884,2324329,Is the person to the left of the fire hydrant wearing skis?,no,verify,rel
+10899760,2355238,Is the bookcase behind the person that is wearing glasses?,yes,verify,rel
+07603374,2381360,Is the device on the blanket open or closed?,closed,choose,attr
+02934950,2392665,Is the mane blond or white?,white,choose,attr
+09194740,2328812,Are there plates or cans that are made of metal?,no,logical,obj
+08220801,2380714,Does the plate look round and white?,yes,logical,attr
+02490051,2324168,Is the black lamp on the right?,yes,verify,attr
+16744237,2341852,What is the color of the uniform?,red,query,attr
+13907641,2371222,Is the wineglass to the right or to the left of the person that is wearing eye glasses?,left,choose,rel
+12947992,2342823,Does the shirt appear to be black?,yes,verify,attr
+04897476,2399886,Is the plate to the right of the other plate large or small?,small,choose,attr
+04613309,2342715,What is covered with the snow?,hill,query,rel
+02143477,2317344,What is the food to the left of the container called?,donut,query,rel
+081011246,2335498,Which kind of device is the man holding?,phone,query,rel
+19871356,2417714,Of which color is the pillow to the right of the girl?,pink,query,attr
+13136500,2405555,What animal is the dog following?,horse,query,rel
+16143009,2325405,What kind of vehicle is to the left of the SUV?,car,query,rel
+15146954,2391285,What kind of vegetable is in the basket?,tomatoes,query,rel
+164027,2335718,What color is the hat?,blue,query,attr
+17967147,2355007,What kind of clothing is white?,uniform,query,cat
+01582788,2378055,What is the color of the bag that is on the right of the photo?,white,query,attr
+04812530,2362973,Is the cake to the left of a girl?,no,verify,rel
+12140341,2359333,"Which kind of device is made of plastic, the laptop or the camera?",laptop,choose,cat
+07517594,2391062,How tall is the grass?,short,query,attr
+13567395,2335655,What kind of animal is white?,dog,query,cat
+15798000,2320975,What does the person hold?,kite,query,rel
+08553443,2376660,Is the color of the tag the same as the color of the logo?,yes,compare,attr
+06122850,2395059,What is the desk made of?,wood,query,attr
+17699693,2389153,Is the horse's tail black and bushy?,yes,logical,attr
+00982397,2348072,What is on the green tree?,trunk,query,rel
+02708369,2343586,Is the woman to the right of a train?,no,verify,rel
+05287566,2380720,Is it indoors?,yes,verify,global
+04195518,2346165,Is the white towel in the top part of the image?,no,verify,attr
+16761866,2364604,What cooking utensil is to the right of the drink on the left?,pizza pan,query,rel
+17861346,2334149,Is there a truck in front of the building?,yes,verify,rel
+11737149,2367641,Are there any mirrors or bar stools?,no,logical,obj
+1896671,2343302,What vehicle is in the parking lot that is below the tree?,bus,query,rel
+12591324,2317439,Is the tennis racket in the top or in the bottom part?,top,choose,attr
+08847784,2334386,What color is the can?,gray,query,attr
+06790999,2357446,Is there a large plate or bottle?,yes,logical,obj
+021009112,1592361,What does the man who to the left of the placemat wear?,uniform,query,rel
+01587545,2333881,The device on the floor has which color?,black,query,attr
+021010564,498188,What is the telephone on?,carpet,query,rel
+17253361,2319875,The jacket the man is with is which color?,tan,query,attr
+00219717,2401792,Which room is it?,bedroom,query,global
+06675998,2337454,The man who is to the right of the person is wearing what?,hats,query,rel
+1968740,2339471,Is there a computer mouse to the left of the keyboard that is on the right of the picture?,no,verify,rel
+06791198,2357446,Which kind of baked good is on the plate?,bread,query,rel
+14113397,1507,Are there any fences that are red in the photograph?,no,verify,obj
+161075283,2334632,Is he wearing jeans?,yes,verify,rel
+15323877,2379292,Is there either any umbrella or bench in this picture?,yes,logical,obj
+19730486,2383197,Which side of the image is the bread on?,left,query,attr
+021037213,2389115,Are there any men or women in this photograph?,yes,logical,obj
+10949829,2339423,What is the man surrounded by?,gifts,query,rel
+101013274,2374319,What kind of meat is on the pizza in the middle?,pepperoni,query,rel
+10607090,2404261,Who is on the surfboard?,man,query,rel
+07890482,2393168,What type of animal is standing on top of the large mountain?,cow,query,rel
+03706987,2416387,Is there any lamp or pillow in the picture?,yes,logical,obj
+03616523,2369322,Is the bear that is to the left of the hamburger wearing a cap?,no,verify,rel
+08520047,2410696,What is the sauce in?,basket,query,rel
+151034910,2332666,Are there either any white buckets or clocks?,yes,logical,obj
+07527087,2344674,Is the large mirror to the right or to the left of the towels that are stacked on the cabinet?,right,choose,rel
+08944685,2317721,Who is in front of the fence?,people,query,rel
+17475408,2327279,Which kind of device is white?,laptop,query,cat
+05720043,2388805,What is the person on the table doing?,lying,query,attr
+02866708,2353781,Is the dog to the left or to the right of the frisbee that is in the middle of the image?,right,choose,rel
+09488323,2359158,Which place is it?,garden,query,global
+11720184,2330867,On which side of the photo is the salt shaker?,left,query,attr
+08814607,2330419,Is there a fence on the side of the road?,yes,verify,rel
+0624259,2319836,What type of furniture is to the right of the coffee table?,cabinet,query,rel
+15710515,2402286,What is the animal that the collar is on?,dog,query,rel
+04418785,2358298,What do you think is in front of the scissors on the wall?,glass,query,rel
+19222199,2411607,Are there any brooms next to the extinguisher?,yes,verify,rel
+1096156,2319686,The trailer is sitting where?,airport,query,rel
+05843490,2355684,Is the animal in the grass brown and large?,yes,logical,attr
+04763552,2398398,The bench is where?,path,query,rel
+17268689,2328746,What is on the hydrant to the right of the man?,cap,query,rel
+13297737,2317570,Are there any laptops on top of the table?,no,verify,rel
+14966363,2379264,Is there a fire hydrant in the picture that is not white?,yes,verify,obj
+05314954,2376184,What is in the window?,mannequins,query,rel
+15905487,2317694,Is there a bird or a bear in the picture?,yes,logical,obj
+101013335,2374319,Which kind of fast food is on the pizza pan?,pizza,query,rel
+02598567,2340967,What's the mushroom on?,drawer,query,rel
+00204210,2400683,What color is the bag the car is to the left of?,brown,query,attr
+13727152,2375648,What is the piece of furniture that is to the left of the towel?,chair,query,rel
+05305210,2324606,Is there any cabinet to the left of the microwave?,no,verify,rel
+06587982,28,On which side of the photo is the large bowl?,left,query,attr
+17559777,2359457,What do both the mask and the hat have in common?,color,compare,attr
+14954509,2327321,Who is wearing the pants?,girl,query,rel
+08509269,2353399,Who is wearing the shirt?,man,query,rel
+07831853,2320046,Is the person to the left of the pine tree wearing a hat?,yes,verify,rel
+11474633,2410200,Is it outdoors?,no,verify,global
+12568015,2334740,Is the man to the right of a racket?,no,verify,rel
+09260591,2390319,What animal is the woman near the tree riding on?,horse,query,rel
+09912508,2363947,Which kind of vehicle is to the left of the person?,truck,query,rel
+151000741,2323933,Is there a helmet or a motorcycle in this image?,yes,logical,obj
+16112273,2321409,How large are the leaves?,large,query,attr
+16312578,2412075,What is the notebook on?,nightstand,query,rel
+19987739,2405197,What is the bear walking in?,grass,query,rel
+12425206,2414948,Is the silk blanket to the left or to the right of the book in this image?,right,choose,rel
+08565785,2315486,Are there any gold letters?,no,verify,obj
+09988604,2354849,What is this cat on?,sink,query,rel
+19129985,2375091,What is the person to the right of the box wearing?,hat,query,rel
+10331371,2373585,Which kind is this device?,screen,query,cat
+1215260,2397393,"On which side of the photo are the pillows, the right or the left?",right,choose,attr
+11660165,2351478,Who is wearing a shirt?,child,query,rel
+15897527,4488,What is the color of the pot?,black,query,attr
+18437418,2380135,Is this a square plate?,no,verify,attr
+09986091,497969,Who is wearing shoes?,child,query,rel
+08818300,2316099,Are there either any motorbikes or helmets?,yes,logical,obj
+15724531,2379138,What is on the post?,sign,query,rel
+02282283,2394560,Is the man to the right or to the left of the helmet the person is wearing?,left,choose,rel
+11800529,2370876,What are the scissors on?,table,query,rel
+05687707,2385305,What's the light switch on?,wall,query,rel
+16269919,2407148,The boy in the bed is looking at what animal?,cat,query,rel
+01332058,2385859,Which side of the photo is the white coffee cup on?,left,query,attr
+17751046,2379457,Is the white pillow to the right or to the left of the nightstand?,right,choose,rel
+19158771,2355590,What is the vegetable on the bananas?,lemon,query,rel
+18273863,2360431,Which kind of furniture is the apple on?,table,query,rel
+14333827,2392431,Are there microwaves near the rock?,yes,verify,rel
+021010562,498188,How is the device on the carpet called?,phone,query,rel
+11727425,2358552,Who is holding the tennis racket?,lady,query,rel
+00946016,2391364,Do you think the animal that is sitting-down is small or large?,small,choose,attr
+11290270,2348534,Is there a ball or a fence in the photo?,yes,logical,obj
+06751438,2361523,Are there any faucets or mirrors?,no,logical,obj
+07382534,2383328,Is the TV on a cabinet?,no,verify,rel
+01107445,2397689,Is the person to the left of the man wearing a skirt?,no,verify,rel
+07382784,2342945,Which kind of furniture is made of wood?,bed,query,cat
+04956390,2391761,Which kind of animal is walking in the street?,dog,query,rel
+1110533,498281,What type of animal is on the small pillow?,frog,query,rel
+11260682,2378779,Are there any white lambs or zebras?,no,logical,obj
+051029054,2317780,Are there bears or elephants that are not small?,no,logical,obj
+05761563,2380407,"In which part of the photo is the fresh beet, the bottom or the top?",top,choose,attr
+12834127,2341860,Who is holding the bottle?,lady,query,rel
+051005571,2345347,What is the man to the right of the skier holding?,pole,query,rel
+17755505,2339401,Is the kettle on the right?,yes,verify,attr
+10690354,2322694,Is the person in front of the plant wearing a hat?,yes,verify,rel
+01600709,2388832,On which side is the can?,left,query,attr
+181000685,2405664,Are there beds near the basket?,yes,verify,rel
+19260795,2335686,Are there any frisbees on the ground?,no,verify,rel
+07642154,3521,Is it an indoors scene?,yes,verify,global
+16773864,2352791,What does the person that is skateboarding used?,skateboard,query,rel
+03202152,2412878,What is the boy looking at?,kite,query,rel
+08293936,1592570,Which kind of vehicle is it?,van,query,cat
+0110826,2410282,How is the appliance to the left of the box called?,microwave,query,rel
+03660113,2411225,Are the heels white or black?,white,choose,attr
+04313470,2328454,Is it the beach?,yes,verify,global
+17504780,2361209,On which side of the picture is the bread?,left,query,attr
+0844783,2407209,Do you see keyboards or kittens?,yes,logical,obj
+11705585,2344018,What color do you think the table made of wood is?,brown,query,attr
+05752179,2401893,Is the sink both white and dirty?,yes,logical,attr
+11215491,2411832,Does the utensil in the basket have silver color?,yes,verify,attr
+09844684,2396532,Which place is it?,lawn,query,global
+041034195,2324917,Is the guy to the right or to the left of the food the box is to the right of?,left,choose,rel
+13775815,2360273,Is it an outdoors scene?,yes,verify,global
+181047062,2388100,Is the shirt short sleeved or long sleeved?,short sleeved,choose,attr
+04619033,2318147,What is parked near the building that looks light blue and green?,cars,query,rel
+00947018,2391360,Which side of the image is the white napkin on?,right,query,attr
+16753258,2414353,Are there boys to the right of the wolf that is to the right of the person?,yes,verify,rel
+08527537,2355088,What device is to the right of the chair?,cell phone,query,rel
+101001348,2339853,What vegetable is not baked?,olive,query,cat
+18558504,2351709,What is the man doing?,skiing,query,attr
+0473096,2397582,What cooking utensil is filled with food?,skillet,query,rel
+09719563,2391219,What is the shape of the chocolate cake?,round,query,attr
+14172925,2369355,Is the woman wearing a coat?,yes,verify,rel
+18592706,2368877,Are there benches or umbrellas?,yes,logical,obj
+16470541,2353864,Is the garbage can to the left or to the right of the old man?,right,choose,rel
+10801384,2363242,Who is eating the pizza?,man,query,rel
+17233737,2394369,What is the toddler to the right of the woman holding?,skis,query,rel
+12353731,2384292,Is the house near the post white and large?,yes,logical,attr
+07889561,2329331,Does the table look black?,yes,verify,attr
+14933798,2400645,Do you see a bottle or a chair in the photo?,no,logical,obj
+02845044,150433,What is the vehicle to the right of the skis that the woman is carrying?,minivan,query,rel
+14484258,2331321,Is the lady in the photo wearing a hat?,yes,verify,rel
+1369821,2342793,What kind of furniture is dark?,chair,query,cat
+06608140,2333527,What is in the white cup?,liquid,query,rel
+02410155,2409470,Is it an outdoors scene?,yes,verify,global
+16292550,2381758,What is the vehicle to the left of the hydrant called?,bus,query,rel
+14266472,529,On which side is the tall chair?,left,query,attr
+17249894,2411359,Is the fire hydrant antique and orange?,no,logical,attr
+14778528,1339,What is in the glass?,liquid,query,rel
+09672793,2369215,What kind of furniture are the papers on?,table,query,rel
+14383507,2389372,On which side are the bags?,left,query,attr
+16614281,2408934,How large is the floor?,large,query,attr
+04794544,2416928,Is the fence on the left side or on the right?,right,choose,attr
+031003065,2413641,Is there a chair or a cabinet in the picture?,no,logical,obj
+05287591,2380720,Is the sandal on a rug?,yes,verify,rel
+07536843,2355985,What animal wears a scarf?,dog,query,rel
+07257469,2372538,On which side is the man?,right,query,attr
+04897252,2399886,Do the wall and the chair have the same color?,no,compare,attr
+03258258,2340421,What is the device to the left of the tap called?,phone,query,rel
+041026993,2342324,What does the guy wear?,mask,query,rel
+14119725,2334270,What is the toy that is to the left of the bear in the top of the picture?,stuffed dog,query,rel
+03353882,2401863,What is located on top of the table?,bowls,query,rel
+07637027,713934,What is the piece of furniture that is to the left of the woman in the middle?,shelf,query,rel
+16926721,2399957,Are there any mugs on the cart?,no,verify,rel
+03166787,2378698,What is the color of the shirt?,black,query,attr
+1370121,2342793,Which kind of device is to the right of the ipod?,printer,query,rel
+08540529,2349160,Is there a boar in the pen?,no,verify,rel
+05764890,2371933,Are there boys or surfboards in the image?,no,logical,obj
+17877180,2381067,Are the cars in the bottom part or in the top of the image?,bottom,choose,attr
+10734763,2343566,Are there beans on the square plate?,no,verify,rel
+01523338,2344633,Does the bathroom sink look white and metallic?,no,logical,attr
+19457628,2397532,What do you think is the piece of furniture to the right of the apple in the bottom of the photo?,cabinet,query,rel
+161013467,2366564,Which place is it?,street,query,global
+12564559,2378834,Which side of the picture is the chair on?,left,query,attr
+04256320,2382873,Which side of the image is the red container on?,left,query,attr
+10539400,2396106,Who is the boy that is to the right of the ball waiting for?,player,query,rel
+02845178,150433,Are there motorcycles in the parking lot?,no,verify,rel
+16954557,2398770,Is there a bus in front of the green trees?,no,verify,rel
+041024827,2318574,Is the word on a boat?,yes,verify,rel
+0450777,2402409,What's leaning against the bench?,bicycle,query,rel
+01862875,2390571,Are the trees leafy or bare?,bare,choose,attr
+1899394,2363993,Is the fence in the top part or in the bottom of the image?,top,choose,attr
+12399276,2350062,What kind of aircraft is to the left of the picture?,airplanes,query,rel
+08237540,2315465,What is the man on?,bike,query,rel
+14113076,1507,Is the lady standing?,yes,verify,attr
+19474884,2383122,Who is wearing the goggles?,girl,query,rel
+10280390,2358721,Does that platter have brown color?,no,verify,attr
+10316705,2404263,What is the ham on?,sandwich,query,rel
+18621297,2349444,Do you see boxes to the right of the person that is wearing jeans?,yes,verify,rel
+11179928,2336649,What is the color of the woman's hair?,blond,query,attr
+18655850,2328701,Are there either any bags or benches in the photo?,yes,logical,obj
+00699674,2323184,Do you see any sponges or kites there?,yes,logical,obj
+18697166,2376114,Is the yellow corn to the right of a carrot?,yes,verify,rel
+13134958,2321111,Are there rectangular carrots or plates?,yes,logical,obj
+0472928,2397582,On which side is the picture?,right,query,attr
+19702134,2345527,Are there brown birds in the image?,yes,verify,obj
+01267966,2316884,What type of animal in the photo is resting?,cat,query,cat
+02735515,2330921,Who is wearing a uniform?,player,query,rel
+05403961,2383613,What animal is standing in the grass that looks green?,duck,query,rel
+02539886,2403960,What is on the shelf?,magazine,query,rel
+14964785,2379269,Where is this airplane?,runway,query,rel
+12494941,2394525,Is the color of the seat different than the bike?,yes,compare,attr
+11812413,2377662,What's the street covered by?,snow,query,rel
+09555716,2358945,On which side of the picture is the wood bench?,left,query,attr
+05768717,2326040,Are there people to the left of the man in the top part of the image?,no,verify,rel
+10741403,2333173,Which kind of food is on top of the plate?,noodles,query,rel
+00515236,498228,Is the silver car to the left or to the right of the blue bag?,right,choose,rel
+18865904,2380421,What is common to the sign and the roof?,color,compare,attr
+02520779,2410899,What color is the hat the person is wearing?,gray,query,attr
+06477071,2370009,Are there both a door and a window?,yes,logical,obj
+19737070,2386651,Is this a mirror or a coffee table?,coffee table,choose,cat
+09321129,2388927,On which side of the image is the blue curtain?,left,query,attr
+12356641,2355548,What vehicle is the woman to the right of the person sitting on?,carriage,query,rel
+0760783,2350568,Is the boy wearing a hat?,yes,verify,rel
+14109385,2399323,Is the pastry to the left of the drink that looks orange?,yes,verify,rel
+08784418,2132,Which room is it?,bedroom,query,global
+03262989,2352818,Is the man to the left of an umbrella?,no,verify,rel
+08255768,2328788,Is the chair to the right of the plate made out of wicker?,no,verify,attr
+13186976,2319813,What color is that umbrella?,dark,query,attr
+16756775,1890,What is the cross made of?,wood,query,attr
+07162501,2343086,What animal is standing on the grass?,dog,query,rel
+091006345,2382431,Is there either a blue coat or bag?,yes,logical,obj
+03722500,2375390,What is the sign on?,fence,query,rel
+03193310,2361611,What color is the crust?,white,query,attr
+07132273,2378438,Is the meat to the left of the knife green or red?,green,choose,attr
+1995809,2391828,Is the end table to the right or to the left of the pillow that is not large?,left,choose,rel
+14205779,2376974,Are these animals of different types?,yes,compare,attr
+01944751,2362421,The road is between what?,mountains,query,rel
+08645464,2350540,Do you think the clock is black?,yes,verify,attr
+06620778,2352582,"How is the water today, still or wavy?",wavy,choose,attr
+041024839,2318574,What is the fruit that is to the left of the rope?,orange,query,rel
+01849928,2342679,On which side of the image is the wok?,right,query,attr
+17236209,2350085,What is the person sitting on?,bench,query,rel
+05304507,2371404,Is the man that is playing wearing shorts?,yes,verify,rel
+17195007,2327964,What kind of animal is in front of the pole?,elephant,query,rel
+16652878,2417941,"Which type of furniture is made of wood, the bed or the nightstand?",nightstand,choose,cat
+13117211,2333864,Are there any tables that are not made of glass?,no,verify,obj
+01575935,2340293,Where does the cyclist stand on?,path,query,rel
+01284299,2362041,What vehicle is to the left of the helmet on the right of the image?,bus,query,rel
+04800582,2366663,Who is standing?,woman,query,cat
+02954488,2358804,Do the leaves have red color?,no,verify,attr
+12771298,2316106,Are there either any cabinets or faucets in the photo?,yes,logical,obj
+19388545,2325119,Do you see either a large bottle or kettle?,yes,logical,obj
+03868882,2366876,What type of material was used to make the figure?,glass,query,attr
+15354115,2385988,What kind of vehicle is to the left of the man that is to the left of the people?,train,query,rel
+01393313,2413312,What is she holding?,hair,query,rel
+0481555,2406968,The driver is where?,bus,query,rel
+071004340,2414658,Who is wearing the cap?,child,query,rel
+05350246,2317788,Which type of vehicle is in the picture?,bus,query,cat
+00856531,2406525,What is on the countertop?,pizza,query,rel
+11517298,2332363,What device is to the right of the computer?,laptop,query,rel
+12513287,2370447,What's the fence made of?,metal,query,attr
+1669167,2379799,Who is standing on the man on the right?,people,query,rel
+02889095,2345390,Who plays the game?,couple,query,rel
+12411144,2368336,Is there a horse to the left of the flag on the building?,yes,verify,rel
+13775870,2360273,Is the woman to the right or to the left of the person that is holding the food?,right,choose,rel
+00901892,2416225,What is the wall before?,fence,query,rel
+10584214,2408730,What's on the water?,boats,query,rel
+15515610,2402975,Does the skier in front of the fence look young?,yes,verify,attr
+01300543,4900,Is there a cabinet to the right of the desk that is to the right of the piano?,yes,verify,rel
+1683026,2370783,What vehicle is to the left of the pillow?,car,query,rel
+07142472,2392341,Which room is it?,bathroom,query,global
+03288509,1159909,What device is the phone in front of?,monitor,query,rel
+06580907,2395431,Is the black bag to the left of the man that is wearing jeans?,yes,verify,rel
+16806732,2393683,Who wears a shirt?,boy,query,rel
+19637714,2321955,Is the bowl to the right or to the left of the utensil in the bathtub?,right,choose,rel
+00424393,2408998,Is the floor both metallic and blue?,no,logical,attr
+14755202,2317677,What is the person in front of the child wearing?,dress,query,rel
+13110391,2339126,On which side is the person?,left,query,attr
+04938730,2372032,Who do you think is on the skateboard?,boy,query,rel
+10744302,2343858,What is the appliance to the right of the tablecloth that is to the right of the shelf?,dryer,query,rel
+10991090,713064,Who is standing?,child,query,cat
+18447668,2356442,What is the piece of furniture that is not antique?,desk,query,cat
+01553866,2404068,"What clothing items are blue, the jeans or the trousers?",jeans,choose,cat
+03830900,2399312,Is there a donkey near the white wall?,yes,verify,rel
+19757675,2385218,Is the woman to the right or to the left of the person that is walking to the plane?,left,choose,rel
+01935732,2332477,Is the man wearing jeans?,yes,verify,rel
+171014433,2412343,Is the clock different in color than the door?,yes,compare,attr
+19621255,2401550,Do you see either any small kites or motorcycles?,yes,logical,obj
+17811046,2342512,Which color is the train the walkway is above?,red,query,attr
+00589677,2384680,Are there any elephants?,no,verify,obj
+03944157,2394103,What kind of baked good is the sauce inside of?,bun,query,rel
+08892032,2350955,What is in front of the building?,sidewalk,query,rel
+10647931,2379637,Does the vehicle to the left of the person have black color?,yes,verify,attr
+10683181,2412363,Do you see any cucumbers to the right of the dip?,yes,verify,rel
+151001153,2411612,Is there a skateboard or a bench in the photo?,no,logical,obj
+17344138,2403637,Is the floor dotted or checkered?,dotted,choose,attr
+05425475,2354950,What's the cross on?,dome,query,rel
+01977886,2387086,How tall is the grass the sheep is on?,short,query,attr
+16259181,2366060,Is the tree in front or behind the giraffe the spots are on?,behind,choose,rel
+12772847,2342151,What color is the bowl that the food is to the right of?,black,query,attr
+181002441,2397824,Are the tomatoes on a pizza?,yes,verify,rel
+07163584,2369851,Is the shirt checkered or striped?,checkered,choose,attr
+18234677,2325219,Where is the car parked?,platform,query,rel
+19839718,2407347,Is the small animal to the right of the giraffe that is eating leaves?,no,verify,rel
+05305084,2371405,What is the blueberry in?,yogurt,query,rel
+15970102,2399458,Do you see any lamp there?,yes,verify,obj
+17560407,2359451,Does the flag to the right of the other flag look blue and small?,yes,logical,attr
+11513974,2411741,What color is the t-shirt?,red,query,attr
+11968917,2365435,Is there a pillow to the left of the lamp that is on the end table?,no,verify,rel
+161036607,2368963,Is the curtain to the right of the drawer open and blue?,no,logical,attr
+04512825,2316595,Are there either any cabinets or microwaves in the image?,yes,logical,obj
+00738355,2631,What animal is small?,alligator,query,cat
+19971163,4648,Is the stove on the left side?,yes,verify,attr
+1860637,2403460,What is the guy in front of?,refrigerator,query,rel
+01361674,2376851,"On what kind of fruit is the cream, a banana or a pear?",banana,choose,rel
+19743234,1592305,Is the truck to the left of a motorcycle?,no,verify,rel
+08125409,2369744,Is that bus red or white?,white,choose,attr
+16413712,2409066,Is the large book to the left or to the right of the lamp that the bed is in front of?,right,choose,rel
+12414650,107935,Do you see any fences or trains?,yes,logical,obj
+12755010,2416649,Is the bottle to the right of a napkin?,no,verify,rel
+00283324,2330700,Is the bread in the top part of the photo?,yes,verify,attr
+03680577,2345079,Who is wearing the shirt?,woman,query,rel
+1250757,2342742,Which side of the image is the blue bucket on?,left,query,attr
+00729347,2391042,What's located on top of the table?,cups,query,rel
+02548381,2405421,What's located on top of the microwave?,bowl,query,rel
+15431625,2344297,Who is wearing pants?,woman,query,rel
+02819690,2413434,Is there a boat on the water?,yes,verify,rel
+14276873,2360695,Is it indoors?,yes,verify,global
+17123574,2350516,Is the sky both cloudy and blue?,no,logical,attr
+15354292,2385988,What do the people to the right of the man ride on?,carriage,query,rel
+13474064,2411400,Does the plate on the table look blue?,no,verify,attr
+08335755,2366004,The shirt is of what color?,blue,query,attr
+12488060,2354593,Was this image taken in a beach?,yes,verify,global
+14789011,2357112,Do the plates that are to the left of the chocolate look brown?,yes,verify,attr
+06388948,2368683,What is the train in front of?,hill,query,rel
+01859305,2392847,What kind of furniture is made of wood?,cupboard,query,cat
+08816126,2375806,Do you see any shelves to the right of the pot?,no,verify,rel
+1186084,2391692,Is the laptop computer to the right of a keyboard?,yes,verify,rel
+162328,2399406,Which kind of animal is it?,horse,query,cat
+0565540,2320261,What's the fork on?,napkin,query,rel
+16160707,2366184,Is the color of the phone the same as the jacket?,no,compare,attr
+18382531,2377976,Are there either cups or chairs in the image?,no,logical,obj
+154701,2357415,What is covered by the ground?,water,query,rel
+07616938,2354000,Who is wearing a scarf?,lady,query,rel
+1495002,2397743,Are both the door of the building and the post made of the same material?,no,compare,attr
+07337724,2350709,What is the device that the person in front of the mirror is holding?,camera,query,rel
+05473450,2339910,What type of vegetable is to the right of the tomato?,spinach,query,rel
+15905473,2317694,Do you see any flamingoes to the right of the animals near the water?,yes,verify,rel
+12553056,2402704,What kind of furniture in this scene is not red?,table,query,cat
+15478353,2390633,Are there any people to the left of the bag the woman is with?,no,verify,rel
+093955,2414600,Is there any window in the picture that is not open?,yes,verify,obj
+14991920,2323848,Is the vehicle blue?,yes,verify,attr
+1091455,2352908,What type of clothing is long?,coat,query,cat
+16839797,2356423,Is this an image of a beach or a field?,field,choose,global
+13387332,2323659,Is the kid to the right of the person that is to the right of the couch?,yes,verify,rel
+011002082,2377467,What is the man that is to the left of the blanket touching?,hat,query,rel
+11719921,2333753,What is the name of the animal on the post that is made of metal?,sheep,query,rel
+03513653,2410656,Is the bag that is to the right of the girl red or white?,white,choose,attr
+06182720,2395834,Are there either red cups or cans?,no,logical,obj
+10696950,2324698,Do you see either any trays or breads?,yes,logical,obj
+01390060,2364527,Is this a sandwich or a donut?,sandwich,choose,cat
+11553017,2354829,Which type of material is that necktie made of?,leather,query,attr
+06154076,2345111,What is the color of the table that is not large?,green,query,attr
+03728608,2391549,Who is holding the controllers on the right side of the image?,woman,query,rel
+08164699,2356740,What is that hot dog in?,bun,query,rel
+08636911,2332225,Are there any buses to the right of the person?,no,verify,rel
+06775555,2411855,Is the red apple sitting on the saucer that is to the left of the fruit?,yes,verify,rel
+19981929,2400343,Are there men to the right of the device behind the cords?,yes,verify,rel
+15675487,2356182,Is it indoors or outdoors?,indoors,choose,global
+13522327,2384051,Is the man to the right or to the left of the women?,left,choose,rel
+03509766,2337339,What vegetable is on the dish?,carrot,query,rel
+05281134,2338476,Which place is it?,road,query,global
+121035989,2366019,Does the traffic cone have orange color and small size?,yes,logical,attr
+09614242,2401955,Are there any skateboards to the right of the wheelchair on the left side?,no,verify,rel
+17863625,2399389,Are there either any chairs or cats that are brown?,yes,logical,obj
+07696626,2388377,Are there both a table and a chair in this image?,yes,logical,obj
+18577815,2391298,Who is standing in the train?,woman,query,rel
+021009127,1592361,Who is holding the fork?,man,query,rel
+0472732,2334661,What is around the sign on the post?,frame,query,rel
+07521978,2396868,What color is the shirt the man is wearing?,black,query,attr
+08601478,2343388,What is in the jar?,flowers,query,rel
+02133355,2406429,Who wears the suit?,man,query,rel
+05495256,2414475,What is the man to the left of the plate wearing?,pants,query,rel
+03423280,2361006,What is the boy to the left of the ski holding?,pole,query,rel
+181047491,2378665,Are there both fences and lambs in this photograph?,yes,logical,obj
+10981495,2390101,What is the item of furniture to the right of the person who is wearing a mask?,chair,query,rel
+04438315,2405611,Does the plate with the sandwich look bright and blue?,no,logical,attr
+191039639,2372792,The pants that the umpire wears have what color?,gray,query,attr
+0760700,2350568,Is the woman to the left of the large umbrella?,yes,verify,rel
+10150639,2412502,Is the hair black?,no,verify,attr
+0866728,2406152,Is the plastic container on the right side?,no,verify,attr
+02251292,2335043,Do you see napkins to the left of the sandwich?,no,verify,rel
+07277716,2382231,What animal is on the boat the water is next to?,dog,query,rel
+14985894,2407964,Are there any surfboards on the brown beach?,yes,verify,rel
+10307358,2353840,What is the item of furniture that the box sits in?,chair,query,rel
+10919449,1341,Is the knife to the left or to the right of the plate the flowers are on?,right,choose,rel
+07568895,2368477,What animal is the grass behind of?,elephant,query,rel
+17694299,2032,Are there lamps near the alarm clock?,yes,verify,rel
+11341422,2397107,In front of what is the trunk?,bush,query,rel
+00748317,2344727,Which color is the tablecloth?,blue,query,attr
+13470203,2349483,Which kind of furniture is the lamp sitting on?,chair,query,rel
+1943030,2371012,On which side of the picture is the bull?,right,query,attr
+10662455,2316905,Which kind of furniture is it?,desk,query,cat
+171009854,2363958,Is the sandwich to the right of the food on the plate?,no,verify,rel
+13548167,2402570,Is the rug on the right?,yes,verify,attr
+05104803,2337213,Which kind is this item of furniture?,desk,query,cat
+17790737,2344826,Is the plate the same color as the cup?,no,compare,attr
+05162888,2347226,Are there both women and visitors in the image?,no,logical,obj
+121046742,2392511,On which side of the picture is the house?,left,query,attr
+14495067,2374540,Who is standing?,boy,query,cat
+19818125,2388404,Is there any chair to the right of the woman in the bottom?,no,verify,rel
+081002558,2402502,Is there a laptop on the table?,yes,verify,rel
+12318918,2400997,What is the brown hat made of?,leather,query,attr
+05473397,2339910,Is the pizza on the plate?,yes,verify,rel
+11867498,2328560,Which place is it?,pen,query,global
+19131224,2315508,Who is wearing the socks?,boy,query,rel
+09638435,2341268,Is the bike behind the cart green or red?,green,choose,attr
+13655101,2385193,What is the animal that is to the right of the person the car is behind of?,elephant,query,rel
+09218349,2412648,The jersey that the man is wearing has which color?,white,query,attr
+05754028,2408571,What is the cat in front of?,clock,query,rel
+00666072,2317322,Are there carrots to the left of the potato in the center of the image?,yes,verify,rel
+12614810,2352570,What shape is the window?,round,query,attr
+1087415,2054,Do you see either a knife or an ottoman there?,no,logical,obj
+16269555,2407148,Is the striped cat sitting on a chair?,no,verify,rel
+00356772,2319470,Is the water bottle to the right of a plate?,no,verify,rel
+08774003,2332111,Which side is the truck on?,right,query,attr
+13483183,2403364,What fruit is in the grass?,apple,query,rel
+08446774,2336810,Which color are the stones near the fence?,white,query,attr
+05579796,2407807,Which color do you think the umbrella is?,white,query,attr
+124475,2327698,What type of fast food is the cheese on?,hot dog,query,rel
+00359895,2381741,Is the sky blue and cloudy?,no,logical,attr
+19322025,2340235,What color are the shorts that the man is wearing?,white,query,attr
+05930619,2332462,Are there parking meters or balls in this image?,no,logical,obj
+09851618,2411681,What appliance is to the right of the umbrella?,mixer,query,rel
+13521228,2374492,On which side is the house?,left,query,attr
+13387591,2323659,On which side of the photo is the clock?,left,query,attr
+18142411,2398258,What is the person that is surfing standing on?,surfboard,query,rel
+16887233,2359044,How long is the mane?,short,query,attr
+0070460,2394009,Is the man on the right or on the left side of the picture?,right,choose,attr
+0857081,2407372,Are there skateboards to the right of the guy that is wearing a shirt?,yes,verify,rel
+05758399,2403496,Is the happy man on the left?,yes,verify,attr
+04499539,2320511,Is the screen to the left of the small camera?,yes,verify,rel
+19796225,2334623,Which side of the image is the toilet brush on?,right,query,attr
+19191842,2357353,Is the boat in the bottom or in the top part of the image?,top,choose,attr
+06840670,2361881,Which kind of appliance is to the right of the can?,oven,query,rel
+03357758,2380239,On which side of the photo is the fire hydrant?,right,query,attr
+0472828,2397582,What is the food to the left of the food the steam comes from called?,meat,query,rel
+08686900,2323768,What is the device to the left of the dresser?,computer mouse,query,rel
+10682392,2412363,What is the food that is to the left of the tomato that is to the left of the pepper?,salad,query,rel
+18106865,2411038,What is the appliance that is to the left of the lamp that is to the left of the boy?,radiator,query,rel
+11593784,2347710,What kind of furniture is to the left of the blanket that looks red?,bed,query,rel
+08820958,1591920,Are there both a chair and a bag in the photo?,no,logical,obj
+08233728,2414920,Is the door closed or open?,closed,choose,attr
+07608223,2387787,Is he holding a camera?,no,verify,rel
+0832586,2414605,Are both the animals of the same species?,no,compare,attr
+05384089,2391491,What is the fruit in the bowl in the bottom part?,banana,query,rel
+02550812,2372158,Who is wearing pants?,man,query,rel
+06599082,2325132,Who is wearing the sneakers?,lady,query,rel
+18640923,2347772,"In which part of the picture is the shark, the top or the bottom?",top,choose,attr
+01355645,2345006,What is the green clothing item?,shirt,query,cat
+05527053,2323639,What is in front of the shrub that is on the side of the ground?,barrier,query,rel
+09488526,2401908,Is it an indoors or outdoors scene?,indoors,choose,global
+02587869,2326899,Are there any women to the left of the wallet?,yes,verify,rel
+12669538,2387310,Is the red vehicle to the left or to the right of the train?,right,choose,rel
+16371095,2396300,Does the gray sky look clear?,no,verify,attr
+1091156,2352905,What color is the vase to the left of the cup?,black,query,attr
+17726106,2349040,Does that hat look tan?,yes,verify,attr
+01386880,2376953,What is the item of clothing that is not red called?,jacket,query,cat
+144872,2345950,Is the sky blue and clear?,no,logical,attr
+06528023,2414709,Which side is the woman on?,left,query,attr
+19982039,2400343,Which side of the picture is the TV on?,left,query,attr
+11679401,2403531,What pulls the man?,ski,query,rel
+19180808,1593169,Is the man on the left or on the right side?,left,choose,attr
+02409414,2409472,What animal walks on the ground?,pigeon,query,rel
+07837617,2399431,Is the woman in the bottom or in the top of the image?,bottom,choose,attr
+03830926,2399312,What is the animal above the hay the donkey is standing in called?,sheep,query,rel
+08332268,498265,Is the white bag on the right?,no,verify,attr
+05131020,2410065,Is the happy person to the left of the blue bag?,yes,verify,rel
+00684246,2410733,What type of appliance is under the counter?,oven,query,rel
+14717026,2413765,Is the child wearing skis?,no,verify,rel
+18636873,2379764,What is on the wall?,picture,query,rel
+01839637,2348133,What is before the building?,bus,query,rel
+16371035,2396300,What vehicle is the antenna on?,bus,query,rel
+08149569,414,What kind of furniture is the woman lying on?,sofa,query,rel
+04466532,2335402,Where is the man?,desert,query,rel
+111053945,2386495,What kind of furniture is to the right of the bed?,armchair,query,rel
+01225601,2409534,Are there both ropes and boats in the photo?,yes,logical,obj
+13655130,497938,Is it indoors or outdoors?,outdoors,choose,global
+04956265,2391761,Are the animals of different types?,yes,compare,attr
+11245464,2415822,What kind of device is the woman using?,laptop,query,rel
+14486595,2371387,Who is sitting in the bathtub?,lady,query,rel
+17877274,2381067,Where is the man?,sidewalk,query,rel
+01730350,2398647,Do you see red trains or buses there?,no,logical,obj
+0763849,2417543,What color is the basket?,white,query,attr
+05691538,2382828,Is it sunny today?,yes,verify,global
+14985976,2407964,Are there boys to the left of the surfboard that is not big?,no,verify,rel
+07521410,2411141,What color do you think the sauce on the table is?,red,query,attr
+05657331,2383798,What color does the animal on the table have?,gray,query,attr
+17877596,2326665,What is the vegetable to the right of the fork?,potato,query,rel
+11156486,2334989,Do you see both skis and locks?,no,logical,obj
+11254425,498277,Do the SUV and the vest have the same color?,no,compare,attr
+12617478,2365195,Which place is it?,forest,query,global
+01354155,2380732,Is there a bus to the left of the blue vehicle?,yes,verify,rel
+12140762,2359333,What is sitting on the bag?,envelope,query,rel
+03997071,2380622,Do you see any sand or grass that are not brown?,no,logical,obj
+13335080,2386162,Does the curtain have the same color as the frame?,no,compare,attr
+17134420,2404079,Is there a banana on top of the ripe fruit?,yes,verify,rel
+11757710,1592951,Which color does the truck in the center of the photo have?,blue,query,attr
+03965201,2386293,What's covered with the snow?,mountains,query,rel
+19621642,2378535,Is the man in the top or in the bottom?,top,choose,attr
+05491727,2374257,What is filled with flowers?,pot,query,rel

@@ -1,0 +1,7 @@
+claim_type,total_claims,supported,contradicted,uncertain
+object_existence,3421,2550,871,0
+attribute,2923,271,78,2574
+spatial,1619,379,86,1154
+counting,24,1,14,9
+action,1508,1481,0,27
+text_ocr,382,0,0,382
