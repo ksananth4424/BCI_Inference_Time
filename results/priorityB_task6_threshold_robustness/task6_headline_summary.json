@@ -1,0 +1,12 @@
+{
+  "recommended_threshold": 0.1,
+  "anchor_threshold": 0.18,
+  "n_runs_analyzed": 5,
+  "thresholds": [
+    0.1,
+    0.14,
+    0.18,
+    0.22,
+    0.26
+  ]
+}

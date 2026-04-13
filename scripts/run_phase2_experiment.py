@@ -402,6 +402,11 @@ class Phase2ExpRunner:
     def _load_image(self, sample: Any, adapter: Any) -> Image.Image:
         """Load image for sample."""
         try:
+            if hasattr(adapter, "load_image"):
+                return adapter.load_image(sample)
+            if hasattr(adapter, "image_path"):
+                return Image.open(adapter.image_path(sample)).convert("RGB")
+
             # Prefer config-driven absolute data roots; keep relative fallbacks.
             possible_dirs = [
                 GQA_DIR / "images",

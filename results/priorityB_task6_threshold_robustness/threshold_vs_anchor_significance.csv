@@ -1,0 +1,6 @@
+config_label,seed,anchor_threshold,threshold,b_anchor_only,c_current_only,exact_p_value
+e12b_gqa_confidence_gated_e1_tuned_n2000_seed123,123,0.18,0.1,8,11,0.6476058959960938
+e12b_gqa_confidence_gated_e1_tuned_n2000_seed123,123,0.18,0.14,8,10,0.8145294189453125
+e12b_gqa_confidence_gated_e1_tuned_n2000_seed123,123,0.18,0.18,0,0,1.0
+e12b_gqa_confidence_gated_e1_tuned_n2000_seed123,123,0.18,0.22,13,9,0.5234670639038086
+e12b_gqa_confidence_gated_e1_tuned_n2000_seed123,123,0.18,0.26,14,9,0.4048728942871094

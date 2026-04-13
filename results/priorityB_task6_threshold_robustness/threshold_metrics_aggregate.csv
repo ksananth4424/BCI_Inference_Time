@@ -1,0 +1,6 @@
+threshold,n_runs,n_mean,baseline_accuracy_mean,baseline_accuracy_std,corrected_accuracy_mean,corrected_accuracy_std,delta_accuracy_pp_mean,delta_accuracy_pp_std,intervened_rate_mean,intervened_rate_std,flip_to_correct_rate_mean,flip_to_correct_rate_std,flip_to_wrong_rate_mean,flip_to_wrong_rate_std,net_gain_rate_mean,net_gain_rate_std,fallback_rate_mean,fallback_rate_std
+0.1,1,500.0,0.606,0.0,0.626,0.0,2.0000000000000018,0.0,0.78,0.0,0.09,0.0,0.07,0.0,0.02,0.0,0.002,0.0
+0.14,1,500.0,0.606,0.0,0.624,0.0,1.8000000000000016,0.0,0.758,0.0,0.088,0.0,0.07,0.0,0.018,0.0,0.002,0.0
+0.18,1,500.0,0.606,0.0,0.62,0.0,1.4000000000000012,0.0,0.592,0.0,0.068,0.0,0.054,0.0,0.014,0.0,0.002,0.0
+0.22,1,500.0,0.606,0.0,0.612,0.0,0.6000000000000005,0.0,0.364,0.0,0.042,0.0,0.036,0.0,0.006,0.0,0.002,0.0
+0.26,1,500.0,0.606,0.0,0.61,0.0,0.40000000000000036,0.0,0.344,0.0,0.04,0.0,0.036,0.0,0.004,0.0,0.002,0.0

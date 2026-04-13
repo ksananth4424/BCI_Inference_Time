@@ -1,0 +1,75 @@
+# Phase 2, Experiment 12b: Confidence-Gated E1 on POPE-style benchmark
+#
+# Expected local assets:
+# - POPE questions JSON/JSONL (set POPE_QUESTIONS_PATH or place under DATA_DIR/pope)
+# - COCO val2014 images
+# - COCO instances annotations (instances_val2014.json)
+
+experiment:
+  id: "E12b_pope_confidence_gated_e1_tuned"
+  description: "POPE transfer: tuned confidence-gated E1 with localized GT edit policy."
+  evidence_for: "Priority C - external validity beyond GQA"
+  paper_section: "Cross-benchmark transfer"
+
+dataset:
+  name: "pope"
+  split: "val"
+  n_samples: 500
+  random_seed: 42
+  scene_graph_version: "coco_instances"
+
+model:
+  name: "Qwen2.5-VL"
+  model_id: "Qwen/Qwen2.5-VL-7B-Instruct"
+  device: "cuda:1"
+  temperature: 0.0
+  max_tokens: 768
+  deterministic: true
+
+pipeline:
+  stages:
+    - name: "baseline_inference"
+      enabled: true
+
+    - name: "belief_externalization"
+      enabled: true
+
+    - name: "claim_extraction"
+      enabled: true
+      config:
+        max_claims_per_sample: 10
+
+    - name: "verification"
+      enabled: true
+      verifier_profile: "balanced"
+
+    - name: "intervention_policy"
+      enabled: true
+      policy: "replace_contradicted_with_ground_truth"
+      enable_confidence_gate: true
+      min_intervention_score: 0.18
+      localized_gt_edits: true
+      max_injected_facts: 80
+      enable_uncertainty_fallback: true
+      description: "Tuned confidence gate with localized GT edits"
+
+    - name: "constrained_reasoning"
+      enabled: true
+
+    - name: "error_classification"
+      enabled: true
+
+evaluation:
+  primary_metric: "flip_to_correct_rate"
+  secondary_metrics:
+    - "n_flipped"
+    - "baseline_accuracy"
+    - "corrected_accuracy"
+    - "avg_contradicted_claims_per_sample"
+    - "intervened_rate"
+    - "avg_intervention_score"
+
+outputs:
+  results_csv: "results/e12b_pope_confidence_gated_results.csv"
+  summary_json: "results/e12b_pope_confidence_gated_summary.json"
+  manifest_json: "results/e12b_pope_confidence_gated_manifest.json"

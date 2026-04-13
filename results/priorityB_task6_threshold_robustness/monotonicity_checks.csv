@@ -1,0 +1,2 @@
+config_label,seed,n_thresholds,intervened_rate_monotone_nonincreasing,n_monotonicity_violations,max_positive_jump
+e12b_gqa_confidence_gated_e1_tuned_n2000_seed123,123,5,True,0,0.0
