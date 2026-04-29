@@ -1,0 +1,98 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Antol et~al.(2015)Antol, Agrawal, Lu, et~al.]{antol2015vqa}
+Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, et~al.
+\newblock {VQA}: Visual question answering.
+\newblock In \emph{ICCV}, 2015.
+
+\bibitem[Bai et~al.(2025)Bai, Chen, Liu, et~al.]{bai2025qwen}
+Shuai Bai, Keqin Chen, Xuejing Liu, et~al.
+\newblock Qwen2.5-{VL} technical report.
+\newblock \emph{arXiv preprint arXiv:2502.13923}, 2025.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian,
+  et~al.]{cobbe2021training}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, et~al.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv preprint arXiv:2110.14168}, 2021.
+
+\bibitem[Dhuliawala et~al.(2024)Dhuliawala, Komeili, Xu,
+  et~al.]{dhuliawala2024chain}
+Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, et~al.
+\newblock Chain-of-verification reduces hallucination in large language models.
+\newblock \emph{arXiv preprint arXiv:2309.11495}, 2024.
+
+\bibitem[{Gemini Team}(2023)]{team2023gemini}
+{Gemini Team}.
+\newblock Gemini: A family of highly capable multimodal models.
+\newblock \emph{arXiv preprint arXiv:2312.11805}, 2023.
+
+\bibitem[Goyal et~al.(2017)Goyal, Khot, Summers-Stay, Batra, and
+  Parikh]{goyal2017making}
+Yash Goyal, Tejas Khot, Douglas Summers-Stay, Dhruv Batra, and Devi Parikh.
+\newblock Making the {V} in {VQA} matter: Elevating the role of image
+  understanding in visual question answering.
+\newblock In \emph{CVPR}, 2017.
+
+\bibitem[Guan et~al.(2024)Guan, Liu, Wu, et~al.]{guan2024hallusionbench}
+Tianrui Guan, Fuxiao Liu, Xiyang Wu, et~al.
+\newblock {HallusionBench}: An advanced diagnostic suite for entangled language
+  hallucination and visual illusion in large vision-language models.
+\newblock In \emph{CVPR}, 2024.
+
+\bibitem[Huang et~al.(2023)Huang, Chen, Mishra, et~al.]{huang2023large}
+Jie Huang, Xinyun Chen, Swaroop Mishra, et~al.
+\newblock Large language models cannot self-correct reasoning yet.
+\newblock \emph{arXiv preprint arXiv:2310.01848}, 2023.
+
+\bibitem[Huang et~al.(2024)Huang, Dong, Zhang, et~al.]{huang2024opera}
+Qidong Huang, Xiaoyi Dong, Pan Zhang, et~al.
+\newblock {OPERA}: Alleviating hallucination in multi-modal large language
+  models via over-trust penalty and retrospection-allocation.
+\newblock In \emph{CVPR}, 2024.
+
+\bibitem[Hudson and Manning(2019)]{hudson2019gqa}
+Drew~A Hudson and Christopher~D Manning.
+\newblock {GQA}: A new dataset for real-world visual reasoning and
+  compositional question answering.
+\newblock In \emph{CVPR}, 2019.
+
+\bibitem[Leng et~al.(2024)Leng, Zhang, Chen, et~al.]{leng2024mitigating}
+Sicong Leng, Hang Zhang, Guanzheng Chen, et~al.
+\newblock Mitigating object hallucinations in large vision-language models
+  through visual contrastive decoding.
+\newblock In \emph{CVPR}, 2024.
+
+\bibitem[Li et~al.(2023)Li, Du, Zhou, Wang, Zhao, and Wen]{li2023evaluating}
+Yifan Li, Yifan Du, Kun Zhou, Jinpeng Wang, Wayne~Xin Zhao, and Ji-Rong Wen.
+\newblock Evaluating object hallucination in large vision-language models.
+\newblock In \emph{EMNLP}, 2023.
+
+\bibitem[Liu et~al.(2023)Liu, Li, Wu, and Lee]{liu2023visual}
+Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong~Jae Lee.
+\newblock Visual instruction tuning.
+\newblock In \emph{NeurIPS}, 2023.
+
+\bibitem[Madaan et~al.(2023)Madaan, Tandon, Gupta, et~al.]{madaan2023self}
+Aman Madaan, Niket Tandon, Prakhar Gupta, et~al.
+\newblock Self-refine: Iterative refinement with self-feedback.
+\newblock In \emph{NeurIPS}, 2023.
+
+\bibitem[Wang et~al.(2023)Wang, Wei, Schuurmans, et~al.]{wang2023self}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, et~al.
+\newblock Self-consistency improves chain of thought reasoning in language
+  models.
+\newblock In \emph{ICLR}, 2023.
+
+\bibitem[Yin et~al.(2023)Yin, Fu, Zhao, et~al.]{yin2023woodpecker}
+Shukang Yin, Chaoyou Fu, Sirui Zhao, et~al.
+\newblock Woodpecker: Hallucination correction for multimodal large language
+  models.
+\newblock \emph{arXiv preprint arXiv:2310.16045}, 2023.
+
+\end{thebibliography}

@@ -1,0 +1,135 @@
+\section{Method}
+\label{sec:method}
+
+\subsection{Problem Formulation}
+
+Let $(I, Q, A^*)$ denote an image, a natural-language question, and the ground-truth
+answer. A VLM $\mathcal{M}$ produces $\hat{A} = \mathcal{M}(I, Q)$. Standard
+evaluation assesses $\hat{A} = A^*$ but does not attribute errors. We decompose
+errors into two types:
+\begin{itemize}[leftmargin=1.5em,itemsep=1pt,topsep=2pt]
+  \item \textbf{Premise Error (PE):} $\hat{A} \neq A^*$ \emph{and} at least one
+    extracted belief $b_i \in \mathcal{B}$ is verifiably false with respect to $I$.
+  \item \textbf{Reasoning Error (RE):} $\hat{A} \neq A^*$ \emph{and} no extracted
+    belief is verifiably false.
+\end{itemize}
+\bci{} aims to (a)~quantify the PE rate and (b)~provide inference-time interventions
+that convert PE cases to correct answers.
+
+\subsection{The \bci{} Pipeline}
+
+\Cref{fig:pipeline} illustrates the full five-stage pipeline.
+
+\paragraph{Stage 1: Belief Externalization.}
+Before producing a final answer, $\mathcal{M}$ is instructed to emit a set of 5--10
+atomic, grounded, falsifiable visual beliefs:
+$\mathcal{B} = \{b_1, b_2, \ldots, b_k\}$, $k \in [5, 10]$.
+Each $b_i$ is a declarative sentence asserting a visual fact (\eg, ``the cup is red,''
+``the person is left of the table'').
+
+\paragraph{Stage 2: Claim Extraction.}
+Beliefs are parsed into typed atomic claims $(e, t, v)$ where $e$ is the entity,
+$t \in \{\text{object}, \text{attribute}, \text{relation}, \text{action}, \text{count}\}$
+is the claim type, and $v$ is the asserted value.
+
+\paragraph{Stage 3: Claim Verification.}
+Each claim is verified against a structured evidence source. The verifier $\mathcal{V}$
+assigns:
+\begin{equation}
+  \ell_i = \mathcal{V}(b_i,\, \mathcal{G}_I) \;\in\;
+  \{\textsc{Supported},\;\textsc{Contradicted},\;\textsc{Uncertain}\}
+  \label{eq:verifier}
+\end{equation}
+We define three versioned verifier profiles---\texttt{strict}, \texttt{balanced},
+\texttt{high\_recall}---parameterized by attribute similarity thresholds
+$\theta_{\text{attr}} \in \{0.7, 0.8, 0.9\}$ and spatial tolerances
+$\delta \in \{0.10, 0.15, 0.20\}$.
+
+\paragraph{Stage 4: Intervention Policy.}
+Given labeled beliefs, a policy $\pi$ maps $\mathcal{B}$ to a corrected set
+$\mathcal{B}'$. We study three families:
+\begin{itemize}[leftmargin=1.5em,itemsep=1pt,topsep=2pt]
+  \item \textbf{E1 -- Replace All} (causal upper bound): all contradicted claims are
+    replaced with ground-truth facts extracted from the scene graph.
+  \item \textbf{E3 -- Remove Only} (conservative): contradicted claims are deleted
+    without replacement, testing whether removal alone suffices.
+  \item \textbf{E12b -- Confidence-Gated} (practical): a scalar intervention score
+    $s \in [0,1]$ is computed from verifier confidence and claim-type reliability.
+    Replacement is applied only when $s \geq \tau$ (with $\tau{=}0.18$ after threshold
+    sweep).
+\end{itemize}
+
+\paragraph{Stage 5: Constrained Re-reasoning.}
+The model re-answers using $\mathcal{B}'$ as an explicit fact prefix:
+\begin{equation}
+  \hat{A}' = \mathcal{M}(I,\, Q,\, \mathcal{B}')
+  \label{eq:reread}
+\end{equation}
+
+\subsection{Evaluation Protocol}
+
+Pairs $(\hat{A}, \hat{A}')$ are compared against $A^*$. We report:
+\begin{itemize}[leftmargin=1.5em,itemsep=1pt,topsep=2pt]
+  \item \textbf{F$\uparrow$ (Flip-to-Correct):} fraction where
+    $\hat{A} \neq A^*$ and $\hat{A}' = A^*$.
+  \item \textbf{F$\downarrow$ (Flip-to-Wrong):} fraction where
+    $\hat{A} = A^*$ and $\hat{A}' \neq A^*$.
+  \item \textbf{$\Delta$Acc:} net accuracy difference.
+  \item \textbf{Statistical significance:} McNemar's exact test on paired outcomes.
+\end{itemize}
+
+\begin{figure}[t]
+  \centering
+  \begin{tikzpicture}[
+    node distance=0.32cm and 0.25cm,
+    box/.style={draw, rounded corners=2pt, fill=cvprblue!8,
+                minimum width=3.6cm, minimum height=0.5cm,
+                font=\scriptsize\sffamily, align=center},
+    sbox/.style={draw, rounded corners=2pt, fill=orange!12,
+                 minimum width=0.95cm, minimum height=0.42cm,
+                 font=\tiny\sffamily, align=center},
+    arr/.style={-{Stealth[length=3.5pt]}, thick, cvprblue!70!black},
+    lbl/.style={font=\tiny, color=gray!80}
+  ]
+  \node[box] (inp) {Image + Question $(I, Q)$};
+  \node[box, below=of inp] (ext) {\textbf{Stage 2} Belief Externalization};
+  \node[box, below=of ext] (extr) {\textbf{Stage 3a} Claim Extraction};
+  \node[box, below=of extr] (ver) {\textbf{Stage 3b} Claim Verification ($\mathcal{V}$)};
+
+  % Three label nodes
+  \node[sbox, below left=0.32cm and 0.55cm of ver] (su) {\textsc{Supp.}};
+  \node[sbox, below=0.32cm of ver] (un) {\textsc{Unc.}};
+  \node[sbox, below right=0.32cm and 0.55cm of ver] (co) {\textsc{Cont.}};
+
+  \node[box, below=1.05cm of ver] (pol) {\textbf{Stage 4} Intervention Policy ($\pi$)};
+  \node[box, below=of pol] (rr) {\textbf{Stage 5} Constrained Re-reasoning};
+  \node[box, below=of rr] (ca) {Corrected Answer $\hat{A}'$};
+
+  % Baseline branch (right)
+  \node[box, right=0.25cm of ext, fill=gray!8] (bl) {\textbf{Stage 1} Baseline $\hat{A}$};
+
+  \node[box, below=0.32cm of ca, minimum width=3.6cm, fill=green!8]
+        (ev) {\textbf{Stage 6} Paired Eval (McNemar, $\Delta$Acc, F$\uparrow$/F$\downarrow$)};
+
+  % Arrows
+  \draw[arr] (inp) -- (ext);
+  \draw[arr] (inp.east) -- ++(0.13,0) |- (bl.north);
+  \draw[arr] (ext) -- (extr);
+  \draw[arr] (extr) -- (ver);
+  \draw[arr] (ver.south) -- ++(0,-0.12) -| (su.north);
+  \draw[arr] (ver) -- (un);
+  \draw[arr] (ver.south) -- ++(0,-0.12) -| (co.north);
+  \draw[arr] (su.south) |- (pol.west);
+  \draw[arr] (un) -- (pol);
+  \draw[arr] (co.south) |- (pol.east);
+  \draw[arr] (pol) -- (rr);
+  \draw[arr] (rr) -- (ca);
+  \draw[arr] (ca) -- (ev);
+  \draw[arr] (bl.south) -- ++(0,-0.1) -| (ev.east);
+  \end{tikzpicture}
+  \caption{The \textbf{\bci{} pipeline}. Belief externalization and structured
+    verification enable targeted, claim-level correction before constrained
+    re-reasoning. Both baseline and corrected answers feed into a paired
+    statistical evaluation.}
+  \label{fig:pipeline}
+\end{figure}

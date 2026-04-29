@@ -1,0 +1,77 @@
+\section{Introduction}
+\label{sec:intro}
+
+Vision-Language Models (VLMs) have achieved remarkable performance across a wide
+range of perception and reasoning tasks~\cite{liu2023visual,bai2025qwen,team2023gemini}.
+Yet they remain prone to systematic failures that are difficult to diagnose or correct
+post-hoc. When a VLM answers a question about an image incorrectly, the failure may
+stem from two distinct sources: (1)~a \emph{reasoning error}---incorrect inference
+from accurate perceptual inputs; or (2)~a \emph{premise error}---reasoning from false
+beliefs about what the image contains. Standard evaluation does not distinguish these
+two failure modes, and standard training procedures do not explicitly enforce that
+intermediate beliefs be grounded in visual evidence.
+
+This paper asks a deceptively simple question: \emph{what fraction of VLM errors
+are caused by false visual premises, and can correcting them at inference time recover
+the correct answer?}
+
+\paragraph{The Epistemic Failure Hypothesis.}
+We hypothesize that a substantial portion of VLM failures are \emph{epistemic} in
+nature---the model's answer is wrong because it begins reasoning from an incorrect
+perception of the scene, not because its reasoning chain is flawed.
+If this holds, then selectively correcting false beliefs at inference time, without any
+weight updates, should flip wrong answers to correct.
+This is a falsifiable, causal claim: under a random-ablation control (removing
+beliefs without targeted correction), we would expect no such systematic improvement.
+
+\paragraph{\bci{}: Belief-Constrained Inference.}
+We propose a structured inference-time loop operating in five stages:
+\begin{enumerate}[leftmargin=1.5em,itemsep=1pt,topsep=2pt]
+  \item \textbf{Belief Externalization.} Before producing a final answer, the VLM
+    emits 5--10 atomic, falsifiable visual claims about the image.
+  \item \textbf{Claim Extraction.} Claims are parsed into typed atomic predicates
+    (object, attribute, relation, action, count).
+  \item \textbf{Claim Verification.} Each claim is checked against structured visual
+    evidence (GQA scene graphs), yielding
+    \textsc{Supported}, \textsc{Contradicted}, or \textsc{Uncertain}.
+  \item \textbf{Belief Revision.} Contradicted claims are replaced with
+    ground-truth facts (E1), removed (E3), or selectively corrected via a
+    confidence gate (E12b).
+  \item \textbf{Constrained Re-reasoning.} The model re-answers using only the
+    revised belief set.
+\end{enumerate}
+
+\paragraph{Key Findings.}
+On GQA under Qwen2.5-VL-7B~\cite{bai2025qwen}, 33.3\% of all incorrect answers
+involve at least one contradicted belief, rising to 50\% for logical/relational
+questions. Full premise replacement (E1) yields $+18.0$ pp at $n{=}500$
+($p{=}1.5{\times}10^{-14}$) and $+16.2$ pp at $n{=}2000$
+($p{=}1.78{\times}10^{-48}$). Across both scales, flip-to-correct rates exceed
+21\%, while flip-to-wrong rates remain below 6\%.
+Targeted correction outperforms random belief deletion by $+35$ pp, confirming
+that the effect is claim-specific and causal.
+A practical, compute-bounded gated policy (E12b) achieves $+3.45$ pp at $n{=}2000$
+($p{=}1.3{\times}10^{-5}$), demonstrating that the causal signal is harvestable
+under realistic constraints.
+Against matched lightweight baselines, \bci-E1 leads the competitor matrix by 17+~pp,
+outperforming Resample-Lite (60.6\%), CoVe-Lite (57.2\%), and Self-Correct (49.2\%).
+
+\paragraph{Contributions.} We summarize our contributions as:
+\begin{itemize}[leftmargin=1.5em,itemsep=1pt,topsep=2pt]
+  \item We introduce \bci{}, the first systematic framework for \emph{premise-level}
+    inference-time error correction in VLMs, explicitly distinguishing epistemic
+    (premise) from logical (reasoning) failures.
+  \item We provide causal evidence---via targeted \vs random ablation---that premise
+    correction is a specific and effective intervention axis, with a $+35$~pp gap
+    over random belief deletion at matched removal budget.
+  \item We define an intervention policy family spanning from an oracle upper bound
+    (E1: $+18.0$ pp, $+16.2$ pp at $n{=}2000$) to a practical confidence-gated
+    variant (E12b: $+3.45$ pp at $n{=}2000$, $p{=}1.3{\times}10^{-5}$) suitable
+    for deployment.
+  \item We characterize verifier behavior across three profiles and four noise
+    levels ($0\%$--$20\%$), showing that the pipeline degrades gracefully and that
+    the 33.3\% premise-error rate is a conservative lower bound.
+  \item We release a reproducible codebase with versioned verifier profiles,
+    YAML-driven experiment configs, and full run manifests (git hash, code hash,
+    config hash, random seed).
+\end{itemize}

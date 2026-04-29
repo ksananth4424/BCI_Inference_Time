@@ -1,0 +1,44 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{VLM Hallucination.}
+Hallucination in large vision-language models---generating content inconsistent with
+the visual input---has been extensively documented~\cite{li2023evaluating,guan2024hallusionbench}.
+Existing work identifies hallucinations in object existence, attributes, spatial
+relations, and counts. Most prior work treats hallucination as a generation artifact
+and addresses it via training-time regularization or decoding
+modifications~\cite{leng2024mitigating,huang2024opera}.
+\bci{} instead reframes the problem as an \emph{epistemic} failure amenable to
+inference-time structural correction, without changing model parameters.
+
+\paragraph{Post-Hoc Verification and Correction.}
+Woodpecker~\cite{yin2023woodpecker} is the closest prior work: it detects and corrects
+hallucinations post-hoc by querying specialized models and retrieving image evidence.
+\bci{} differs in two key respects: (1)~it corrects beliefs \emph{before} the final
+answer is generated, closing the reasoning loop at the premise level; and (2)~it
+quantifies the causal contribution of false premises via controlled ablation.
+Chain-of-Verification (\textsc{CoVe})~\cite{dhuliawala2024chain} generates targeted
+re-check questions after an initial response and revises accordingly; this is a
+complementary self-refinement approach, but it does not decompose failures into
+premise \vs reasoning types. Our matched in-house evaluation of a CoVe-lite baseline
+confirms that \bci{} outperforms this strategy on GQA.
+
+\paragraph{Inference-Time Intervention.}
+A growing literature explores inference-time methods for improving LLM and VLM
+reliability. Self-consistency~\cite{wang2023self} aggregates multiple samples;
+resampling-based methods~\cite{cobbe2021training} filter by answer frequency. Visual
+Contrastive Decoding~\cite{leng2024mitigating} modifies logit distributions to
+suppress hallucination. These approaches operate at the \emph{output distribution}
+level, whereas \bci{} intervenes at the \emph{intermediate belief} level, offering
+interpretability and fine-grained error attribution.
+
+\paragraph{Scene Graph Grounding.}
+GQA~\cite{hudson2019gqa} provides structured scene-graph annotations that make formal
+claim verification tractable. We use these as a deterministic verifier in Phase~1
+experiments, deliberately separating verifier design from the core intervention
+hypothesis. Extending \bci{} to neural or learned verifiers is a natural next step.
+
+\paragraph{Error Decomposition.}
+Prior work on VQA error analysis~\cite{antol2015vqa,goyal2017making} typically operates
+at the answer level. Our premise/reasoning decomposition provides a finer-grained
+taxonomy more suitable for targeted intervention design.

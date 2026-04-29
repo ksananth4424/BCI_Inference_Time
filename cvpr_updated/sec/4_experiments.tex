@@ -1,0 +1,56 @@
+\section{Experimental Setup}
+\label{sec:experiments}
+
+\paragraph{Dataset.}
+We evaluate on \textbf{GQA}~\cite{hudson2019gqa} (balanced validation split). GQA
+provides compositional visual questions with associated scene-graph annotations,
+enabling automated belief verification. Questions span five structural types:
+\texttt{query}, \texttt{verify}, \texttt{choose}, \texttt{logical}, and
+\texttt{compare}. We sample $n{=}500$ (main experiments) and $n{=}2000$ (large-scale
+experiments) using seed 42, restricted to questions with matching scene-graph image
+IDs. The $n{=}2000$ split covers 887 query-type, 854 verify-type, 202 other-type,
+and 57 logical-type questions, reflecting the natural benchmark distribution.
+
+\paragraph{Models.}
+We use \textbf{Qwen2.5-VL-7B-Instruct}~\cite{bai2025qwen} as our primary VLM. Early
+experiments with LLaVA-1.5-7B~\cite{liu2023visual} produced insufficient belief
+externalization quality (avg.\ 2.17 beliefs/question vs.\ 4.96 for Qwen), making
+premise-error detection unreliable (\cref{tab:model_compare}). All reported results
+use Qwen unless otherwise noted.
+
+\paragraph{Verifier.}
+Claims are verified deterministically against GQA scene graphs. We define three
+versioned \emph{verifier profiles} (\cref{eq:verifier}): \texttt{strict}
+(attribute threshold $\theta{=}0.9$, spatial tolerance $\delta{=}0.10$),
+\texttt{balanced} ($\theta{=}0.8$, $\delta{=}0.15$), and \texttt{high\_recall}
+($\theta{=}0.7$, $\delta{=}0.20$).
+Main experiments use \texttt{balanced}; profile sensitivity and noise robustness
+are evaluated via a dedicated verifier audit (E10/E11) in \cref{sec:verifier_audit}.
+Every run is logged with a reproducibility manifest (git hash, code hash, config
+hash, random seed).
+
+\paragraph{Baselines.}
+We compare against matched in-house baselines using the same model, split, and seed:
+\begin{itemize}[leftmargin=1.5em,itemsep=1pt,topsep=2pt]
+  \item \textbf{Vanilla:} direct VLM inference, no intervention.
+  \item \textbf{Self-Correct:} re-prompt the model to revise its own answer without
+    external feedback~\cite{madaan2023self}.
+  \item \textbf{CoVe-Lite:} lightweight chain-of-verification with targeted re-check
+    questions~\cite{dhuliawala2024chain}.
+  \item \textbf{Resample-Lite:} sample three independent answers, take majority vote.
+  \item \textbf{BCI-E3:} \bci{} with remove-only policy (conservative ablation).
+  \item \textbf{BCI-E1:} \bci{} with full ground-truth replacement (proposed upper
+    bound).
+  \item \textbf{BCI-E12b:} \bci{} with confidence-gated replacement
+    (practical variant; threshold $\tau{=}0.18$ selected via held-out sweep).
+\end{itemize}
+
+\paragraph{Inference Configuration.}
+All VLM calls use temperature 0.0 and a maximum of 768 new tokens.
+Experiments are run on 4$\times$ NVIDIA RTX 6000 Ada (49~GB each).
+\bci{} adds two additional inference passes per sample (externalization and
+re-reasoning) relative to the Vanilla baseline.
+Wall-clock runtimes for the $n{=}2000$ runs are 15{,}629\,s for E1 and
+15{,}980\,s for E12b (approximately 7.8\,s and 8.0\,s per sample, respectively).
+The cost-efficiency ratio (accuracy gain per second per sample) is 2.07 for E1
+and 0.43 for E12b, reflecting the trade-off between intervention strength and compute.

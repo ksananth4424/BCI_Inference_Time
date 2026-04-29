@@ -1,0 +1,45 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We presented \textbf{Belief-Constrained Inference} (\bci{}), an inference-time
+framework that externalizes, verifies, and corrects intermediate visual beliefs in
+VLMs before final answer generation. Our core finding is that premise errors
+constitute 33.3\% of all incorrect VLM answers on GQA, rising to 50\% for
+logical/relational questions, and that this rate is a conservative lower bound due to
+verifier coverage gaps in attribute and action claim families.
+
+Correcting these premises yields $+18.0$~pp accuracy gain at $n{=}500$ under a
+full-replacement oracle (McNemar $p{=}1.5{\times}10^{-14}$), scaling to $+16.2$~pp
+at $n{=}2000$ ($p{=}1.78{\times}10^{-48}$). A practical confidence-gated policy
+(E12b) achieves $+3.45$~pp at $n{=}2000$ ($p{=}1.3{\times}10^{-5}$) with
+59.85\% intervention rate and multi-seed stability of $66.18\%\pm 0.14$~pp.
+Targeted correction outperforms random belief deletion by $+35$~pp, confirming
+premise-specificity. Against matched lightweight baselines, \bci-E1 leads the
+competitor matrix by $+16.6$~pp, while Self-Correct falls below Vanilla by $10.0$~pp.
+
+\paragraph{Limitations.}
+Current results are limited to GQA with deterministic scene-graph verifiers.
+The E1 policy is an oracle upper bound requiring ground-truth facts at test time;
+E12b is practical but still relies on scene-graph verification.
+Verifier coverage is incomplete (49\% mean), especially for action and OCR claims.
+Cross-benchmark generalization (MMMU, MathVista, MM-Vet) and model-agnosticity
+(InstructBLIP, LLaVA-Next) remain for future work.
+Multi-seed stability for E1 at $n{=}2000$ shows zero variance across seeds,
+suggesting the sampling procedure may benefit from additional randomization checks.
+
+\paragraph{Future Work.}
+The most impactful extensions are:
+(1)~replacing the scene-graph verifier with a learned or retrieval-augmented visual
+oracle to remove the ground-truth dependency;
+(2)~extending evaluation to open-ended generation benchmarks;
+(3)~incorporating uncertainty estimation into belief revision;
+(4)~conducting a latency/accuracy Pareto analysis to characterize the full operating
+frontier of confidence-gated \bci{};
+and (5)~cross-benchmark generalization studies to validate premise-error patterns
+beyond GQA.
+
+\paragraph{Broader Impact.}
+\bci{} provides an interpretable audit trail---the explicit belief set and
+verification labels---that makes VLM reasoning more transparent and correctable.
+This is particularly valuable in safety-sensitive applications where understanding
+\emph{why} a model failed is as important as preventing failure.

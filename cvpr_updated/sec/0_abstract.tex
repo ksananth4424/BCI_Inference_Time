@@ -1,0 +1,27 @@
+\begin{abstract}
+Vision-Language Models (VLMs) frequently err not because they reason incorrectly,
+but because they reason from \emph{incorrect visual premises}---false perceptual
+beliefs about what an image contains.
+We introduce \textbf{Belief-Constrained Inference} (\bci{}), an inference-time
+framework that externalizes, verifies, and corrects a model's intermediate visual
+beliefs before final answer generation, without modifying model weights.
+
+\bci{} prompts the VLM to emit a set of atomic, falsifiable visual claims as an
+explicit reasoning substrate. These claims are verified against structured visual
+evidence (scene graphs) and, if contradicted, are replaced with ground-truth facts
+prior to constrained re-reasoning. On GQA ($n{=}500$), \bci{} with full premise
+replacement (\textbf{E1}) raises accuracy from 59.2\% to 77.2\% ($+18.0$ pp;
+McNemar $p{=}1.5{\times}10^{-14}$)---a causal upper bound establishing premise
+correction as a highly effective intervention axis.
+Scaled to $n{=}2000$, E1 achieves $+16.2$ pp (63.55\% to 79.75\%;
+$p{=}1.78{\times}10^{-48}$) with a flip-to-correct rate of 21.2\%, confirming
+consistent gains at scale.
+A practical confidence-gated variant (\textbf{E12b}, $n{=}2000$) achieves
+$+3.45$ pp ($p{=}1.3{\times}10^{-5}$) while intervening on only 59.85\% of
+samples, with multi-seed stability of $66.18\%\pm 0.14$ pp.
+Critically, targeted correction outperforms random belief deletion by $+35$ pp,
+confirming that gains are claim-specific rather than a generic perturbation effect.
+\bci{} also outperforms matched lightweight baselines including self-correction
+(49.2\%) and chain-of-verification (57.2\%), establishing it as a strong and
+interpretable inference-time reliability mechanism for VLMs.
+\end{abstract}
